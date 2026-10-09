@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-10-04T04:41:40.542323+00:00",
+  "files": {
+    "audit_assets.py": "39fd65f58085321cf2a90ebe8b6ab4dcc457f19fe1137fd2b566e6ab31c7cd34",
+    "common.py": "3fb6e5065e55a45c1335da04be0983567b289db04249791bea3afe844805dbe5",
+    "data/prepared/eight_shot_prefix.txt": "bc46e5431781c23aafac35e1e27b356e598af7089b24a47851246d88ea856318",
+    "data/prepared/formal.jsonl": "feb0fc3b38ff26bb44377623f85f0401146ab6ef3d6478258d2e00fe168a5e58",
+    "data/prepared/pilot.jsonl": "515ed0dd991d30cb5c02ebaea08b25ef9830937caa7d926b3f0536f110b28494",
+    "data/prepared/rlvr_gsm8k_matches.jsonl": "1f562bd0ec0ed16504c6d97d8216efc31818fe1354c983361ebf221fbf03c706",
+    "data/tokenized/base/formal.jsonl": "71ea08914f22e8918082971e2334543b2560b14f3782ea6946f774baf7e645b4",
+    "data/tokenized/base/pilot.jsonl": "c7dd159de68669c8634f2e0a88678e01f132bf5626ad8ffd20b87a9571ab9a0c",
+    "data/tokenized/dpo/formal.jsonl": "7bfaa705fc046e81b5be143456c83d4c198258cdd5ae8d9aa7cff0f4aa368969",
+    "data/tokenized/dpo/pilot.jsonl": "d7e3c376ae1df0b8780b787e94e734211d07d967b83c20288accae09943e3edc",
+    "data/tokenized/rlvr/formal.jsonl": "9a8aa272c2f2c1508323e10f7acc02e04a3be43cb707d3b41ea0d6fe468fc01c",
+    "data/tokenized/rlvr/pilot.jsonl": "23005b18c5cefb5bf476908f5e189ba2f4efbc6ce35be2ea3e55b024c1bc0978",
+    "data/tokenized/sft/formal.jsonl": "b657b78ac29bf27498c94e84abb79e7386dfa48a752d60b744ae7fa9e4ceb8ba",
+    "data/tokenized/sft/pilot.jsonl": "9ff3462a7bedd3723369e6dd184ec2e5a61d48e371daa6df7629d4437597b2d3",
+    "experiment.json": "a8710348ec16f8a2a2fe65d4182cf33847bbd52e8cb378e2cb31ce2549522212",
+    "manifests/assets.json": "a17192252c1fec04c58a091ace0a643a30206db8ae3179493c47ddd8e4e4b6ca",
+    "manifests/data.json": "90b36e2f8e719606272820632a41f03520304f102694dcd21d2db36c90adbbca",
+    "manifests/data_audit.json": "263825f2225bf68b96b3e554a61a117d13b83f351713c571267ddbb36b03a6b0",
+    "manifests/tokenization.json": "2029dba19a38672b1319d5c18fac84fbd991ba44400560fdb21cb9ca551286c9",
+    "pipeline.py": "a13de51d57347e09be609e0f447790ebf4267af37c2976204fa57975f7edb41e",
+    "run_stage.py": "357b8098c59622e5cb59805c81c2def63d8abd19955d8d08b61837072de5252c",
+    "tests/test_scoring.py": "91ed42b243e2e617d50e3883dfb95c53c3d0ea79e394cca2137517fe1930d459",
+    "tokenize_panel.py": "06523caef22c8217edd69f47c53f893df871e628ec1779ca2f202d22f0381b1b"
+  },
+  "pilot_gate": "technical correctness/completeness only; no accuracy threshold or prompt selection",
+  "formal_expected": 9372,
+  "pilot_expected": 128
+}

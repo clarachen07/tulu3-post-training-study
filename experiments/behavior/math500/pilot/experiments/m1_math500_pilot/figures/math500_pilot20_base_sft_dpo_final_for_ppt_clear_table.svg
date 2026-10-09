@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1370" height="380" viewBox="0 0 1370 380">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="38" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">MATH-500 Pilot-20 四阶段行为层复现结果</text>
+<text x="20" y="72" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15">注：20题小样本 pilot，用于展示 Base → SFT → DPO → Final/RLVR 跨阶段 pipeline 已跑通，不作为正式 benchmark。</text>
+<rect x="20" y="112" width="120" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="80.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">阶段</text>
+<rect x="140" y="112" width="300" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="290.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">模型路径</text>
+<rect x="440" y="112" width="80" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="480.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">题目数</text>
+<rect x="520" y="112" width="80" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="560.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">生成数</text>
+<rect x="600" y="112" width="110" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="655.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">自动正确</text>
+<rect x="710" y="112" width="110" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="765.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">自动准确率</text>
+<rect x="820" y="112" width="140" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="890.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">人工复核后正确</text>
+<rect x="960" y="112" width="150" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="1035.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">人工复核后准确率</text>
+<rect x="1110" y="112" width="110" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="1165.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">人工复核数</text>
+<rect x="1220" y="112" width="130" height="52" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+<text x="1285.0" y="143" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="700">平均生成长度</text>
+<rect x="20" y="164" width="120" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="80.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">Base</text>
+<rect x="140" y="164" width="300" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="148" y="192" text-anchor="start" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">models/Meta-Llama-3.1-8B</text>
+<rect x="440" y="164" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="480.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="520" y="164" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="560.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="600" y="164" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="655.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">4 / 20</text>
+<rect x="710" y="164" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="765.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20%</text>
+<rect x="820" y="164" width="140" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="890.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">5 / 20</text>
+<rect x="960" y="164" width="150" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1035.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">25%</text>
+<rect x="1110" y="164" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1165.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="1220" y="164" width="130" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1285.0" y="192" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">709.45</text>
+<rect x="20" y="208" width="120" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="80.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">SFT</text>
+<rect x="140" y="208" width="300" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="148" y="236" text-anchor="start" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">models/Llama-3.1-Tulu-3-8B-SFT</text>
+<rect x="440" y="208" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="480.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="520" y="208" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="560.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="600" y="208" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="655.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">3 / 20</text>
+<rect x="710" y="208" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="765.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">15%</text>
+<rect x="820" y="208" width="140" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="890.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">4 / 20</text>
+<rect x="960" y="208" width="150" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1035.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20%</text>
+<rect x="1110" y="208" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1165.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="1220" y="208" width="130" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1285.0" y="236" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">616.00</text>
+<rect x="20" y="252" width="120" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="80.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">DPO</text>
+<rect x="140" y="252" width="300" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="148" y="280" text-anchor="start" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12"></text>
+<rect x="440" y="252" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="480.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="520" y="252" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="560.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="600" y="252" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="655.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">3 / 20</text>
+<rect x="710" y="252" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="765.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">15%</text>
+<rect x="820" y="252" width="140" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="890.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">4 / 20</text>
+<rect x="960" y="252" width="150" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1035.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20%</text>
+<rect x="1110" y="252" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1165.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="1220" y="252" width="130" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1285.0" y="280" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">670.20</text>
+<rect x="20" y="296" width="120" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="80.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">Final/RLVR</text>
+<rect x="140" y="296" width="300" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="148" y="324" text-anchor="start" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12"></text>
+<rect x="440" y="296" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="480.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="520" y="296" width="80" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="560.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="600" y="296" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="655.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">5 / 20</text>
+<rect x="710" y="296" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="765.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">25%</text>
+<rect x="820" y="296" width="140" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="890.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">7 / 20</text>
+<rect x="960" y="296" width="150" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1035.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">35%</text>
+<rect x="1110" y="296" width="110" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1165.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">20</text>
+<rect x="1220" y="296" width="130" height="44" fill="white" stroke="#333" stroke-width="1"/>
+<text x="1285.0" y="324" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">819.65</text>
+</svg>

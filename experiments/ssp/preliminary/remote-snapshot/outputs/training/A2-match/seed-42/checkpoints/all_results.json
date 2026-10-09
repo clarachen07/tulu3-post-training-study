@@ -1,0 +1,15 @@
+{
+    "condition": "A2-match",
+    "elapsed_wall_seconds": 21531.610229492188,
+    "epoch": 2.9922271037512673,
+    "global_step": 1107,
+    "max_steps": 1107,
+    "ntp_loss": 0.935591031398092,
+    "seed": 42,
+    "stp_loss": 0.008166108159847292,
+    "total_flos": 2.5648213029421056e+17,
+    "train_loss": 16.650363601643217,
+    "train_runtime": 21531.364,
+    "train_samples_per_second": 0.825,
+    "train_steps_per_second": 0.051
+}

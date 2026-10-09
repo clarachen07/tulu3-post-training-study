@@ -1,0 +1,6 @@
+# The server reuses the existing read-only torch/transformers/datasets runtime.
+# These packages are installed into this project's private .deps directory.
+peft==0.13.2
+accelerate==1.2.1
+bitsandbytes==0.45.0
+

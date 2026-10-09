@@ -1,0 +1,8 @@
+{
+  "adapter_config_sha256": "0a28dd3c70bb3375ad69fe8c15588e314e52f3e56f93a3f6f2a9b48dd53fcc34",
+  "adapter_dir": "/home/ai/projects/ssp-tulu-repro/outputs/training/A2-match/seed-42/final_adapter",
+  "base_model": "/home/ai/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B",
+  "dtype": "bfloat16",
+  "safe_merge": true,
+  "weight_index": "outputs/merged/A2-match/seed-42/model.safetensors.index.json"
+}

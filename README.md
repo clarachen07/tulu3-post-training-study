@@ -1,0 +1,40 @@
+# Tülu 3 Post-Training Study
+
+Behavioral evaluation and representation geometry across the **Llama 3.1 8B Base → Tülu 3 SFT → DPO → RLVR** lineage.
+
+This repository consolidates three research archives into a clean snapshot. It contains scientific code, protocols, compact results, figures and provenance. Complete raw evidence remains local; no large data assets are uploaded to this repository or a new Release.
+
+## Experiments
+
+| Research line | Experiments and completed scope | Start here |
+|---|---|---|
+| PrOntoQA | Layerwise TwoNN and correlation/covariance PCA on 1,440 fixed 3-hop inputs; 60,480 physical behavioral generations across 1/3/5-hop pools | [Overview](experiments/prontoqa/README.md) · [Chinese combined report](experiments/prontoqa/reports/report.zh-CN.md) |
+| Behavior | GSM8K reasoning/direct-answer protocols; MATH500 multi-seed sampling; frozen-checkpoint UD EWT syntax | [Overview](experiments/behavior/README.md) |
+| SSP and trajectory geometry | Frozen four-stage geometry, SSP training, merging and boundary-sensitive geometry; final behavior evaluation incomplete | [Overview](experiments/ssp/README.md) · [Results](experiments/ssp/docs/RESULTS.md) |
+
+## Reading the results
+
+GSM8K reasoning-demonstration test accuracy increases from 55.50% (Base) to 85.22% (RLVR), whereas the direct-answer protocol yields 12.96% to 10.08%. MATH500 pooled pass@16 is 79.2% for DPO and 80.6% for RLVR, with paired 95% CI for the difference [−1.4, +4.4] percentage points. PrOntoQA geometry depends on layer, metric and preprocessing. SSP's large marker-local advantage reverses at natural paragraph boundaries.
+
+These experiments use different prompts, precisions, readouts and metrics. Their results must not be pooled into a single score or interpreted as isolated causal effects of training algorithms. SSP does not establish behavioral non-degradation: its behavior stage failed because `latex2sympy2` was unavailable.
+
+## Clone and verify
+
+```bash
+git clone --recurse-submodules https://github.com/clarachen07/tulu3-post-training-study.git
+cd tulu3-post-training-study
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r experiments/prontoqa/requirements-analysis.txt
+python scripts/verify_publication.py
+```
+
+The verification checks publication hashes, scientific aggregate consistency and rendered PrOntoQA chart coordinates. It does **not** rescore omitted responses or recompute bootstrap intervals. See [reproducibility and tests](docs/REPRODUCIBILITY.md) for experiment-specific environments, optional inference tests and complete-evidence checks.
+
+## Data, provenance and licenses
+
+- [Artifact policy](docs/ARTIFACT_POLICY.md): what is public, what remains local, and how to supply external evidence.
+- [Migration record](docs/MIGRATION.md) and [per-file source inventory](docs/MIGRATION.json): exact source commits, retained files and exclusions.
+- [Component licensing](THIRD_PARTY_NOTICES.md): consolidation does not relicense third-party code, datasets or models.
+
+The former repositories retain their history, existing Releases and original visibility, and are archived after this publication passes verification. The separate private literature/meeting-notes repository is outside this study.

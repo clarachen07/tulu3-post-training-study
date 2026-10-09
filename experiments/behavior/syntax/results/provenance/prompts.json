@@ -1,0 +1,18 @@
+{
+  "P0": {
+    "addition": "",
+    "example": null
+  },
+  "P1": {
+    "addition": "Output the three task tables in order, each preceded by its task marker: - Task 1, - Task 2, - Task 3. Separate fields with literal tab characters. Do not add column headers, Markdown tables, code fences, or explanatory prose.",
+    "example": null
+  },
+  "P2": {
+    "addition": "Output the three task tables in order, each preceded by its task marker: - Task 1, - Task 2, - Task 3. Separate fields with literal tab characters. Do not add column headers, Markdown tables, code fences, or explanatory prose.\nFor Task 1, use only these Universal Dependencies UPOS tags: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X.",
+    "example": null
+  },
+  "P3": {
+    "addition": "Output the three task tables in order, each preceded by its task marker: - Task 1, - Task 2, - Task 3. Separate fields with literal tab characters. Do not add column headers, Markdown tables, code fences, or explanatory prose.\nFor Task 1, use only these Universal Dependencies UPOS tags: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X.",
+    "example": "weblog-blogspot.com_alaindewitt_20040929103700_ENG_20040929_103700-0019"
+  }
+}

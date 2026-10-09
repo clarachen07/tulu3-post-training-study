@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "demonstrations": 4,
+    "formal": 4320,
+    "pilot": 48
+  },
+  "formal_by_hop": {
+    "1": {
+      "count": 1440,
+      "label_counts": {
+        "False": 681,
+        "True": 759
+      }
+    },
+    "3": {
+      "count": 1440,
+      "label_counts": {
+        "False": 703,
+        "True": 737
+      }
+    },
+    "5": {
+      "count": 1440,
+      "label_counts": {
+        "False": 741,
+        "True": 699
+      }
+    }
+  },
+  "demonstration_order": [
+    "True",
+    "False",
+    "True",
+    "False"
+  ],
+  "pairing": "Same sample_id is paired across stages and conditions only; hops contain independent items.",
+  "deduplication": "Exact question + one space + query; formal, pilot, and demonstrations are mutually disjoint.",
+  "hop_validation": "Gold proof, answer polarity, and minimum Modus Ponens depth checked for every retained item.",
+  "schema_version": 2,
+  "files": {
+    "data/formal.jsonl": "7287452c19ee49fde12c58d41f57bc30e315a9d4aa68d6de26f73c02b3052ff6",
+    "data/pilot.jsonl": "2e55f84849a2f22d82cdc48a18169a704a0ad66d655d9c916dc7372b344fc9f4",
+    "data/demonstrations.jsonl": "2399c52e668db418e52202af1843e5190d9d6253d83c9765c2d44d3172b5c10d"
+  },
+  "original_3hop": {
+    "sha256": "aeb3adcb45fdb6e7c823ba9feea6901ea2b37fc642db7aad2a9cf9f51675ae80",
+    "sample_count": 1440,
+    "sample_ids_preserved": true,
+    "all_original_field_values_preserved": true
+  },
+  "identity": {
+    "published_fixed_pools": {
+      "data/formal.jsonl": "7287452c19ee49fde12c58d41f57bc30e315a9d4aa68d6de26f73c02b3052ff6",
+      "data/pilot.jsonl": "2e55f84849a2f22d82cdc48a18169a704a0ad66d655d9c916dc7372b344fc9f4",
+      "data/demonstrations.jsonl": "2399c52e668db418e52202af1843e5190d9d6253d83c9765c2d44d3172b5c10d"
+    },
+    "historical_data_fingerprint": "c04a174260f7d2e9cb886d980440603918318f8c4dbceb8b1cbc9cded43b40f7"
+  },
+  "data_fingerprint": "af09dd0c0fa6fbcfbd84408275b0eb4dd69ce3719b466222cfaccb603c1c53ef"
+}

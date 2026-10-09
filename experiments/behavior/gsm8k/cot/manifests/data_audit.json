@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "rlvr_records_checked": 7473,
+  "train_sample_checked": 1024,
+  "test_checked": 1319,
+  "pilot_checked": 32,
+  "data_manifest_sha256": "90b36e2f8e719606272820632a41f03520304f102694dcd21d2db36c90adbbca",
+  "implementation": "Independent raw-parquet and original-JSONL reconstruction; no production imports"
+}

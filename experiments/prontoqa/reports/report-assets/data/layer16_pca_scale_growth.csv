@@ -1,0 +1,9 @@
+stage,layer,preprocessing,relative_growth_720_to_1440_percent
+base,16,correlation,19.413919413919412
+base,16,covariance,16.157205240174676
+sft,16,correlation,12.5
+sft,16,covariance,12.244897959183664
+dpo,16,correlation,12.888888888888882
+dpo,16,covariance,11.442786069651746
+rlvr,16,correlation,13.122171945701355
+rlvr,16,covariance,11.675126903553302

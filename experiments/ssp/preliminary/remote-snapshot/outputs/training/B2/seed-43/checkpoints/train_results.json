@@ -1,0 +1,15 @@
+{
+    "condition": "B2",
+    "elapsed_wall_seconds": 21507.60570192337,
+    "epoch": 2.9922271037512673,
+    "global_step": 1107,
+    "max_steps": 1107,
+    "ntp_loss": 0.908987296612135,
+    "seed": 43,
+    "stp_loss": 0.0,
+    "total_flos": 2.5660338956795904e+17,
+    "train_loss": 14.69252758663629,
+    "train_runtime": 21507.3617,
+    "train_samples_per_second": 0.825,
+    "train_steps_per_second": 0.051
+}

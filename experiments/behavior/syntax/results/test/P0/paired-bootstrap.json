@@ -1,0 +1,96 @@
+{
+  "seed": 42,
+  "replicates": 10000,
+  "comparisons": [
+    {
+      "from": "base",
+      "to": "sft",
+      "metric": "task1_upos",
+      "delta_percentage_points": 43.99458037777955,
+      "ci95": [
+        41.704833477087966,
+        46.31770217867437
+      ]
+    },
+    {
+      "from": "base",
+      "to": "sft",
+      "metric": "task3_uas",
+      "delta_percentage_points": 4.232087351558142,
+      "ci95": [
+        3.7613821013431132,
+        4.737854420653093
+      ]
+    },
+    {
+      "from": "base",
+      "to": "sft",
+      "metric": "task3_las",
+      "delta_percentage_points": 2.442815015541564,
+      "ci95": [
+        2.1373432830483616,
+        2.766407195149032
+      ]
+    },
+    {
+      "from": "sft",
+      "to": "dpo",
+      "metric": "task1_upos",
+      "delta_percentage_points": -25.524029648521555,
+      "ci95": [
+        -27.991840561954653,
+        -23.05804465702503
+      ]
+    },
+    {
+      "from": "sft",
+      "to": "dpo",
+      "metric": "task3_uas",
+      "delta_percentage_points": 0.7611381206662947,
+      "ci95": [
+        0.044234448808011646,
+        1.4693093359693672
+      ]
+    },
+    {
+      "from": "sft",
+      "to": "dpo",
+      "metric": "task3_las",
+      "delta_percentage_points": 0.38654658484099785,
+      "ci95": [
+        -0.061454643472558794,
+        0.8348116544941759
+      ]
+    },
+    {
+      "from": "dpo",
+      "to": "final",
+      "metric": "task1_upos",
+      "delta_percentage_points": 7.7867219255598945,
+      "ci95": [
+        6.034465338863061,
+        9.652636653467006
+      ]
+    },
+    {
+      "from": "dpo",
+      "to": "final",
+      "metric": "task3_uas",
+      "delta_percentage_points": 0.39053160117956487,
+      "ci95": [
+        -0.32716047207479243,
+        1.1033014050873782
+      ]
+    },
+    {
+      "from": "dpo",
+      "to": "final",
+      "metric": "task3_las",
+      "delta_percentage_points": 0.15143062086554554,
+      "ci95": [
+        -0.3084877759479546,
+        0.6190880228739899
+      ]
+    }
+  ]
+}

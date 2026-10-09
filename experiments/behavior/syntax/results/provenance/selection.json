@@ -1,0 +1,32 @@
+{
+  "selected": "P3",
+  "criterion": "mean strict Task1 UPOS, then mean strict LAS, then P0/P1/P2/P3 order",
+  "split": "dev128",
+  "candidates": [
+    {
+      "candidate": "P0",
+      "task1_upos": 0.22352546916890081,
+      "task3_las": 0.017258713136729224,
+      "index": 0
+    },
+    {
+      "candidate": "P1",
+      "task1_upos": 0.36310321715817695,
+      "task3_las": 0.01742627345844504,
+      "index": 1
+    },
+    {
+      "candidate": "P2",
+      "task1_upos": 0.2716152815013405,
+      "task3_las": 0.005697050938337802,
+      "index": 2
+    },
+    {
+      "candidate": "P3",
+      "task1_upos": 0.561662198391421,
+      "task3_las": 0.20928284182305631,
+      "index": 3
+    }
+  ],
+  "prompt_spec_sha256": "7db713236d51340a85276a8b35e8c7f54d90a112bfbb5531d3d3ea94e35939b3"
+}

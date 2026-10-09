@@ -1,0 +1,15 @@
+{
+    "condition": "C-match",
+    "elapsed_wall_seconds": 21527.183666229248,
+    "epoch": 2.9922271037512673,
+    "global_step": 1107,
+    "max_steps": 1107,
+    "ntp_loss": 1.0213172076536077,
+    "seed": 42,
+    "stp_loss": 1.0888685190251894,
+    "total_flos": 2.5648213029421056e+17,
+    "train_loss": 36.33605875706177,
+    "train_runtime": 21526.9422,
+    "train_samples_per_second": 0.825,
+    "train_steps_per_second": 0.051
+}

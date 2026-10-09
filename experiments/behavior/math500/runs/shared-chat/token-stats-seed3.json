@@ -1,0 +1,22 @@
+{
+  "tokenizer": "${MODEL_ROOT}/Llama-3.1-Tulu-3-8B",
+  "add_special_tokens": false,
+  "dpo": {
+    "count": 2000,
+    "mean": 628.1475,
+    "median": 465.0,
+    "p90": 1203.3,
+    "p95": 1472.35,
+    "p99": 2568.62,
+    "max": 8275
+  },
+  "rlvr": {
+    "count": 2000,
+    "mean": 633.559,
+    "median": 435.5,
+    "p90": 1229.3,
+    "p95": 1633.05,
+    "p99": 2862.03,
+    "max": 8670
+  }
+}

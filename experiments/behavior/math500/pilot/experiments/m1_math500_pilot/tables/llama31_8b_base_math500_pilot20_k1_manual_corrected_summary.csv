@@ -1,0 +1,2 @@
+model_stage,model_name_or_path,prompt_style,num_problems,num_generations,num_correct_auto,num_correct_final,accuracy_auto,accuracy_final,pass_at_1_final,pass_at_k_final,manual_reviewed_count,unresolved_manual_needed_count,num_hit_max_new_tokens,num_with_boxed,avg_generated_tokens,median_generated_tokens
+base,models/Meta-Llama-3.1-8B,base_continuation_v1_no_chat_template,20,20,4,5,0.2,0.25,0.25,0.25,20,0,10,5,709.45,911.0

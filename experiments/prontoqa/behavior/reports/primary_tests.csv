@@ -1,0 +1,4 @@
+﻿after_condition,after_stage,after_template,before_condition,before_stage,before_template,both_correct,both_wrong,ci_high_pp,ci_low_pp,delta_pp,discordant,family_size,gained_correct,hop,kind,lost_correct,metric,n,p_holm,p_value,reject_holm_0_05,test
+cot,sft,native,cot,base,native,1824,825,21.504629629629623,18.055555555555557,19.79166666666665,1671,3,1263,all,adjacent_stage,408,answer_correct,4320,4.509457402889493e-101,1.503152467629831e-101,True,exact_two_sided_mcnemar
+cot,dpo,native,cot,sft,native,2577,643,3.356481481481466,0.3466435185185074,1.851851851851849,1100,3,590,all,adjacent_stage,510,answer_correct,4320,0.01718225298439803,0.01718225298439803,True,exact_two_sided_mcnemar
+cot,rlvr,native,cot,dpo,native,2884,1024,-2.662037037037035,-4.513888888888884,-3.5648148148148096,412,3,129,all,adjacent_stage,283,answer_correct,4320,4.7897849928104484e-14,2.3948924964052242e-14,True,exact_two_sided_mcnemar

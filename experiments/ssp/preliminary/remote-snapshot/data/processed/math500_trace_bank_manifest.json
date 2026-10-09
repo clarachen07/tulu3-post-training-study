@@ -1,0 +1,33 @@
+{
+  "eligibility": {
+    "finish_reason": "stop",
+    "max_response_tokens": 2048,
+    "minimum_paragraph_steps": 3,
+    "nonempty": true
+  },
+  "excluded": {
+    "missing_eligible_source": 8
+  },
+  "output": "data/processed/math500_trace_bank.jsonl",
+  "pair_count": 492,
+  "pairing_modes": {
+    "exact_seed_sample": 489,
+    "rank_fallback": 3
+  },
+  "problem_count": 492,
+  "record_count": 984,
+  "source_counts": {
+    "dpo": 492,
+    "rlvr": 492
+  },
+  "source_files": {
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/dpo/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl": "4d5437021128dc93d49ac6434dc5057f0453d1d2c70cfde226493b931b1e9f69",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/dpo/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl": "1a06d86060251efadbd5d4eeefd4ba0795588978b9b9f214fcde58492a96662a",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/rlvr/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl": "151c363b4f251a5ef57307f2c3ad60e68d761df9263c170abd12dcde37ee796b",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/rlvr/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl": "a2ba0bf37ce2140daca103f2a9c3f9d368db7ce999441925d31272ca4e52fa55"
+  },
+  "sources": [
+    "dpo",
+    "rlvr"
+  ]
+}

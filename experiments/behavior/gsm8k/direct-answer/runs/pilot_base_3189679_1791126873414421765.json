@@ -1,0 +1,14 @@
+{
+  "job_id": "pilot_base_3189679_1791126873414421765",
+  "phase": "pilot",
+  "stage": "base",
+  "started_utc": "2026-10-04T15:14:33.414466+00:00",
+  "requested_count": 32,
+  "completed_count": 32,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "load_seconds": 23.24845263361931,
+  "elapsed_seconds": 27.28029176965356,
+  "ended_utc": "2026-10-04T15:15:00.736098+00:00"
+}

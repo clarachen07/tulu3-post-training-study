@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="620" viewBox="0 0 1950 620" style="width:100%;height:auto;display:block" role="img" aria-labelledby="title desc">
+<title id="title">Tülu-3 8B post-training stage comparisons on MATH500</title>
+<desc id="desc">Four aligned pass at k panels compare Base directly to RLVR, then show Base to SFT, SFT to DPO, and DPO to RLVR. The direct Base to RLVR contrast is large, while DPO and RLVR nearly overlap.</desc>
+<rect x="0" y="0" width="1950" height="620" fill="#FFFFFF"/>
+<style>.title{font:700 28px "Times New Roman",Times,serif;fill:#20262D}.axis{font:20px "Times New Roman",Times,serif;fill:#222A31}.axis-label{font:24px "Times New Roman",Times,serif;fill:#222A31}.row-label{font:700 31px "Times New Roman",Times,serif;fill:#20262D}.legend{font:18px Arial,sans-serif;fill:#222A31}.note{font:16px Arial,sans-serif;fill:#5F6872}.endpoint{font:600 16px Arial,sans-serif}</style>
+<text class="row-label" x="33" y="281.0" text-anchor="middle" transform="rotate(-90 33 281.0)">MATH500</text>
+<text class="axis-label" x="78" y="281.0" text-anchor="middle" transform="rotate(-90 78 281.0)">Coverage (pass@k)</text>
+<text class="axis-label" x="1025.0" y="540" text-anchor="middle">Number of Samples k</text>
+<text class="title" x="348.12" y="47" text-anchor="middle">Base → RLVR (cumulative)</text>
+<line x1="145.00" x2="551.25" y1="470.00" y2="470.00" stroke="#DDE2E6" stroke-width="1"/>
+<text class="axis" x="133.00" y="477.00" text-anchor="end">0</text>
+<line x1="145.00" x2="551.25" y1="394.40" y2="394.40" stroke="#DDE2E6" stroke-width="1"/>
+<text class="axis" x="133.00" y="401.40" text-anchor="end">0.2</text>
+<line x1="145.00" x2="551.25" y1="318.80" y2="318.80" stroke="#DDE2E6" stroke-width="1"/>
+<text class="axis" x="133.00" y="325.80" text-anchor="end">0.4</text>
+<line x1="145.00" x2="551.25" y1="243.20" y2="243.20" stroke="#DDE2E6" stroke-width="1"/>
+<text class="axis" x="133.00" y="250.20" text-anchor="end">0.6</text>
+<line x1="145.00" x2="551.25" y1="167.60" y2="167.60" stroke="#DDE2E6" stroke-width="1"/>
+<text class="axis" x="133.00" y="174.60" text-anchor="end">0.8</text>
+<line x1="145.00" x2="551.25" y1="92.00" y2="92.00" stroke="#DDE2E6" stroke-width="1"/>
+<text class="axis" x="133.00" y="99.00" text-anchor="end">1</text>
+<line x1="145.00" x2="145.00" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="145.00" y="500" text-anchor="middle">1</text>
+<line x1="246.56" x2="246.56" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="246.56" y="500" text-anchor="middle">2</text>
+<line x1="348.12" x2="348.12" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="348.12" y="500" text-anchor="middle">4</text>
+<line x1="449.69" x2="449.69" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="449.69" y="500" text-anchor="middle">8</text>
+<line x1="551.25" x2="551.25" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="551.25" y="500" text-anchor="middle">16</text>
+<rect x="145.00" y="92" width="406.25" height="378" fill="none" stroke="#9DA5AB" stroke-width="1.4"/>
+<path d="M 145.00 454.44 L 246.56 441.08 L 348.12 419.16 L 449.69 387.51 L 509.10 365.67" fill="none" stroke="#0A8F86" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="145.0,448.639 139.2,459.195 150.8,459.195" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="246.5625,435.2772727272727 240.7625,445.8332727272727 252.3625,445.8332727272727" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="348.125,413.3570909090909 342.325,423.9130909090909 353.925,423.9130909090909" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="449.6875,381.712 443.8875,392.268 455.4875,392.268" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="509.09775397949244,359.87199999999996 503.2977539794924,370.42799999999994 514.8977539794924,370.42799999999994" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<path d="M 145.00 292.25 L 246.56 253.43 L 348.12 219.98 L 449.69 190.90 L 509.10 175.57 L 551.25 165.33" fill="none" stroke="#F06B6B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="145.0,286.4455 150.8,292.2455 145.0,298.0455 139.2,292.2455" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="246.5625,247.63119999999995 252.3625,253.43119999999996 246.5625,259.23119999999994 240.7625,253.43119999999996" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="348.125,214.18083076923074 353.925,219.98083076923075 348.125,225.78083076923076 342.325,219.98083076923075" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="449.6875,185.09895664335664 455.4875,190.89895664335666 449.6875,196.69895664335667 443.8875,190.89895664335666" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="509.09775397949244,169.7724769230769 514.8977539794924,175.57247692307692 509.09775397949244,181.37247692307693 503.2977539794924,175.57247692307692" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="551.25,159.53199999999998 557.05,165.332 551.25,171.132 545.45,165.332" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<line x1="163.0" x2="201.0" y1="114" y2="114" stroke="#0A8F86" stroke-width="3"/>
+<polygon points="182.0,108.8 176.8,118.264 187.2,118.264" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="211.0" y="120">Base</text>
+<line x1="163.0" x2="201.0" y1="143" y2="143" stroke="#F06B6B" stroke-width="3"/>
+<polygon points="182.0,137.8 187.2,143 182.0,148.2 176.8,143" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="211.0" y="149">RLVR</text>
+<text class="endpoint" x="501.09775397949244" y="389.67199999999997" text-anchor="end" fill="#0A8F86">27.6%</text>
+<text class="endpoint" x="501.09775397949244" y="164.57247692307692" text-anchor="end" fill="#F06B6B">77.9%</text>
+<text class="note" x="536.25" y="443" text-anchor="end">matched-k Δ@12 = +50.3 pp</text>
+<text class="title" x="799.38" y="47" text-anchor="middle">Base → SFT</text>
+<line x1="596.25" x2="1002.50" y1="470.00" y2="470.00" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="596.25" x2="1002.50" y1="394.40" y2="394.40" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="596.25" x2="1002.50" y1="318.80" y2="318.80" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="596.25" x2="1002.50" y1="243.20" y2="243.20" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="596.25" x2="1002.50" y1="167.60" y2="167.60" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="596.25" x2="1002.50" y1="92.00" y2="92.00" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="596.25" x2="596.25" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="596.25" y="500" text-anchor="middle">1</text>
+<line x1="697.81" x2="697.81" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="697.81" y="500" text-anchor="middle">2</text>
+<line x1="799.38" x2="799.38" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="799.38" y="500" text-anchor="middle">4</text>
+<line x1="900.94" x2="900.94" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="900.94" y="500" text-anchor="middle">8</text>
+<line x1="1002.50" x2="1002.50" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1002.50" y="500" text-anchor="middle">16</text>
+<rect x="596.25" y="92" width="406.25" height="378" fill="none" stroke="#9DA5AB" stroke-width="1.4"/>
+<path d="M 596.25 454.44 L 697.81 441.08 L 799.38 419.16 L 900.94 387.51 L 960.35 365.67" fill="none" stroke="#0A8F86" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="596.25,448.639 590.45,459.195 602.05,459.195" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="697.8125,435.2772727272727 692.0125,445.8332727272727 703.6125,445.8332727272727" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="799.375,413.3570909090909 793.575,423.9130909090909 805.175,423.9130909090909" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="900.9375,381.712 895.1375,392.268 906.7375,392.268" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<polygon points="960.3477539794924,359.87199999999996 954.5477539794924,370.42799999999994 966.1477539794923,370.42799999999994" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<path d="M 596.25 352.63 L 697.81 309.80 L 799.38 267.25 L 900.94 228.00 L 960.35 207.12 L 1002.50 193.30" fill="none" stroke="#D9952F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="590.45" y="346.831" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="692.0125" y="303.99729999999994" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="793.575" y="261.4524307692308" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="895.1375" y="222.20040559440557" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="954.5477539794924" y="201.32260000000002" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="996.7" y="187.504" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<line x1="614.25" x2="652.25" y1="114" y2="114" stroke="#0A8F86" stroke-width="3"/>
+<polygon points="633.25,108.8 628.05,118.264 638.45,118.264" fill="#0A8F86" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="662.25" y="120">Base</text>
+<line x1="614.25" x2="652.25" y1="143" y2="143" stroke="#D9952F" stroke-width="3"/>
+<rect x="628.05" y="137.8" width="10.4" height="10.4" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="662.25" y="149">SFT</text>
+<text class="title" x="1250.62" y="47" text-anchor="middle">SFT → DPO</text>
+<line x1="1047.50" x2="1453.75" y1="470.00" y2="470.00" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1047.50" x2="1453.75" y1="394.40" y2="394.40" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1047.50" x2="1453.75" y1="318.80" y2="318.80" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1047.50" x2="1453.75" y1="243.20" y2="243.20" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1047.50" x2="1453.75" y1="167.60" y2="167.60" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1047.50" x2="1453.75" y1="92.00" y2="92.00" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1047.50" x2="1047.50" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1047.50" y="500" text-anchor="middle">1</text>
+<line x1="1149.06" x2="1149.06" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1149.06" y="500" text-anchor="middle">2</text>
+<line x1="1250.62" x2="1250.62" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1250.62" y="500" text-anchor="middle">4</text>
+<line x1="1352.19" x2="1352.19" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1352.19" y="500" text-anchor="middle">8</text>
+<line x1="1453.75" x2="1453.75" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1453.75" y="500" text-anchor="middle">16</text>
+<rect x="1047.50" y="92" width="406.25" height="378" fill="none" stroke="#9DA5AB" stroke-width="1.4"/>
+<path d="M 1047.50 352.63 L 1149.06 309.80 L 1250.62 267.25 L 1352.19 228.00 L 1411.60 207.12 L 1453.75 193.30" fill="none" stroke="#D9952F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1041.7" y="346.831" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="1143.2625" y="303.99729999999994" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="1244.825" y="261.4524307692308" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="1346.3875" y="222.20040559440557" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="1405.7977539794924" y="201.32260000000002" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<rect x="1447.95" y="187.504" width="11.6" height="11.6" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<path d="M 1047.50 293.10 L 1149.06 253.07 L 1250.62 218.87 L 1352.19 191.86 L 1411.60 178.90 L 1453.75 170.62" fill="none" stroke="#3E6FB4" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1047.5" cy="293.096" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1149.0625" cy="253.06580000000002" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1250.625" cy="218.8663538461538" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1352.1875" cy="191.85873006993006" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1411.5977539794924" cy="178.90053846153842" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1453.75" cy="170.62399999999997" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<line x1="1065.5" x2="1103.5" y1="114" y2="114" stroke="#D9952F" stroke-width="3"/>
+<rect x="1079.3" y="108.8" width="10.4" height="10.4" fill="#D9952F" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="1113.5" y="120">SFT</text>
+<line x1="1065.5" x2="1103.5" y1="143" y2="143" stroke="#3E6FB4" stroke-width="3"/>
+<circle cx="1084.5" cy="143" r="5.2" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="1113.5" y="149">DPO</text>
+<text class="title" x="1701.88" y="47" text-anchor="middle">DPO → RLVR</text>
+<line x1="1498.75" x2="1905.00" y1="470.00" y2="470.00" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1498.75" x2="1905.00" y1="394.40" y2="394.40" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1498.75" x2="1905.00" y1="318.80" y2="318.80" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1498.75" x2="1905.00" y1="243.20" y2="243.20" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1498.75" x2="1905.00" y1="167.60" y2="167.60" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1498.75" x2="1905.00" y1="92.00" y2="92.00" stroke="#DDE2E6" stroke-width="1"/>
+<line x1="1498.75" x2="1498.75" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1498.75" y="500" text-anchor="middle">1</text>
+<line x1="1600.31" x2="1600.31" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1600.31" y="500" text-anchor="middle">2</text>
+<line x1="1701.88" x2="1701.88" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1701.88" y="500" text-anchor="middle">4</text>
+<line x1="1803.44" x2="1803.44" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1803.44" y="500" text-anchor="middle">8</text>
+<line x1="1905.00" x2="1905.00" y1="92" y2="470" stroke="#E7EAED" stroke-width="1"/>
+<text class="axis" x="1905.00" y="500" text-anchor="middle">16</text>
+<rect x="1498.75" y="92" width="406.25" height="378" fill="none" stroke="#9DA5AB" stroke-width="1.4"/>
+<path d="M 1498.75 293.10 L 1600.31 253.07 L 1701.88 218.87 L 1803.44 191.86 L 1862.85 178.90 L 1905.00 170.62" fill="none" stroke="#3E6FB4" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1498.75" cy="293.096" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1600.3125" cy="253.06580000000002" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1701.875" cy="218.8663538461538" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1803.4375" cy="191.85873006993006" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1862.8477539794924" cy="178.90053846153842" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<circle cx="1905.0" cy="170.62399999999997" r="5.8" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<path d="M 1498.75 292.25 L 1600.31 253.43 L 1701.88 219.98 L 1803.44 190.90 L 1862.85 175.57 L 1905.00 165.33" fill="none" stroke="#F06B6B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="1498.75,286.4455 1504.55,292.2455 1498.75,298.0455 1492.95,292.2455" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="1600.3125,247.63119999999995 1606.1125,253.43119999999996 1600.3125,259.23119999999994 1594.5125,253.43119999999996" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="1701.875,214.18083076923074 1707.675,219.98083076923075 1701.875,225.78083076923076 1696.075,219.98083076923075" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="1803.4375,185.09895664335664 1809.2375,190.89895664335666 1803.4375,196.69895664335667 1797.6375,190.89895664335666" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="1862.8477539794924,169.7724769230769 1868.6477539794923,175.57247692307692 1862.8477539794924,181.37247692307693 1857.0477539794924,175.57247692307692" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<polygon points="1905.0,159.53199999999998 1910.8,165.332 1905.0,171.132 1899.2,165.332" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<line x1="1516.75" x2="1554.75" y1="114" y2="114" stroke="#3E6FB4" stroke-width="3"/>
+<circle cx="1535.75" cy="114" r="5.2" fill="#3E6FB4" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="1564.75" y="120">DPO</text>
+<line x1="1516.75" x2="1554.75" y1="143" y2="143" stroke="#F06B6B" stroke-width="3"/>
+<polygon points="1535.75,137.8 1540.95,143 1535.75,148.2 1530.55,143" fill="#F06B6B" stroke="white" stroke-width="1.1"/>
+<text class="legend" x="1564.75" y="149">RLVR</text>
+<text class="endpoint" x="1895.0" y="195.62399999999997" text-anchor="end" fill="#3E6FB4">79.2%</text>
+<text class="endpoint" x="1895.0" y="153.332" text-anchor="end" fill="#F06B6B">80.6%</text>
+<text class="note" x="1889.0" y="421" text-anchor="end">Δ = +1.4 pp</text>
+<text class="note" x="1889.0" y="445" text-anchor="end">95% CI [−1.4, +4.4]</text>
+<text class="note" x="975.0" y="577" text-anchor="middle">Unbiased pooled pass@k · Base: Seeds 1–3 (12 samples/question) · SFT/DPO/RLVR: Seeds 1–4 (16 samples/question) · n=500</text>
+<text class="note" x="975.0" y="602" text-anchor="middle">Base uses the shared SFT chat template; interpret Base→RLVR as a cumulative, interface-sensitive contrast.</text>
+</svg>

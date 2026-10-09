@@ -1,0 +1,136 @@
+{
+  "models": [
+    {
+      "stage": "base",
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "wrapper": "plain",
+      "files": {
+        "model-00001-of-00004.safetensors": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+        "model-00002-of-00004.safetensors": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+        "model-00003-of-00004.safetensors": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+        "model-00004-of-00004.safetensors": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+        "config.json": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+        "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+        "generation_config.json": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
+        "model.safetensors.index.json": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+        "special_tokens_map.json": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+        "tokenizer.json": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+        "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a"
+      }
+    },
+    {
+      "stage": "sft",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "wrapper": "native",
+      "files": {
+        "model-00001-of-00004.safetensors": "4680646a61179959e510768f54a49001cc80e150690d7968666fd9e9846b7c91",
+        "model-00002-of-00004.safetensors": "73a1f3f2ed3fe4d59341a70a742f907b53436b4778373baea181a0987a8dc177",
+        "model-00003-of-00004.safetensors": "b5d2b2699e77346d46969699db44eb09b1838a5f84fc4e42debe4f3157d76783",
+        "model-00004-of-00004.safetensors": "86f990281604ee9ab5897d7b2423ad50225b76bd041465c70ae4a3ef6b89abfe",
+        "config.json": "20bb3e98dd3e4d2252bb9a914f9a131417869d29dc35781b6bde95f6e4d1cc95",
+        "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+        "generation_config.json": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+        "model.safetensors.index.json": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+        "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+        "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+        "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457"
+      }
+    },
+    {
+      "stage": "dpo",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "wrapper": "native",
+      "files": {
+        "model-00001-of-00004.safetensors": "85911f744f1dd50b8128227235d057a1aec6c8a1ed28e1458132aa56b719551d",
+        "model-00002-of-00004.safetensors": "35008429087b8fc07d435a125c28ec7943086ede173af6f31bcb7c9637fbcd2f",
+        "model-00003-of-00004.safetensors": "a7f29dca815d3dd4313f698fada334a339191d0db068f73ba15026380fd4d00d",
+        "model-00004-of-00004.safetensors": "439d2a7ebf23264fc1c7364877db7df25308f454f6188d949792a40307b9e5b6",
+        "config.json": "a8bd80e14deac086ca121be258191fad6f1acff43cf1cc9fe8eebf622aaf79d5",
+        "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+        "generation_config.json": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+        "metadata.json": "9cda0b42516907536a11d4c667f329031315d49d032b48ed0f3ebd558c23f808",
+        "model.safetensors.index.json": "f16ab28239bb5e3ea718851ab9fd9fd9261f4356314a43b907c98957afc33583",
+        "pytorch_model.bin.index.json": "f65696201ca3ea238a38c1ae2a9e16b3eca256baf0b109fac0d5f843ebb43501",
+        "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+        "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+        "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457"
+      }
+    },
+    {
+      "stage": "rlvr",
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "wrapper": "native",
+      "files": {
+        "model-00001-of-00004.safetensors": "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+        "model-00002-of-00004.safetensors": "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+        "model-00003-of-00004.safetensors": "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+        "model-00004-of-00004.safetensors": "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e",
+        "config.json": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+        "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+        "generation_config.json": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+        "model.safetensors.index.json": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+        "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+        "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+        "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457"
+      }
+    }
+  ],
+  "official_weight_verification": {
+    "status": "passed",
+    "verified_utc": "2026-10-04T04:38:16.077653+00:00",
+    "models": [
+      {
+        "stage": "base",
+        "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+        "api_url": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B/revision/d04e592bb4f6aa9cfee91e2e20afa771667e1d4b?blobs=true",
+        "published_sha256": [
+          "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+          "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+          "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+          "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d"
+        ],
+        "matched_files": 4
+      },
+      {
+        "stage": "sft",
+        "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+        "api_url": "https://huggingface.co/api/models/allenai/Llama-3.1-Tulu-3-8B-SFT/revision/f2a0b46b0cfda21003c6141b1ff837b7e165524d?blobs=true",
+        "published_sha256": [
+          "4680646a61179959e510768f54a49001cc80e150690d7968666fd9e9846b7c91",
+          "73a1f3f2ed3fe4d59341a70a742f907b53436b4778373baea181a0987a8dc177",
+          "b5d2b2699e77346d46969699db44eb09b1838a5f84fc4e42debe4f3157d76783",
+          "86f990281604ee9ab5897d7b2423ad50225b76bd041465c70ae4a3ef6b89abfe"
+        ],
+        "matched_files": 4
+      },
+      {
+        "stage": "dpo",
+        "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+        "api_url": "https://huggingface.co/api/models/allenai/Llama-3.1-Tulu-3-8B-DPO/revision/a7beb67e33ffd01cc87ac3b46cadc1000985b8db?blobs=true",
+        "published_sha256": [
+          "85911f744f1dd50b8128227235d057a1aec6c8a1ed28e1458132aa56b719551d",
+          "35008429087b8fc07d435a125c28ec7943086ede173af6f31bcb7c9637fbcd2f",
+          "a7f29dca815d3dd4313f698fada334a339191d0db068f73ba15026380fd4d00d",
+          "439d2a7ebf23264fc1c7364877db7df25308f454f6188d949792a40307b9e5b6"
+        ],
+        "matched_files": 4
+      },
+      {
+        "stage": "rlvr",
+        "revision": "666943798adbde0b1aff34626007e26986a3c107",
+        "api_url": "https://huggingface.co/api/models/allenai/Llama-3.1-Tulu-3-8B/revision/666943798adbde0b1aff34626007e26986a3c107?blobs=true",
+        "published_sha256": [
+          "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+          "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+          "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+          "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e"
+        ],
+        "matched_files": 4
+      }
+    ]
+  }
+}

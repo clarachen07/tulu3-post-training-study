@@ -1,0 +1,1042 @@
+{
+  "runs": {
+    "base-seed1": {
+      "path": "runs/tulu3-full-shared-chat/base/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl",
+      "sha256": "d21c9133c34e192ec1ccc19bad97456b677b81c28dc76ef81746354332468f3b",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 83,
+      "correct_by_position": [
+        29,
+        16,
+        18,
+        20
+      ],
+      "pass_at": {
+        "1": 4.15,
+        "2": 7.7666666666666675,
+        "4": 13.600000000000001
+      },
+      "any_correct_questions": 68,
+      "empty_generations": 53,
+      "empty_parsed_answers": 1143,
+      "questions_with_any_empty_parse": 463,
+      "questions_with_all_empty_parse": 84,
+      "finish_reasons": {
+        "stop": 1999,
+        "length": 1
+      },
+      "characters": {
+        "mean": 11200.5805,
+        "median": 7391.0,
+        "p90": 25864.600000000006,
+        "p95": 29929.1,
+        "p99": 34831.259999999995,
+        "max": 52062
+      },
+      "boxed": {
+        "at_least_one": 528,
+        "multiple": 287,
+        "total_occurrences": 30456
+      }
+    },
+    "base-seed2": {
+      "path": "runs/tulu3-full-shared-chat/base/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl",
+      "sha256": "d0e2f9d1901bb6be210739eb96fec905d3549ee880aa44ff4a2fdee8ee883bd6",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 93,
+      "correct_by_position": [
+        21,
+        18,
+        29,
+        25
+      ],
+      "pass_at": {
+        "1": 4.65,
+        "2": 8.6,
+        "4": 15.0
+      },
+      "any_correct_questions": 75,
+      "empty_generations": 65,
+      "empty_parsed_answers": 1167,
+      "questions_with_any_empty_parse": 469,
+      "questions_with_all_empty_parse": 92,
+      "finish_reasons": {
+        "stop": 1998,
+        "length": 2
+      },
+      "characters": {
+        "mean": 11071.4415,
+        "median": 3807.5,
+        "p90": 25540.1,
+        "p95": 29406.499999999996,
+        "p99": 34451.86,
+        "max": 54644
+      },
+      "boxed": {
+        "at_least_one": 507,
+        "multiple": 263,
+        "total_occurrences": 31049
+      }
+    },
+    "base-seed3": {
+      "path": "runs/tulu3-full-shared-chat/base/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl",
+      "sha256": "ba03ac765cf9c9a06021983b2e1d5aca6ba39891a156004f34c741ea99de8b82",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 71,
+      "correct_by_position": [
+        8,
+        17,
+        24,
+        22
+      ],
+      "pass_at": {
+        "1": 3.55,
+        "2": 6.766666666666667,
+        "4": 12.2
+      },
+      "any_correct_questions": 61,
+      "empty_generations": 53,
+      "empty_parsed_answers": 1162,
+      "questions_with_any_empty_parse": 470,
+      "questions_with_all_empty_parse": 90,
+      "finish_reasons": {
+        "stop": 1997,
+        "length": 3
+      },
+      "characters": {
+        "mean": 10900.672,
+        "median": 2410.0,
+        "p90": 25545.7,
+        "p95": 29537.5,
+        "p99": 34998.2,
+        "max": 49142
+      },
+      "boxed": {
+        "at_least_one": 508,
+        "multiple": 272,
+        "total_occurrences": 32817
+      }
+    },
+    "sft-seed1": {
+      "path": "runs/tulu3-full-shared-chat/sft/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl",
+      "sha256": "c2a088b1f943451d2b932e342c372a2c28ddf36a3dd75594707ee3d2d8422931",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 593,
+      "correct_by_position": [
+        151,
+        145,
+        156,
+        141
+      ],
+      "pass_at": {
+        "1": 29.65,
+        "2": 40.36666666666667,
+        "4": 51.4
+      },
+      "any_correct_questions": 257,
+      "empty_generations": 0,
+      "empty_parsed_answers": 3,
+      "questions_with_any_empty_parse": 3,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 2000
+      },
+      "characters": {
+        "mean": 2260.177,
+        "median": 546.5,
+        "p90": 3556.100000000003,
+        "p95": 16028.849999999997,
+        "p99": 25727.839999999997,
+        "max": 36333
+      },
+      "boxed": {
+        "at_least_one": 1783,
+        "multiple": 18,
+        "total_occurrences": 1832
+      }
+    },
+    "sft-seed2": {
+      "path": "runs/tulu3-full-shared-chat/sft/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl",
+      "sha256": "ebd8349806a59342a957d1051aec918b224fa025b6ca32b2cb5be2d697b5c314",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 633,
+      "correct_by_position": [
+        167,
+        148,
+        160,
+        158
+      ],
+      "pass_at": {
+        "1": 31.65,
+        "2": 43.4,
+        "4": 54.800000000000004
+      },
+      "any_correct_questions": 274,
+      "empty_generations": 0,
+      "empty_parsed_answers": 5,
+      "questions_with_any_empty_parse": 4,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 1998,
+        "length": 2
+      },
+      "characters": {
+        "mean": 2395.532,
+        "median": 550.5,
+        "p90": 3721.9000000000133,
+        "p95": 17084.15,
+        "p99": 27054.489999999994,
+        "max": 46219
+      },
+      "boxed": {
+        "at_least_one": 1779,
+        "multiple": 17,
+        "total_occurrences": 1834
+      }
+    },
+    "sft-seed3": {
+      "path": "runs/tulu3-full-shared-chat/sft/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl",
+      "sha256": "e2ca5b06c8ad886ba6168d2c9790f7929e50fae9b4425aa23f43e2be072879e5",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 641,
+      "correct_by_position": [
+        163,
+        157,
+        158,
+        163
+      ],
+      "pass_at": {
+        "1": 32.05,
+        "2": 44.4,
+        "4": 57.8
+      },
+      "any_correct_questions": 289,
+      "empty_generations": 0,
+      "empty_parsed_answers": 5,
+      "questions_with_any_empty_parse": 4,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 1998,
+        "length": 2
+      },
+      "characters": {
+        "mean": 2312.1515,
+        "median": 547.5,
+        "p90": 3449.4000000000033,
+        "p95": 16275.8,
+        "p99": 27219.75999999999,
+        "max": 45822
+      },
+      "boxed": {
+        "at_least_one": 1781,
+        "multiple": 18,
+        "total_occurrences": 1802
+      }
+    },
+    "dpo-seed1": {
+      "path": "runs/tulu3-full-shared-chat/dpo/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl",
+      "sha256": "4d5437021128dc93d49ac6434dc5057f0453d1d2c70cfde226493b931b1e9f69",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 940,
+      "correct_by_position": [
+        235,
+        226,
+        242,
+        237
+      ],
+      "pass_at": {
+        "1": 47.0,
+        "2": 57.233333333333334,
+        "4": 65.60000000000001
+      },
+      "any_correct_questions": 328,
+      "empty_generations": 0,
+      "empty_parsed_answers": 2,
+      "questions_with_any_empty_parse": 2,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 2000
+      },
+      "characters": {
+        "mean": 1618.1745,
+        "median": 1292.5,
+        "p90": 2978.200000000003,
+        "p95": 3531.25,
+        "p99": 6040.839999999997,
+        "max": 19433
+      },
+      "boxed": {
+        "at_least_one": 1980,
+        "multiple": 79,
+        "total_occurrences": 2062
+      }
+    },
+    "dpo-seed2": {
+      "path": "runs/tulu3-full-shared-chat/dpo/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl",
+      "sha256": "1a06d86060251efadbd5d4eeefd4ba0795588978b9b9f214fcde58492a96662a",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 921,
+      "correct_by_position": [
+        231,
+        226,
+        235,
+        229
+      ],
+      "pass_at": {
+        "1": 46.050000000000004,
+        "2": 56.2,
+        "4": 64.2
+      },
+      "any_correct_questions": 321,
+      "empty_generations": 0,
+      "empty_parsed_answers": 3,
+      "questions_with_any_empty_parse": 3,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 2000
+      },
+      "characters": {
+        "mean": 1658.121,
+        "median": 1284.5,
+        "p90": 2915.1000000000004,
+        "p95": 3553.05,
+        "p99": 7092.059999999998,
+        "max": 24784
+      },
+      "boxed": {
+        "at_least_one": 1971,
+        "multiple": 73,
+        "total_occurrences": 2131
+      }
+    },
+    "dpo-seed3": {
+      "path": "runs/tulu3-full-shared-chat/dpo/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl",
+      "sha256": "6055848d5fedfca9c097b3f32bd8fdaedce48b9a20684d47fa2283321251f2fe",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 937,
+      "correct_by_position": [
+        241,
+        229,
+        236,
+        231
+      ],
+      "pass_at": {
+        "1": 46.85,
+        "2": 57.96666666666667,
+        "4": 67.4
+      },
+      "any_correct_questions": 337,
+      "empty_generations": 0,
+      "empty_parsed_answers": 3,
+      "questions_with_any_empty_parse": 3,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 2000
+      },
+      "characters": {
+        "mean": 1617.595,
+        "median": 1292.0,
+        "p90": 2946.1000000000004,
+        "p95": 3657.05,
+        "p99": 5996.159999999998,
+        "max": 20346
+      },
+      "boxed": {
+        "at_least_one": 1977,
+        "multiple": 69,
+        "total_occurrences": 2062
+      }
+    },
+    "rlvr-seed1": {
+      "path": "runs/tulu3-full-shared-chat/rlvr/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl",
+      "sha256": "151c363b4f251a5ef57307f2c3ad60e68d761df9263c170abd12dcde37ee796b",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 932,
+      "correct_by_position": [
+        240,
+        236,
+        231,
+        225
+      ],
+      "pass_at": {
+        "1": 46.6,
+        "2": 56.033333333333324,
+        "4": 63.6
+      },
+      "any_correct_questions": 318,
+      "empty_generations": 0,
+      "empty_parsed_answers": 2,
+      "questions_with_any_empty_parse": 2,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 2000
+      },
+      "characters": {
+        "mean": 1557.103,
+        "median": 1210.0,
+        "p90": 3043.0,
+        "p95": 3689.5499999999993,
+        "p99": 6189.129999999996,
+        "max": 24727
+      },
+      "boxed": {
+        "at_least_one": 1997,
+        "multiple": 300,
+        "total_occurrences": 2395
+      }
+    },
+    "rlvr-seed2": {
+      "path": "runs/tulu3-full-shared-chat/rlvr/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl",
+      "sha256": "a2ba0bf37ce2140daca103f2a9c3f9d368db7ce999441925d31272ca4e52fa55",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 940,
+      "correct_by_position": [
+        232,
+        235,
+        239,
+        234
+      ],
+      "pass_at": {
+        "1": 47.0,
+        "2": 57.36666666666667,
+        "4": 66.4
+      },
+      "any_correct_questions": 332,
+      "empty_generations": 0,
+      "empty_parsed_answers": 0,
+      "questions_with_any_empty_parse": 0,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 2000
+      },
+      "characters": {
+        "mean": 1565.205,
+        "median": 1179.5,
+        "p90": 2983.3,
+        "p95": 3882.1499999999996,
+        "p99": 6471.21,
+        "max": 22185
+      },
+      "boxed": {
+        "at_least_one": 1993,
+        "multiple": 277,
+        "total_occurrences": 2346
+      }
+    },
+    "rlvr-seed3": {
+      "path": "runs/tulu3-full-shared-chat/rlvr/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl",
+      "sha256": "3890efe81010d7416aba578fd564c4e8d8f8f2fe21db216225a0650ceb716eae",
+      "rows": 500,
+      "indices_exact_0_499": true,
+      "unique_indices": 500,
+      "array_lengths_all_4": true,
+      "none_counts": {
+        "code": 0,
+        "pred": 0,
+        "score": 0,
+        "finish_reason": 0
+      },
+      "scores_all_boolean": true,
+      "total_generations": 2000,
+      "correct_generations": 947,
+      "correct_by_position": [
+        232,
+        232,
+        245,
+        238
+      ],
+      "pass_at": {
+        "1": 47.349999999999994,
+        "2": 58.3,
+        "4": 68.2
+      },
+      "any_correct_questions": 341,
+      "empty_generations": 0,
+      "empty_parsed_answers": 5,
+      "questions_with_any_empty_parse": 5,
+      "questions_with_all_empty_parse": 0,
+      "finish_reasons": {
+        "stop": 2000
+      },
+      "characters": {
+        "mean": 1596.6785,
+        "median": 1182.5,
+        "p90": 3096.1000000000004,
+        "p95": 3926.05,
+        "p99": 6389.58,
+        "max": 26717
+      },
+      "boxed": {
+        "at_least_one": 1993,
+        "multiple": 303,
+        "total_occurrences": 2397
+      }
+    }
+  },
+  "identity_matches_reference": {
+    "base-seed1": true,
+    "base-seed2": true,
+    "base-seed3": true,
+    "sft-seed1": true,
+    "sft-seed2": true,
+    "sft-seed3": true,
+    "dpo-seed1": true,
+    "dpo-seed2": true,
+    "dpo-seed3": true,
+    "rlvr-seed1": true,
+    "rlvr-seed2": true,
+    "rlvr-seed3": true
+  },
+  "comparisons": {
+    "rlvr_minus_base": {
+      "seed1": {
+        "paired_any_correct": {
+          "both": 57,
+          "rlvr_only": 261,
+          "dpo_only": 11,
+          "neither": 171,
+          "discordant": 272,
+          "exact_two_sided_p": 3.3849619239218873e-63
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 42.449999999999996,
+            "ci95_pp": [
+              38.85,
+              46.050000000000004
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 48.266666666666666,
+            "ci95_pp": [
+              44.26666666666667,
+              52.233333333333334
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 50.0,
+            "ci95_pp": [
+              45.2,
+              54.800000000000004
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      },
+      "seed2": {
+        "paired_any_correct": {
+          "both": 67,
+          "rlvr_only": 265,
+          "dpo_only": 8,
+          "neither": 160,
+          "discordant": 273,
+          "exact_two_sided_p": 9.372901395215287e-68
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 42.35,
+            "ci95_pp": [
+              38.85,
+              45.800000000000004
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 48.76666666666667,
+            "ci95_pp": [
+              44.9,
+              52.63333333333332
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 51.4,
+            "ci95_pp": [
+              46.800000000000004,
+              56.00000000000001
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      },
+      "seed3": {
+        "paired_any_correct": {
+          "both": 54,
+          "rlvr_only": 287,
+          "dpo_only": 7,
+          "neither": 152,
+          "discordant": 294,
+          "exact_two_sided_p": 2.2573921894219534e-75
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 43.8,
+            "ci95_pp": [
+              40.35,
+              47.3
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 51.53333333333333,
+            "ci95_pp": [
+              47.73333333333334,
+              55.333333333333336
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 56.00000000000001,
+            "ci95_pp": [
+              51.4,
+              60.6
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      },
+      "3seed_question_clustered": {
+        "seeds": [
+          "1",
+          "2",
+          "3"
+        ],
+        "bootstrap": {
+          "1": {
+            "point_pp": 42.86666666666667,
+            "ci95_pp": [
+              39.6,
+              46.11666666666666
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 49.522222222222226,
+            "ci95_pp": [
+              46.1,
+              52.94444444444445
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 52.466666666666676,
+            "ci95_pp": [
+              48.79999999999999,
+              56.133333333333326
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      }
+    },
+    "rlvr_minus_sft": {
+      "seed1": {
+        "paired_any_correct": {
+          "both": 224,
+          "rlvr_only": 94,
+          "dpo_only": 33,
+          "neither": 149,
+          "discordant": 127,
+          "exact_two_sided_p": 5.6862817546381464e-08
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 16.950000000000003,
+            "ci95_pp": [
+              14.05,
+              19.85124999999971
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 15.666666666666664,
+            "ci95_pp": [
+              12.3,
+              19.066666666666666
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 12.2,
+            "ci95_pp": [
+              8.0,
+              16.6
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      },
+      "seed2": {
+        "paired_any_correct": {
+          "both": 243,
+          "rlvr_only": 89,
+          "dpo_only": 31,
+          "neither": 137,
+          "discordant": 120,
+          "exact_two_sided_p": 1.1187721865433781e-07
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 15.35,
+            "ci95_pp": [
+              12.6,
+              18.15
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 13.966666666666667,
+            "ci95_pp": [
+              10.7,
+              17.266666666666666
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 11.600000000000001,
+            "ci95_pp": [
+              7.3999999999999995,
+              15.8
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      },
+      "seed3": {
+        "paired_any_correct": {
+          "both": 260,
+          "rlvr_only": 81,
+          "dpo_only": 29,
+          "neither": 130,
+          "discordant": 110,
+          "exact_two_sided_p": 7.293567965336596e-07
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 15.299999999999999,
+            "ci95_pp": [
+              12.75,
+              17.9
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 13.900000000000002,
+            "ci95_pp": [
+              10.966666666666667,
+              16.900000000000002
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 10.4,
+            "ci95_pp": [
+              6.4,
+              14.399999999999999
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      },
+      "3seed_question_clustered": {
+        "seeds": [
+          "1",
+          "2",
+          "3"
+        ],
+        "bootstrap": {
+          "1": {
+            "point_pp": 15.866666666666667,
+            "ci95_pp": [
+              13.700000000000001,
+              18.06666666666667
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "2": {
+            "point_pp": 14.511111111111108,
+            "ci95_pp": [
+              12.1,
+              16.955555555555556
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          },
+          "4": {
+            "point_pp": 11.4,
+            "ci95_pp": [
+              8.533333333333331,
+              14.333333333333332
+            ],
+            "probability_rlvr_gt_dpo": 1.0
+          }
+        }
+      }
+    },
+    "rlvr_minus_dpo": {
+      "seed1": {
+        "paired_any_correct": {
+          "both": 283,
+          "rlvr_only": 35,
+          "dpo_only": 45,
+          "neither": 137,
+          "discordant": 80,
+          "exact_two_sided_p": 0.31430657986393706
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": -0.4,
+            "ci95_pp": [
+              -2.55,
+              1.7999999999999998
+            ],
+            "probability_rlvr_gt_dpo": 0.34956
+          },
+          "2": {
+            "point_pp": -1.2000000000000004,
+            "ci95_pp": [
+              -3.8666666666666663,
+              1.4666666666666666
+            ],
+            "probability_rlvr_gt_dpo": 0.18608
+          },
+          "4": {
+            "point_pp": -2.0,
+            "ci95_pp": [
+              -5.4,
+              1.6
+            ],
+            "probability_rlvr_gt_dpo": 0.11915
+          }
+        }
+      },
+      "seed2": {
+        "paired_any_correct": {
+          "both": 284,
+          "rlvr_only": 48,
+          "dpo_only": 37,
+          "neither": 131,
+          "discordant": 85,
+          "exact_two_sided_p": 0.27799928908055166
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 0.95,
+            "ci95_pp": [
+              -1.15,
+              3.05
+            ],
+            "probability_rlvr_gt_dpo": 0.80127
+          },
+          "2": {
+            "point_pp": 1.1666666666666665,
+            "ci95_pp": [
+              -1.4666666666666668,
+              3.8
+            ],
+            "probability_rlvr_gt_dpo": 0.8057
+          },
+          "4": {
+            "point_pp": 2.1999999999999997,
+            "ci95_pp": [
+              -1.4000000000000001,
+              5.800000000000001
+            ],
+            "probability_rlvr_gt_dpo": 0.87437
+          }
+        }
+      },
+      "seed3": {
+        "paired_any_correct": {
+          "both": 301,
+          "rlvr_only": 40,
+          "dpo_only": 36,
+          "neither": 123,
+          "discordant": 76,
+          "exact_two_sided_p": 0.7310088822226052
+        },
+        "bootstrap": {
+          "1": {
+            "point_pp": 0.5,
+            "ci95_pp": [
+              -1.6,
+              2.6
+            ],
+            "probability_rlvr_gt_dpo": 0.67204
+          },
+          "2": {
+            "point_pp": 0.3333333333333333,
+            "ci95_pp": [
+              -2.1999999999999997,
+              2.8333333333333335
+            ],
+            "probability_rlvr_gt_dpo": 0.60121
+          },
+          "4": {
+            "point_pp": 0.8,
+            "ci95_pp": [
+              -2.6,
+              4.2
+            ],
+            "probability_rlvr_gt_dpo": 0.65675
+          }
+        }
+      },
+      "3seed_question_clustered": {
+        "seeds": [
+          "1",
+          "2",
+          "3"
+        ],
+        "bootstrap": {
+          "1": {
+            "point_pp": 0.35000000000000003,
+            "ci95_pp": [
+              -1.0,
+              1.7000000000000002
+            ],
+            "probability_rlvr_gt_dpo": 0.69366
+          },
+          "2": {
+            "point_pp": 0.09999999999999977,
+            "ci95_pp": [
+              -1.5222222222222226,
+              1.733333333333333
+            ],
+            "probability_rlvr_gt_dpo": 0.54589
+          },
+          "4": {
+            "point_pp": 0.33333333333333315,
+            "ci95_pp": [
+              -1.8666666666666665,
+              2.466666666666667
+            ],
+            "probability_rlvr_gt_dpo": 0.61517
+          }
+        }
+      }
+    }
+  }
+}

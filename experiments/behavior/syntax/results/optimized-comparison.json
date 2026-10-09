@@ -1,0 +1,29 @@
+{
+  "selected": "P3",
+  "comparisons": [
+    {
+      "stage": "base",
+      "task1_upos_delta_pp": -1.307085359049972,
+      "task3_uas_delta_pp": -0.12353550649557662,
+      "task3_las_delta_pp": -0.0318801307085359
+    },
+    {
+      "stage": "sft",
+      "task1_upos_delta_pp": 27.313301984538143,
+      "task3_uas_delta_pp": 31.433808878616396,
+      "task3_las_delta_pp": 21.61074360404878
+    },
+    {
+      "stage": "dpo",
+      "task1_upos_delta_pp": 49.167131585239495,
+      "task3_uas_delta_pp": 29.947397784330914,
+      "task3_las_delta_pp": 21.02494620227943
+    },
+    {
+      "stage": "final",
+      "task1_upos_delta_pp": 43.11787678329481,
+      "task3_uas_delta_pp": 29.660476607954095,
+      "task3_las_delta_pp": 20.738025025902605
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "mean_logit_cosine": 0.9847354292869568,
+  "mean_relative_l2": 0.18078218400478363,
+  "per_sample": [
+    {
+      "index": 0,
+      "logit_cosine": 0.988046407699585,
+      "relative_l2": 0.1622646600008011,
+      "top1_agreement": 1
+    },
+    {
+      "index": 1,
+      "logit_cosine": 0.9873912930488586,
+      "relative_l2": 0.19313208758831024,
+      "top1_agreement": 1
+    },
+    {
+      "index": 2,
+      "logit_cosine": 0.987739086151123,
+      "relative_l2": 0.15880407392978668,
+      "top1_agreement": 1
+    },
+    {
+      "index": 3,
+      "logit_cosine": 0.9836836457252502,
+      "relative_l2": 0.18529006838798523,
+      "top1_agreement": 1
+    },
+    {
+      "index": 4,
+      "logit_cosine": 0.9726228713989258,
+      "relative_l2": 0.23824696242809296,
+      "top1_agreement": 0
+    },
+    {
+      "index": 5,
+      "logit_cosine": 0.9866021871566772,
+      "relative_l2": 0.16317695379257202,
+      "top1_agreement": 0
+    },
+    {
+      "index": 6,
+      "logit_cosine": 0.9868098497390747,
+      "relative_l2": 0.16224686801433563,
+      "top1_agreement": 1
+    },
+    {
+      "index": 7,
+      "logit_cosine": 0.984988272190094,
+      "relative_l2": 0.1830957978963852,
+      "top1_agreement": 1
+    }
+  ],
+  "samples": 8,
+  "top1_agreement": 0.75
+}

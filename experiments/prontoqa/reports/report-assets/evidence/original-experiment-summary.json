@@ -1,0 +1,68 @@
+{
+  "original_sources": [
+    {
+      "source_relative_path": "experiment.json",
+      "sha256": "434d5cf320e101a40603a7d9c72eee3cab3c0ea03adeb2719dfaf6beac3ce859"
+    },
+    {
+      "source_relative_path": "data/items.jsonl",
+      "sha256": "aeb3adcb45fdb6e7c823ba9feea6901ea2b37fc642db7aad2a9cf9f51675ae80"
+    },
+    {
+      "source_relative_path": "manifests/data.json",
+      "sha256": "1aa68e0a631fee557ae7bf666de51d658495cd88deea4b0d07f3b75536478eae"
+    },
+    {
+      "source_relative_path": "manifests/tokenization.json",
+      "sha256": "3fd7813d7a140ec13576cffc40c12758d61eb9dc69053d7c32b9e610b82f498f"
+    },
+    {
+      "source_relative_path": "manifests/frozen_protocol.json",
+      "sha256": "6b2971ef9dc334b2b22ff8726260fb9b6deb827a0a739441b6ddca2d5f780f7d"
+    },
+    {
+      "source_relative_path": "manifests/tests.json",
+      "sha256": "d50538f13d82f854bfe5b07fcd5c1c8e32bbf3778f078292d9c8d07ccb3800bb"
+    },
+    {
+      "source_relative_path": "manifests/final_verification.json",
+      "sha256": "f44fdfd760024afb416c98de8ef0e1d9ea2b8ab0920786cdbbe985774766dc6c"
+    },
+    {
+      "source_relative_path": "manifests/local_delivery_verification.json",
+      "sha256": "48edc7df244aa1e261561758b28948a5e49a5802e1a68609e22bf4f20dc5b334"
+    },
+    {
+      "source_relative_path": "pca/manifests/final_verification.json",
+      "sha256": "4cedffc7f08e9d410cf4369d19ba87bf192a939d4f03efcc6ef66ae17d2bbe42"
+    }
+  ],
+  "data": {
+    "sample_count": 1440,
+    "unique_texts": 1440,
+    "hop": 3,
+    "label_counts": {
+      "True": 737,
+      "False": 703
+    }
+  },
+  "twonn": {
+    "tests_passed": 57,
+    "formal_forwards": 5760,
+    "stage_layers": 128,
+    "replicate_count": 2560,
+    "formal_batch_count": 360,
+    "server_verification_status": "passed",
+    "local_verification_status": "passed"
+  },
+  "pca": {
+    "status": "passed",
+    "cache_count": 128,
+    "record_count": 10416,
+    "full_count": 256,
+    "replicate_count": 5120,
+    "scale_block_count": 5040,
+    "tests_passed": 56
+  },
+  "source_records_meaning": "Summary of completed-experiment records; host paths and operational logs omitted"
+}

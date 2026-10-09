@@ -1,0 +1,64 @@
+{
+  "adapter_dir": "outputs/training/A2/seed-44/final_adapter",
+  "base_model": "/home/ai/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B",
+  "condition": "A2",
+  "condition_config": {
+    "ntp": true,
+    "seed": 42,
+    "stp": "random_step",
+    "train": true
+  },
+  "environment": {
+    "cuda": "12.1",
+    "cuda_visible_devices": "0",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "python": "3.10.20",
+    "torch": "2.4.0+cu121",
+    "transformers": "4.47.1"
+  },
+  "metrics": {
+    "condition": "A2",
+    "elapsed_wall_seconds": 21518.684621095657,
+    "epoch": 2.9922271037512673,
+    "global_step": 1107,
+    "max_steps": 1107,
+    "ntp_loss": 0.9185126938724092,
+    "seed": 44,
+    "stp_loss": 0.00791809388569423,
+    "total_flos": 2.5652940697534464e+17,
+    "train_loss": 16.743046926827503,
+    "train_runtime": 21518.4431,
+    "train_samples_per_second": 0.825,
+    "train_steps_per_second": 0.051
+  },
+  "seed": 44,
+  "train_data": "/home/ai/projects/ssp-tulu-repro/data/processed/math_train_ssp.jsonl",
+  "train_data_sha256": "78d99271aa3879bca6b3134d65fe264fb113baddbc09d367f72bf8a0fa371039",
+  "training": {
+    "beta": 1.0,
+    "epochs": 3,
+    "gradient_accumulation_steps": 16,
+    "learning_rate": 2e-05,
+    "logging_steps": 10,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "lora_rank": 16,
+    "lora_targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "max_grad_norm": 1.0,
+    "micro_batch_size": 1,
+    "quantization": {
+      "bnb_4bit_compute_dtype": "bfloat16",
+      "bnb_4bit_quant_type": "nf4",
+      "bnb_4bit_use_double_quant": true,
+      "load_in_4bit": true
+    },
+    "save_steps": 100,
+    "warmup_ratio": 0.0,
+    "weight_decay": 0.0
+  }
+}

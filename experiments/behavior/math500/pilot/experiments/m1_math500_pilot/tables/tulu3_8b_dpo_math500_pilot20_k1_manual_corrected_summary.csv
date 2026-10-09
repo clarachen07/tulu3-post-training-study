@@ -1,0 +1,2 @@
+﻿model_name_or_path,stage,model_path,num_problems,num_generations,num_correct_auto,num_correct_final,accuracy_auto,accuracy_final,pass_at_1_final,pass_at_k_final,manual_reviewed_count,unresolved_manual_needed_count,avg_generated_tokens,median_generated_tokens
+models/Llama-3.1-Tulu-3-8B-DPO,DPO,models/Llama-3.1-Tulu-3-8B-DPO,20,20,3,4,0.15,0.2,0.2,0.2,20,0,670.2,652.0

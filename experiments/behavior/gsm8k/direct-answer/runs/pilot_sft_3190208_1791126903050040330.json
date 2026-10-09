@@ -1,0 +1,14 @@
+{
+  "job_id": "pilot_sft_3190208_1791126903050040330",
+  "phase": "pilot",
+  "stage": "sft",
+  "started_utc": "2026-10-04T15:15:03.050091+00:00",
+  "requested_count": 32,
+  "completed_count": 32,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "load_seconds": 22.970234274864197,
+  "elapsed_seconds": 27.126750227063894,
+  "ended_utc": "2026-10-04T15:15:30.229930+00:00"
+}

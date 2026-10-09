@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-04T04:38:16.849280+00:00",
+  "config_hash": "8b9a5a19615c5e7fe9b5fea58434a2b157277dcae088e2b1c3c32bbf337202c6",
+  "files": {
+    "data/tokenized/base/pilot.jsonl": "c7dd159de68669c8634f2e0a88678e01f132bf5626ad8ffd20b87a9571ab9a0c",
+    "data/tokenized/base/formal.jsonl": "71ea08914f22e8918082971e2334543b2560b14f3782ea6946f774baf7e645b4",
+    "data/tokenized/sft/pilot.jsonl": "9ff3462a7bedd3723369e6dd184ec2e5a61d48e371daa6df7629d4437597b2d3",
+    "data/tokenized/sft/formal.jsonl": "b657b78ac29bf27498c94e84abb79e7386dfa48a752d60b744ae7fa9e4ceb8ba",
+    "data/tokenized/dpo/pilot.jsonl": "d7e3c376ae1df0b8780b787e94e734211d07d967b83c20288accae09943e3edc",
+    "data/tokenized/dpo/formal.jsonl": "7bfaa705fc046e81b5be143456c83d4c198258cdd5ae8d9aa7cff0f4aa368969",
+    "data/tokenized/rlvr/pilot.jsonl": "23005b18c5cefb5bf476908f5e189ba2f4efbc6ce35be2ea3e55b024c1bc0978",
+    "data/tokenized/rlvr/formal.jsonl": "9a8aa272c2f2c1508323e10f7acc02e04a3be43cb707d3b41ea0d6fe468fc01c"
+  },
+  "models": [
+    {
+      "stage": "base",
+      "min_input_tokens": 686,
+      "max_input_tokens": 853,
+      "bos_counts": {
+        "1": 2375
+      },
+      "chat_template": null,
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": null
+    },
+    {
+      "stage": "sft",
+      "min_input_tokens": 693,
+      "max_input_tokens": 860,
+      "bos_counts": {
+        "0": 2375
+      },
+      "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": 128256
+    },
+    {
+      "stage": "dpo",
+      "min_input_tokens": 693,
+      "max_input_tokens": 860,
+      "bos_counts": {
+        "0": 2375
+      },
+      "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": 128256
+    },
+    {
+      "stage": "rlvr",
+      "min_input_tokens": 693,
+      "max_input_tokens": 860,
+      "bos_counts": {
+        "0": 2375
+      },
+      "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": 128256
+    }
+  ]
+}

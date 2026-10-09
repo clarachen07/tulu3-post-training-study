@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/asaparov/prontoqa",
+  "commit": "066f73fc70bfaa92ed2476fd3c41b4951ad6e63a",
+  "branch_at_import": "v1",
+  "license": "Apache-2.0",
+  "files": {
+    "run_experiment.py": {
+      "sha256": "a278cdb003ea3d7cd4aff2714ccef9959add836a6ce31968a00f16d12c65d434",
+      "git_blob_sha1": "0c606c017322af8b53a8b82dfb101583b84c90cb",
+      "bytes": 53022
+    },
+    "theory.py": {
+      "sha256": "76225400489bd781d9fdc7cd73411c863a75e56c7959a3cc15e59e43df7fd22a",
+      "git_blob_sha1": "834e6e7c872ba000c467590577e8695350f9304c",
+      "bytes": 14472
+    },
+    "proof.py": {
+      "sha256": "e155aba06cf3ef05a103475397a572bc43fa40d020eae42610282a3564d94a74",
+      "git_blob_sha1": "5b1d69938574a9d29747cfa9a95b2eae692e06ea",
+      "bytes": 15066
+    },
+    "syntax.py": {
+      "sha256": "b30f20a75c9f8372812fc05ae1c261d227027000245c8011aa13963ccd633c8c",
+      "git_blob_sha1": "514f38d691012946c3258993d39c0f7f9420199b",
+      "bytes": 24868
+    },
+    "fol.py": {
+      "sha256": "fc87fd0ac16ddd4fe870a1b2ba357ee0dd896cb934d7d9e1c4512989ed592e71",
+      "git_blob_sha1": "7ea164d29bc45d13c85fa36fad0c799d1316d379",
+      "bytes": 16675
+    },
+    "prompt.py": {
+      "sha256": "a894355ef87024fab78d3632233f12af92bce8277f93039a0c8ecb4ec6650ea6",
+      "git_blob_sha1": "b64974e56f66532d4a0a2f0c01eaedd1b9c70066",
+      "bytes": 5674
+    },
+    "README.md": {
+      "sha256": "6f77a4d8fb430102fd679b2a2a29b7a07a2563c85eac4847b491cb0a7b0006c4",
+      "git_blob_sha1": "39a9d54f618892233881dfc1a0e8c2eaf263fd81",
+      "bytes": 3648
+    },
+    "LICENSE": {
+      "sha256": "4a79e06d1d3a7e4e27d51ca1e9e2af85e57d8a77b436c205189251b3c1402e3f",
+      "git_blob_sha1": "924bb45c8f328b693c924ab8f7fe9f0ec2969439",
+      "bytes": 11346
+    },
+    "bad_patterns.txt": {
+      "sha256": "b170a554ac183ca31d5d46b111a03ee898247ea84e8e19a6a02d81e562961e3f",
+      "git_blob_sha1": "1621501765631a808f95770daed9588db148fd38",
+      "bytes": 4599
+    }
+  },
+  "modifications": []
+}

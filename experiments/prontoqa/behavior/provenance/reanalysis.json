@@ -1,0 +1,103 @@
+{
+  "analysis_environment": {
+    "packages": {
+      "matplotlib": "3.9.4",
+      "numpy": "1.26.4",
+      "scipy": "1.14.1"
+    },
+    "python": "3.12.13"
+  },
+  "committed_batches": 3780,
+  "comparison": {
+    "comparison": "Exact counts and categories; floating comparisons use rtol=1e-10, atol=1e-12; p-values use relative tolerance only",
+    "exact_tables": {
+      "dataset_summary": true,
+      "diagnostics": true,
+      "label_summaries": true,
+      "paired_differences": true,
+      "primary_tests": false,
+      "summaries": true,
+      "transitions": true
+    },
+    "floating_roundoff_differences": [
+      {
+        "absolute_difference": 1.3530843112619095e-16,
+        "aggregate_field": "primary_tests/1/p_value",
+        "historical_value": 0.017182252984398166,
+        "recomputed_value": 0.01718225298439803
+      },
+      {
+        "absolute_difference": 1.3530843112619095e-16,
+        "aggregate_field": "primary_tests/1/p_holm",
+        "historical_value": 0.017182252984398166,
+        "recomputed_value": 0.01718225298439803
+      }
+    ],
+    "historical_analysis_sha256": "04514f2126d71c96f90b26cd9003c3df1caba0721cf4f9b2bb6d6521ee4c326c",
+    "historical_presentation_page_matches_recorded_hash": false,
+    "presentation_policy": "Existing source HTML is preserved; publication renders a new English page",
+    "status": "passed",
+    "tables": {
+      "dataset_summary": true,
+      "diagnostics": true,
+      "label_summaries": true,
+      "paired_differences": true,
+      "primary_tests": true,
+      "summaries": true,
+      "transitions": true
+    }
+  },
+  "historical_frozen_manifest_sha256": "d55d5af4c0bd9695cb76c8a1e09f36c6aeb5184a75e3f901bd522e401be15620",
+  "historical_protocol_digest": "a70ca1ca84c680f5b989a7c48d10ee9b5b30ef7589e20aed0681889a51b7d192",
+  "limitation": "CPU verification checks frozen evidence and rescores saved text; it does not rerun models or decode saved tokens using checkpoint tokenizers.",
+  "logical_records": 69120,
+  "model_assets_checked": false,
+  "output_token_decoding_checked": false,
+  "physical_generations": 60480,
+  "publication_code_files": {
+    "behavior/experiment.json": "515a64b5766ee9bb896daf00b0b99e99f14b797afa8a66759ec0060e3bf28e00",
+    "behavior/tests/test_analyze.py": "61aeb3f3639ee721f50206dc664ee71cd4dfae196fc984d0ba6a845a9a8225dc",
+    "behavior/tests/test_data.py": "083c013eb71a7df4660a44b1e015e683bfeddbc866bfaff1ccb46b5c213ce797",
+    "behavior/tests/test_pipeline.py": "489f3beaf23c9be15b359c79e14989d108437836ce48fc1383564c48484b6ba1",
+    "behavior/tests/test_protocol.py": "8b583a4b44b030fc5331a8df5eac4b027ddf6bd40b1a29db61a058877944736b",
+    "behavior/tests/test_publication.py": "790a8a1526523bc31e2f2cd9a830f75beb112d14705069bcfdfa4d9768c86c3c",
+    "behavior/tests/test_reanalysis.py": "983841da873279bb9a5b1bed7c5fbf14d9688e9aa3ee83d69a6697aaf3855229",
+    "behavior/tests/test_run.py": "7b9050b6638e86b3a5067550220a557ff219164a40c997a4d28403600fdc0f88",
+    "behavior/tests/test_scoring.py": "d9adee261d3b34e816f431e8be1ea68ec3868a5e63363a02fefdcd91b0559796",
+    "behavior/tests/test_verify.py": "710d82f2b766caddd60b6795bb530610189ea3e1b2f183cf679a947edbb0cb5f",
+    "behavior/tests/test_workspace.py": "701e4f5c4c459ba15c5b07b626a033fd6e7dfde15e140680a8564de4eae88d96",
+    "requirements-analysis.txt": "2988bcac1dbff59505b603526e9064308b7725b2906d2eb6f76e2b561961314b",
+    "requirements.txt": "d86e55fee2b4478da474cdf59bfd40da2d5dbf517b7eb5bce6c8797450be1c64",
+    "tulu_behavior/__init__.py": "fa10590a5e4b4b6b595436de5d95a1584a37cbb19985583a5d06066002aa96d4",
+    "tulu_behavior/analyze.py": "76ff39b00d1782afd12c69403af625a1b00b3a70877a2b6d093e5680fc8cc5ea",
+    "tulu_behavior/assets.py": "b2c9168da70268282d2c75caed78e6b31bb2a34641b872c93b6024fc7d5c6564",
+    "tulu_behavior/common.py": "6c96db4ddbf37dc4a4893c77a6b18d32b3a41f7e0694b60db4098387762a9264",
+    "tulu_behavior/data.py": "c2375251adb5cda6c258d1f170cf1f03253b772825da1d545dc6ed2edec6b3b0",
+    "tulu_behavior/freeze.py": "47612faca5540d919d39697a0e71d808e6eb9807c3f3782eb1219377d398b300",
+    "tulu_behavior/pilot.py": "c904e7d5ea321b0cd820f2f72c6a4bf35da35fbbccd6cb19422baad26913394a",
+    "tulu_behavior/pipeline.py": "699a2c514233d710f8b10d4b91eb3f47702819b8f794f95a38ce2ebef02b5685",
+    "tulu_behavior/prompts.py": "4ae175790e3f120b40f7a2ee89dac3b6b11490ad995e1606aa7cb90fb3adef66",
+    "tulu_behavior/publication.py": "8a4ee7e4a24e2ac8e49afec84d7eeac8e22088d925ed3e2e6e1f14d3aaf520f7",
+    "tulu_behavior/reanalysis.py": "20bd3e37a9ffa55ee82eddbe0e2dcbfc19421f6283e920558cf0d18d9091c68e",
+    "tulu_behavior/run.py": "7fce68a6c162bc2a2795aab71f986e8d398da6ee7c03435d9d21d7ccbd3194e4",
+    "tulu_behavior/scoring.py": "3db0fc5c4ed56211fa7649439cd0fd4dd4d6834ee0594b0a8c3ee0a55899b226",
+    "tulu_behavior/tokenize.py": "dc20e358b5880d9f59e6a34ba9ed014539bda7ec94e8bd2fa9d9301653a1c96c",
+    "tulu_behavior/verify.py": "ccfb76ec2a53c4ac6a1be69f9c678b323828a021b8473ba933f68ab7989bfc8f"
+  },
+  "publication_code_identity": "cf342684878c455dc5b8743653e1b033f25cfb4483df99a6a60ffb2e765688ab",
+  "rescored_generations": 60480,
+  "saved_scoring_disagreements": 0,
+  "schema_version": 1,
+  "scope": "complete_external_raw_evidence_rescored_and_statistics_recomputed",
+  "source_files_fingerprint": "84c45664088525a790e044d5c378bd86f44bbbc5b0eed3f6664e3870f98de757",
+  "statistics": {
+    "bootstrap": "percentile_stratified_paired_shared_indices",
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95,
+    "multiplicity": "Holm_family_3",
+    "primary": "native/cot/answer_correct/equal_weight_hops",
+    "seed": 20261007
+  },
+  "status": "passed",
+  "verified_utc": "2026-10-09T08:46:21.374471+00:00"
+}

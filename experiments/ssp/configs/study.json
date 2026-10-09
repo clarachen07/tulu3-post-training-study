@@ -1,0 +1,172 @@
+{
+  "study_name": "ssp-tulu-four-stage",
+  "paper": {
+    "ssp": "https://arxiv.org/abs/2604.18464",
+    "stp_code": "https://github.com/galilai-group/llm-jepa"
+  },
+  "paths": {
+    "remote_root": ".",
+    "math_data_root": "local-data/math",
+    "behavior_eval_root": "local-data/limit-of-RLVR",
+    "generation_root": "local-data/shared-chat",
+    "models": {
+      "base": "models/base",
+      "sft": "models/sft",
+      "dpo": "models/dpo",
+      "rlvr": "models/rlvr"
+    }
+  },
+  "data": {
+    "max_length": 2048,
+    "min_steps": 2,
+    "step_token": "<|reserved_special_token_247|>",
+    "step_token_id": 128255,
+    "literal_step_marker": "<|step|>",
+    "trace_sources": [
+      "dpo",
+      "rlvr"
+    ],
+    "trace_seeds": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "training": {
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "micro_batch_size": 1,
+    "gradient_accumulation_steps": 16,
+    "beta": 1.0,
+    "weight_decay": 0.0,
+    "warmup_ratio": 0.0,
+    "max_grad_norm": 1.0,
+    "logging_steps": 10,
+    "save_steps": 100,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "lora_targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "quantization": {
+      "load_in_4bit": true,
+      "bnb_4bit_quant_type": "nf4",
+      "bnb_4bit_use_double_quant": true,
+      "bnb_4bit_compute_dtype": "bfloat16"
+    }
+  },
+  "conditions": {
+    "B1": {
+      "train": false,
+      "ntp": false,
+      "stp": "none",
+      "seed": 42
+    },
+    "B2": {
+      "train": true,
+      "ntp": true,
+      "stp": "none",
+      "seed": 42
+    },
+    "C": {
+      "train": true,
+      "ntp": true,
+      "stp": "random_token",
+      "seed": 42
+    },
+    "A2": {
+      "train": true,
+      "ntp": true,
+      "stp": "random_step",
+      "seed": 42
+    },
+    "A": {
+      "train": true,
+      "ntp": true,
+      "stp": "consecutive_step",
+      "seed": 42
+    },
+    "A1": {
+      "train": true,
+      "ntp": false,
+      "stp": "consecutive_step",
+      "seed": 42
+    },
+    "C-match": {
+      "train": true,
+      "ntp": true,
+      "stp": "random_token_match",
+      "seed": 42
+    },
+    "A2-match": {
+      "train": true,
+      "ntp": true,
+      "stp": "random_step_match",
+      "seed": 42
+    }
+  },
+  "extra_seeds": {
+    "conditions": [
+      "B2",
+      "C",
+      "A2",
+      "A"
+    ],
+    "seeds": [
+      43,
+      44
+    ]
+  },
+  "geometry": {
+    "layers": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32
+    ],
+    "horizons": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "dtype": "bfloat16",
+    "shard_size": 32,
+    "decode_max_points": 200,
+    "literal_sensitivity_max_pairs": 100,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20260729
+  },
+  "mlp": {
+    "hidden_width": 2048,
+    "epochs": 20,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 3,
+    "split_seed": 20260729
+  },
+  "behavior": {
+    "max_tokens": 16000,
+    "max_model_len": 16384,
+    "gpu_memory_utilization": 0.85,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "samples": 4,
+    "seed": 42
+  },
+  "execution": {
+    "tmux_session": "ssp-tulu-runner",
+    "maximum_projected_days": 14,
+    "monitor_every_hours": 2
+  }
+}

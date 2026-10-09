@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-04T15:06:21.289062+00:00",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "source_files": {
+    "gsm8k-train.jsonl": {
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/train.jsonl",
+      "sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    },
+    "gsm8k-test.jsonl": {
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl",
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    "rlvr.parquet": {
+      "url": "https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints/resolve/7dbd180f5440c0b90f2944e6efea934b85437a95/data/train-00000-of-00001.parquet",
+      "sha256": "d4ff1f9c054129bfad71876be125c58c5eb18b4d57e8729c86fcfc126f2df300"
+    }
+  },
+  "source_counts": {
+    "rlvr_total": 29946,
+    "rlvr_gsm8k": 7473,
+    "gsm_train": 7473,
+    "gsm_test": 1319
+  },
+  "formal_counts": {
+    "train": 1024,
+    "test": 1319
+  },
+  "pilot_count": 32,
+  "all_rlvr_records_matched": true,
+  "matching": "whitespace-normalized question and numerical gold; one-to-one",
+  "duplicate_mapping_ambiguities": [],
+  "demonstration_overlap": {
+    "train": [],
+    "test": []
+  },
+  "train_test_question_overlap": [],
+  "prepared_files": {
+    "data/prepared/formal.jsonl": "62bf53d5ff35f66a1b8011709b4a9156b16fa4eb847b279fb4ec2a3e2820bdea",
+    "data/prepared/rlvr_gsm8k_matches.jsonl": "1f562bd0ec0ed16504c6d97d8216efc31818fe1354c983361ebf221fbf03c706",
+    "data/prepared/pilot.jsonl": "ccd8a6b621f8f98b4c1ce1a57bbfb7bdec4bdbc35ffe9fd5e11783ecbbb270a1",
+    "data/prepared/eight_shot_prefix.txt": "fc3498067aafe4de57044cbd5984c70c8ed7548ba4473195cfb173d44ecb6868"
+  },
+  "derivation": "Same target suffixes and panel as baseline; eight demonstration rationales replaced by final numbers; fixed direct-answer instruction prepended",
+  "baseline_data_manifest_sha256": "90b36e2f8e719606272820632a41f03520304f102694dcd21d2db36c90adbbca"
+}

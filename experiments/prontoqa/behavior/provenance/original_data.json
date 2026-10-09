@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "meaning": "Portable source registry; the historical manifest identity is recorded separately.",
+  "historical_manifest_sha256": "1aa68e0a631fee557ae7bf666de51d658495cd88deea4b0d07f3b75536478eae",
+  "files": {
+    "data/items.jsonl": "aeb3adcb45fdb6e7c823ba9feea6901ea2b37fc642db7aad2a9cf9f51675ae80"
+  }
+}

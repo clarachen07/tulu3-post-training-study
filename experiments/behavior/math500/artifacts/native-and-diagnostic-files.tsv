@@ -1,0 +1,7 @@
+path	bytes	sha256
+chat-template-diagnostic/dpo/seed-1/result.jsonl	837903	0529b0af9017f45dae9d9b4e24a1b56de382124e557a3c805e553ffbfecf5818
+chat-template-diagnostic/rlvr/seed-1/result.jsonl	816161	86f4fcbda2e36a98371df6b5127fc84077c19a07493dfe7e88287d2c699dffbe
+native-prompt/base/seed-1/result.jsonl	6871933	acbb970ac676648c573b6efa0a1a9bd6d445e2e555422ba32cebb6de285112c8
+native-prompt/dpo/seed-1/result.jsonl	3280572	76d4248ca0176085ca9f8abe449f02ad7e80bd70ea5f07d7cf1c4c12bfc9e84e
+native-prompt/rlvr/seed-1/result.jsonl	3918061	814ee21cf3d026e26f030f643e646e536ea1f9c6f594cd2f0440656dfbbe934c
+native-prompt/sft/seed-1/result.jsonl	2355603	f8ee8c070e8229c22ab34f2e5e7a44cb08d50e140845062705f927e5079194ac

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "repository": "clarachen07/tulu3-behavior-eval",
+  "migration_date": "2026-10-05",
+  "sources": [
+    {
+      "original_repository": "clarachen07/tulu3-math500-eval",
+      "source_head": "b9111a3b9c8c38220062ee5efcde7b3051d7c305",
+      "destination": "math500",
+      "history": "Full source history retained as ancestors, without squash."
+    },
+    {
+      "original_repository": "clarachen07/llm-post-training-pilot",
+      "source_head": "56485f2cf926616a2d4bf9ca766a4c3ee5634920",
+      "destination": "math500/pilot",
+      "history": "Full source history retained as ancestors, without squash."
+    },
+    {
+      "original_repository": "clarachen07/post-training-syntax-eval",
+      "source_head": "a2394825f8add390672ff927b9d48c38ff42561d",
+      "destination": "syntax",
+      "history": "Full source history retained as ancestors, without squash."
+    }
+  ],
+  "gsm8k": {
+    "destination": "gsm8k",
+    "source": "Two completed local experiment workspaces",
+    "publication_manifest": "gsm8k/PUBLICATION_PROVENANCE.json",
+    "formal_generations": 18744,
+    "pilot_generations": 256
+  },
+  "release": {
+    "tag": "exp1-behavior-eval-v1",
+    "original_source_commit": "b9111a3b9c8c38220062ee5efcde7b3051d7c305",
+    "assets": [
+      {
+        "name": "SHA256SUMS",
+        "sha256": "7995f5e274833fa5a59f06b4f9cd99db13ca9abce6863bcda604cfe99669b5f5",
+        "bytes": 319
+      },
+      {
+        "name": "exp1-complete-logs-and-provenance.tar.zst",
+        "sha256": "618c9bf3259dec058d2b50dbe562fc3db9f1410f8c797d3e3b6115ede44344c5",
+        "bytes": 977534
+      },
+      {
+        "name": "exp1-native-and-template-diagnostic.tar.zst",
+        "sha256": "176089df8442e2dcf88f11cb95775d7a6ad33ec4be43dde6c355bca0ffceda29",
+        "bytes": 1706134
+      },
+      {
+        "name": "exp1-shared-chat-raw-jsonl.tar.zst",
+        "sha256": "09731cc015ab92939e11a66214b155838345defbd8fc666e0b76a51eb5bd00a0",
+        "bytes": 8800426
+      }
+    ],
+    "preservation": "Byte-identical assets; release tag in this repository identifies the consolidated snapshot."
+  },
+  "validation": {
+    "gsm8k": "Independent offline rescore, public/original hash checks, paired statistics and report comparisons passed; original unit tests: 3 + 6 passed.",
+    "math500": "30,000 archived shared-chat generations checked; all seven frozen result checks passed. Scores were aggregated from archived correctness labels; symbolic grading was not rerun.",
+    "syntax": "All 66 published SHA-256 hashes match the source release manifest. CPU suite: 13 passed, 3 data-dependent tests skipped because data is not redistributed.",
+    "git_history": "All three original source heads are main-branch ancestors."
+  },
+  "publication_edits": [
+    "Unified documentation and navigation; release/clone links point to this repository.",
+    "Moved syntax submodule mapping to the repository root; unchanged upstream revision.",
+    "Added existing local Chinese syntax report with repaired links and clarified combined P3 treatment.",
+    "No frozen numeric result files changed. Original operational README files remain historical notes."
+  ]
+}

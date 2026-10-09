@@ -1,0 +1,125 @@
+{
+  "audited_utc": "2026-09-30T15:28:35.549223+00:00",
+  "pipeline_phase": "complete",
+  "weights_verified": true,
+  "frozen_files_verified": true,
+  "test_sentences": 2077,
+  "test_gold_words": 25094,
+  "cells": [
+    {
+      "candidate": "P0",
+      "stage": "base",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "length": 1954,
+        "stop": 123
+      },
+      "output_sha256": "1a020bd26f8e21408e368b421b0fd7376aa9fab25e9d404b49ad322b3b024342"
+    },
+    {
+      "candidate": "P0",
+      "stage": "sft",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "stop": 2074,
+        "length": 3
+      },
+      "output_sha256": "44fd1f29bd0cb02f46f9f267c9b559bf0944b2e6c3b5ab86bd85cf46f32a2483"
+    },
+    {
+      "candidate": "P0",
+      "stage": "dpo",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "stop": 2077
+      },
+      "output_sha256": "184a5bd481ca2264c4d6d45974fab9b2e2ba80fb0bc5824f23da5b90de49d9b5"
+    },
+    {
+      "candidate": "P0",
+      "stage": "final",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "stop": 2077
+      },
+      "output_sha256": "94d621517ba755b11340689705854ae53ff9333090fc9ce5ed157624b5196557"
+    },
+    {
+      "candidate": "P3",
+      "stage": "base",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "length": 2077
+      },
+      "output_sha256": "9aafaabf1e583258def0e3db2f4bbcfe550dc78aa3e85d127f65f5e223013fbb"
+    },
+    {
+      "candidate": "P3",
+      "stage": "sft",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "stop": 2076,
+        "length": 1
+      },
+      "output_sha256": "43ac0eedcfdf671262b9eb38a9bc7371d13ed9857b46ef0ab937c5103b1c09b2"
+    },
+    {
+      "candidate": "P3",
+      "stage": "dpo",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "stop": 2077
+      },
+      "output_sha256": "dcfa7d9d2c6130fe4fff706258b30e9a8521f8fb1d6ce398487e22e3091406b3"
+    },
+    {
+      "candidate": "P3",
+      "stage": "final",
+      "sentences": 2077,
+      "unique_sentences": 2077,
+      "gold_words": 25094,
+      "statuses": {
+        "ok": 2077
+      },
+      "finish_reasons": {
+        "stop": 2077
+      },
+      "output_sha256": "1e43f7a675ea3a2bb5769f672c7843cb93c9efad85048020cebfe6127f032bdd"
+    }
+  ]
+}

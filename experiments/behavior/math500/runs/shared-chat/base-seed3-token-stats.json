@@ -1,0 +1,11 @@
+{
+  "runs/tulu3-full-shared-chat/base/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl": {
+    "count": 2000,
+    "mean": 4018.9985,
+    "median": 885.5,
+    "p90": 8138.1,
+    "p95": 8146.0,
+    "p99": 8198.01,
+    "max": 16000
+  }
+}

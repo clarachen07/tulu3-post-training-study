@@ -1,0 +1,5 @@
+-r requirements-analysis.txt
+torch==2.5.1
+transformers==4.49.0
+accelerate==1.2.1
+safetensors==0.4.5

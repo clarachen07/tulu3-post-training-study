@@ -1,0 +1,14 @@
+{
+  "job_id": "pilot_rlvr_3190923_1791126962139493178",
+  "phase": "pilot",
+  "stage": "rlvr",
+  "started_utc": "2026-10-04T15:16:02.139544+00:00",
+  "requested_count": 32,
+  "completed_count": 32,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "load_seconds": 22.777180302888155,
+  "elapsed_seconds": 26.540049239993095,
+  "ended_utc": "2026-10-04T15:16:28.720379+00:00"
+}

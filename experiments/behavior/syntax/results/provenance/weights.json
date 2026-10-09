@@ -1,0 +1,275 @@
+{
+  "verified": true,
+  "verified_unix": 1790484291.5061538,
+  "models": [
+    {
+      "stage": "base",
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "wrapper": "author",
+      "files": [
+        {
+          "file": "config.json",
+          "sha256": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+          "git_blob": "cccf055d6f8f210387a248c91dc40e0c7a4bafab",
+          "bytes": 826
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "sha256": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+          "bytes": 4976698672
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "sha256": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+          "bytes": 4999802720
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "sha256": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+          "bytes": 4915916176
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "sha256": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+          "bytes": 1168138808
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "git_blob": "0fd8120f1c6acddc268ebc2583058efaf699a771",
+          "bytes": 23950
+        },
+        {
+          "file": "special_tokens_map.json",
+          "sha256": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+          "git_blob": "d8cd5076496dbe4be2320312abc10adc43097b81",
+          "bytes": 73
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+          "git_blob": "f916e71031fa08f3c6ef1680a590c15b52d3cdd9",
+          "bytes": 9085658
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+          "git_blob": "cb9ec25536e44d86778b10509d3e5bdca459a5cf",
+          "bytes": 50500
+        }
+      ],
+      "verified": true
+    },
+    {
+      "stage": "sft",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "wrapper": "native",
+      "files": [
+        {
+          "file": "config.json",
+          "sha256": "20bb3e98dd3e4d2252bb9a914f9a131417869d29dc35781b6bde95f6e4d1cc95",
+          "git_blob": "eb74a0a6e98da0e1ff92e56bf36550083fcf922d",
+          "bytes": 875
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "sha256": "4680646a61179959e510768f54a49001cc80e150690d7968666fd9e9846b7c91",
+          "bytes": 4976764208
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "sha256": "73a1f3f2ed3fe4d59341a70a742f907b53436b4778373baea181a0987a8dc177",
+          "bytes": 4999802720
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "sha256": "b5d2b2699e77346d46969699db44eb09b1838a5f84fc4e42debe4f3157d76783",
+          "bytes": 4915916176
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "sha256": "86f990281604ee9ab5897d7b2423ad50225b76bd041465c70ae4a3ef6b89abfe",
+          "bytes": 1168204344
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "git_blob": "9ca2805c9be294dd3e353c26ad0b802105b9ca55",
+          "bytes": 23950
+        },
+        {
+          "file": "special_tokens_map.json",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "git_blob": "89af31a3c96c39011ffec99c32a770062be9dc7c",
+          "bytes": 439
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "git_blob": "2ac5eaaab65e0493804235e40a9d855340520a12",
+          "bytes": 9085839
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "git_blob": "0c5aa98e634b25ace0dcab50795241dc159b00c5",
+          "bytes": 51220
+        }
+      ],
+      "verified": true
+    },
+    {
+      "stage": "dpo",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "wrapper": "native",
+      "files": [
+        {
+          "file": "config.json",
+          "sha256": "a8bd80e14deac086ca121be258191fad6f1acff43cf1cc9fe8eebf622aaf79d5",
+          "git_blob": "f3652c6edc87e5651c972c64e1e69ef6da7d8d47",
+          "bytes": 850
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "sha256": "85911f744f1dd50b8128227235d057a1aec6c8a1ed28e1458132aa56b719551d",
+          "bytes": 4976764208
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "sha256": "35008429087b8fc07d435a125c28ec7943086ede173af6f31bcb7c9637fbcd2f",
+          "bytes": 4999802720
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "sha256": "a7f29dca815d3dd4313f698fada334a339191d0db068f73ba15026380fd4d00d",
+          "bytes": 4915916176
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "sha256": "439d2a7ebf23264fc1c7364877db7df25308f454f6188d949792a40307b9e5b6",
+          "bytes": 1168204344
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "f16ab28239bb5e3ea718851ab9fd9fd9261f4356314a43b907c98957afc33583",
+          "git_blob": "c57cfc1987e9615a1bfbd805649f85c88ab96e2c",
+          "bytes": 25125
+        },
+        {
+          "file": "special_tokens_map.json",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "git_blob": "89af31a3c96c39011ffec99c32a770062be9dc7c",
+          "bytes": 439
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "git_blob": "2ac5eaaab65e0493804235e40a9d855340520a12",
+          "bytes": 9085839
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "git_blob": "0c5aa98e634b25ace0dcab50795241dc159b00c5",
+          "bytes": 51220
+        }
+      ],
+      "verified": true
+    },
+    {
+      "stage": "final",
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "wrapper": "native",
+      "files": [
+        {
+          "file": "config.json",
+          "sha256": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+          "git_blob": "d37becadec185bfe896c71a8d62c701eca7cf240",
+          "bytes": 851
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "sha256": "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+          "bytes": 4976764208
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "sha256": "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+          "bytes": 4999802720
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "sha256": "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+          "bytes": 4915916176
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "sha256": "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e",
+          "bytes": 1168204344
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "git_blob": "9ca2805c9be294dd3e353c26ad0b802105b9ca55",
+          "bytes": 23950
+        },
+        {
+          "file": "special_tokens_map.json",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "git_blob": "89af31a3c96c39011ffec99c32a770062be9dc7c",
+          "bytes": 439
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "git_blob": "2ac5eaaab65e0493804235e40a9d855340520a12",
+          "bytes": 9085839
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "git_blob": "0c5aa98e634b25ace0dcab50795241dc159b00c5",
+          "bytes": 51220
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "author_commit": "f3757d250efc9880ba77651ec0d8587cfd673477",
+  "author_files": {
+    "third_party/llmpp/.gitignore": "f724ea9053feae0fb62855bbf5a48001361d7fb694a52351c8f07b1e7cc79198",
+    "third_party/llmpp/LICENSE": "52ba51287a689d53f966dde8a20e6aa76b191ec4253391e93a4bdc20989376b0",
+    "third_party/llmpp/README.md": "8490bf8bd642b1b9edd300754158da6d2ee9e53a9cc6caf38aabcf1d87a264d0",
+    "third_party/llmpp/aggregate_eval_json_to_tsv.sh": "8068b054a4986d8bed3e064080cced9e8bcdef7ac4cacfd082ed8fd0ab0c28c0",
+    "third_party/llmpp/config/Llama-2-13b-hf.yaml": "1d40628c0ce50b9bf90faf2a3163ce27388e1d614e7e5f5770bb6c02398d9649",
+    "third_party/llmpp/config/Llama-3.1-8B-Instruct.yaml": "02106cee8393810f9db9bd17f0d81e89ff428986ace16af9a85d65603e63c0ea",
+    "third_party/llmpp/config/Llama-3.1-8B.yaml": "7c0a860c874bde8ed03a293386828478a0d643da495dcc252a381b3efffd4cbd",
+    "third_party/llmpp/config/Qwen2.5-7B-Instruct.yaml": "054fb6f0e6e4ba73c3c7ba208ce5726fad83cdbc8cc6b143517f2ec6afbd4a54",
+    "third_party/llmpp/config/Qwen2.5-7B.yaml": "c5eccccf4ce7bd0f6c2041459182dcce79aa2e446d3b21e68d06aabf0e86c48f",
+    "third_party/llmpp/config/gemma-2-9b-it.yaml": "65c8fe0ec7617c1a9a2867fe065bc56b34419aef5de5e20a23c02c5d6196b11a",
+    "third_party/llmpp/config/gemma-2-9b.yaml": "404cc18d0fcde519aa089fe9ad143252cfd7e5e45cae50b714de04e5532dfd8b",
+    "third_party/llmpp/download_ud.sh": "ed28cccd826399f75b973ecf40018a23779b073e5a87424c1ceffe7049ea2dd5",
+    "third_party/llmpp/infer_and_eval.sh": "ea206b85723f0c3ae42b312ed9651ddbadd436a6bc61a94ac0bfac4bcd43eeab",
+    "third_party/llmpp/llmpp/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "third_party/llmpp/llmpp/aggregate_json_to_tsv.py": "61a80d62a414b5e6d17a4c6a2422b7f7144bbf361c9dd53c3514fc89e62e4540",
+    "third_party/llmpp/llmpp/completion_base.py": "17804c8cf66f6597eaae1b928fcd179ebfe237d4968eec53b41169ed6569802a",
+    "third_party/llmpp/llmpp/completion_openai.py": "608cfbe83cdd103c9c06cb709e3b94e3963d8ce5506a40278dc2df666a99f757",
+    "third_party/llmpp/llmpp/completion_vllm.py": "feb28795f67c517c9da2afaa27028433d552029e13bd2f8618992a588aa9628b",
+    "third_party/llmpp/llmpp/conllu_to_prompt.py": "719aaacf8539a8a10543fb755e501b70f1cc1adf65c52cc4180c5c6d9d6daad2",
+    "third_party/llmpp/llmpp/convert_bracket_to_table.py": "fae7e0cc7289beb43a34d66fffc220de91ff4ff6ad73c7e50fe9ac6565a599be",
+    "third_party/llmpp/llmpp/eval.py": "6a0a9f397385067fefc14426498fb687ddf989e1c584cf749059162e2dd0d9b3",
+    "third_party/llmpp/llmpp/max_token_length.py": "8bcae14fd26a9676741553e9b8680417d4039b50cc70862546073c8f2126470c",
+    "third_party/llmpp/llmpp/sampling.py": "6a5d65288db23fbc509a209d26741b768a6c70bb5a90489b010926ee0c3f3393",
+    "third_party/llmpp/llmpp/sft_base.py": "f83e4946b521c29dbc8cd79123cfcc90ef38d9717998a9ac8c1bbf3cb1f09d0a",
+    "third_party/llmpp/llmpp/sft_trl.py": "7906a10b37509ec3791fc497b862899c7bcee69e29c555ce72b78fafd2433fb0",
+    "third_party/llmpp/llmpp/utils.py": "fdb78a2055bf5884d8d653379c9a0ebe0cac8a30d18be3fe500146bd244bda61",
+    "third_party/llmpp/requirements.txt": "fdc03642ee2074db93fa96dba390004fd41dc104122c9d374f1c3f04b90f7f0c",
+    "third_party/llmpp/templates/en-turn1-step1.toml": "46302a8414c34104ed69ab99a0147be246fc13fbf363ea3d02e4dcfb4c0edaa4",
+    "third_party/llmpp/templates/en-turn1-step2.toml": "fa6de61e605e4fd46a2b7c30eb239b5a5595d9bd96a875c6ee2c7c38271724ef",
+    "third_party/llmpp/templates/en-turn1-step3.toml": "267a39f797e45d374d7f49c5ba4efcc2ba935f05cb297e0e4757d34e59af0fda"
+  }
+}

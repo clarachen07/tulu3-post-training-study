@@ -1,0 +1,136 @@
+{
+  "protocol": "prontoqa-tulu3-behavior-v1",
+  "data": {
+    "source_revision": "066f73fc70bfaa92ed2476fd3c41b4951ad6e63a",
+    "original_items": "../data/items.jsonl",
+    "original_manifest": "provenance/original_data.json",
+    "hops": [
+      1,
+      3,
+      5
+    ],
+    "count_per_hop": 1440,
+    "pilot_per_hop": 16,
+    "ontology": "fictional",
+    "ordering": "preorder",
+    "deduction_rule": "ModusPonens",
+    "proof_width": 2,
+    "few_shot_examples": 0,
+    "repetitions_per_test": 1,
+    "test_hops_diff": 0,
+    "seeds": {
+      "1": 62471901,
+      "5": 62471905
+    },
+    "demo_seed": 62472000,
+    "pilot_seed_base": 62473000,
+    "demonstration_count": 4,
+    "demonstration_hop": 3,
+    "demonstration_labels": [
+      "True",
+      "False",
+      "True",
+      "False"
+    ]
+  },
+  "inference": {
+    "dtype": "bfloat16",
+    "quantization": null,
+    "do_sample": false,
+    "num_beams": 1,
+    "seed": 20261007,
+    "max_context_tokens": 8192,
+    "budget_candidates": {
+      "cot": [
+        512,
+        1024,
+        2048
+      ],
+      "direct": [
+        32,
+        64,
+        128
+      ]
+    },
+    "batch_candidates": [
+      4,
+      2,
+      1
+    ],
+    "write_batch_size": 16,
+    "attention_implementation": "sdpa",
+    "use_cache": true,
+    "allow_tf32": false,
+    "repetition_penalty": 1.0,
+    "stop_strings": [
+      "\nQ:",
+      "\n\nQ:"
+    ]
+  },
+  "statistics": {
+    "bootstrap_replicates": 10000,
+    "seed": 20261007,
+    "confidence_level": 0.95,
+    "primary_template": "native",
+    "primary_condition": "cot",
+    "primary_metric": "answer_correct",
+    "primary_comparisons": [
+      [
+        "base",
+        "sft"
+      ],
+      [
+        "sft",
+        "dpo"
+      ],
+      [
+        "dpo",
+        "rlvr"
+      ]
+    ],
+    "mcnemar": "exact_two_sided",
+    "multiplicity": "Holm",
+    "alpha": 0.05
+  },
+  "execution": {
+    "max_cpu_threads": 4
+  },
+  "models": [
+    {
+      "stage": "base",
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "path": "models/base",
+      "wrapper": "plain"
+    },
+    {
+      "stage": "sft",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "path": "models/sft",
+      "wrapper": "native"
+    },
+    {
+      "stage": "dpo",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "path": "models/dpo",
+      "wrapper": "native"
+    },
+    {
+      "stage": "rlvr",
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "path": "models/rlvr",
+      "wrapper": "native"
+    }
+  ],
+  "expected": {
+    "formal_items": 4320,
+    "pilot_items": 48,
+    "physical_generations_formal": 60480,
+    "physical_generations_pilot_initial": 672,
+    "logical_cells_formal": 48,
+    "physical_cells_formal": 42
+  }
+}

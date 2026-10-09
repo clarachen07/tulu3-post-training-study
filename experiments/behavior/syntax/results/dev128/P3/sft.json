@@ -1,0 +1,2006 @@
+{
+  "stage": "sft",
+  "candidate": "P3",
+  "split": "dev128",
+  "complete": true,
+  "with_punct": {
+    "counts": {
+      "gold": 1492,
+      "task1_aligned": 1270,
+      "task1_valid_upos": 1268,
+      "task1_upos": 1132,
+      "task3_aligned": 1255,
+      "task3_valid_upos": 1253,
+      "task3_upos": 1117,
+      "task3_uas": 586,
+      "task3_valid_deprel": 1223,
+      "task3_las": 414,
+      "task3_las_subtypes": 404,
+      "task2_aligned": 1196,
+      "task2_valid_upos": 1194,
+      "task2_upos": 1064,
+      "task2_uas": 554,
+      "head_consistency_eligible": 1182,
+      "head_consistent": 1171
+    },
+    "metrics": {
+      "task1_upos": 0.7587131367292225,
+      "task2_upos": 0.7131367292225201,
+      "task2_uas": 0.37131367292225204,
+      "task3_upos": 0.7486595174262735,
+      "task3_uas": 0.39276139410187666,
+      "task3_las": 0.2774798927613941,
+      "task3_las_subtypes": 0.2707774798927614,
+      "task1_aligned": 0.8512064343163539,
+      "task2_aligned": 0.8016085790884718,
+      "task3_aligned": 0.8411528150134048,
+      "task1_valid_upos": 0.8498659517426274,
+      "task3_valid_deprel": 0.8197050938337802,
+      "head_consistency": 0.9906937394247038
+    },
+    "diagnostic_counts": {
+      "sentences": 128,
+      "truncated": 0,
+      "task1_table_complete": 27,
+      "task2_table_complete": 24,
+      "task3_table_complete": 18,
+      "head_out_of_range": 0,
+      "self_loop_tokens": 25,
+      "head_table_complete": 18,
+      "roots": 108,
+      "multiple_roots": 19,
+      "zero_roots": 1,
+      "cycle": 54,
+      "valid_tree": 10
+    },
+    "failure_counts": {},
+    "task1_author_extension": {
+      "counts": {
+        "gold": 1492,
+        "content": 1324,
+        "correct": 1179,
+        "accepted": 118
+      },
+      "f1": 0.8373579545454546
+    }
+  },
+  "no_punct": {
+    "counts": {
+      "gold": 1301,
+      "task1_aligned": 1112,
+      "task1_valid_upos": 1110,
+      "task1_upos": 975,
+      "task3_aligned": 1100,
+      "task3_valid_upos": 1098,
+      "task3_upos": 963,
+      "task3_uas": 535,
+      "task3_valid_deprel": 1068,
+      "task3_las": 363,
+      "task3_las_subtypes": 353,
+      "task2_aligned": 1046,
+      "task2_valid_upos": 1044,
+      "task2_upos": 915,
+      "task2_uas": 507,
+      "head_consistency_eligible": 1035,
+      "head_consistent": 1024
+    },
+    "metrics": {
+      "task1_upos": 0.749423520368947,
+      "task2_upos": 0.703305149884704,
+      "task2_uas": 0.38970023059185244,
+      "task3_upos": 0.7401998462720983,
+      "task3_uas": 0.41122213681783243,
+      "task3_las": 0.27901614142966946,
+      "task3_las_subtypes": 0.27132974634896234,
+      "task1_aligned": 0.8547271329746349,
+      "task2_aligned": 0.8039969254419678,
+      "task3_aligned": 0.8455034588777863,
+      "task1_valid_upos": 0.8531898539584934,
+      "task3_valid_deprel": 0.8209069946195234,
+      "head_consistency": 0.9893719806763285
+    },
+    "diagnostic_counts": {
+      "sentences": 128,
+      "truncated": 0,
+      "task1_table_complete": 27,
+      "task2_table_complete": 24,
+      "task3_table_complete": 18,
+      "head_out_of_range": 0,
+      "self_loop_tokens": 25,
+      "head_table_complete": 18,
+      "roots": 108,
+      "multiple_roots": 19,
+      "zero_roots": 1,
+      "cycle": 54,
+      "valid_tree": 10
+    },
+    "failure_counts": {},
+    "task1_author_extension": {
+      "counts": {
+        "gold": 1301,
+        "content": 1155,
+        "correct": 1013,
+        "accepted": 118
+      },
+      "f1": 0.8249185667752443
+    }
+  },
+  "author": {
+    "with_punct": {
+      "digest": "aligned_s=0.1186, aligned_t=0.0491, form_s=0.9153, form_t=0.9074, upos=0.8041, uas=0.4291, las=0.2959",
+      "sentence": {
+        "gold": 128,
+        "content": 108,
+        "aligned": 14,
+        "correct_form": 108,
+        "correct_upos": 59,
+        "correct_head": 31,
+        "correct_head_deprel": 25,
+        "consistent_dependency": 39,
+        "single_root": 78,
+        "no_loop": 44
+      },
+      "token": {
+        "gold": 1492,
+        "content": 1239,
+        "aligned": 67,
+        "correct_form": 1239,
+        "correct_upos": 1098,
+        "correct_head": 586,
+        "correct_head_deprel": 404,
+        "consistent_dependency": 267,
+        "single_root": 850,
+        "no_loop": 339,
+        "recoverd_index": 0,
+        "recovered_form": 187
+      },
+      "confusion_upos": {
+        "PUNCT": {
+          "PUNCT": 154,
+          "null": 34,
+          "SYM": 2,
+          "ADP": 1
+        },
+        "PRON": {
+          "PRON": 115,
+          "null": 24,
+          "DET": 1,
+          "SCONJ": 1
+        },
+        "VERB": {
+          "VERB": 122,
+          "null": 22,
+          "AUX": 5,
+          "NOUN": 2,
+          "ADP": 1,
+          "ADV": 1
+        },
+        "SCONJ": {
+          "ADP": 9,
+          "SCONJ": 6,
+          "null": 5,
+          "CCONJ": 4,
+          "ADV": 1
+        },
+        "DET": {
+          "DET": 80,
+          "null": 24,
+          "PRON": 6,
+          "ADV": 1
+        },
+        "PROPN": {
+          "PROPN": 76,
+          "NOUN": 14,
+          "null": 13,
+          "NUM": 2,
+          "SYM": 2,
+          "": 1
+        },
+        "NOUN": {
+          "NOUN": 191,
+          "null": 49,
+          "PROPN": 8,
+          "ADJ": 5,
+          "ADV": 2,
+          "NUM": 1,
+          "PUNCT": 1,
+          "SYM": 1,
+          "VERB": 1
+        },
+        "ADJ": {
+          "ADJ": 70,
+          "null": 22,
+          "ADV": 7,
+          "PROPN": 4,
+          "NUM": 2,
+          "VERB": 2
+        },
+        "ADP": {
+          "ADP": 105,
+          "null": 20,
+          "ADV": 1
+        },
+        "ADV": {
+          "ADV": 42,
+          "null": 11,
+          "ADJ": 3,
+          "ADP": 3
+        },
+        "AUX": {
+          "AUX": 78,
+          "null": 19,
+          "VERB": 5,
+          "PART": 1,
+          "VBN": 1
+        },
+        "PART": {
+          "ADP": 14,
+          "null": 5,
+          "ADV": 5,
+          "PART": 3,
+          "AUX": 2
+        },
+        "NUM": {
+          "NUM": 14,
+          "SYM": 7,
+          "null": 2,
+          "DET": 1
+        },
+        "CCONJ": {
+          "CCONJ": 35,
+          "null": 3,
+          "ADP": 1,
+          "PRON": 1,
+          "SYM": 1
+        },
+        "INTJ": {
+          "INTJ": 4,
+          "VERB": 3,
+          "ADV": 1
+        },
+        "SYM": {
+          "SYM": 3,
+          "PUNCT": 2
+        },
+        "X": {
+          "SYM": 1
+        }
+      },
+      "confusion_deprel": {
+        "punct": {
+          "punct": 125,
+          "null": 33,
+          "root": 28,
+          "mark": 3,
+          "obl": 1
+        },
+        "nsubj": {
+          "nsubj": 85,
+          "null": 22,
+          "nmod": 4,
+          "root": 2,
+          "cop": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nmod:poss": 1,
+          "nummod": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "root": {
+          "root": 49,
+          "null": 20,
+          "csubj": 9,
+          "advcl": 8,
+          "cop": 8,
+          "nmod": 7,
+          "dobj": 6,
+          "mark": 5,
+          "nsubj": 5,
+          "advmod": 2,
+          "aux": 2,
+          "punct": 2,
+          "acl:relcl": 1,
+          "amod": 1,
+          "ccomp": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "mark": {
+          "mark": 29,
+          "null": 8,
+          "case": 4,
+          "csubj": 1,
+          "root": 1
+        },
+        "det": {
+          "det": 65,
+          "null": 23,
+          "nmod": 9,
+          "nsubj": 9,
+          "nmod:poss": 1
+        },
+        "compound": {
+          "nmod": 35,
+          "null": 13,
+          "amod": 3,
+          "nmod:poss": 3,
+          "nsubj": 2,
+          "root": 2,
+          "case": 1,
+          "punct": 1
+        },
+        "ccomp": {
+          "advcl": 4,
+          "null": 2,
+          "root": 2,
+          "advmod": 1,
+          "case": 1,
+          "nsubj": 1,
+          "punct": 1
+        },
+        "amod": {
+          "amod": 37,
+          "null": 18,
+          "nmod": 12,
+          "advmod": 3,
+          "nsubj": 3,
+          "nmod:poss": 2,
+          "nummod": 2,
+          "advcl": 1,
+          "root": 1
+        },
+        "obj": {
+          "dobj": 17,
+          "obj": 12,
+          "null": 11,
+          "nsubj": 11,
+          "nmod": 7,
+          "iobj": 6,
+          "root": 4,
+          "nmod:poss": 3,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "case": {
+          "case": 79,
+          "null": 19,
+          "mark": 12,
+          "nmod": 6,
+          "advmod": 3,
+          "advcl": 1,
+          "iobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "nmod": {
+          "nmod": 32,
+          "null": 9,
+          "nmod:poss": 6,
+          "nsubj": 2,
+          "dobj": 1,
+          "flat": 1,
+          "nmod:agent": 1,
+          "nummod": 1
+        },
+        "nmod:poss": {
+          "nmod:poss": 13,
+          "null": 6,
+          "dobj": 2
+        },
+        "obl": {
+          "nmod": 22,
+          "null": 10,
+          "iobj": 6,
+          "root": 5,
+          "nsubj": 4,
+          "obl": 3,
+          "dobj": 2,
+          "nmod:poss": 2,
+          "obj": 2,
+          "advmod": 1,
+          "case": 1,
+          "csubj": 1,
+          "mark": 1
+        },
+        "advmod": {
+          "advmod": 25,
+          "root": 11,
+          "null": 10,
+          "mark": 4,
+          "neg": 4,
+          "amod": 2,
+          "aux": 2,
+          "case": 2,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "cop": {
+          "cop": 17,
+          "null": 9,
+          "root": 4,
+          "aux": 3,
+          "case": 1
+        },
+        "advcl": {
+          "null": 5,
+          "root": 5,
+          "advcl": 4,
+          "aux": 2,
+          "cop": 2,
+          "nsubj": 2,
+          "ccomp": 1,
+          "csubj": 1,
+          "nmod": 1,
+          "xcomp": 1
+        },
+        "xcomp": {
+          "null": 4,
+          "advcl": 3,
+          "csubj": 3,
+          "root": 2,
+          "advmod": 1,
+          "amod": 1,
+          "cop": 1,
+          "dobj": 1,
+          "nsubj": 1
+        },
+        "aux": {
+          "aux": 37,
+          "null": 10,
+          "cop": 5,
+          "advcl": 1,
+          "csubj": 1,
+          "root": 1
+        },
+        "obl:unmarked": {
+          "null": 4,
+          "nmod": 1,
+          "nsubj": 1
+        },
+        "acl:relcl": {
+          "root": 6,
+          "null": 2,
+          "cop": 1,
+          "dobj": 1
+        },
+        "nummod": {
+          "nummod": 11,
+          "compound": 1,
+          "nmod": 1
+        },
+        "nsubj:pass": {
+          "nsubj": 8,
+          "expl": 1,
+          "nmod": 1
+        },
+        "aux:pass": {
+          "cop": 10,
+          "aux": 1
+        },
+        "obl:agent": {
+          "null": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "fixed": {
+          "mark": 2
+        },
+        "cc": {
+          "cc": 28,
+          "conj": 5,
+          "null": 3,
+          "advcl": 1,
+          "case": 1,
+          "mark": 1,
+          "punct": 1
+        },
+        "conj": {
+          "nmod": 11,
+          "root": 6,
+          "conj": 5,
+          "null": 3,
+          "advcl": 3,
+          "csubj": 3,
+          "nsubj": 3,
+          "amod": 2,
+          "iobj": 2,
+          "obj": 2,
+          "advmod": 1,
+          "cop": 1,
+          "det": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nummod": 1
+        },
+        "flat": {
+          "nmod:poss": 6,
+          "nmod": 5,
+          "null": 4,
+          "flat:name": 2,
+          "amod": 1,
+          "appos": 1,
+          "compound": 1
+        },
+        "reparandum": {
+          "null": 1,
+          "cop": 1
+        },
+        "cc:preconj": {
+          "nsubj": 1
+        },
+        "acl": {
+          "advcl": 6,
+          "root": 3,
+          "null": 2,
+          "cop": 1
+        },
+        "appos": {
+          "appos": 5,
+          "nmod": 5,
+          "nsubj": 1,
+          "root": 1
+        },
+        "vocative": {
+          "nmod": 1,
+          "root": 1
+        },
+        "discourse": {
+          "root": 5,
+          "discourse": 2,
+          "advcl": 1,
+          "csubj": 1,
+          "det": 1
+        },
+        "iobj": {
+          "nsubj": 2,
+          "iobj": 1,
+          "obj": 1
+        },
+        "nmod:unmarked": {
+          "nmod": 1,
+          "root": 1
+        },
+        "parataxis": {
+          "root": 4,
+          "advcl": 2,
+          "nmod": 2,
+          "nsubj": 1
+        },
+        "expl": {
+          "nsubj": 3
+        },
+        "csubj": {
+          "null": 1,
+          "root": 1
+        },
+        "list": {
+          "nmod": 2,
+          "root": 1
+        },
+        "compound:prt": {
+          "advmod": 1,
+          "case": 1
+        },
+        "advcl:relcl": {
+          "dobj": 1
+        },
+        "dep": {
+          "root": 1
+        }
+      },
+      "adapter_exceptions": [],
+      "metrics": {
+        "UPOS": 0.8041010618820945,
+        "UAS": 0.4291468326620286,
+        "LAS": 0.29586232149395825
+      }
+    },
+    "with_punct_subtypes": {
+      "digest": "aligned_s=0.1186, aligned_t=0.0491, form_s=0.9153, form_t=0.9074, upos=0.8041, uas=0.4291, las=0.2878",
+      "sentence": {
+        "gold": 128,
+        "content": 108,
+        "aligned": 14,
+        "correct_form": 108,
+        "correct_upos": 59,
+        "correct_head": 31,
+        "correct_head_deprel": 25,
+        "consistent_dependency": 39,
+        "single_root": 78,
+        "no_loop": 44
+      },
+      "token": {
+        "gold": 1492,
+        "content": 1239,
+        "aligned": 67,
+        "correct_form": 1239,
+        "correct_upos": 1098,
+        "correct_head": 586,
+        "correct_head_deprel": 393,
+        "consistent_dependency": 267,
+        "single_root": 850,
+        "no_loop": 339,
+        "recoverd_index": 0,
+        "recovered_form": 187
+      },
+      "confusion_upos": {
+        "PUNCT": {
+          "PUNCT": 154,
+          "null": 34,
+          "SYM": 2,
+          "ADP": 1
+        },
+        "PRON": {
+          "PRON": 115,
+          "null": 24,
+          "DET": 1,
+          "SCONJ": 1
+        },
+        "VERB": {
+          "VERB": 122,
+          "null": 22,
+          "AUX": 5,
+          "NOUN": 2,
+          "ADP": 1,
+          "ADV": 1
+        },
+        "SCONJ": {
+          "ADP": 9,
+          "SCONJ": 6,
+          "null": 5,
+          "CCONJ": 4,
+          "ADV": 1
+        },
+        "DET": {
+          "DET": 80,
+          "null": 24,
+          "PRON": 6,
+          "ADV": 1
+        },
+        "PROPN": {
+          "PROPN": 76,
+          "NOUN": 14,
+          "null": 13,
+          "NUM": 2,
+          "SYM": 2,
+          "": 1
+        },
+        "NOUN": {
+          "NOUN": 191,
+          "null": 49,
+          "PROPN": 8,
+          "ADJ": 5,
+          "ADV": 2,
+          "NUM": 1,
+          "PUNCT": 1,
+          "SYM": 1,
+          "VERB": 1
+        },
+        "ADJ": {
+          "ADJ": 70,
+          "null": 22,
+          "ADV": 7,
+          "PROPN": 4,
+          "NUM": 2,
+          "VERB": 2
+        },
+        "ADP": {
+          "ADP": 105,
+          "null": 20,
+          "ADV": 1
+        },
+        "ADV": {
+          "ADV": 42,
+          "null": 11,
+          "ADJ": 3,
+          "ADP": 3
+        },
+        "AUX": {
+          "AUX": 78,
+          "null": 19,
+          "VERB": 5,
+          "PART": 1,
+          "VBN": 1
+        },
+        "PART": {
+          "ADP": 14,
+          "null": 5,
+          "ADV": 5,
+          "PART": 3,
+          "AUX": 2
+        },
+        "NUM": {
+          "NUM": 14,
+          "SYM": 7,
+          "null": 2,
+          "DET": 1
+        },
+        "CCONJ": {
+          "CCONJ": 35,
+          "null": 3,
+          "ADP": 1,
+          "PRON": 1,
+          "SYM": 1
+        },
+        "INTJ": {
+          "INTJ": 4,
+          "VERB": 3,
+          "ADV": 1
+        },
+        "SYM": {
+          "SYM": 3,
+          "PUNCT": 2
+        },
+        "X": {
+          "SYM": 1
+        }
+      },
+      "confusion_deprel": {
+        "punct": {
+          "punct": 125,
+          "null": 33,
+          "root": 28,
+          "mark": 3,
+          "obl": 1
+        },
+        "nsubj": {
+          "nsubj": 85,
+          "null": 22,
+          "nmod": 4,
+          "root": 2,
+          "cop": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nmod:poss": 1,
+          "nummod": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "root": {
+          "root": 49,
+          "null": 20,
+          "csubj": 9,
+          "advcl": 8,
+          "cop": 8,
+          "nmod": 7,
+          "dobj": 6,
+          "mark": 5,
+          "nsubj": 5,
+          "advmod": 2,
+          "aux": 2,
+          "punct": 2,
+          "acl:relcl": 1,
+          "amod": 1,
+          "ccomp": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "mark": {
+          "mark": 29,
+          "null": 8,
+          "case": 4,
+          "csubj": 1,
+          "root": 1
+        },
+        "det": {
+          "det": 65,
+          "null": 23,
+          "nmod": 9,
+          "nsubj": 9,
+          "nmod:poss": 1
+        },
+        "compound": {
+          "nmod": 35,
+          "null": 13,
+          "amod": 3,
+          "nmod:poss": 3,
+          "nsubj": 2,
+          "root": 2,
+          "case": 1,
+          "punct": 1
+        },
+        "ccomp": {
+          "advcl": 4,
+          "null": 2,
+          "root": 2,
+          "advmod": 1,
+          "case": 1,
+          "nsubj": 1,
+          "punct": 1
+        },
+        "amod": {
+          "amod": 37,
+          "null": 18,
+          "nmod": 12,
+          "advmod": 3,
+          "nsubj": 3,
+          "nmod:poss": 2,
+          "nummod": 2,
+          "advcl": 1,
+          "root": 1
+        },
+        "obj": {
+          "dobj": 17,
+          "obj": 12,
+          "null": 11,
+          "nsubj": 11,
+          "nmod": 7,
+          "iobj": 6,
+          "root": 4,
+          "nmod:poss": 3,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "case": {
+          "case": 79,
+          "null": 19,
+          "mark": 12,
+          "nmod": 6,
+          "advmod": 3,
+          "advcl": 1,
+          "iobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "nmod": {
+          "nmod": 32,
+          "null": 9,
+          "nmod:poss": 6,
+          "nsubj": 2,
+          "dobj": 1,
+          "flat": 1,
+          "nmod:agent": 1,
+          "nummod": 1
+        },
+        "nmod:poss": {
+          "nmod:poss": 13,
+          "null": 6,
+          "dobj": 2
+        },
+        "obl": {
+          "nmod": 22,
+          "null": 10,
+          "iobj": 6,
+          "root": 5,
+          "nsubj": 4,
+          "obl": 3,
+          "dobj": 2,
+          "nmod:poss": 2,
+          "obj": 2,
+          "advmod": 1,
+          "case": 1,
+          "csubj": 1,
+          "mark": 1
+        },
+        "advmod": {
+          "advmod": 25,
+          "root": 11,
+          "null": 10,
+          "mark": 4,
+          "neg": 4,
+          "amod": 2,
+          "aux": 2,
+          "case": 2,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "cop": {
+          "cop": 17,
+          "null": 9,
+          "root": 4,
+          "aux": 3,
+          "case": 1
+        },
+        "advcl": {
+          "null": 5,
+          "root": 5,
+          "advcl": 4,
+          "aux": 2,
+          "cop": 2,
+          "nsubj": 2,
+          "ccomp": 1,
+          "csubj": 1,
+          "nmod": 1,
+          "xcomp": 1
+        },
+        "xcomp": {
+          "null": 4,
+          "advcl": 3,
+          "csubj": 3,
+          "root": 2,
+          "advmod": 1,
+          "amod": 1,
+          "cop": 1,
+          "dobj": 1,
+          "nsubj": 1
+        },
+        "aux": {
+          "aux": 37,
+          "null": 10,
+          "cop": 5,
+          "advcl": 1,
+          "csubj": 1,
+          "root": 1
+        },
+        "obl:unmarked": {
+          "null": 4,
+          "nmod": 1,
+          "nsubj": 1
+        },
+        "acl:relcl": {
+          "root": 6,
+          "null": 2,
+          "cop": 1,
+          "dobj": 1
+        },
+        "nummod": {
+          "nummod": 11,
+          "compound": 1,
+          "nmod": 1
+        },
+        "nsubj:pass": {
+          "nsubj": 8,
+          "expl": 1,
+          "nmod": 1
+        },
+        "aux:pass": {
+          "cop": 10,
+          "aux": 1
+        },
+        "obl:agent": {
+          "null": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "fixed": {
+          "mark": 2
+        },
+        "cc": {
+          "cc": 28,
+          "conj": 5,
+          "null": 3,
+          "advcl": 1,
+          "case": 1,
+          "mark": 1,
+          "punct": 1
+        },
+        "conj": {
+          "nmod": 11,
+          "root": 6,
+          "conj": 5,
+          "null": 3,
+          "advcl": 3,
+          "csubj": 3,
+          "nsubj": 3,
+          "amod": 2,
+          "iobj": 2,
+          "obj": 2,
+          "advmod": 1,
+          "cop": 1,
+          "det": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nummod": 1
+        },
+        "flat": {
+          "nmod:poss": 6,
+          "nmod": 5,
+          "null": 4,
+          "flat:name": 2,
+          "amod": 1,
+          "appos": 1,
+          "compound": 1
+        },
+        "reparandum": {
+          "null": 1,
+          "cop": 1
+        },
+        "cc:preconj": {
+          "nsubj": 1
+        },
+        "acl": {
+          "advcl": 6,
+          "root": 3,
+          "null": 2,
+          "cop": 1
+        },
+        "appos": {
+          "appos": 5,
+          "nmod": 5,
+          "nsubj": 1,
+          "root": 1
+        },
+        "vocative": {
+          "nmod": 1,
+          "root": 1
+        },
+        "discourse": {
+          "root": 5,
+          "discourse": 2,
+          "advcl": 1,
+          "csubj": 1,
+          "det": 1
+        },
+        "iobj": {
+          "nsubj": 2,
+          "iobj": 1,
+          "obj": 1
+        },
+        "nmod:unmarked": {
+          "nmod": 1,
+          "root": 1
+        },
+        "parataxis": {
+          "root": 4,
+          "advcl": 2,
+          "nmod": 2,
+          "nsubj": 1
+        },
+        "expl": {
+          "nsubj": 3
+        },
+        "csubj": {
+          "null": 1,
+          "root": 1
+        },
+        "list": {
+          "nmod": 2,
+          "root": 1
+        },
+        "compound:prt": {
+          "advmod": 1,
+          "case": 1
+        },
+        "advcl:relcl": {
+          "dobj": 1
+        },
+        "dep": {
+          "root": 1
+        }
+      },
+      "adapter_exceptions": [],
+      "metrics": {
+        "UPOS": 0.8041010618820945,
+        "UAS": 0.4291468326620286,
+        "LAS": 0.2878066642255584
+      }
+    },
+    "no_punct": {
+      "digest": "aligned_s=0.1106, aligned_t=0.0554, form_s=0.9191, form_t=0.9076, upos=0.7926, uas=0.4484, las=0.2964",
+      "sentence": {
+        "gold": 128,
+        "content": 107,
+        "aligned": 13,
+        "correct_form": 108,
+        "correct_upos": 61,
+        "correct_head": 31,
+        "correct_head_deprel": 25,
+        "consistent_dependency": 38,
+        "single_root": 77,
+        "no_loop": 43
+      },
+      "token": {
+        "gold": 1301,
+        "content": 1081,
+        "aligned": 66,
+        "correct_form": 1081,
+        "correct_upos": 944,
+        "correct_head": 534,
+        "correct_head_deprel": 353,
+        "consistent_dependency": 266,
+        "single_root": 849,
+        "no_loop": 338,
+        "recoverd_index": 0,
+        "recovered_form": 187
+      },
+      "confusion_upos": {
+        "PRON": {
+          "PRON": 115,
+          "null": 24,
+          "DET": 1,
+          "SCONJ": 1
+        },
+        "VERB": {
+          "VERB": 122,
+          "null": 22,
+          "AUX": 5,
+          "NOUN": 2,
+          "ADP": 1,
+          "ADV": 1
+        },
+        "SCONJ": {
+          "ADP": 9,
+          "SCONJ": 6,
+          "null": 5,
+          "CCONJ": 4,
+          "ADV": 1
+        },
+        "DET": {
+          "DET": 80,
+          "null": 24,
+          "PRON": 6,
+          "ADV": 1
+        },
+        "PROPN": {
+          "PROPN": 76,
+          "null": 14,
+          "NOUN": 14,
+          "NUM": 2,
+          "SYM": 2
+        },
+        "NOUN": {
+          "NOUN": 191,
+          "null": 49,
+          "PROPN": 8,
+          "ADJ": 5,
+          "ADV": 2,
+          "NUM": 1,
+          "PUNCT": 1,
+          "SYM": 1,
+          "VERB": 1
+        },
+        "ADJ": {
+          "ADJ": 70,
+          "null": 22,
+          "ADV": 7,
+          "PROPN": 4,
+          "NUM": 2,
+          "VERB": 2
+        },
+        "ADP": {
+          "ADP": 105,
+          "null": 20,
+          "ADV": 1
+        },
+        "ADV": {
+          "ADV": 42,
+          "null": 11,
+          "ADJ": 3,
+          "ADP": 3
+        },
+        "AUX": {
+          "AUX": 78,
+          "null": 19,
+          "VERB": 5,
+          "PART": 1,
+          "VBN": 1
+        },
+        "PART": {
+          "ADP": 14,
+          "null": 5,
+          "ADV": 5,
+          "PART": 3,
+          "AUX": 2
+        },
+        "NUM": {
+          "NUM": 14,
+          "SYM": 7,
+          "null": 2,
+          "DET": 1
+        },
+        "CCONJ": {
+          "CCONJ": 35,
+          "null": 3,
+          "ADP": 1,
+          "PRON": 1,
+          "SYM": 1
+        },
+        "INTJ": {
+          "INTJ": 4,
+          "VERB": 3,
+          "ADV": 1
+        },
+        "SYM": {
+          "SYM": 3,
+          "PUNCT": 2
+        },
+        "X": {
+          "SYM": 1
+        }
+      },
+      "confusion_deprel": {
+        "nsubj": {
+          "nsubj": 85,
+          "null": 22,
+          "nmod": 4,
+          "root": 2,
+          "cop": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nmod:poss": 1,
+          "nummod": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "root": {
+          "root": 48,
+          "null": 20,
+          "csubj": 9,
+          "advcl": 8,
+          "cop": 8,
+          "nmod": 7,
+          "dobj": 6,
+          "mark": 5,
+          "nsubj": 5,
+          "advmod": 2,
+          "aux": 2,
+          "punct": 2,
+          "acl:relcl": 1,
+          "amod": 1,
+          "ccomp": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "mark": {
+          "mark": 29,
+          "null": 8,
+          "case": 4,
+          "csubj": 1,
+          "root": 1
+        },
+        "det": {
+          "det": 65,
+          "null": 23,
+          "nmod": 9,
+          "nsubj": 9,
+          "nmod:poss": 1
+        },
+        "compound": {
+          "nmod": 35,
+          "null": 13,
+          "amod": 3,
+          "nmod:poss": 3,
+          "nsubj": 2,
+          "root": 2,
+          "case": 1,
+          "punct": 1
+        },
+        "ccomp": {
+          "advcl": 4,
+          "null": 2,
+          "root": 2,
+          "advmod": 1,
+          "case": 1,
+          "nsubj": 1,
+          "punct": 1
+        },
+        "amod": {
+          "amod": 37,
+          "null": 18,
+          "nmod": 12,
+          "advmod": 3,
+          "nsubj": 3,
+          "nmod:poss": 2,
+          "nummod": 2,
+          "advcl": 1,
+          "root": 1
+        },
+        "obj": {
+          "dobj": 17,
+          "obj": 12,
+          "null": 11,
+          "nsubj": 11,
+          "nmod": 7,
+          "iobj": 6,
+          "root": 4,
+          "nmod:poss": 3,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "case": {
+          "case": 79,
+          "null": 19,
+          "mark": 12,
+          "nmod": 6,
+          "advmod": 3,
+          "advcl": 1,
+          "iobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "nmod": {
+          "nmod": 32,
+          "null": 9,
+          "nmod:poss": 6,
+          "nsubj": 2,
+          "dobj": 1,
+          "flat": 1,
+          "nmod:agent": 1,
+          "nummod": 1
+        },
+        "nmod:poss": {
+          "nmod:poss": 13,
+          "null": 6,
+          "dobj": 2
+        },
+        "obl": {
+          "nmod": 22,
+          "null": 10,
+          "iobj": 6,
+          "root": 5,
+          "nsubj": 4,
+          "obl": 3,
+          "dobj": 2,
+          "nmod:poss": 2,
+          "obj": 2,
+          "advmod": 1,
+          "case": 1,
+          "csubj": 1,
+          "mark": 1
+        },
+        "advmod": {
+          "advmod": 25,
+          "root": 11,
+          "null": 10,
+          "mark": 4,
+          "neg": 4,
+          "amod": 2,
+          "aux": 2,
+          "case": 2,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "cop": {
+          "cop": 17,
+          "null": 9,
+          "root": 4,
+          "aux": 3,
+          "case": 1
+        },
+        "advcl": {
+          "null": 5,
+          "root": 5,
+          "advcl": 4,
+          "aux": 2,
+          "cop": 2,
+          "nsubj": 2,
+          "ccomp": 1,
+          "csubj": 1,
+          "nmod": 1,
+          "xcomp": 1
+        },
+        "xcomp": {
+          "null": 4,
+          "advcl": 3,
+          "csubj": 3,
+          "root": 2,
+          "advmod": 1,
+          "amod": 1,
+          "cop": 1,
+          "dobj": 1,
+          "nsubj": 1
+        },
+        "aux": {
+          "aux": 37,
+          "null": 10,
+          "cop": 5,
+          "advcl": 1,
+          "csubj": 1,
+          "root": 1
+        },
+        "obl:unmarked": {
+          "null": 4,
+          "nmod": 1,
+          "nsubj": 1
+        },
+        "acl:relcl": {
+          "root": 6,
+          "null": 2,
+          "cop": 1,
+          "dobj": 1
+        },
+        "nummod": {
+          "nummod": 11,
+          "compound": 1,
+          "nmod": 1
+        },
+        "nsubj:pass": {
+          "nsubj": 8,
+          "expl": 1,
+          "nmod": 1
+        },
+        "aux:pass": {
+          "cop": 10,
+          "aux": 1
+        },
+        "obl:agent": {
+          "null": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "fixed": {
+          "mark": 2
+        },
+        "cc": {
+          "cc": 28,
+          "conj": 5,
+          "null": 3,
+          "advcl": 1,
+          "case": 1,
+          "mark": 1,
+          "punct": 1
+        },
+        "conj": {
+          "nmod": 11,
+          "root": 6,
+          "conj": 5,
+          "null": 3,
+          "advcl": 3,
+          "csubj": 3,
+          "nsubj": 3,
+          "amod": 2,
+          "iobj": 2,
+          "obj": 2,
+          "advmod": 1,
+          "cop": 1,
+          "det": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nummod": 1
+        },
+        "flat": {
+          "nmod:poss": 6,
+          "nmod": 5,
+          "null": 4,
+          "flat:name": 2,
+          "amod": 1,
+          "appos": 1,
+          "compound": 1
+        },
+        "reparandum": {
+          "null": 1,
+          "cop": 1
+        },
+        "cc:preconj": {
+          "nsubj": 1
+        },
+        "acl": {
+          "advcl": 6,
+          "root": 3,
+          "null": 2,
+          "cop": 1
+        },
+        "appos": {
+          "appos": 5,
+          "nmod": 5,
+          "nsubj": 1,
+          "root": 1
+        },
+        "vocative": {
+          "nmod": 1,
+          "root": 1
+        },
+        "discourse": {
+          "root": 5,
+          "discourse": 2,
+          "advcl": 1,
+          "csubj": 1,
+          "det": 1
+        },
+        "iobj": {
+          "nsubj": 2,
+          "iobj": 1,
+          "obj": 1
+        },
+        "nmod:unmarked": {
+          "nmod": 1,
+          "root": 1
+        },
+        "parataxis": {
+          "root": 4,
+          "advcl": 2,
+          "nmod": 2,
+          "nsubj": 1
+        },
+        "expl": {
+          "nsubj": 3
+        },
+        "csubj": {
+          "null": 1,
+          "root": 1
+        },
+        "list": {
+          "nmod": 2,
+          "root": 1
+        },
+        "compound:prt": {
+          "advmod": 1,
+          "case": 1
+        },
+        "advcl:relcl": {
+          "dobj": 1
+        },
+        "dep": {
+          "root": 1
+        }
+      },
+      "adapter_exceptions": [
+        {
+          "sent_id": "email-enronsent28_02-0011",
+          "error": "KeyError('upos')"
+        }
+      ],
+      "metrics": {
+        "UPOS": 0.7926112510495382,
+        "UAS": 0.44836272040302266,
+        "LAS": 0.2963895885810244
+      }
+    },
+    "no_punct_subtypes": {
+      "digest": "aligned_s=0.1106, aligned_t=0.0554, form_s=0.9191, form_t=0.9076, upos=0.7926, uas=0.4484, las=0.2872",
+      "sentence": {
+        "gold": 128,
+        "content": 107,
+        "aligned": 13,
+        "correct_form": 108,
+        "correct_upos": 61,
+        "correct_head": 31,
+        "correct_head_deprel": 25,
+        "consistent_dependency": 38,
+        "single_root": 77,
+        "no_loop": 43
+      },
+      "token": {
+        "gold": 1301,
+        "content": 1081,
+        "aligned": 66,
+        "correct_form": 1081,
+        "correct_upos": 944,
+        "correct_head": 534,
+        "correct_head_deprel": 342,
+        "consistent_dependency": 266,
+        "single_root": 849,
+        "no_loop": 338,
+        "recoverd_index": 0,
+        "recovered_form": 187
+      },
+      "confusion_upos": {
+        "PRON": {
+          "PRON": 115,
+          "null": 24,
+          "DET": 1,
+          "SCONJ": 1
+        },
+        "VERB": {
+          "VERB": 122,
+          "null": 22,
+          "AUX": 5,
+          "NOUN": 2,
+          "ADP": 1,
+          "ADV": 1
+        },
+        "SCONJ": {
+          "ADP": 9,
+          "SCONJ": 6,
+          "null": 5,
+          "CCONJ": 4,
+          "ADV": 1
+        },
+        "DET": {
+          "DET": 80,
+          "null": 24,
+          "PRON": 6,
+          "ADV": 1
+        },
+        "PROPN": {
+          "PROPN": 76,
+          "null": 14,
+          "NOUN": 14,
+          "NUM": 2,
+          "SYM": 2
+        },
+        "NOUN": {
+          "NOUN": 191,
+          "null": 49,
+          "PROPN": 8,
+          "ADJ": 5,
+          "ADV": 2,
+          "NUM": 1,
+          "PUNCT": 1,
+          "SYM": 1,
+          "VERB": 1
+        },
+        "ADJ": {
+          "ADJ": 70,
+          "null": 22,
+          "ADV": 7,
+          "PROPN": 4,
+          "NUM": 2,
+          "VERB": 2
+        },
+        "ADP": {
+          "ADP": 105,
+          "null": 20,
+          "ADV": 1
+        },
+        "ADV": {
+          "ADV": 42,
+          "null": 11,
+          "ADJ": 3,
+          "ADP": 3
+        },
+        "AUX": {
+          "AUX": 78,
+          "null": 19,
+          "VERB": 5,
+          "PART": 1,
+          "VBN": 1
+        },
+        "PART": {
+          "ADP": 14,
+          "null": 5,
+          "ADV": 5,
+          "PART": 3,
+          "AUX": 2
+        },
+        "NUM": {
+          "NUM": 14,
+          "SYM": 7,
+          "null": 2,
+          "DET": 1
+        },
+        "CCONJ": {
+          "CCONJ": 35,
+          "null": 3,
+          "ADP": 1,
+          "PRON": 1,
+          "SYM": 1
+        },
+        "INTJ": {
+          "INTJ": 4,
+          "VERB": 3,
+          "ADV": 1
+        },
+        "SYM": {
+          "SYM": 3,
+          "PUNCT": 2
+        },
+        "X": {
+          "SYM": 1
+        }
+      },
+      "confusion_deprel": {
+        "nsubj": {
+          "nsubj": 85,
+          "null": 22,
+          "nmod": 4,
+          "root": 2,
+          "cop": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nmod:poss": 1,
+          "nummod": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "root": {
+          "root": 48,
+          "null": 20,
+          "csubj": 9,
+          "advcl": 8,
+          "cop": 8,
+          "nmod": 7,
+          "dobj": 6,
+          "mark": 5,
+          "nsubj": 5,
+          "advmod": 2,
+          "aux": 2,
+          "punct": 2,
+          "acl:relcl": 1,
+          "amod": 1,
+          "ccomp": 1,
+          "obj": 1,
+          "obl": 1
+        },
+        "mark": {
+          "mark": 29,
+          "null": 8,
+          "case": 4,
+          "csubj": 1,
+          "root": 1
+        },
+        "det": {
+          "det": 65,
+          "null": 23,
+          "nmod": 9,
+          "nsubj": 9,
+          "nmod:poss": 1
+        },
+        "compound": {
+          "nmod": 35,
+          "null": 13,
+          "amod": 3,
+          "nmod:poss": 3,
+          "nsubj": 2,
+          "root": 2,
+          "case": 1,
+          "punct": 1
+        },
+        "ccomp": {
+          "advcl": 4,
+          "null": 2,
+          "root": 2,
+          "advmod": 1,
+          "case": 1,
+          "nsubj": 1,
+          "punct": 1
+        },
+        "amod": {
+          "amod": 37,
+          "null": 18,
+          "nmod": 12,
+          "advmod": 3,
+          "nsubj": 3,
+          "nmod:poss": 2,
+          "nummod": 2,
+          "advcl": 1,
+          "root": 1
+        },
+        "obj": {
+          "dobj": 17,
+          "obj": 12,
+          "null": 11,
+          "nsubj": 11,
+          "nmod": 7,
+          "iobj": 6,
+          "root": 4,
+          "nmod:poss": 3,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "case": {
+          "case": 79,
+          "null": 19,
+          "mark": 12,
+          "nmod": 6,
+          "advmod": 3,
+          "advcl": 1,
+          "iobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "nmod": {
+          "nmod": 32,
+          "null": 9,
+          "nmod:poss": 6,
+          "nsubj": 2,
+          "dobj": 1,
+          "flat": 1,
+          "nmod:agent": 1,
+          "nummod": 1
+        },
+        "nmod:poss": {
+          "nmod:poss": 13,
+          "null": 6,
+          "dobj": 2
+        },
+        "obl": {
+          "nmod": 22,
+          "null": 10,
+          "iobj": 6,
+          "root": 5,
+          "nsubj": 4,
+          "obl": 3,
+          "dobj": 2,
+          "nmod:poss": 2,
+          "obj": 2,
+          "advmod": 1,
+          "case": 1,
+          "csubj": 1,
+          "mark": 1
+        },
+        "advmod": {
+          "advmod": 25,
+          "root": 11,
+          "null": 10,
+          "mark": 4,
+          "neg": 4,
+          "amod": 2,
+          "aux": 2,
+          "case": 2,
+          "nummod": 2,
+          "advcl": 1
+        },
+        "cop": {
+          "cop": 17,
+          "null": 9,
+          "root": 4,
+          "aux": 3,
+          "case": 1
+        },
+        "advcl": {
+          "null": 5,
+          "root": 5,
+          "advcl": 4,
+          "aux": 2,
+          "cop": 2,
+          "nsubj": 2,
+          "ccomp": 1,
+          "csubj": 1,
+          "nmod": 1,
+          "xcomp": 1
+        },
+        "xcomp": {
+          "null": 4,
+          "advcl": 3,
+          "csubj": 3,
+          "root": 2,
+          "advmod": 1,
+          "amod": 1,
+          "cop": 1,
+          "dobj": 1,
+          "nsubj": 1
+        },
+        "aux": {
+          "aux": 37,
+          "null": 10,
+          "cop": 5,
+          "advcl": 1,
+          "csubj": 1,
+          "root": 1
+        },
+        "obl:unmarked": {
+          "null": 4,
+          "nmod": 1,
+          "nsubj": 1
+        },
+        "acl:relcl": {
+          "root": 6,
+          "null": 2,
+          "cop": 1,
+          "dobj": 1
+        },
+        "nummod": {
+          "nummod": 11,
+          "compound": 1,
+          "nmod": 1
+        },
+        "nsubj:pass": {
+          "nsubj": 8,
+          "expl": 1,
+          "nmod": 1
+        },
+        "aux:pass": {
+          "cop": 10,
+          "aux": 1
+        },
+        "obl:agent": {
+          "null": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:poss": 1
+        },
+        "fixed": {
+          "mark": 2
+        },
+        "cc": {
+          "cc": 28,
+          "conj": 5,
+          "null": 3,
+          "advcl": 1,
+          "case": 1,
+          "mark": 1,
+          "punct": 1
+        },
+        "conj": {
+          "nmod": 11,
+          "root": 6,
+          "conj": 5,
+          "null": 3,
+          "advcl": 3,
+          "csubj": 3,
+          "nsubj": 3,
+          "amod": 2,
+          "iobj": 2,
+          "obj": 2,
+          "advmod": 1,
+          "cop": 1,
+          "det": 1,
+          "dobj": 1,
+          "nmod:agent": 1,
+          "nmod:appos": 1,
+          "nummod": 1
+        },
+        "flat": {
+          "nmod:poss": 6,
+          "nmod": 5,
+          "null": 4,
+          "flat:name": 2,
+          "amod": 1,
+          "appos": 1,
+          "compound": 1
+        },
+        "reparandum": {
+          "null": 1,
+          "cop": 1
+        },
+        "cc:preconj": {
+          "nsubj": 1
+        },
+        "acl": {
+          "advcl": 6,
+          "root": 3,
+          "null": 2,
+          "cop": 1
+        },
+        "appos": {
+          "appos": 5,
+          "nmod": 5,
+          "nsubj": 1,
+          "root": 1
+        },
+        "vocative": {
+          "nmod": 1,
+          "root": 1
+        },
+        "discourse": {
+          "root": 5,
+          "discourse": 2,
+          "advcl": 1,
+          "csubj": 1,
+          "det": 1
+        },
+        "iobj": {
+          "nsubj": 2,
+          "iobj": 1,
+          "obj": 1
+        },
+        "nmod:unmarked": {
+          "nmod": 1,
+          "root": 1
+        },
+        "parataxis": {
+          "root": 4,
+          "advcl": 2,
+          "nmod": 2,
+          "nsubj": 1
+        },
+        "expl": {
+          "nsubj": 3
+        },
+        "csubj": {
+          "null": 1,
+          "root": 1
+        },
+        "list": {
+          "nmod": 2,
+          "root": 1
+        },
+        "compound:prt": {
+          "advmod": 1,
+          "case": 1
+        },
+        "advcl:relcl": {
+          "dobj": 1
+        },
+        "dep": {
+          "root": 1
+        }
+      },
+      "adapter_exceptions": [
+        {
+          "sent_id": "email-enronsent28_02-0011",
+          "error": "KeyError('upos')"
+        }
+      ],
+      "metrics": {
+        "UPOS": 0.7926112510495382,
+        "UAS": 0.44836272040302266,
+        "LAS": 0.2871536523929471
+      }
+    },
+    "repair_audit": {
+      "row_count_discard_sentences": 20,
+      "negative_head_repairs": 0,
+      "head_upper_bound_repairs": 10,
+      "root_label_repairs": 44
+    }
+  }
+}

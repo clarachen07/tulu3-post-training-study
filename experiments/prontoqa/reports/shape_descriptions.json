@@ -1,0 +1,54 @@
+{
+  "base": {
+    "status": "ok",
+    "peak_layer": 14,
+    "first_id": 10.498960102762542,
+    "peak_id": 28.321183466646385,
+    "last_id": 19.612290351623646,
+    "peak_minus_first": 17.822223363883843,
+    "peak_minus_last": 8.70889311502274,
+    "interior_peak": true,
+    "strict_rise": false,
+    "strict_fall": false,
+    "description": "The mean curve peaks at layer 14, above both endpoints.Both sides are not strictly monotonic; the interior peak is descriptive."
+  },
+  "sft": {
+    "status": "ok",
+    "peak_layer": 15,
+    "first_id": 16.394220222624295,
+    "peak_id": 28.91632667661083,
+    "last_id": 20.081270582983304,
+    "peak_minus_first": 12.522106453986535,
+    "peak_minus_last": 8.835056093627525,
+    "interior_peak": true,
+    "strict_rise": false,
+    "strict_fall": false,
+    "description": "The mean curve peaks at layer 15, above both endpoints.Both sides are not strictly monotonic; the interior peak is descriptive."
+  },
+  "dpo": {
+    "status": "ok",
+    "peak_layer": 14,
+    "first_id": 16.423576534822676,
+    "peak_id": 29.104765345569223,
+    "last_id": 21.569093206958918,
+    "peak_minus_first": 12.681188810746548,
+    "peak_minus_last": 7.535672138610305,
+    "interior_peak": true,
+    "strict_rise": false,
+    "strict_fall": false,
+    "description": "The mean curve peaks at layer 14, above both endpoints.Both sides are not strictly monotonic; the interior peak is descriptive."
+  },
+  "rlvr": {
+    "status": "ok",
+    "peak_layer": 14,
+    "first_id": 16.48462794462939,
+    "peak_id": 28.9506258374282,
+    "last_id": 21.42337529049832,
+    "peak_minus_first": 12.465997892798807,
+    "peak_minus_last": 7.527250546929878,
+    "interior_peak": true,
+    "strict_rise": false,
+    "strict_fall": false,
+    "description": "The mean curve peaks at layer 14, above both endpoints.Both sides are not strictly monotonic; the interior peak is descriptive."
+  }
+}

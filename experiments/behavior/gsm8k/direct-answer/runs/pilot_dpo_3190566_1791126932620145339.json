@@ -1,0 +1,14 @@
+{
+  "job_id": "pilot_dpo_3190566_1791126932620145339",
+  "phase": "pilot",
+  "stage": "dpo",
+  "started_utc": "2026-10-04T15:15:32.620193+00:00",
+  "requested_count": 32,
+  "completed_count": 32,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "load_seconds": 23.045449763536453,
+  "elapsed_seconds": 27.160898938775063,
+  "ended_utc": "2026-10-04T15:15:59.824250+00:00"
+}

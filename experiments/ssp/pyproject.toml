@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssp-tulu-repro"
+version = "0.1.0"
+description = "Tulu-3-8B Semantic Step Prediction reproduction and four-stage geometry study"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<2",
+  "torch>=2.4",
+  "transformers==4.47.1",
+  "datasets==2.21.0",
+  "peft==0.13.2",
+  "accelerate==1.2.1",
+  "bitsandbytes==0.45.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["ssp_tulu*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

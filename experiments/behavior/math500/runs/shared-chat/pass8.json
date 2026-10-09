@@ -1,0 +1,36 @@
+{
+  "definition": "For each question, concatenate the four seed-1 and four seed-2 samples; pass@8 is one if any of the eight scores is correct.",
+  "base": {
+    "solved_questions": 113,
+    "num_questions": 500,
+    "pass_at_8_percent": 22.6
+  },
+  "sft": {
+    "solved_questions": 323,
+    "num_questions": 500,
+    "pass_at_8_percent": 64.6
+  },
+  "dpo": {
+    "solved_questions": 363,
+    "num_questions": 500,
+    "pass_at_8_percent": 72.6
+  },
+  "rlvr": {
+    "solved_questions": 363,
+    "num_questions": 500,
+    "pass_at_8_percent": 72.6
+  },
+  "dpo_vs_rlvr_paired": {
+    "both": 329,
+    "rlvr_only": 34,
+    "dpo_only": 34,
+    "neither": 103,
+    "rlvr_minus_dpo_percentage_points": 0.0,
+    "paired_bootstrap_95_percent_ci_percentage_points": [
+      -3.2,
+      3.2
+    ],
+    "bootstrap_replicates": 100000,
+    "audit_seed": 20260727
+  }
+}

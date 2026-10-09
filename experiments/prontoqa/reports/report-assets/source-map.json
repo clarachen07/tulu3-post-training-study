@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "report_title": "Llama 3.1 / Tulu3 8B 四阶段模型的逐层表示几何实验报告",
+  "created_utc": "2026-10-08T07:05:57.282587+00:00",
+  "reference_release": "v1.0.0",
+  "reference_repository": "https://github.com/clarachen07/tulu3-prontoqa-representation-geometry",
+  "reference_commit": "f65c2ef2e4d775c7d103a6263396d8ce8222e96f",
+  "parent_protocol_digest": "aa159de1b8f08632c80a91d46bc33d68ab582c53f926bd36e487324ee8081ddb",
+  "original_pca_identity": "53cbc49b7d8c1d97c2d5c81a5e8b411403d046741037ba4ae5d2d0341593f8a9",
+  "inputs": [
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "reports/id_replicates.csv",
+      "package_path": "id_replicates.csv",
+      "sha256": "3cc4defd07c778f17c231fcf6c62623b374c9109a6a9352bc6494e76ad075787",
+      "meaning": "Existing TwoNN statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "reports/id_summary.csv",
+      "package_path": "id_summary.csv",
+      "sha256": "8fe4b978a34fff98ea9d14646b1d380d04bcf4945cf70023f4c5dfcb104bf092",
+      "meaning": "Existing TwoNN statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "reports/curve_summary.csv",
+      "package_path": "curve_summary.csv",
+      "sha256": "26fb55959974fe209965c2f4a93b823fd5354867d2d774fbaf4504dc8e28b1aa",
+      "meaning": "Existing TwoNN statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "reports/scale_checks.csv",
+      "package_path": "scale_checks.csv",
+      "sha256": "af59ce7c99114f75c28f0e3e3cea8bbc6cefe40335dc3ef3478cf4f595defe2e",
+      "meaning": "Existing TwoNN statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "reports/scale_summary.csv",
+      "package_path": "scale_summary.csv",
+      "sha256": "e79ac2971e2e3c0620be34303dbfb223d34524ffe81bcbe47a9dbf631a8b739c",
+      "meaning": "Existing TwoNN statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/full.csv",
+      "package_path": "../pca/reports/full.csv",
+      "sha256": "5bab769daf9e9ef1dc31bdc6a7c08d21e73c32b5d7bf488a74dd51afd7da6e1f",
+      "meaning": "Existing PCA statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/replicates.csv",
+      "package_path": "../pca/reports/replicates.csv",
+      "sha256": "8a7a8c775dfef9874239debcf101297879b3923933069201db8708458232b541",
+      "meaning": "Existing PCA statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/summary.csv",
+      "package_path": "../pca/reports/summary.csv",
+      "sha256": "c2531393a8a20239cd09a4226aaae8384630de2c31baeebc1b73af70d6736ec8",
+      "meaning": "Existing PCA statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/curve_summary.csv",
+      "package_path": "../pca/reports/curve_summary.csv",
+      "sha256": "fe105274edc4de1d02a449904c9e71c677e8117482b925b0a974d1972f2057a7",
+      "meaning": "Existing PCA statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/scale_summary.csv",
+      "package_path": "../pca/reports/scale_summary.csv",
+      "sha256": "9548ca35e7e07c02eb9748809bbe0136c364ff69ef3fc22b7954204381f5869d",
+      "meaning": "Existing PCA statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/comparison_replicates.csv",
+      "package_path": "../pca/reports/comparison_replicates.csv",
+      "sha256": "a709916965ebd37abc0a35f04ae8ffd2ee5a0f4f6b36a02a66a1654fa0ac6f84",
+      "meaning": "Existing PCA statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/comparison_summary.csv",
+      "package_path": "../pca/reports/comparison_summary.csv",
+      "sha256": "ae98503aab29c0d06417343a54fc7ebd25b00e2a2f4c88fd2200958370961f55",
+      "meaning": "Existing PCA statistics; copied byte for byte"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "reports/figures/id_overlay.png",
+      "package_path": "figures/id_overlay.png",
+      "sha256": "9911c41f9ed069ecff4c6ae1b5d04a77a42573629dc416523abdddbeeb797e34",
+      "meaning": "Previously verified English figure; unchanged"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "reports/figures/id_overlay.svg",
+      "package_path": "figures/id_overlay.svg",
+      "sha256": "54c5956cedc9e19c2cd4b3d47b3c3e9dee04b89b43648e7be8dc95cf311b2efb",
+      "meaning": "Previously verified English figure; unchanged"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/correlation_overlay.png",
+      "package_path": "../pca/reports/correlation_overlay.png",
+      "sha256": "58567772a565c77c26284092ca88b79d9849ab8d2594b883be7f0a2ff2d708c0",
+      "meaning": "Previously verified English figure; unchanged"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/correlation_overlay.svg",
+      "package_path": "../pca/reports/correlation_overlay.svg",
+      "sha256": "98eb46d8aa7ea494d4a2e0d57fd23c21496dea690ad7eb9e66f4636f951d4764",
+      "meaning": "Previously verified English figure; unchanged"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/covariance_overlay.png",
+      "package_path": "../pca/reports/covariance_overlay.png",
+      "sha256": "270452b52753250bbe5503faaf14b897429d7026c6714f1083bda8fbcf3566ad",
+      "meaning": "Previously verified English figure; unchanged"
+    },
+    {
+      "source_collection": "original_completed_experiment",
+      "source_relative_path": "pca/reports/covariance_overlay.svg",
+      "package_path": "../pca/reports/covariance_overlay.svg",
+      "sha256": "36a774f3628b4b28185a22c30727a357a8d8205aa4d5c6c72a68641f8a0f729f",
+      "meaning": "Previously verified English figure; unchanged"
+    },
+    {
+      "source_collection": "published_v1.0.0",
+      "source_relative_path": "experiment.json",
+      "package_path": "../experiment.json",
+      "sha256": "8c85af37085d68d270adb58d77394edde5f99e4ed6ea72e06b762e1d5f4c7703",
+      "meaning": "Pinned publication evidence, without personal host paths"
+    },
+    {
+      "source_collection": "published_v1.0.0",
+      "source_relative_path": "pca/config.json",
+      "package_path": "../pca/config.json",
+      "sha256": "c4bf8dd44a2caab14d2e0fcd151696b34fc271d561c3b373d3660e9bd3c93004",
+      "meaning": "Pinned publication evidence, without personal host paths"
+    },
+    {
+      "source_collection": "published_v1.0.0",
+      "source_relative_path": "provenance/models.json",
+      "package_path": "../provenance/models.json",
+      "sha256": "05a87aa6af4510ca3ab490a454412c46820255340cf45581720d8393c61ad67c",
+      "meaning": "Pinned publication evidence, without personal host paths"
+    },
+    {
+      "source_collection": "published_v1.0.0",
+      "source_relative_path": "provenance/tokenization.json",
+      "package_path": "../provenance/tokenization.json",
+      "sha256": "6fbcfdb8f51454e18e2a1ed6d94871819df7453accd30fb47499762652bb65cf",
+      "meaning": "Pinned publication evidence, without personal host paths"
+    },
+    {
+      "source_collection": "published_v1.0.0",
+      "source_relative_path": "provenance/artifacts.json",
+      "package_path": "../provenance/artifacts.json",
+      "sha256": "0d6dc5f94e74a913918f9ae135f1b074cf90bc4f8e63be78bd4f717ac7a74a01",
+      "meaning": "Pinned publication evidence, without personal host paths"
+    },
+    {
+      "source_collection": "published_v1.0.0",
+      "source_relative_path": "provenance/validation.json",
+      "package_path": "../provenance/validation.json",
+      "sha256": "c90826b518c584a1fa17be78f804ed4e59201cefff82b24449a5d384b3db88cf",
+      "meaning": "Pinned publication evidence, without personal host paths"
+    },
+    {
+      "source_collection": "published_v1.0.0",
+      "source_relative_path": "provenance/releases.json",
+      "package_path": "../provenance/releases.json",
+      "sha256": "37a4ed6d961dd36ab2dabd09e28816054fa7e42e889c722bdcbff25b7af45033",
+      "meaning": "Pinned publication evidence, without personal host paths"
+    }
+  ],
+  "verified_report_claims": {
+    "twonn_summary_rows": 128,
+    "twonn_replicates": 2560,
+    "pca_summary_rows": 256,
+    "pca_replicates": 5120,
+    "pca_greater_than_twonn_paired": 5120,
+    "standardized_greater_than_raw_paired": 2560,
+    "preprocessing_stage_order_changed_layers": [
+      1,
+      2,
+      5,
+      10,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      23,
+      28,
+      29,
+      30,
+      32
+    ],
+    "preprocessing_strict_stage_order_reversal_layers": [
+      2,
+      10,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      23,
+      28,
+      29,
+      30,
+      32
+    ],
+    "pca_standardized_minus_raw_layer_mean_range": [
+      4.950000000000003,
+      31.75
+    ],
+    "layer16_pca_growth_720_to_1440_percent_range": [
+      11.442786069651746,
+      19.413919413919412
+    ],
+    "chat_stage_tokenized_inputs_byte_identical": true,
+    "chat_stage_tokenized_input_sha256": "eeeb9b07f0240f00789d61626487353109916e56563bc3728135f66a4e656046",
+    "original_input_token_statistics": {
+      "base": {
+        "lengths": {
+          "min": 61,
+          "max": 159,
+          "mean": 125.29861111111111,
+          "median": 142.0
+        },
+        "last_token_distribution": [
+          {
+            "id": 13,
+            "count": 1440,
+            "token": ".",
+            "decoded": "."
+          }
+        ]
+      },
+      "sft": {
+        "lengths": {
+          "min": 70,
+          "max": 168,
+          "mean": 134.29861111111111,
+          "median": 151.0
+        },
+        "last_token_distribution": [
+          {
+            "id": 397,
+            "count": 1440,
+            "token": ">Ċ",
+            "decoded": ">\n"
+          }
+        ]
+      },
+      "dpo": {
+        "lengths": {
+          "min": 70,
+          "max": 168,
+          "mean": 134.29861111111111,
+          "median": 151.0
+        },
+        "last_token_distribution": [
+          {
+            "id": 397,
+            "count": 1440,
+            "token": ">Ċ",
+            "decoded": ">\n"
+          }
+        ]
+      },
+      "rlvr": {
+        "lengths": {
+          "min": 70,
+          "max": 168,
+          "mean": 134.29861111111111,
+          "median": 151.0
+        },
+        "last_token_distribution": [
+          {
+            "id": 397,
+            "count": 1440,
+            "token": ">Ċ",
+            "decoded": ">\n"
+          }
+        ]
+      }
+    },
+    "dataset_label_counts": {
+      "True": 737,
+      "False": 703
+    },
+    "curve_shape_checks": [
+      {
+        "stage": "base",
+        "metric": "twonn",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "base",
+        "metric": "correlation",
+        "mean_peak_layer": 13,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "base",
+        "metric": "covariance",
+        "mean_peak_layer": 12,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "sft",
+        "metric": "twonn",
+        "mean_peak_layer": 15,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "sft",
+        "metric": "correlation",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "sft",
+        "metric": "covariance",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "dpo",
+        "metric": "twonn",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "dpo",
+        "metric": "correlation",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "dpo",
+        "metric": "covariance",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "rlvr",
+        "metric": "twonn",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "rlvr",
+        "metric": "correlation",
+        "mean_peak_layer": 14,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      },
+      {
+        "stage": "rlvr",
+        "metric": "covariance",
+        "mean_peak_layer": 15,
+        "peak_above_both_endpoints": true,
+        "last_above_first": true,
+        "strict_increase_then_decrease": false
+      }
+    ],
+    "rlvr_covariance_layer14_15_replicates": {
+      "tied": 13,
+      "layer15_higher": 6,
+      "layer14_higher": 1
+    }
+  },
+  "supporting_original_records": [
+    {
+      "source_relative_path": "experiment.json",
+      "sha256": "434d5cf320e101a40603a7d9c72eee3cab3c0ea03adeb2719dfaf6beac3ce859"
+    },
+    {
+      "source_relative_path": "data/items.jsonl",
+      "sha256": "aeb3adcb45fdb6e7c823ba9feea6901ea2b37fc642db7aad2a9cf9f51675ae80"
+    },
+    {
+      "source_relative_path": "manifests/data.json",
+      "sha256": "1aa68e0a631fee557ae7bf666de51d658495cd88deea4b0d07f3b75536478eae"
+    },
+    {
+      "source_relative_path": "manifests/tokenization.json",
+      "sha256": "3fd7813d7a140ec13576cffc40c12758d61eb9dc69053d7c32b9e610b82f498f"
+    },
+    {
+      "source_relative_path": "manifests/frozen_protocol.json",
+      "sha256": "6b2971ef9dc334b2b22ff8726260fb9b6deb827a0a739441b6ddca2d5f780f7d"
+    },
+    {
+      "source_relative_path": "manifests/tests.json",
+      "sha256": "d50538f13d82f854bfe5b07fcd5c1c8e32bbf3778f078292d9c8d07ccb3800bb"
+    },
+    {
+      "source_relative_path": "manifests/final_verification.json",
+      "sha256": "f44fdfd760024afb416c98de8ef0e1d9ea2b8ab0920786cdbbe985774766dc6c"
+    },
+    {
+      "source_relative_path": "manifests/local_delivery_verification.json",
+      "sha256": "48edc7df244aa1e261561758b28948a5e49a5802e1a68609e22bf4f20dc5b334"
+    },
+    {
+      "source_relative_path": "pca/manifests/final_verification.json",
+      "sha256": "4cedffc7f08e9d410cf4369d19ba87bf192a939d4f03efcc6ef66ae17d2bbe42"
+    }
+  ],
+  "transformations": [
+    {
+      "output": "report-assets/data/layer32_stage_comparison.csv",
+      "input": [
+        "id_summary.csv",
+        "../pca/reports/summary.csv"
+      ],
+      "operation": "Filter layer=32; retain stage, metric, mean, population SD; no fitting"
+    },
+    {
+      "output": "report-assets/data/layer32_sample_scale.csv",
+      "input": [
+        "scale_checks.csv",
+        "../pca/reports/scale_summary.csv"
+      ],
+      "operation": "Filter layer=32; retain every stage, k and metric; no fitting"
+    },
+    {
+      "output": "report-assets/data/layer32_scale_changes.csv",
+      "input": [
+        "report-assets/data/layer32_sample_scale.csv"
+      ],
+      "operation": "100 * (mean(k=20) / mean(k=1) - 1)"
+    },
+    {
+      "output": "report-assets/data/layer16_pca_scale_growth.csv",
+      "input": [
+        "../pca/reports/scale_summary.csv"
+      ],
+      "operation": "Filter layer=16; 100 * (mean(k=1) / mean(k=2) - 1)"
+    },
+    {
+      "output": "figures/04_layer32_stage_comparison.{png,svg}",
+      "input": [
+        "report-assets/data/layer32_stage_comparison.csv"
+      ],
+      "operation": "Stage bars with population SD; independent linear y-axes starting at zero"
+    },
+    {
+      "output": "figures/05_layer32_sample_scale.{png,svg}",
+      "input": [
+        "report-assets/data/layer32_sample_scale.csv"
+      ],
+      "operation": "Sample-size lines with population SD shading; log x-axis, independent linear y-axes; no fitted curve"
+    }
+  ],
+  "rounding": {
+    "TwoNN_table_decimal_places": 3,
+    "PCA_table_decimal_places": 2,
+    "scale_relative_changes_decimal_places": 1,
+    "means_and_sds_rounded_separately": true
+  },
+  "original_source_preservation": {
+    "files": 1239,
+    "baseline_file": "private QA record; validated before and after report construction"
+  },
+  "path_base": "Directory containing reports/report.zh-CN.md; paths are relative to that report directory",
+  "relocation": {
+    "kind": "relative link repair for repository layout",
+    "original_delivered_report_sha256": "49cbb8852cc39ff91a7e1517638325c3f6720aaeac54653bcf1ade1b36739541",
+    "current_report_sha256": "11bfa1187f94a0ccd845032e580ba35c84b645e5df44c2b38a8dc2e778f96b0d",
+    "report_body_user_edits_preserved": true,
+    "scientific_data_and_figures_unchanged": true
+  },
+  "paper_reference": {
+    "added_utc": "2026-10-09T04:15:56.596656+00:00",
+    "title": "Intrinsic dimension of data representations in deep neural networks",
+    "authors": [
+      "Alessio Ansuini",
+      "Alessandro Laio",
+      "Jakob H. Macke",
+      "Davide Zoccolan"
+    ],
+    "paper_version": "arXiv:1905.12784v2",
+    "paper_url": "https://arxiv.org/html/1905.12784v2",
+    "author_code_commit": "2c5140009eb3efccca1d774dc66cb043c04b26d8",
+    "method_sources": [
+      "https://github.com/ansuini/IntrinsicDimDeep/blob/2c5140009eb3efccca1d774dc66cb043c04b26d8/scripts/custom/analyze.py",
+      "https://github.com/ansuini/IntrinsicDimDeep/blob/2c5140009eb3efccca1d774dc66cb043c04b26d8/IDNN/intrinsic_dimension.py"
+    ],
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "license_scope": "Original paper figures; does not change the repository code license.",
+    "figures": [
+      {
+        "paper_figure": 2,
+        "source_url": "https://arxiv.org/html/1905.12784v2/vgg16r.png",
+        "package_path": "figures/paper_fig2_vgg16r.png",
+        "sha256": "140ac6b42e287212302f9db0f1aa414bdeb963a42cf4b2787cce99dc2a0e99da",
+        "transformation": "none; downloaded PNG bytes retained",
+        "width": 845,
+        "height": 358
+      },
+      {
+        "paper_figure": 3,
+        "source_url": "https://arxiv.org/html/1905.12784v2/hunchbacks_cb.png",
+        "package_path": "figures/paper_fig3_hunchbacks_cb.png",
+        "sha256": "76175914657b61e0f772aa53f963dd454295198a0f224ac9e9830e2c6ba747ed",
+        "transformation": "none; downloaded PNG bytes retained",
+        "width": 862,
+        "height": 392
+      }
+    ]
+  }
+}

@@ -1,0 +1,4744 @@
+{
+  "identity": "53cbc49b7d8c1d97c2d5c81a5e8b411403d046741037ba4ae5d2d0341593f8a9",
+  "identity_kind": "historical computation; published spectrum bytes are unmodified",
+  "spectra": [
+    {
+      "stage": "base",
+      "layer": 1,
+      "project_relative_path": "pca/spectra/base/layer_01.npz",
+      "sha256": "27ab927996c1cf39811e49afbe156ecb73f8f4fa0379f2a2f074b8b097b3690e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 2,
+      "project_relative_path": "pca/spectra/base/layer_02.npz",
+      "sha256": "ede444c93be67ca3e2ffcf7ed1cc5b799f44e286629fd6b2c3fb8d81daa4d696",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 3,
+      "project_relative_path": "pca/spectra/base/layer_03.npz",
+      "sha256": "41365234fd93b12d31d921bd875a9008e353333281ef196a8de58302ef951965",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 4,
+      "project_relative_path": "pca/spectra/base/layer_04.npz",
+      "sha256": "f677b715b6725e0b1e6730b6fc74b7f99aede6f917c3239489cc747ed8fc9cfa",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 5,
+      "project_relative_path": "pca/spectra/base/layer_05.npz",
+      "sha256": "4fbd5595ad337e2bd99c86776a3db84da04eacef167ae0e30cc5e999d5ceb4ca",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 6,
+      "project_relative_path": "pca/spectra/base/layer_06.npz",
+      "sha256": "17074321b6a931e5d3f457506c89399f6326a11a2e9d569838c6dfb47c634140",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 7,
+      "project_relative_path": "pca/spectra/base/layer_07.npz",
+      "sha256": "ed13be0ee7deda12d8d19ee5eb16ba7e381978332ecad9259e4a4a70854b52c5",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 8,
+      "project_relative_path": "pca/spectra/base/layer_08.npz",
+      "sha256": "71be7dcadbad831459b63aadf93e5d5af02c348dbc093db6357ed69a25e83b73",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 9,
+      "project_relative_path": "pca/spectra/base/layer_09.npz",
+      "sha256": "881b4cb34478a73d04154a37b1cff3be594868387da18e1ada7cc12d862697c9",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 10,
+      "project_relative_path": "pca/spectra/base/layer_10.npz",
+      "sha256": "5288b25ad124185feec5ffe04abe35dbcfb7b307f4bc53ef5699667dd6f81874",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 11,
+      "project_relative_path": "pca/spectra/base/layer_11.npz",
+      "sha256": "ea23fd253850171a8b60b179cee455666bd6c40864df11f12f5b8b057345f973",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 12,
+      "project_relative_path": "pca/spectra/base/layer_12.npz",
+      "sha256": "c4e5fe0ec0f9fcf89f0c6808962f0954fe43e4d93ded390c2f269398f660a4e0",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 13,
+      "project_relative_path": "pca/spectra/base/layer_13.npz",
+      "sha256": "266ee8568283fe7300433ca805bc28ec830170117f938f104ce6097649b0d85e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 14,
+      "project_relative_path": "pca/spectra/base/layer_14.npz",
+      "sha256": "069f4d95fef89dd774eb4752a90226505c95a711691a59950090d793781472e9",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 15,
+      "project_relative_path": "pca/spectra/base/layer_15.npz",
+      "sha256": "7d4f0b15862d5b865408c37fefbb7459c3f91e3097abe6ef4694c4e0cffba618",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 16,
+      "project_relative_path": "pca/spectra/base/layer_16.npz",
+      "sha256": "a280ddf44ddec0597c4eef44c441b013be9b02537f4584affdc41125ca8c9a2e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 17,
+      "project_relative_path": "pca/spectra/base/layer_17.npz",
+      "sha256": "87dca6094762d35a31245d7629e938b258849db7ce8324e1cc8885803f150482",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 18,
+      "project_relative_path": "pca/spectra/base/layer_18.npz",
+      "sha256": "2fe25f7650aaba6724685312ca6fd626e834b73b5e6f066b6b7ed3e888cdbdc0",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 19,
+      "project_relative_path": "pca/spectra/base/layer_19.npz",
+      "sha256": "c29268abd1ec47a5d5295ce0883dcc67dab3ee3bebbbf065b5f9d50aceb30425",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 20,
+      "project_relative_path": "pca/spectra/base/layer_20.npz",
+      "sha256": "0e94c12d6f3113a1bb5f3f715a36a0a7682befd69ea8cdc793139b2ce221db48",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 21,
+      "project_relative_path": "pca/spectra/base/layer_21.npz",
+      "sha256": "f30c05c16e8e52bfe3bbbd480c83e5ef3eb060b9fa1e0cea7893e850f6cf8575",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 22,
+      "project_relative_path": "pca/spectra/base/layer_22.npz",
+      "sha256": "c5d41a2209ed5bcc832a25f8b6c96fb3951385f2ecdc4d90f6cf6e1df608990e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 23,
+      "project_relative_path": "pca/spectra/base/layer_23.npz",
+      "sha256": "9a866966fc6711304d9b221b65cc71371b5a8aa4c2f89681c692f869fd20b543",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 24,
+      "project_relative_path": "pca/spectra/base/layer_24.npz",
+      "sha256": "9ad3c8761692faf8dbcf7cac48f8fa4056ff0225d8d4ab78dc32b0393c1cee12",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 25,
+      "project_relative_path": "pca/spectra/base/layer_25.npz",
+      "sha256": "5df7b0d852676e415ac42fb5214f807db157a9763e7a5c3b6163505ce269223a",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 26,
+      "project_relative_path": "pca/spectra/base/layer_26.npz",
+      "sha256": "6d8c3319fbec598d6e5d2d4efc74a793dc78cdbc094e812d1ce926cfdc6debfa",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 27,
+      "project_relative_path": "pca/spectra/base/layer_27.npz",
+      "sha256": "c9c33afcebe121eb91043be96267d38a7fdccb3d33ac8095480bf81743702a24",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 28,
+      "project_relative_path": "pca/spectra/base/layer_28.npz",
+      "sha256": "c9bf1fe5201d46569ebd9b27a2577c0154c245d65db5cbbf20c68f112aa1441e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 29,
+      "project_relative_path": "pca/spectra/base/layer_29.npz",
+      "sha256": "d284808fbbbe9f424dd8250877b1d5fd88e8155d1f8d9c6e2c1ab4fa4c3982ee",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 30,
+      "project_relative_path": "pca/spectra/base/layer_30.npz",
+      "sha256": "97e2e12759cf16dbc662c0316d1295b9961304b91e6e23dd9568f783a03a80ff",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 31,
+      "project_relative_path": "pca/spectra/base/layer_31.npz",
+      "sha256": "04fb5758b132217cb1746a1df99348585b578bdc8cb88b6a7c7baebe6625d302",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "base",
+      "layer": 32,
+      "project_relative_path": "pca/spectra/base/layer_32.npz",
+      "sha256": "a43127b708e3a8e767d653edf21940b077cc6c748660e9cba396457a25718c9b",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 1,
+      "project_relative_path": "pca/spectra/sft/layer_01.npz",
+      "sha256": "f118bd3d7ee38ecc5ea9e63608d2c0d9f17f64e3f736d04d14fe4aa20bd1885a",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 2,
+      "project_relative_path": "pca/spectra/sft/layer_02.npz",
+      "sha256": "0a2caaa9e4de7929eff2cab8676df933c8fe7af93d052ecc8ad0929df028b38a",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 3,
+      "project_relative_path": "pca/spectra/sft/layer_03.npz",
+      "sha256": "e2bb56bc461b3dfeeba84d4940bab6723b356007eb194e0c0ed9fac4aff4b40a",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 4,
+      "project_relative_path": "pca/spectra/sft/layer_04.npz",
+      "sha256": "e9ed63205d946fd424a27b22d7531a637c90f4741be712580e529f8e35134c73",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 5,
+      "project_relative_path": "pca/spectra/sft/layer_05.npz",
+      "sha256": "57937bf6a366803caccd5456dcfd467f1242ae16a5e879c5059733066c484080",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 6,
+      "project_relative_path": "pca/spectra/sft/layer_06.npz",
+      "sha256": "74efafda5935c8f81c8d076bc7da42ed5579c6130080b397a29058c28d7ba048",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 7,
+      "project_relative_path": "pca/spectra/sft/layer_07.npz",
+      "sha256": "f3e230976acd69d674d24515065db0f8b3cc3b41be8d3e48f784ab4edd60d549",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 8,
+      "project_relative_path": "pca/spectra/sft/layer_08.npz",
+      "sha256": "dc338ee50fbcf7b0c3928aae75f8284d39580e1f45a29978d2d5880a6c0db0a3",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 9,
+      "project_relative_path": "pca/spectra/sft/layer_09.npz",
+      "sha256": "bd1b0ef2f78650efda85f51b8c5f70e65f199334c08867af7e20084cb3aa369c",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 10,
+      "project_relative_path": "pca/spectra/sft/layer_10.npz",
+      "sha256": "2ab6950e4e57f8cb5f7a4f7bc2ee15de160e08a6a4a257b7318cfb1f7b78e026",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 11,
+      "project_relative_path": "pca/spectra/sft/layer_11.npz",
+      "sha256": "4eb6f88642b969c0a2988e7639cc8d0ebe2b2358539ffc3e056deaeff2f08c5b",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 12,
+      "project_relative_path": "pca/spectra/sft/layer_12.npz",
+      "sha256": "4867183734350ff76776f3923888d446a6bfee615fab05f9702e5c33408f0ed5",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 13,
+      "project_relative_path": "pca/spectra/sft/layer_13.npz",
+      "sha256": "5837ac145fb58a0b4b46aa53c73273404ee3ea228b2d27cfadb46e276bcc9080",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 14,
+      "project_relative_path": "pca/spectra/sft/layer_14.npz",
+      "sha256": "95b7b2653dccde4bb8a24dee12650fa1d400037288ce74cbe8180d1fa9946bca",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 15,
+      "project_relative_path": "pca/spectra/sft/layer_15.npz",
+      "sha256": "3f1be68a11d14a5f1b4c1d2a708d50823728943e5692876167abbaa1e68a5e9b",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 16,
+      "project_relative_path": "pca/spectra/sft/layer_16.npz",
+      "sha256": "d017e65bbda9a99ec20ecb0cd54851c3698f04bb3c09c2329fa3393c1d05f2ff",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 17,
+      "project_relative_path": "pca/spectra/sft/layer_17.npz",
+      "sha256": "f23e580989743f08c62341e84e7e4c5ae7a867cabd8785157a225a7cc551f220",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 18,
+      "project_relative_path": "pca/spectra/sft/layer_18.npz",
+      "sha256": "5ca7952e47dc78ce3cc3d75f07bcba37e4fea5d1cc82fdacb530e832d4801951",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 19,
+      "project_relative_path": "pca/spectra/sft/layer_19.npz",
+      "sha256": "1807aef8f7bf11ae6175f2f1efce23c601ace7d5c369e6aa80d51fef2f8b1974",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 20,
+      "project_relative_path": "pca/spectra/sft/layer_20.npz",
+      "sha256": "e411a369ac5b84e1d8d55f39617781099f8f47eaf2dcc3902868b662c9b839cf",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 21,
+      "project_relative_path": "pca/spectra/sft/layer_21.npz",
+      "sha256": "89ea66df0aee057ae11427d6c7d841d7ecc10478802ff93765b59b415ab648e6",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 22,
+      "project_relative_path": "pca/spectra/sft/layer_22.npz",
+      "sha256": "5e5b3f4d12ff68c9bc3731a8e6e61857f98eb5d4f5f66202428b0d85233f1206",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 23,
+      "project_relative_path": "pca/spectra/sft/layer_23.npz",
+      "sha256": "e4427158e42a35d46ea4b31bf78b9416d79d02feaa2c7a0c8f6b840585c7016c",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 24,
+      "project_relative_path": "pca/spectra/sft/layer_24.npz",
+      "sha256": "f53b1c1efd03f479fb4a841553a36b9d81c871560887305463261539d430e1e7",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 25,
+      "project_relative_path": "pca/spectra/sft/layer_25.npz",
+      "sha256": "d75bf07defa25d6f7ec1cb25bbb0116ee2ea6ff1779a276549d51d6f44b4a971",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 26,
+      "project_relative_path": "pca/spectra/sft/layer_26.npz",
+      "sha256": "80f8646655c6e343c903cbbb035173b55a7a3818bcf41de2e6e8177a253e808f",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 27,
+      "project_relative_path": "pca/spectra/sft/layer_27.npz",
+      "sha256": "195eab1245183c4587b6f20b0918e06f0edd27b91716b40463bcf7ba03d35617",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 28,
+      "project_relative_path": "pca/spectra/sft/layer_28.npz",
+      "sha256": "a8d16252a36eabb5ba59956a5a3fe1355739d75e6b964a30c15f16992ae8470d",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 29,
+      "project_relative_path": "pca/spectra/sft/layer_29.npz",
+      "sha256": "c54d455dea948008e4766bd7f60fe0c9a756b21d57bbaff02b2de06cb185ac49",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 30,
+      "project_relative_path": "pca/spectra/sft/layer_30.npz",
+      "sha256": "7935aea33db1dd9db564357164cacf54161e5bfed2567318f59c2a7671d33adf",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 31,
+      "project_relative_path": "pca/spectra/sft/layer_31.npz",
+      "sha256": "580627fbb10d9134cc8422de3823cdd1055ce00f916f370fdf0ff1c9be907870",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "sft",
+      "layer": 32,
+      "project_relative_path": "pca/spectra/sft/layer_32.npz",
+      "sha256": "40c12a02aaf56dedb96cc7b9d8a8c519cf43f5e34d21ba900759c855a317eb55",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 1,
+      "project_relative_path": "pca/spectra/dpo/layer_01.npz",
+      "sha256": "b61e21628c7fae2178d90680c1d9c411222965f19ddb39190af2151162696695",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 2,
+      "project_relative_path": "pca/spectra/dpo/layer_02.npz",
+      "sha256": "9919c0e1707c53509226a3b70a4c4f64e6debcb9a466589555d712d910bd9ab4",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 3,
+      "project_relative_path": "pca/spectra/dpo/layer_03.npz",
+      "sha256": "eeed8471f29b5d0a9d642bbb0bee889b56624479d31a055585f0da04ad67d329",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 4,
+      "project_relative_path": "pca/spectra/dpo/layer_04.npz",
+      "sha256": "4fa5a0875af77c5e2a318072545d67885e416868203975ba593a475cde3f686b",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 5,
+      "project_relative_path": "pca/spectra/dpo/layer_05.npz",
+      "sha256": "f6491f722602c501ea74728fce241f2481b7d61d0d3ecaaff49d84f4f0e5f1da",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 6,
+      "project_relative_path": "pca/spectra/dpo/layer_06.npz",
+      "sha256": "6d90f22e9266564f95e1f8a17be6721c4cffac461d1d6edba944552bef6e5580",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 7,
+      "project_relative_path": "pca/spectra/dpo/layer_07.npz",
+      "sha256": "b3e81b891d58a8726ec1338cd0c8efa11811b030488cd9e67a8894df2f34b2f2",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 8,
+      "project_relative_path": "pca/spectra/dpo/layer_08.npz",
+      "sha256": "9876856856d55be9995217823ce14e3c32f64b2944721c68edf6228c2e361225",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 9,
+      "project_relative_path": "pca/spectra/dpo/layer_09.npz",
+      "sha256": "5b3ba52b0cf89fd6ce26a98c6d4b6c2bb1dbf9cab7a9f820ca99c50f9688fad7",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 10,
+      "project_relative_path": "pca/spectra/dpo/layer_10.npz",
+      "sha256": "7edd6b379b5774b16ae44097f6d21b2f592cf4657cf83e6eb46e356c80d1bcaa",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 11,
+      "project_relative_path": "pca/spectra/dpo/layer_11.npz",
+      "sha256": "df590ba53777d89a661fd2ad2941168b5e930a5414ce61e0de40ff07ebfdf525",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 12,
+      "project_relative_path": "pca/spectra/dpo/layer_12.npz",
+      "sha256": "1871776add0f70278988bc6b57de51bdc97f14470e8efb03c2de26aa9ea9fec7",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 13,
+      "project_relative_path": "pca/spectra/dpo/layer_13.npz",
+      "sha256": "78fd4c634e93f3ff3645f15bc29560aac9002235336072c8c5a7a527eecec69f",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 14,
+      "project_relative_path": "pca/spectra/dpo/layer_14.npz",
+      "sha256": "3fd0e90635e74996aaff501cb31962b6d44576fd5a357e0dc999e6d6b655b80e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 15,
+      "project_relative_path": "pca/spectra/dpo/layer_15.npz",
+      "sha256": "e387dd6cc01c98e10e746dfd5aa8be5618c01b00baa59e149deba73976f09c78",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 16,
+      "project_relative_path": "pca/spectra/dpo/layer_16.npz",
+      "sha256": "ac2d944e7104d9bb4e6404d771963fd8d50fa3bb5dcbd3cc4ca2ac5684e65d97",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 17,
+      "project_relative_path": "pca/spectra/dpo/layer_17.npz",
+      "sha256": "1f77e8c7025d8488f1867a10044aa0fb392a98e7d6333c31475eeab055022d3a",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 18,
+      "project_relative_path": "pca/spectra/dpo/layer_18.npz",
+      "sha256": "c94bcd3588a34ba055d9e8d3eff41abf96de8473bf682899f5dcbf6169dfd514",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 19,
+      "project_relative_path": "pca/spectra/dpo/layer_19.npz",
+      "sha256": "4bd4203f452903b9945ee4a73b89583a8ce08b454a658ee16de7c607f1c76d97",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 20,
+      "project_relative_path": "pca/spectra/dpo/layer_20.npz",
+      "sha256": "d7ef32fd90c6a41ca76149f70a664e22af1b758be350f9dbf9eb6fbcda476fdb",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 21,
+      "project_relative_path": "pca/spectra/dpo/layer_21.npz",
+      "sha256": "f9c1051d13c6d62ea8a58473e5c5efd1cc74e2da056414f5823c63debd26b47c",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 22,
+      "project_relative_path": "pca/spectra/dpo/layer_22.npz",
+      "sha256": "4101bed6ff299f90439d0955ef565bfbc306fadd2e384faa2547f25b26d971d0",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 23,
+      "project_relative_path": "pca/spectra/dpo/layer_23.npz",
+      "sha256": "4d6e1e03f82e80cfd9dcfdbb1188df2959c599e2f957685b5852d4d6e8fb9b83",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 24,
+      "project_relative_path": "pca/spectra/dpo/layer_24.npz",
+      "sha256": "8d569980281a15954fdaed2e915cf87dbde7650b9064168c033390d358f2177e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 25,
+      "project_relative_path": "pca/spectra/dpo/layer_25.npz",
+      "sha256": "f1601ac3addc36b5429ba233cfbcf3c5d93d5819454e01b432f57412a9cf3f64",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 26,
+      "project_relative_path": "pca/spectra/dpo/layer_26.npz",
+      "sha256": "dda4d690ce1dbf5d073480e8f7fabfcc2dcd8926392af4476b097eb77d7fd6f0",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 27,
+      "project_relative_path": "pca/spectra/dpo/layer_27.npz",
+      "sha256": "a4b2067a19c04eeee46f3aff8fcd81454cbe699312218281795eaa6fa9d803a1",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 28,
+      "project_relative_path": "pca/spectra/dpo/layer_28.npz",
+      "sha256": "a89df06904ac69ed227141822492241e29812e302d701c4e85af71fbcaea80d5",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 29,
+      "project_relative_path": "pca/spectra/dpo/layer_29.npz",
+      "sha256": "ba77c28f1f08db30f0ad0bd9ffd4d0f40e35cae7410158f5ac677cc8d7020874",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 30,
+      "project_relative_path": "pca/spectra/dpo/layer_30.npz",
+      "sha256": "555e720062f91fdc71bda45a719cead5db70db6994b2ed63939b75ebd1675148",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 31,
+      "project_relative_path": "pca/spectra/dpo/layer_31.npz",
+      "sha256": "6d12122cc3a4172fa8fc33d25e4cb22748407e72903dec92eb39e0b3a4158524",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "dpo",
+      "layer": 32,
+      "project_relative_path": "pca/spectra/dpo/layer_32.npz",
+      "sha256": "e5d04d5c03adeda144b7135d14d8feefd1a652d82a41bfbf46a3eda8029daeb9",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 1,
+      "project_relative_path": "pca/spectra/rlvr/layer_01.npz",
+      "sha256": "ac2accb9bc8c235fe2183c816829b1aff74a6e355698e48f7c09cb1eef2a8924",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 2,
+      "project_relative_path": "pca/spectra/rlvr/layer_02.npz",
+      "sha256": "6567b92a3b70838a82e0b848e4fa1b93d72401afe53efebc2c2e7a1deb8479ac",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 3,
+      "project_relative_path": "pca/spectra/rlvr/layer_03.npz",
+      "sha256": "ea711ef3656e336ad59b81180f6365f30506de08706903b4c649c1e651a107a7",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 4,
+      "project_relative_path": "pca/spectra/rlvr/layer_04.npz",
+      "sha256": "de31900e094b3a89edbf26ab0e1fc18aad6ad237b6726609bd89d61f5f691530",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 5,
+      "project_relative_path": "pca/spectra/rlvr/layer_05.npz",
+      "sha256": "cdfaaa44954a6917b2c80a7387bda0460a195ceff46cce763b456d92fc31e2c8",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 6,
+      "project_relative_path": "pca/spectra/rlvr/layer_06.npz",
+      "sha256": "bd36e50b020d0d50e1e2f9f00b4bdef700fc7002d6a9b6ff1947cddddd591e8d",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 7,
+      "project_relative_path": "pca/spectra/rlvr/layer_07.npz",
+      "sha256": "08e5f926dd4b02971e87fb77f8f5aee4027dbb35a95709f78095a22ab72c3782",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 8,
+      "project_relative_path": "pca/spectra/rlvr/layer_08.npz",
+      "sha256": "57418ce5bf5587497fc04aa4eb54b6856d7351f27fd70d2b021e90622dec208c",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 9,
+      "project_relative_path": "pca/spectra/rlvr/layer_09.npz",
+      "sha256": "9b53d358acccc2065662b0e6a6a27971434112dd4a674e83714d366399521907",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 10,
+      "project_relative_path": "pca/spectra/rlvr/layer_10.npz",
+      "sha256": "2c147031e74dbdd7a4e7fcf4fdfa62e1625638ca1dd80942d2b70996b9588edd",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 11,
+      "project_relative_path": "pca/spectra/rlvr/layer_11.npz",
+      "sha256": "25947f6caeca778b3a67a38e3c6dd1cd95e8189c6041b13eb0b22f8d31ec6391",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 12,
+      "project_relative_path": "pca/spectra/rlvr/layer_12.npz",
+      "sha256": "9e32afc394220a6bab70bfe6fe780d55d617848c7e1dd52c67d058c24c946e29",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 13,
+      "project_relative_path": "pca/spectra/rlvr/layer_13.npz",
+      "sha256": "bff0ce4831adf54308f7283dff1ac5c61cbaef7d6d6e0da9f1672ef6daf081eb",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 14,
+      "project_relative_path": "pca/spectra/rlvr/layer_14.npz",
+      "sha256": "1d42e80ec79c2dc401f2a12a71254dc2764f9993ed513d03cb493efb96dfc684",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 15,
+      "project_relative_path": "pca/spectra/rlvr/layer_15.npz",
+      "sha256": "d96c8c68a91d26c2458a98f601a0ae17b0d134542a23763e7d7667ea0e186445",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 16,
+      "project_relative_path": "pca/spectra/rlvr/layer_16.npz",
+      "sha256": "6c90a08ed42061f7f4ed963cefffd3fe2ed6cc1833bb75a9b38dbae515a7caa7",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 17,
+      "project_relative_path": "pca/spectra/rlvr/layer_17.npz",
+      "sha256": "c1d945b58bae25c4c8f809570bf65768b7fa670c8d2a352b357590470bd9fb0e",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 18,
+      "project_relative_path": "pca/spectra/rlvr/layer_18.npz",
+      "sha256": "1210ce6f21b6c7b6ea70dbeebe5549f9741c36f184a46c01323384c2c2670097",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 19,
+      "project_relative_path": "pca/spectra/rlvr/layer_19.npz",
+      "sha256": "ef0a378f240e4d96958a4faf0ae412271da520dcce8bfae3a87acfd54becb57b",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 20,
+      "project_relative_path": "pca/spectra/rlvr/layer_20.npz",
+      "sha256": "b497caf1ca5a7c7f5dfab271571143de47898d9571c1abe4d87007f22365ba5f",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 21,
+      "project_relative_path": "pca/spectra/rlvr/layer_21.npz",
+      "sha256": "85a5eed7280970cf26032880dbd316846802232e1db54b86edbdbd54d2dddb6b",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 22,
+      "project_relative_path": "pca/spectra/rlvr/layer_22.npz",
+      "sha256": "a3109cec0a27ab66171c42baeb779bcf1cbb805fdb5b611720de4edc0593b2aa",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 23,
+      "project_relative_path": "pca/spectra/rlvr/layer_23.npz",
+      "sha256": "adf30097a978ff7e998654b9f9981cf29f482504f13e28a3101ae5ee04289ba8",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 24,
+      "project_relative_path": "pca/spectra/rlvr/layer_24.npz",
+      "sha256": "d05f4955acbc4c148015f4acc3ff1f4295de41e1a3e6744d33d3698df468c4fb",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 25,
+      "project_relative_path": "pca/spectra/rlvr/layer_25.npz",
+      "sha256": "a04f5097e279de5d91dd6b397b861e8800443087dd69f58370b5b5f4707f80f1",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 26,
+      "project_relative_path": "pca/spectra/rlvr/layer_26.npz",
+      "sha256": "e40ef36df719506fa52ab420362def818dea94f215a8d2c991a084e9d3be9505",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 27,
+      "project_relative_path": "pca/spectra/rlvr/layer_27.npz",
+      "sha256": "b32f8a37865a0974957710fc5cea6a2846ce71edf2880f7f6e953ef62cd5cf7d",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 28,
+      "project_relative_path": "pca/spectra/rlvr/layer_28.npz",
+      "sha256": "ea6d4b62199dd12b09f991784b8997cb8d98eb92cd2c54978949fb49480551c6",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 29,
+      "project_relative_path": "pca/spectra/rlvr/layer_29.npz",
+      "sha256": "35da8752fa5265c412d54092bce1a7f8e488783eee71058f342355c4b5655145",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 30,
+      "project_relative_path": "pca/spectra/rlvr/layer_30.npz",
+      "sha256": "47d650b68233fb0c6f6a41b31805478279799dba4660e078f05093c233a78971",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 31,
+      "project_relative_path": "pca/spectra/rlvr/layer_31.npz",
+      "sha256": "74c01b9f3d2727c491d83b01937443c6605cf8b50e4f5be82e58b37b837dfdbd",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    },
+    {
+      "stage": "rlvr",
+      "layer": 32,
+      "project_relative_path": "pca/spectra/rlvr/layer_32.npz",
+      "sha256": "52fc1a5f7e200d61899cc1fbc4f803caac756a85256de172bc420ee444ccc0c3",
+      "array_shapes": {
+        "correlation_full_eigenvalues": [
+          4096
+        ],
+        "correlation_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "correlation_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "correlation_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "correlation_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "correlation_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "correlation_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "correlation_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "correlation_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "correlation_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "correlation_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "correlation_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "correlation_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "correlation_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "correlation_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "correlation_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "correlation_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "correlation_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "correlation_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "correlation_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "correlation_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "correlation_scale_k20_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_full_eigenvalues": [
+          4096
+        ],
+        "covariance_replicate_eigenvalues": [
+          20,
+          4096
+        ],
+        "covariance_scale_k01_eigenvalues": [
+          1,
+          4096
+        ],
+        "covariance_scale_k02_eigenvalues": [
+          2,
+          4096
+        ],
+        "covariance_scale_k03_eigenvalues": [
+          3,
+          4096
+        ],
+        "covariance_scale_k04_eigenvalues": [
+          4,
+          4096
+        ],
+        "covariance_scale_k05_eigenvalues": [
+          5,
+          4096
+        ],
+        "covariance_scale_k06_eigenvalues": [
+          6,
+          4096
+        ],
+        "covariance_scale_k07_eigenvalues": [
+          7,
+          4096
+        ],
+        "covariance_scale_k08_eigenvalues": [
+          8,
+          4096
+        ],
+        "covariance_scale_k09_eigenvalues": [
+          9,
+          4096
+        ],
+        "covariance_scale_k10_eigenvalues": [
+          10,
+          4096
+        ],
+        "covariance_scale_k11_eigenvalues": [
+          11,
+          4096
+        ],
+        "covariance_scale_k12_eigenvalues": [
+          12,
+          4096
+        ],
+        "covariance_scale_k13_eigenvalues": [
+          13,
+          4096
+        ],
+        "covariance_scale_k14_eigenvalues": [
+          14,
+          4096
+        ],
+        "covariance_scale_k15_eigenvalues": [
+          15,
+          4096
+        ],
+        "covariance_scale_k16_eigenvalues": [
+          16,
+          4096
+        ],
+        "covariance_scale_k17_eigenvalues": [
+          17,
+          4096
+        ],
+        "covariance_scale_k18_eigenvalues": [
+          18,
+          4096
+        ],
+        "covariance_scale_k19_eigenvalues": [
+          19,
+          4096
+        ],
+        "covariance_scale_k20_eigenvalues": [
+          20,
+          4096
+        ]
+      }
+    }
+  ],
+  "dtype": "float64",
+  "last_axis": "all feature-space eigenvalues, descending"
+}

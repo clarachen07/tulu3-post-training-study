@@ -1,0 +1,11 @@
+{
+  "runs/tulu3-full-shared-chat/rlvr/seed-4/math500/test_plain-boxed_-1_seed4_t0.6_s0_e-1.jsonl": {
+    "count": 2000,
+    "mean": 617.04,
+    "median": 434.0,
+    "p90": 1219.800000000001,
+    "p95": 1565.1,
+    "p99": 2469.4399999999996,
+    "max": 8904
+  }
+}

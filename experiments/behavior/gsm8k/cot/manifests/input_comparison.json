@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-04T04:41:44.639464+00:00",
+  "checks": {
+    "pilot": {
+      "count": 32,
+      "native_input_token_ids_identical": true
+    },
+    "formal": {
+      "count": 2343,
+      "native_input_token_ids_identical": true
+    }
+  },
+  "tokenization_manifest_sha256": "2029dba19a38672b1319d5c18fac84fbd991ba44400560fdb21cb9ca551286c9",
+  "base_interface": "plain + Answer with tokenizer-default BOS",
+  "native_interface": "one user with stored eight-shot text + official assistant prefix; no additional BOS"
+}

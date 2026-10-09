@@ -1,0 +1,13 @@
+base:
+  model_id: meta-llama/Meta-Llama-3.1-8B
+  archived_name: Meta-Llama-3.1-8B
+sft:
+  model_id: allenai/Llama-3.1-Tulu-3-8B-SFT
+  archived_name: Llama-3.1-Tulu-3-8B-SFT
+dpo:
+  model_id: allenai/Llama-3.1-Tulu-3-8B-DPO
+  archived_name: Llama-3.1-Tulu-3-8B-DPO
+rlvr:
+  model_id: allenai/Llama-3.1-Tulu-3-8B
+  archived_name: Llama-3.1-Tulu-3-8B
+

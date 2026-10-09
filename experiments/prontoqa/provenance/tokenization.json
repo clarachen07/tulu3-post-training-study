@@ -1,0 +1,204 @@
+{
+  "original_protocol_digest": "aa159de1b8f08632c80a91d46bc33d68ab582c53f926bd36e487324ee8081ddb",
+  "stages": {
+    "base": {
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "configured_revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "wrapper": "plain",
+      "tokenizer_class": "PreTrainedTokenizerFast",
+      "is_fast": true,
+      "native_chat_template": null,
+      "effective_chat_template": null,
+      "effective_template_sha256": null,
+      "native_special_tokens": {
+        "bos_token": "<|begin_of_text|>",
+        "eos_token": "<|end_of_text|>"
+      },
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": null,
+      "model_max_length": 131072,
+      "tokenizer_source_files": {
+        "config.json": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+        "tokenizer_config.json": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+        "tokenizer.json": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+        "special_tokens_map.json": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc"
+      },
+      "sample_count": 1440,
+      "input_file": "data/tokenized/base.jsonl",
+      "input_sha256": "63414daf688313e23d2114ad7b1e3fbbdbf3b4723a6b6d84af96e37fdbd6dff8",
+      "lengths": {
+        "min": 61,
+        "max": 159,
+        "mean": 125.29861111111111,
+        "median": 142.0
+      },
+      "last_token_distribution": [
+        {
+          "id": 13,
+          "count": 1440,
+          "token": ".",
+          "decoded": "."
+        }
+      ],
+      "first_rendered_prompt_before_tokenizer_special_tokens": "Every jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.",
+      "first_decoded_input": "<|begin_of_text|>Every jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.",
+      "readout": "last nonpadding input token; no generated tokens",
+      "add_special_tokens": true,
+      "add_generation_prompt": false,
+      "truncation": false,
+      "padding": false,
+      "template_overrides": null
+    },
+    "sft": {
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "configured_revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "wrapper": "native",
+      "tokenizer_class": "PreTrainedTokenizerFast",
+      "is_fast": true,
+      "native_chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "effective_chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "effective_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+      "native_special_tokens": {
+        "bos_token": "<|begin_of_text|>",
+        "eos_token": "<|end_of_text|>",
+        "pad_token": "<pad>"
+      },
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": 128256,
+      "model_max_length": 131072,
+      "tokenizer_source_files": {
+        "config.json": "20bb3e98dd3e4d2252bb9a914f9a131417869d29dc35781b6bde95f6e4d1cc95",
+        "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+        "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+        "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf"
+      },
+      "sample_count": 1440,
+      "input_file": "data/tokenized/sft.jsonl",
+      "input_sha256": "eeeb9b07f0240f00789d61626487353109916e56563bc3728135f66a4e656046",
+      "lengths": {
+        "min": 70,
+        "max": 168,
+        "mean": 134.29861111111111,
+        "median": 151.0
+      },
+      "last_token_distribution": [
+        {
+          "id": 397,
+          "count": 1440,
+          "token": ">Ċ",
+          "decoded": ">\n"
+        }
+      ],
+      "first_rendered_prompt_before_tokenizer_special_tokens": "<|user|>\nEvery jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.\n<|assistant|>\n",
+      "first_decoded_input": "<|user|>\nEvery jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.\n<|assistant|>\n",
+      "readout": "last nonpadding input token; no generated tokens",
+      "add_special_tokens": false,
+      "add_generation_prompt": true,
+      "truncation": false,
+      "padding": false,
+      "template_overrides": null
+    },
+    "dpo": {
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "configured_revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "wrapper": "native",
+      "tokenizer_class": "PreTrainedTokenizerFast",
+      "is_fast": true,
+      "native_chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "effective_chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "effective_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+      "native_special_tokens": {
+        "bos_token": "<|begin_of_text|>",
+        "eos_token": "<|end_of_text|>",
+        "pad_token": "<pad>"
+      },
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": 128256,
+      "model_max_length": 131072,
+      "tokenizer_source_files": {
+        "config.json": "a8bd80e14deac086ca121be258191fad6f1acff43cf1cc9fe8eebf622aaf79d5",
+        "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+        "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+        "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf"
+      },
+      "sample_count": 1440,
+      "input_file": "data/tokenized/dpo.jsonl",
+      "input_sha256": "eeeb9b07f0240f00789d61626487353109916e56563bc3728135f66a4e656046",
+      "lengths": {
+        "min": 70,
+        "max": 168,
+        "mean": 134.29861111111111,
+        "median": 151.0
+      },
+      "last_token_distribution": [
+        {
+          "id": 397,
+          "count": 1440,
+          "token": ">Ċ",
+          "decoded": ">\n"
+        }
+      ],
+      "first_rendered_prompt_before_tokenizer_special_tokens": "<|user|>\nEvery jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.\n<|assistant|>\n",
+      "first_decoded_input": "<|user|>\nEvery jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.\n<|assistant|>\n",
+      "readout": "last nonpadding input token; no generated tokens",
+      "add_special_tokens": false,
+      "add_generation_prompt": true,
+      "truncation": false,
+      "padding": false,
+      "template_overrides": null
+    },
+    "rlvr": {
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B",
+      "configured_revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "wrapper": "native",
+      "tokenizer_class": "PreTrainedTokenizerFast",
+      "is_fast": true,
+      "native_chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "effective_chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+      "effective_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+      "native_special_tokens": {
+        "bos_token": "<|begin_of_text|>",
+        "eos_token": "<|end_of_text|>",
+        "pad_token": "<pad>"
+      },
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "pad_token_id": 128256,
+      "model_max_length": 131072,
+      "tokenizer_source_files": {
+        "config.json": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+        "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+        "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+        "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf"
+      },
+      "sample_count": 1440,
+      "input_file": "data/tokenized/rlvr.jsonl",
+      "input_sha256": "eeeb9b07f0240f00789d61626487353109916e56563bc3728135f66a4e656046",
+      "lengths": {
+        "min": 70,
+        "max": 168,
+        "mean": 134.29861111111111,
+        "median": 151.0
+      },
+      "last_token_distribution": [
+        {
+          "id": 397,
+          "count": 1440,
+          "token": ">Ċ",
+          "decoded": ">\n"
+        }
+      ],
+      "first_rendered_prompt_before_tokenizer_special_tokens": "<|user|>\nEvery jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.\n<|assistant|>\n",
+      "first_decoded_input": "<|user|>\nEvery jompus is a vumpus. Jompuses are dull. Every zumpus is a jompus. Every zumpus is temperate. Numpuses are zumpuses. Numpuses are not opaque. Yumpuses are numpuses. Every yumpus is feisty. Each dumpus is a yumpus. Dumpuses are not kind. Impuses are dumpuses. Each impus is floral. Every wumpus is opaque. Every rompus is an impus. Each rompus is small. Every tumpus is a rompus. Tumpuses are sour. Alex is a dumpus. True or false: Alex is not opaque.\n<|assistant|>\n",
+      "readout": "last nonpadding input token; no generated tokens",
+      "add_special_tokens": false,
+      "add_generation_prompt": true,
+      "truncation": false,
+      "padding": false,
+      "template_overrides": null
+    }
+  }
+}

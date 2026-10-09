@@ -1,0 +1,10 @@
+{
+  "decision": "CONTINUE",
+  "elapsed_days": 1.7540377266666665,
+  "fixed_evaluation_buffer_days": 3.0,
+  "formula": "elapsed + 8*B2 + 3d",
+  "maximum_projected_days": 14.0,
+  "mode": "extra-seeds",
+  "observed_b2_days": 0.2490203581971151,
+  "projected_total_days": 6.7462005922435875
+}

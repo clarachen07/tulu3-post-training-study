@@ -1,0 +1,13 @@
+stage,layer,metric,n_samples,n_estimates,mean,population_sd,source_file,source_mean_field,source_sd_field
+base,32,twonn,1296,20,19.612290351623646,0.341866902947862,data/twonn/id_summary.csv,id_mean,id_sd
+sft,32,twonn,1296,20,20.081270582983304,0.2769549995250537,data/twonn/id_summary.csv,id_mean,id_sd
+dpo,32,twonn,1296,20,21.569093206958918,0.36739619512526817,data/twonn/id_summary.csv,id_mean,id_sd
+rlvr,32,twonn,1296,20,21.42337529049832,0.31509522853483957,data/twonn/id_summary.csv,id_mean,id_sd
+base,32,correlation,1296,20,72.0,0.0,data/pca/summary.csv,pc_id90_mean,pc_id90_sd
+sft,32,correlation,1296,20,66.0,0.0,data/pca/summary.csv,pc_id90_mean,pc_id90_sd
+dpo,32,correlation,1296,20,63.0,0.0,data/pca/summary.csv,pc_id90_mean,pc_id90_sd
+rlvr,32,correlation,1296,20,65.0,0.0,data/pca/summary.csv,pc_id90_mean,pc_id90_sd
+base,32,covariance,1296,20,49.5,0.5,data/pca/summary.csv,pc_id90_mean,pc_id90_sd
+sft,32,covariance,1296,20,60.9,0.3,data/pca/summary.csv,pc_id90_mean,pc_id90_sd
+dpo,32,covariance,1296,20,56.0,0.0,data/pca/summary.csv,pc_id90_mean,pc_id90_sd
+rlvr,32,covariance,1296,20,58.35,0.47696960070847294,data/pca/summary.csv,pc_id90_mean,pc_id90_sd

@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-09T09:15:18.473549+00:00",
+  "public_test_environment": {
+    "python": "3.12.13",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "pytest": "8.3.5",
+    "torch": "2.5.1",
+    "transformers": "4.49.0"
+  },
+  "public_test_results": {
+    "prontoqa": {
+      "passed": 216,
+      "skipped": 18
+    },
+    "gsm8k_cot": {
+      "passed": 3
+    },
+    "gsm8k_direct_answer": {
+      "passed": 6
+    },
+    "syntax_scoring_pipeline": {
+      "passed": 13
+    },
+    "ssp": {
+      "passed": 9
+    }
+  },
+  "skips": "10 optional author-source parity cases; 7 omitted-full-corpus cases; 1 full parent corpus scoring case",
+  "supplemental_local_full_corpus": {
+    "passed": 33,
+    "scope": "All frozen gold structures, split identity, prompt isolation and answer/proof scoring"
+  },
+  "local_full_evidence_identity": {
+    "recorded_status": "passed",
+    "physical_generations": 60480,
+    "files_checked": 7579,
+    "errors": [
+      {
+        "path": "reports/report.html",
+        "error": "hash differs"
+      }
+    ],
+    "scope": "Read-only hashes against original full local final-verification ledger; no new inference or rescoring",
+    "assessment": "Raw/numerical evidence hashes match; the only difference is the historical presentation page, already documented by the prior full reanalysis",
+    "status": "passed_with_documented_presentation_difference"
+  },
+  "public_verification_scope": {
+    "status": "passed",
+    "scope": "published_aggregate_evidence_only",
+    "summary_cells": 128,
+    "transition_cells": 48,
+    "primary_tests": 3,
+    "local_links_checked": 106,
+    "svg_series_and_intervals_checked": 11,
+    "rescoring_performed": false,
+    "bootstrap_recomputed": false
+  },
+  "inference_or_training_repeated": false,
+  "historical_hash_manifests_rewritten": false,
+  "limitations": [
+    "Public summaries cannot rescore raw responses or recompute paired bootstrap intervals",
+    "No new raw artifact Releases",
+    "SSP behavior evaluation remains incomplete"
+  ],
+  "fresh_clone_acceptance": {
+    "status": "passed",
+    "public_test_passed": 247,
+    "public_test_skipped": 18,
+    "main_cli_help_checks": 5,
+    "local_document_links_checked": 80,
+    "broken_local_document_links": 0,
+    "submodule_commit": "f3757d250efc9880ba77651ec0d8587cfd673477",
+    "scientific_inference_repeated": false
+  },
+  "aggregate_validation": {
+    "status": "passed",
+    "public_files_checked": 710,
+    "prontoqa_behavior": {
+      "status": "passed",
+      "scope": "published_aggregate_evidence_only",
+      "summary_cells": 128,
+      "transition_cells": 48,
+      "primary_tests": 3,
+      "local_links_checked": 106,
+      "svg_series_and_intervals_checked": 11,
+      "rescoring_performed": false,
+      "bootstrap_recomputed": false
+    },
+    "gsm8k": {
+      "conditions": 2,
+      "summary_cells": 16,
+      "prompt_contrasts": 8,
+      "rescoring_performed": false,
+      "bootstrap_recomputed": false
+    },
+    "math500": {
+      "pooled_models": 3,
+      "histogram_pass_at_recomputed": true,
+      "raw_response_scoring": false,
+      "bootstrap_recomputed": false
+    },
+    "syntax": {
+      "test_cells": 8,
+      "strict_metrics_checked_against_counts": true,
+      "raw_response_scoring": false,
+      "bootstrap_recomputed": false
+    },
+    "ssp": {
+      "paired_endpoints": 5,
+      "behavior_endpoint": "incomplete",
+      "bootstrap_recomputed": false
+    }
+  }
+}

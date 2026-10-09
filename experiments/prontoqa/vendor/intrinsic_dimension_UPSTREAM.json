@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/ansuini/IntrinsicDimDeep",
+  "commit": "2c5140009eb3efccca1d774dc66cb043c04b26d8",
+  "source_path": "IDNN/intrinsic_dimension.py",
+  "source_url": "https://raw.githubusercontent.com/ansuini/IntrinsicDimDeep/2c5140009eb3efccca1d774dc66cb043c04b26d8/IDNN/intrinsic_dimension.py",
+  "sha256": "70b20792b56ae84b722dd7e948e9f64af2dd703de6f4ffe614879b6a38dcca10",
+  "redistributed": false,
+  "use": "Citation and hash for the optional externally supplied parity oracle; source is not bundled"
+}

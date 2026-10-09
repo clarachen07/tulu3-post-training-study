@@ -1,0 +1,14 @@
+{
+  "job_id": "formal_base_3115121_1791088902822216718",
+  "phase": "formal",
+  "stage": "base",
+  "started_utc": "2026-10-04T04:41:42.822280+00:00",
+  "requested_count": 2343,
+  "completed_count": 2343,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "8b9a5a19615c5e7fe9b5fea58434a2b157277dcae088e2b1c3c32bbf337202c6",
+  "load_seconds": 22.283621158450842,
+  "elapsed_seconds": 2016.907428164035,
+  "ended_utc": "2026-10-04T05:15:19.784710+00:00"
+}

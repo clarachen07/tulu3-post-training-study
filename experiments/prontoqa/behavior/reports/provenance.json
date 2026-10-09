@@ -1,0 +1,53 @@
+{
+  "config_sha256": "515a64b5766ee9bb896daf00b0b99e99f14b797afa8a66759ec0060e3bf28e00",
+  "dataset_sha256": "7287452c19ee49fde12c58d41f57bc30e315a9d4aa68d6de26f73c02b3052ff6",
+  "generated_at_utc": "2026-10-09T08:47:15.183199+00:00",
+  "generation": {
+    "batch_size": 4,
+    "budgets": {
+      "cot": 512,
+      "direct": 32
+    }
+  },
+  "historical_analysis_code_sha256": "321836075951e8c8a761952fb75fceb061dd89da4f64a7b76b8281c0593eee9d",
+  "models": [
+    {
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "stage": "base",
+      "wrapper": "plain"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "stage": "sft",
+      "wrapper": "native"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "stage": "dpo",
+      "wrapper": "native"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "stage": "rlvr",
+      "wrapper": "native"
+    }
+  ],
+  "protocol": "prontoqa-tulu3-behavior-v1",
+  "protocol_digest": "a70ca1ca84c680f5b989a7c48d10ee9b5b30ef7589e20aed0681889a51b7d192",
+  "publication_code_identity": "cf342684878c455dc5b8743653e1b033f25cfb4483df99a6a60ffb2e765688ab",
+  "raw_batch_hashes_fingerprint": "c7455a4c3383390a04b8debd2de7cb69fde2ade44e66a350df53ffd20b4c0c19",
+  "schema_version": 2,
+  "scope": "Aggregate publication; complete raw generations, tokenized inputs and per-item scores are not distributed",
+  "statistics": {
+    "bootstrap": "percentile_stratified_paired_shared_indices",
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95,
+    "multiplicity": "Holm_family_3",
+    "primary": "native/cot/answer_correct/equal_weight_hops",
+    "seed": 20261007
+  }
+}

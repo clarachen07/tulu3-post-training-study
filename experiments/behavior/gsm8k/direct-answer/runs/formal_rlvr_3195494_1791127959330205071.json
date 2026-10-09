@@ -1,0 +1,14 @@
+{
+  "job_id": "formal_rlvr_3195494_1791127959330205071",
+  "phase": "formal",
+  "stage": "rlvr",
+  "started_utc": "2026-10-04T15:32:39.330245+00:00",
+  "requested_count": 2343,
+  "completed_count": 2343,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "load_seconds": 21.887020103633404,
+  "elapsed_seconds": 320.979222483933,
+  "ended_utc": "2026-10-04T15:38:00.343864+00:00"
+}

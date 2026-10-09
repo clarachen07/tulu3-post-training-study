@@ -1,0 +1,14 @@
+{
+  "job_id": "formal_dpo_3193834_1791127626637417155",
+  "phase": "formal",
+  "stage": "dpo",
+  "started_utc": "2026-10-04T15:27:06.637470+00:00",
+  "requested_count": 2343,
+  "completed_count": 2343,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "load_seconds": 22.318807143718004,
+  "elapsed_seconds": 329.0750140249729,
+  "ended_utc": "2026-10-04T15:32:35.758910+00:00"
+}

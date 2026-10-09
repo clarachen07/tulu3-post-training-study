@@ -1,0 +1,19 @@
+# Environment matched to the paper's released evaluator (Python 3.10).
+setuptools
+vllm==0.6.3
+transformers>=4.37,<4.48
+numpy<2.0
+datasets==2.21.0
+pyarrow==17.0.0
+fsspec[http]==2024.6.1
+regex
+multiprocess
+python-dateutil
+tqdm
+Pebble
+sympy==1.12
+antlr4-python3-runtime==4.11.1
+timeout-decorator
+jieba
+word2number
+matplotlib

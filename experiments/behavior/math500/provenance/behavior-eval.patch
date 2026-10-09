@@ -1,0 +1,76 @@
+diff --git a/math/examples/math_eval/math_eval.py b/math/examples/math_eval/math_eval.py
+index cbfe317..2c149cf 100644
+--- a/math/examples/math_eval/math_eval.py
++++ b/math/examples/math_eval/math_eval.py
+@@ -149,8 +149,18 @@ def setup(args):
+         tokenizer = None
+         if args.apply_chat_template:
+             tokenizer = AutoTokenizer.from_pretrained(
+-                args.model_name_or_path, trust_remote_code=True
++                args.model_name_or_path,
++                trust_remote_code=True,
++                local_files_only=True,
+             )
++
++            template_tokenizer = AutoTokenizer.from_pretrained(
++                os.environ["TULU_SFT_TOKENIZER_PATH"],
++                trust_remote_code=True,
++                local_files_only=True,
++            )
++
++            tokenizer.chat_template = template_tokenizer.chat_template
+     else:
+         llm, tokenizer = load_hf_lm_and_tokenizer(
+             model_name_or_path=args.model_name_or_path,
+@@ -182,6 +192,8 @@ def setup(args):
+ 
+ 
+ def is_multi_choice(answer):
++    if not isinstance(answer, str) or not answer:
++        return False
+     for c in answer:
+         if c not in ["A", "B", "C", "D", "E"]:
+             return False
+@@ -399,7 +411,9 @@ def main(llm, tokenizer, data_name, args):
+     for i, sample in enumerate(samples):
+         code = codes[i * args.n_sampling : (i + 1) * args.n_sampling]
+         result = results[i * args.n_sampling : (i + 1) * args.n_sampling]
+-        preds = [item[0] for item in result]
++        # Parsers may return None for empty or unparseable generations.
++        # Normalize those values before any string-based cleanup or scoring.
++        preds = [item[0] or "" for item in result]
+         reports = [item[1] for item in result]
+         finish_reason_list = finish_reasons[i * args.n_sampling : (i + 1) * args.n_sampling]
+         for j in range(len(preds)):
+@@ -423,6 +437,12 @@ def main(llm, tokenizer, data_name, args):
+ 
+     # add processed samples
+     all_samples.extend(processed_samples)
++
++    # Persist raw generations before evaluation. If a verifier fails, the
++    # expensive model outputs remain recoverable and can be evaluated later.
++    if len(processed_samples) < len(all_samples) and args.save_outputs:
++        save_jsonl(all_samples, out_file)
++
+     all_samples, result_json = evaluate(
+         samples=all_samples,
+         data_name=data_name,
+diff --git a/math/examples/math_eval/utils.py b/math/examples/math_eval/utils.py
+index c23339c..d24f936 100644
+--- a/math/examples/math_eval/utils.py
++++ b/math/examples/math_eval/utils.py
+@@ -78,6 +78,13 @@ def load_prompt(data_name, prompt_type, num_shots):
+ 
+ 
+ PROMPT_TEMPLATES = {
++    "plain-boxed": (
++        "Question: {input}\n"
++        "Please solve the problem step by step, and put your final answer within \\boxed{{}}.\n"
++        "Answer:",
++        "{output}",
++        "\n\n",
++    ),
+     "direct": ("Question: {input}\nAnswer: ", "{output}", "\n\n"),
+     "cot": ("Question: {input}\nAnswer: ", "{output}", "\n\n\n"),
+     "pal": ("Question: {input}\n\n", "{output}", "\n---\n"),
+

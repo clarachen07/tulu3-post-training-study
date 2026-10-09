@@ -1,0 +1,42 @@
+{
+  "identity": "53cbc49b7d8c1d97c2d5c81a5e8b411403d046741037ba4ae5d2d0341593f8a9",
+  "identity_kind": "Historical PCA computation; numeric CSV and NPZ values retained",
+  "publication_changes": "English report text and portable spectrum paths",
+  "original_protocol_digest": "aa159de1b8f08632c80a91d46bc33d68ab582c53f926bd36e487324ee8081ddb",
+  "row_counts": {
+    "comparison_replicates.csv": 5120,
+    "comparison_summary.csv": 256,
+    "curve_summary.csv": 8,
+    "full.csv": 256,
+    "replicates.csv": 5120,
+    "scale_blocks.csv": 5040,
+    "scale_summary.csv": 480,
+    "summary.csv": 256
+  },
+  "outputs": {
+    "pca/reports/comparison_replicates.csv": "a709916965ebd37abc0a35f04ae8ffd2ee5a0f4f6b36a02a66a1654fa0ac6f84",
+    "pca/reports/comparison_summary.csv": "ae98503aab29c0d06417343a54fc7ebd25b00e2a2f4c88fd2200958370961f55",
+    "pca/reports/correlation_overlay.png": "58567772a565c77c26284092ca88b79d9849ab8d2594b883be7f0a2ff2d708c0",
+    "pca/reports/correlation_overlay.svg": "98eb46d8aa7ea494d4a2e0d57fd23c21496dea690ad7eb9e66f4636f951d4764",
+    "pca/reports/covariance_overlay.png": "270452b52753250bbe5503faaf14b897429d7026c6714f1083bda8fbcf3566ad",
+    "pca/reports/covariance_overlay.svg": "36a774f3628b4b28185a22c30727a357a8d8205aa4d5c6c72a68641f8a0f729f",
+    "pca/reports/curve_summary.csv": "fe105274edc4de1d02a449904c9e71c677e8117482b925b0a974d1972f2057a7",
+    "pca/reports/full.csv": "5bab769daf9e9ef1dc31bdc6a7c08d21e73c32b5d7bf488a74dd51afd7da6e1f",
+    "pca/reports/method_comparison_four_panel.png": "81b89625acb747bade0aa957d7bac11e5d0220b90a34a98146b744a99fb6c75e",
+    "pca/reports/method_comparison_four_panel.svg": "bbfc64e879e4120bd29abcfa8170cfdd48031d55e9bc11cc2d4ee30e4c8364c3",
+    "pca/reports/replicates.csv": "8a7a8c775dfef9874239debcf101297879b3923933069201db8708458232b541",
+    "pca/reports/report.html": "17c1be10775365dcf7c5108c84a5cbaeea8f7248cfb10e19eec81b65439c8a8b",
+    "pca/reports/scale_blocks.csv": "26cc58cfd060ed83b80c5df55353c169b3b6e109fe8f884b4f30edaaa68f65a6",
+    "pca/reports/scale_correlation.png": "d686bfb2371f3ae079ee5e2eb28127bdb01115c99c1684b09747169a99cccdb2",
+    "pca/reports/scale_correlation.svg": "36af341df2253f79908234eec8b5c3e3fcdcbc6e16ebb8df45201e9edac0e8fe",
+    "pca/reports/scale_covariance.png": "9ec224eec2b7d228f21bbee8e9ab1d82a83d942fee0099dc00e4f3415662aa14",
+    "pca/reports/scale_covariance.svg": "5b30b64e6c9243ed3ba9403fec52632080bf44c2f3cf7952ec60a53be0e08584",
+    "pca/reports/scale_summary.csv": "9548ca35e7e07c02eb9748809bbe0136c364ff69ef3fc22b7954204381f5869d",
+    "pca/reports/spectra_correlation.png": "24c566766050312d724332c7cfbe30a59775dcb1258fdba0079e2e01ea5200a4",
+    "pca/reports/spectra_correlation.svg": "766f84da92623e2d26bb8917594fd588653d3b90a668aa3b67cf274a0b604243",
+    "pca/reports/spectra_covariance.png": "24cabdb2aa5f41cbc58c96c636845ae1fb463f0b833beeb1f17133bd8426446a",
+    "pca/reports/spectra_covariance.svg": "ef3f09649e8478894fde2520c3676f3517f69f7c1d3e89fd70d5c95b3f453a2e",
+    "pca/reports/spectra_index.json": "3dd14bb43cef36fc8607a91c1350db78b341d97fcd8698bb61c4f614358997a1",
+    "pca/reports/summary.csv": "c2531393a8a20239cd09a4226aaae8384630de2c31baeebc1b73af70d6736ec8"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "case_review": {
+    "findings_count": 286,
+    "interpretation": "Proof parsing failures can induce downstream skip flags; answer and proof are scored independently.",
+    "reviewed_unique_generations": 286,
+    "reviewer": "Codex",
+    "sampled_entries": 287,
+    "status": "passed"
+  },
+  "committed_batches": 3780,
+  "formal_items": 4320,
+  "generation": {
+    "batch_size": 4,
+    "budgets": {
+      "cot": 512,
+      "direct": 32
+    }
+  },
+  "historical_analysis_code_sha256": "321836075951e8c8a761952fb75fceb061dd89da4f64a7b76b8281c0593eee9d",
+  "historical_scoring_code_sha256": "3db0fc5c4ed56211fa7649439cd0fd4dd4d6834ee0594b0a8c3ee0a55899b226",
+  "logical_records": 69120,
+  "original_server_checks": {
+    "environment_checked": true,
+    "model_assets_checked": true,
+    "output_token_decoding_checked": true,
+    "rescored_generations": 60480,
+    "verified_utc": "2026-10-08T20:00:25.253884+00:00"
+  },
+  "physical_generations": 60480,
+  "presentation_policy": "Existing source HTML is preserved; publication renders a new English page",
+  "protocol_digest": "a70ca1ca84c680f5b989a7c48d10ee9b5b30ef7589e20aed0681889a51b7d192",
+  "raw_batch_hashes_fingerprint": "c7455a4c3383390a04b8debd2de7cb69fde2ade44e66a350df53ffd20b4c0c19",
+  "schema_version": 1,
+  "source_config_sha256": "83c2767e1f377358c3504b7264ae4e71792b07993e8f5d17f9c8a8a07f4383d3",
+  "source_manifest_hashes": {
+    "manifests/analysis.json": "617e4e321e9f441ea847f4784bfcb1c90ed1648cbccf629e5e3bc0356b79f4fe",
+    "manifests/case_review.json": "aa2831c852561446b3d5aeddb297bfeb6f39ae0a065969749ab3e1a4c1c0eade",
+    "manifests/frozen_protocol.json": "d55d5af4c0bd9695cb76c8a1e09f36c6aeb5184a75e3f901bd522e401be15620",
+    "manifests/server_final_verification.json": "b69fde40ea8b558924dd2d32e7741b1b9c9bd9136211ab42e48550eff4ac2c08"
+  },
+  "statistics": {
+    "bootstrap": "percentile_stratified_paired_shared_indices",
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95,
+    "multiplicity": "Holm_family_3",
+    "primary": "native/cot/answer_correct/equal_weight_hops",
+    "seed": 20261007
+  },
+  "status": "accepted_original_experiment"
+}

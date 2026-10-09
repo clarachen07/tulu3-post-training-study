@@ -1,0 +1,15 @@
+Archive date: 2026-07-31
+Python: 3.10.20
+PyTorch: 2.4.0
+Transformers: 4.47.1
+vLLM: 0.6.3
+NumPy: 1.26.4
+SymPy: 1.12
+datasets: 2.21.0
+safetensors: 0.8.0
+tokenizers: 0.21.4
+GPU: NVIDIA GeForce RTX 3090, 24576 MiB
+NVIDIA driver: 550.120
+Evaluator upstream commit: 48f3e35cf9bc5c37ffa54fe2035d0b1e2cd648ad
+Runtime note: vLLM cast bfloat16 checkpoint weights to requested float16.
+

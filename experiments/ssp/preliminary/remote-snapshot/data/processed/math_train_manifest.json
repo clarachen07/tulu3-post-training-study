@@ -1,0 +1,36 @@
+{
+  "effective_batch_size": 16,
+  "max_length": 2048,
+  "model_tokenizer": "/home/ai/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B",
+  "output": "data/processed/math_train_ssp.jsonl",
+  "projected_optimizer_steps": 1110,
+  "records_accepted": 5918,
+  "records_excluded": {
+    "duplicate_train_question": 1,
+    "insufficient_complete_steps_or_length": 1580,
+    "test_overlap": 1
+  },
+  "records_seen": 7500,
+  "segmentation_modes": {
+    "paragraph": 1980,
+    "sentence_fallback": 3938
+  },
+  "source": "/home/ai/limit-of-RLVR/math/examples/math_eval/data/math/train.jsonl",
+  "source_sha256": "5b2887ab712c936a5fb79bdcfc917d5c5da888d4a7b35cff92ee3fd2ba15caab",
+  "step_token": "<|reserved_special_token_247|>",
+  "step_token_id": 128255,
+  "steps_kept": {
+    "max": 27,
+    "mean": 3.6312943562014195,
+    "min": 2
+  },
+  "test_sources": {
+    "/home/ai/limit-of-RLVR/math/examples/math_eval/data/math/test.jsonl": "0e9257f4e3481c45c1ba0ae3b09a14c7a751ed30a018f41f317c64537dac8a5a",
+    "/home/ai/limit-of-RLVR/math/examples/math_eval/data/math500/test.jsonl": "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132"
+  },
+  "token_length": {
+    "max": 2041,
+    "mean": 317.71848597499155,
+    "min": 40
+  }
+}

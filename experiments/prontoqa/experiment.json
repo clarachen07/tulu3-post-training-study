@@ -1,0 +1,102 @@
+{
+  "protocol": "prontoqa-tulu3-id-3hop-v1",
+  "paper": {
+    "arxiv": "1905.12784v2",
+    "code_revision": "2c5140009eb3efccca1d774dc66cb043c04b26d8"
+  },
+  "data": {
+    "source_revision": "066f73fc70bfaa92ed2476fd3c41b4951ad6e63a",
+    "sample_count": 1440,
+    "hop": 3,
+    "ontology": "fictional",
+    "ordering": "preorder",
+    "seed": 62471893,
+    "few_shot_examples": 0,
+    "proof_width": 2,
+    "deduction_rule": "ModusPonens",
+    "repetitions_per_test": 1,
+    "test_hops_diff": 0
+  },
+  "statistics": {
+    "subsample_seed": 20261007,
+    "subsample_repeats": 20,
+    "subsample_size": 1296,
+    "fit_fraction": 0.9,
+    "std_ddof": 0,
+    "scale_seed": 20261008,
+    "scale_layers": [
+      1,
+      16,
+      32
+    ],
+    "scale_k": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "inference": {
+    "dtype": "float32",
+    "distance_dtype": "float64",
+    "batch_size": 1,
+    "layers": 32,
+    "hidden_size": 4096,
+    "gpu_weight_budget_gib": 20,
+    "cpu_weight_budget_gib": 100,
+    "attention_implementation": "eager",
+    "pilot_size": 8,
+    "write_batch_size": 16,
+    "seed": 20261007,
+    "use_cache": false,
+    "allow_tf32": false,
+    "quantization": null,
+    "readout": "last_nonpadding_input_token_raw_decoder_block"
+  },
+  "models": [
+    {
+      "stage": "base",
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "path": "models/base",
+      "wrapper": "plain"
+    },
+    {
+      "stage": "sft",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "path": "models/sft",
+      "wrapper": "native"
+    },
+    {
+      "stage": "dpo",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "path": "models/dpo",
+      "wrapper": "native"
+    },
+    {
+      "stage": "rlvr",
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "path": "models/rlvr",
+      "wrapper": "native"
+    }
+  ]
+}

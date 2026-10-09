@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "run_id": "rlvr-seed1",
+  "protocol": "shared-tulu-sft-template",
+  "stage": "rlvr",
+  "model_id": "allenai/Llama-3.1-Tulu-3-8B",
+  "seed": 1,
+  "status": "complete",
+  "started_at": "2026-07-26T18:14:40+08:00",
+  "completed_at": "2026-07-26T18:42:53+08:00",
+  "time_source": "start marker plus final generation-progress duration; excludes short load/evaluation overhead",
+  "dataset": {
+    "name": "MATH500",
+    "split": "test",
+    "questions": 500,
+    "sha256": "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132"
+  },
+  "sampling": {
+    "samples_per_question": 4,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "max_tokens_per_call": 16000,
+    "max_model_len": 16384,
+    "gpu_memory_utilization": 0.85,
+    "dtype": "float16"
+  },
+  "prompt": {
+    "type": "plain-boxed",
+    "apply_chat_template": true,
+    "chat_template_source": "allenai/Llama-3.1-Tulu-3-8B-SFT"
+  },
+  "code": {
+    "upstream_commit": "48f3e35cf9bc5c37ffa54fe2035d0b1e2cd648ad",
+    "portable_patch_sha256": "6e7b400baef05909e507385f98186695821b6b0757c62f38b7783aa736de18d1",
+    "portable_math_eval_sha256": "e8c869bf99f0ff0211051ffaab66d59bce40c3186028331c3ec82f2cd5849f12",
+    "utils_sha256": "6a974ef9a86504412f29ea697d61b54260aac20b49b81431b358a7e5a9485c4d",
+    "environment_sha256": "d72de7b2ec7659d5a7e17d5ea1fabbaddfffe0ddb33478323fe5afd1a12d59d5"
+  },
+  "model_files": {
+    "config_sha256": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+    "tokenizer_config_sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+    "weights_archived": false
+  },
+  "output": {
+    "release_asset": "exp1-shared-chat-raw-jsonl.tar.zst",
+    "relative_path": "rlvr/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl",
+    "sha256": "151c363b4f251a5ef57307f2c3ad60e68d761df9263c170abd12dcde37ee796b",
+    "rows": 500,
+    "generations": 2000,
+    "structurally_valid": true
+  },
+  "metrics": {
+    "correct_generations": 932,
+    "pass_at": {
+      "1": 46.6,
+      "2": 56.03333333333333,
+      "4": 63.6
+    },
+    "any_correct_questions": 318,
+    "empty_generations": 0,
+    "empty_parsed_answers": 2,
+    "finish_reasons": {
+      "stop": 2000
+    }
+  }
+}

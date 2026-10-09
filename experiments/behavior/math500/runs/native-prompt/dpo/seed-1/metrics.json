@@ -1,0 +1,15 @@
+{
+    "num_samples": 500,
+    "num_scores": 2000,
+    "timeout_samples": 0,
+    "empty_samples": 1,
+    "acc": 40.0,
+    "pass_acc": 60.8,
+    "pass@k": {
+        "1": 40.0,
+        "2": 51.5,
+        "4": 60.8
+    },
+    "time_use_in_second": 1423.337132692337,
+    "time_use_in_minite": "23:43"
+}

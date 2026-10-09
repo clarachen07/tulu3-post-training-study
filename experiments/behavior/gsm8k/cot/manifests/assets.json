@@ -1,0 +1,1167 @@
+{
+  "created_utc": "2026-10-04T04:34:19.869315+00:00",
+  "config_hash": "8b9a5a19615c5e7fe9b5fea58434a2b157277dcae088e2b1c3c32bbf337202c6",
+  "models": [
+    {
+      "registry": {
+        "stage": "base",
+        "id": "meta-llama/Llama-3.1-8B",
+        "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+        "path": "/models/Llama-3.1-8B",
+        "wrapper": "plain"
+      },
+      "files": [
+        {
+          "path": "/models/Llama-3.1-8B/model-00001-of-00004.safetensors",
+          "sha256": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+          "before": {
+            "size": 4976698672,
+            "mtime_ns": 1779110726088382104,
+            "ctime_ns": 1779110726096382076,
+            "inode": 49067539,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00001-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4976698672,
+            "mtime_ns": 1779110726088382104,
+            "ctime_ns": 1779110726096382076,
+            "inode": 49067539,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00001-of-00004.safetensors"
+          },
+          "seconds": 13.191016644239426
+        },
+        {
+          "path": "/models/Llama-3.1-8B/model-00002-of-00004.safetensors",
+          "sha256": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+          "before": {
+            "size": 4999802720,
+            "mtime_ns": 1779110727852375737,
+            "ctime_ns": 1779110727860375709,
+            "inode": 49067541,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00002-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4999802720,
+            "mtime_ns": 1779110727852375737,
+            "ctime_ns": 1779110727860375709,
+            "inode": 49067541,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00002-of-00004.safetensors"
+          },
+          "seconds": 12.791742868721485
+        },
+        {
+          "path": "/models/Llama-3.1-8B/model-00003-of-00004.safetensors",
+          "sha256": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+          "before": {
+            "size": 4915916176,
+            "mtime_ns": 1779110715632419841,
+            "ctime_ns": 1779110715640419812,
+            "inode": 49067540,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00003-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4915916176,
+            "mtime_ns": 1779110715632419841,
+            "ctime_ns": 1779110715640419812,
+            "inode": 49067540,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00003-of-00004.safetensors"
+          },
+          "seconds": 12.656332805752754
+        },
+        {
+          "path": "/models/Llama-3.1-8B/model-00004-of-00004.safetensors",
+          "sha256": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+          "before": {
+            "size": 1168138808,
+            "mtime_ns": 1779110482465257381,
+            "ctime_ns": 1779110482477257338,
+            "inode": 49067544,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00004-of-00004.safetensors"
+          },
+          "after": {
+            "size": 1168138808,
+            "mtime_ns": 1779110482465257381,
+            "ctime_ns": 1779110482477257338,
+            "inode": 49067544,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model-00004-of-00004.safetensors"
+          },
+          "seconds": 3.0056092739105225
+        },
+        {
+          "path": "/models/Llama-3.1-8B/config.json",
+          "sha256": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+          "before": {
+            "size": 826,
+            "mtime_ns": 1779110402949540842,
+            "ctime_ns": 1779110402953540828,
+            "inode": 49067534,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/config.json"
+          },
+          "after": {
+            "size": 826,
+            "mtime_ns": 1779110402949540842,
+            "ctime_ns": 1779110402953540828,
+            "inode": 49067534,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/config.json"
+          },
+          "seconds": 0.00013211369514465332
+        },
+        {
+          "path": "/models/Llama-3.1-8B/configuration.json",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "before": {
+            "size": 73,
+            "mtime_ns": 1779110402953540828,
+            "ctime_ns": 1779110402953540828,
+            "inode": 49067535,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/configuration.json"
+          },
+          "after": {
+            "size": 73,
+            "mtime_ns": 1779110402953540828,
+            "ctime_ns": 1779110402953540828,
+            "inode": 49067535,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/configuration.json"
+          },
+          "seconds": 0.0004683099687099457
+        },
+        {
+          "path": "/models/Llama-3.1-8B/generation_config.json",
+          "sha256": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
+          "before": {
+            "size": 185,
+            "mtime_ns": 1779110402989540700,
+            "ctime_ns": 1779110402993540685,
+            "inode": 49067538,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/generation_config.json"
+          },
+          "after": {
+            "size": 185,
+            "mtime_ns": 1779110402989540700,
+            "ctime_ns": 1779110402993540685,
+            "inode": 49067538,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/generation_config.json"
+          },
+          "seconds": 0.00023437291383743286
+        },
+        {
+          "path": "/models/Llama-3.1-8B/model.safetensors.index.json",
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "before": {
+            "size": 23950,
+            "mtime_ns": 1779110403461539022,
+            "ctime_ns": 1779110403465539007,
+            "inode": 49067545,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model.safetensors.index.json"
+          },
+          "after": {
+            "size": 23950,
+            "mtime_ns": 1779110403461539022,
+            "ctime_ns": 1779110403465539007,
+            "inode": 49067545,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/model.safetensors.index.json"
+          },
+          "seconds": 0.00040991976857185364
+        },
+        {
+          "path": "/models/Llama-3.1-8B/special_tokens_map.json",
+          "sha256": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+          "before": {
+            "size": 73,
+            "mtime_ns": 1779110403729538068,
+            "ctime_ns": 1779110403733538054,
+            "inode": 49067548,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/special_tokens_map.json"
+          },
+          "after": {
+            "size": 73,
+            "mtime_ns": 1779110403729538068,
+            "ctime_ns": 1779110403733538054,
+            "inode": 49067548,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/special_tokens_map.json"
+          },
+          "seconds": 0.00045717135071754456
+        },
+        {
+          "path": "/models/Llama-3.1-8B/tokenizer.json",
+          "sha256": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+          "before": {
+            "size": 9085658,
+            "mtime_ns": 1779110404157536546,
+            "ctime_ns": 1779110404165536517,
+            "inode": 49067547,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/tokenizer.json"
+          },
+          "after": {
+            "size": 9085658,
+            "mtime_ns": 1779110404157536546,
+            "ctime_ns": 1779110404165536517,
+            "inode": 49067547,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/tokenizer.json"
+          },
+          "seconds": 0.03345992788672447
+        },
+        {
+          "path": "/models/Llama-3.1-8B/tokenizer_config.json",
+          "sha256": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+          "before": {
+            "size": 50500,
+            "mtime_ns": 1779110404009537072,
+            "ctime_ns": 1779110404013537058,
+            "inode": 49067549,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/tokenizer_config.json"
+          },
+          "after": {
+            "size": 50500,
+            "mtime_ns": 1779110404009537072,
+            "ctime_ns": 1779110404013537058,
+            "inode": 49067549,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-8B/tokenizer_config.json"
+          },
+          "seconds": 0.0006740912795066833
+        }
+      ],
+      "config": {
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "bos_token_id": 128000,
+        "eos_token_id": 128001,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 14336,
+        "max_position_embeddings": 131072,
+        "mlp_bias": false,
+        "model_type": "llama",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 32,
+        "num_key_value_heads": 8,
+        "pretraining_tp": 1,
+        "rms_norm_eps": 1e-05,
+        "rope_scaling": {
+          "factor": 8.0,
+          "low_freq_factor": 1.0,
+          "high_freq_factor": 4.0,
+          "original_max_position_embeddings": 8192,
+          "rope_type": "llama3"
+        },
+        "rope_theta": 500000.0,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.0.dev0",
+        "use_cache": true,
+        "vocab_size": 128256
+      },
+      "revision_provenance": "Existing model registry; current full-file SHA256 recorded separately"
+    },
+    {
+      "registry": {
+        "stage": "sft",
+        "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+        "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+        "path": "/models/Llama-3.1-Tulu-3-8B-SFT",
+        "wrapper": "native"
+      },
+      "files": [
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00001-of-00004.safetensors",
+          "sha256": "4680646a61179959e510768f54a49001cc80e150690d7968666fd9e9846b7c91",
+          "before": {
+            "size": 4976764208,
+            "mtime_ns": 1779159577856881439,
+            "ctime_ns": 1779159577864881399,
+            "inode": 49065074,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00001-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4976764208,
+            "mtime_ns": 1779159577856881439,
+            "ctime_ns": 1779159577864881399,
+            "inode": 49065074,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00001-of-00004.safetensors"
+          },
+          "seconds": 12.828111998736858
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00002-of-00004.safetensors",
+          "sha256": "73a1f3f2ed3fe4d59341a70a742f907b53436b4778373baea181a0987a8dc177",
+          "before": {
+            "size": 4999802720,
+            "mtime_ns": 1779159544325041869,
+            "ctime_ns": 1779159544337041811,
+            "inode": 49065075,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00002-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4999802720,
+            "mtime_ns": 1779159544325041869,
+            "ctime_ns": 1779159544337041811,
+            "inode": 49065075,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00002-of-00004.safetensors"
+          },
+          "seconds": 12.82987867668271
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00003-of-00004.safetensors",
+          "sha256": "b5d2b2699e77346d46969699db44eb09b1838a5f84fc4e42debe4f3157d76783",
+          "before": {
+            "size": 4915916176,
+            "mtime_ns": 1779159516905173166,
+            "ctime_ns": 1779159516913173127,
+            "inode": 49065077,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00003-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4915916176,
+            "mtime_ns": 1779159516905173166,
+            "ctime_ns": 1779159516913173127,
+            "inode": 49065077,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00003-of-00004.safetensors"
+          },
+          "seconds": 12.614612601697445
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00004-of-00004.safetensors",
+          "sha256": "86f990281604ee9ab5897d7b2423ad50225b76bd041465c70ae4a3ef6b89abfe",
+          "before": {
+            "size": 1168204344,
+            "mtime_ns": 1779159311526160280,
+            "ctime_ns": 1779159311534160241,
+            "inode": 49065076,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00004-of-00004.safetensors"
+          },
+          "after": {
+            "size": 1168204344,
+            "mtime_ns": 1779159311526160280,
+            "ctime_ns": 1779159311534160241,
+            "inode": 49065076,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model-00004-of-00004.safetensors"
+          },
+          "seconds": 2.9862157069146633
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/config.json",
+          "sha256": "20bb3e98dd3e4d2252bb9a914f9a131417869d29dc35781b6bde95f6e4d1cc95",
+          "before": {
+            "size": 875,
+            "mtime_ns": 1779159225914574122,
+            "ctime_ns": 1779159225914574122,
+            "inode": 49065071,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/config.json"
+          },
+          "after": {
+            "size": 875,
+            "mtime_ns": 1779159225914574122,
+            "ctime_ns": 1779159225914574122,
+            "inode": 49065071,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/config.json"
+          },
+          "seconds": 0.0002639666199684143
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/configuration.json",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "before": {
+            "size": 73,
+            "mtime_ns": 1779159226046573483,
+            "ctime_ns": 1779159226050573463,
+            "inode": 49065073,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/configuration.json"
+          },
+          "after": {
+            "size": 73,
+            "mtime_ns": 1779159226046573483,
+            "ctime_ns": 1779159226050573463,
+            "inode": 49065073,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/configuration.json"
+          },
+          "seconds": 0.012849569320678711
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/generation_config.json",
+          "sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "before": {
+            "size": 180,
+            "mtime_ns": 1779159226182572823,
+            "ctime_ns": 1779159226182572823,
+            "inode": 49065072,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/generation_config.json"
+          },
+          "after": {
+            "size": 180,
+            "mtime_ns": 1779159226182572823,
+            "ctime_ns": 1779159226182572823,
+            "inode": 49065072,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/generation_config.json"
+          },
+          "seconds": 0.00023876875638961792
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/model.safetensors.index.json",
+          "sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "before": {
+            "size": 23950,
+            "mtime_ns": 1779159226026573580,
+            "ctime_ns": 1779159226030573560,
+            "inode": 49065078,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model.safetensors.index.json"
+          },
+          "after": {
+            "size": 23950,
+            "mtime_ns": 1779159226026573580,
+            "ctime_ns": 1779159226030573560,
+            "inode": 49065078,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/model.safetensors.index.json"
+          },
+          "seconds": 0.0004459582269191742
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/special_tokens_map.json",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "before": {
+            "size": 439,
+            "mtime_ns": 1779159226434571603,
+            "ctime_ns": 1779159226434571603,
+            "inode": 49065081,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/special_tokens_map.json"
+          },
+          "after": {
+            "size": 439,
+            "mtime_ns": 1779159226434571603,
+            "ctime_ns": 1779159226434571603,
+            "inode": 49065081,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/special_tokens_map.json"
+          },
+          "seconds": 0.0005023181438446045
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer.json",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "before": {
+            "size": 9085839,
+            "mtime_ns": 1779159233522537279,
+            "ctime_ns": 1779159233530537239,
+            "inode": 49065084,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer.json"
+          },
+          "after": {
+            "size": 9085839,
+            "mtime_ns": 1779159233522537279,
+            "ctime_ns": 1779159233530537239,
+            "inode": 49065084,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer.json"
+          },
+          "seconds": 0.0353960320353508
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer_config.json",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "before": {
+            "size": 51220,
+            "mtime_ns": 1779159226534571119,
+            "ctime_ns": 1779159226538571099,
+            "inode": 49065083,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer_config.json"
+          },
+          "after": {
+            "size": 51220,
+            "mtime_ns": 1779159226534571119,
+            "ctime_ns": 1779159226538571099,
+            "inode": 49065083,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer_config.json"
+          },
+          "seconds": 0.0006376579403877258
+        }
+      ],
+      "config": {
+        "_name_or_path": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "bos_token_id": 128000,
+        "eos_token_id": 128001,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 14336,
+        "max_position_embeddings": 131072,
+        "mlp_bias": false,
+        "model_type": "llama",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 32,
+        "num_key_value_heads": 8,
+        "pretraining_tp": 1,
+        "rms_norm_eps": 1e-05,
+        "rope_scaling": {
+          "factor": 8.0,
+          "high_freq_factor": 4.0,
+          "low_freq_factor": 1.0,
+          "original_max_position_embeddings": 8192,
+          "rope_type": "llama3"
+        },
+        "rope_theta": 500000.0,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.4",
+        "use_cache": true,
+        "vocab_size": 128264
+      },
+      "revision_provenance": "Existing model registry; current full-file SHA256 recorded separately"
+    },
+    {
+      "registry": {
+        "stage": "dpo",
+        "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+        "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+        "path": "/models/Llama-3.1-Tulu-3-8B-DPO",
+        "wrapper": "native"
+      },
+      "files": [
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00001-of-00004.safetensors",
+          "sha256": "85911f744f1dd50b8128227235d057a1aec6c8a1ed28e1458132aa56b719551d",
+          "before": {
+            "size": 4976764208,
+            "mtime_ns": 1779029143214449816,
+            "ctime_ns": 1779029143230449874,
+            "inode": 49065007,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00001-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4976764208,
+            "mtime_ns": 1779029143214449816,
+            "ctime_ns": 1779029143230449874,
+            "inode": 49065007,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00001-of-00004.safetensors"
+          },
+          "seconds": 12.69243648275733
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00002-of-00004.safetensors",
+          "sha256": "35008429087b8fc07d435a125c28ec7943086ede173af6f31bcb7c9637fbcd2f",
+          "before": {
+            "size": 4999802720,
+            "mtime_ns": 1779029191290606222,
+            "ctime_ns": 1779029191306606268,
+            "inode": 49065010,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00002-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4999802720,
+            "mtime_ns": 1779029191290606222,
+            "ctime_ns": 1779029191306606268,
+            "inode": 49065010,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00002-of-00004.safetensors"
+          },
+          "seconds": 12.602124776691198
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00003-of-00004.safetensors",
+          "sha256": "a7f29dca815d3dd4313f698fada334a339191d0db068f73ba15026380fd4d00d",
+          "before": {
+            "size": 4915916176,
+            "mtime_ns": 1779029268446795118,
+            "ctime_ns": 1779029268458795142,
+            "inode": 49065008,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00003-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4915916176,
+            "mtime_ns": 1779029268446795118,
+            "ctime_ns": 1779029268458795142,
+            "inode": 49065008,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00003-of-00004.safetensors"
+          },
+          "seconds": 12.348509930074215
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00004-of-00004.safetensors",
+          "sha256": "439d2a7ebf23264fc1c7364877db7df25308f454f6188d949792a40307b9e5b6",
+          "before": {
+            "size": 1168204344,
+            "mtime_ns": 1779028668164679339,
+            "ctime_ns": 1779028668176679280,
+            "inode": 49065009,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00004-of-00004.safetensors"
+          },
+          "after": {
+            "size": 1168204344,
+            "mtime_ns": 1779028668164679339,
+            "ctime_ns": 1779028668176679280,
+            "inode": 49065009,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model-00004-of-00004.safetensors"
+          },
+          "seconds": 2.940929029136896
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/config.json",
+          "sha256": "a8bd80e14deac086ca121be258191fad6f1acff43cf1cc9fe8eebf622aaf79d5",
+          "before": {
+            "size": 850,
+            "mtime_ns": 1779028558489214654,
+            "ctime_ns": 1779028558493214634,
+            "inode": 49065003,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/config.json"
+          },
+          "after": {
+            "size": 850,
+            "mtime_ns": 1779028558489214654,
+            "ctime_ns": 1779028558493214634,
+            "inode": 49065003,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/config.json"
+          },
+          "seconds": 0.0001456625759601593
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/configuration.json",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "before": {
+            "size": 73,
+            "mtime_ns": 1779028558453214830,
+            "ctime_ns": 1779028558453214830,
+            "inode": 49065004,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/configuration.json"
+          },
+          "after": {
+            "size": 73,
+            "mtime_ns": 1779028558453214830,
+            "ctime_ns": 1779028558453214830,
+            "inode": 49065004,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/configuration.json"
+          },
+          "seconds": 0.0005344785749912262
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/generation_config.json",
+          "sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "before": {
+            "size": 180,
+            "mtime_ns": 1779028558585214183,
+            "ctime_ns": 1779028558589214164,
+            "inode": 49065005,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/generation_config.json"
+          },
+          "after": {
+            "size": 180,
+            "mtime_ns": 1779028558585214183,
+            "ctime_ns": 1779028558589214164,
+            "inode": 49065005,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/generation_config.json"
+          },
+          "seconds": 0.00021950900554656982
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/metadata.json",
+          "sha256": "9cda0b42516907536a11d4c667f329031315d49d032b48ed0f3ebd558c23f808",
+          "before": {
+            "size": 742,
+            "mtime_ns": 1779028558581214203,
+            "ctime_ns": 1779028558585214183,
+            "inode": 49065006,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/metadata.json"
+          },
+          "after": {
+            "size": 742,
+            "mtime_ns": 1779028558581214203,
+            "ctime_ns": 1779028558585214183,
+            "inode": 49065006,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/metadata.json"
+          },
+          "seconds": 0.0005107186734676361
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/model.safetensors.index.json",
+          "sha256": "f16ab28239bb5e3ea718851ab9fd9fd9261f4356314a43b907c98957afc33583",
+          "before": {
+            "size": 25125,
+            "mtime_ns": 1779028558745213399,
+            "ctime_ns": 1779028558749213379,
+            "inode": 49065013,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model.safetensors.index.json"
+          },
+          "after": {
+            "size": 25125,
+            "mtime_ns": 1779028558745213399,
+            "ctime_ns": 1779028558749213379,
+            "inode": 49065013,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/model.safetensors.index.json"
+          },
+          "seconds": 0.00046463683247566223
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/pytorch_model.bin.index.json",
+          "sha256": "f65696201ca3ea238a38c1ae2a9e16b3eca256baf0b109fac0d5f843ebb43501",
+          "before": {
+            "size": 23950,
+            "mtime_ns": 1779028666336688226,
+            "ctime_ns": 1779028666352688147,
+            "inode": 49065017,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/pytorch_model.bin.index.json"
+          },
+          "after": {
+            "size": 23950,
+            "mtime_ns": 1779028666336688226,
+            "ctime_ns": 1779028666352688147,
+            "inode": 49065017,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/pytorch_model.bin.index.json"
+          },
+          "seconds": 0.010654803365468979
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/special_tokens_map.json",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "before": {
+            "size": 439,
+            "mtime_ns": 1779028667880680719,
+            "ctime_ns": 1779028667888680681,
+            "inode": 49065019,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/special_tokens_map.json"
+          },
+          "after": {
+            "size": 439,
+            "mtime_ns": 1779028667880680719,
+            "ctime_ns": 1779028667888680681,
+            "inode": 49065019,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/special_tokens_map.json"
+          },
+          "seconds": 0.00044858455657958984
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer.json",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "before": {
+            "size": 9085839,
+            "mtime_ns": 1779028669388673388,
+            "ctime_ns": 1779028669396673350,
+            "inode": 49065022,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer.json"
+          },
+          "after": {
+            "size": 9085839,
+            "mtime_ns": 1779028669388673388,
+            "ctime_ns": 1779028669396673350,
+            "inode": 49065022,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer.json"
+          },
+          "seconds": 0.035224366933107376
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer_config.json",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "before": {
+            "size": 51220,
+            "mtime_ns": 1779028669320673718,
+            "ctime_ns": 1779028669332673659,
+            "inode": 49065021,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer_config.json"
+          },
+          "after": {
+            "size": 51220,
+            "mtime_ns": 1779028669320673718,
+            "ctime_ns": 1779028669332673659,
+            "inode": 49065021,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer_config.json"
+          },
+          "seconds": 0.0006818473339080811
+        }
+      ],
+      "config": {
+        "_name_or_path": "/model",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "bos_token_id": 128000,
+        "eos_token_id": 128001,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 14336,
+        "max_position_embeddings": 131072,
+        "mlp_bias": false,
+        "model_type": "llama",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 32,
+        "num_key_value_heads": 8,
+        "pretraining_tp": 1,
+        "rms_norm_eps": 1e-05,
+        "rope_scaling": {
+          "factor": 8.0,
+          "high_freq_factor": 4.0,
+          "low_freq_factor": 1.0,
+          "original_max_position_embeddings": 8192,
+          "rope_type": "llama3"
+        },
+        "rope_theta": 500000.0,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.4",
+        "use_cache": true,
+        "vocab_size": 128264
+      },
+      "revision_provenance": "Existing model registry; current full-file SHA256 recorded separately"
+    },
+    {
+      "registry": {
+        "stage": "rlvr",
+        "id": "allenai/Llama-3.1-Tulu-3-8B",
+        "revision": "666943798adbde0b1aff34626007e26986a3c107",
+        "path": "/models/Llama-3.1-Tulu-3-8B",
+        "wrapper": "native"
+      },
+      "files": [
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/model-00001-of-00004.safetensors",
+          "sha256": "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+          "before": {
+            "size": 4976764208,
+            "mtime_ns": 1778900405993782773,
+            "ctime_ns": 1778900405997782752,
+            "inode": 49067499,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00001-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4976764208,
+            "mtime_ns": 1778900405993782773,
+            "ctime_ns": 1778900405997782752,
+            "inode": 49067499,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00001-of-00004.safetensors"
+          },
+          "seconds": 12.76990009099245
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/model-00002-of-00004.safetensors",
+          "sha256": "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+          "before": {
+            "size": 4999802720,
+            "mtime_ns": 1778900409001767401,
+            "ctime_ns": 1778900409005767380,
+            "inode": 49067500,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00002-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4999802720,
+            "mtime_ns": 1778900409001767401,
+            "ctime_ns": 1778900409005767380,
+            "inode": 49067500,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00002-of-00004.safetensors"
+          },
+          "seconds": 12.79556980729103
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/model-00003-of-00004.safetensors",
+          "sha256": "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+          "before": {
+            "size": 4915916176,
+            "mtime_ns": 1778900396521831204,
+            "ctime_ns": 1778900396529831163,
+            "inode": 49067501,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00003-of-00004.safetensors"
+          },
+          "after": {
+            "size": 4915916176,
+            "mtime_ns": 1778900396521831204,
+            "ctime_ns": 1778900396529831163,
+            "inode": 49067501,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00003-of-00004.safetensors"
+          },
+          "seconds": 12.569740358740091
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/model-00004-of-00004.safetensors",
+          "sha256": "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e",
+          "before": {
+            "size": 1168204344,
+            "mtime_ns": 1778900145807131376,
+            "ctime_ns": 1778900145815131334,
+            "inode": 49067503,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00004-of-00004.safetensors"
+          },
+          "after": {
+            "size": 1168204344,
+            "mtime_ns": 1778900145807131376,
+            "ctime_ns": 1778900145815131334,
+            "inode": 49067503,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model-00004-of-00004.safetensors"
+          },
+          "seconds": 3.0258780270814896
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/config.json",
+          "sha256": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+          "before": {
+            "size": 851,
+            "mtime_ns": 1778900064799552545,
+            "ctime_ns": 1778900064803552526,
+            "inode": 49067496,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/config.json"
+          },
+          "after": {
+            "size": 851,
+            "mtime_ns": 1778900064799552545,
+            "ctime_ns": 1778900064803552526,
+            "inode": 49067496,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/config.json"
+          },
+          "seconds": 0.00024009868502616882
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/configuration.json",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "before": {
+            "size": 73,
+            "mtime_ns": 1778900064759552739,
+            "ctime_ns": 1778900064759552739,
+            "inode": 49067497,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/configuration.json"
+          },
+          "after": {
+            "size": 73,
+            "mtime_ns": 1778900064759552739,
+            "ctime_ns": 1778900064759552739,
+            "inode": 49067497,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/configuration.json"
+          },
+          "seconds": 0.0002158917486667633
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/generation_config.json",
+          "sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "before": {
+            "size": 180,
+            "mtime_ns": 1778900064795552564,
+            "ctime_ns": 1778900064795552564,
+            "inode": 49067498,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/generation_config.json"
+          },
+          "after": {
+            "size": 180,
+            "mtime_ns": 1778900064795552564,
+            "ctime_ns": 1778900064795552564,
+            "inode": 49067498,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/generation_config.json"
+          },
+          "seconds": 0.00020647794008255005
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/model.safetensors.index.json",
+          "sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "before": {
+            "size": 23950,
+            "mtime_ns": 1778900065015551499,
+            "ctime_ns": 1778900065019551480,
+            "inode": 49067502,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model.safetensors.index.json"
+          },
+          "after": {
+            "size": 23950,
+            "mtime_ns": 1778900065015551499,
+            "ctime_ns": 1778900065019551480,
+            "inode": 49067502,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/model.safetensors.index.json"
+          },
+          "seconds": 0.000321410596370697
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/special_tokens_map.json",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "before": {
+            "size": 439,
+            "mtime_ns": 1778900065119550995,
+            "ctime_ns": 1778900065119550995,
+            "inode": 49067505,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/special_tokens_map.json"
+          },
+          "after": {
+            "size": 439,
+            "mtime_ns": 1778900065119550995,
+            "ctime_ns": 1778900065119550995,
+            "inode": 49067505,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/special_tokens_map.json"
+          },
+          "seconds": 0.00019020959734916687
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/tokenizer.json",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "before": {
+            "size": 9085839,
+            "mtime_ns": 1778900066343545067,
+            "ctime_ns": 1778900066355545010,
+            "inode": 49067509,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/tokenizer.json"
+          },
+          "after": {
+            "size": 9085839,
+            "mtime_ns": 1778900066343545067,
+            "ctime_ns": 1778900066355545010,
+            "inode": 49067509,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/tokenizer.json"
+          },
+          "seconds": 0.03492027148604393
+        },
+        {
+          "path": "/models/Llama-3.1-Tulu-3-8B/tokenizer_config.json",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "before": {
+            "size": 51220,
+            "mtime_ns": 1778900065271550259,
+            "ctime_ns": 1778900065275550239,
+            "inode": 49067510,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/tokenizer_config.json"
+          },
+          "after": {
+            "size": 51220,
+            "mtime_ns": 1778900065271550259,
+            "ctime_ns": 1778900065275550239,
+            "inode": 49067510,
+            "device": 2065,
+            "resolved": "/models/Llama-3.1-Tulu-3-8B/tokenizer_config.json"
+          },
+          "seconds": 0.0006854981184005737
+        }
+      ],
+      "config": {
+        "_name_or_path": "/model",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "bos_token_id": 128000,
+        "eos_token_id": 128001,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 14336,
+        "max_position_embeddings": 131072,
+        "mlp_bias": false,
+        "model_type": "llama",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 32,
+        "num_key_value_heads": 8,
+        "pretraining_tp": 1,
+        "rms_norm_eps": 1e-05,
+        "rope_scaling": {
+          "factor": 8.0,
+          "high_freq_factor": 4.0,
+          "low_freq_factor": 1.0,
+          "original_max_position_embeddings": 8192,
+          "rope_type": "llama3"
+        },
+        "rope_theta": 500000.0,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.43.4",
+        "use_cache": false,
+        "vocab_size": 128264
+      },
+      "revision_provenance": "Existing model registry; current full-file SHA256 recorded separately"
+    }
+  ],
+  "versions": {
+    "torch": "2.5.1",
+    "vllm": "0.7.2",
+    "transformers": "4.49.0",
+    "numpy": "1.26.4",
+    "tokenizers": "0.21.4"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090, 550.120, 24576 MiB"
+}

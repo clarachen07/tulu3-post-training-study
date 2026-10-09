@@ -1,0 +1,5 @@
+# Generation-stage dependencies (GPU). Install on top of requirements.txt.
+# See RUNBOOK.md for hardware notes (tested target: RTX 3090 24GB).
+torch
+transformers
+accelerate

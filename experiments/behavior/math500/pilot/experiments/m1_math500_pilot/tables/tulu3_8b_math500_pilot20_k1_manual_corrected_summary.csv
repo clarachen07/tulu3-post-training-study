@@ -1,0 +1,2 @@
+﻿model_stage,model_name_or_path,num_problems,num_generations,num_correct_auto,num_correct_final,accuracy_auto,accuracy_final,pass_at_1_final,pass_at_k_final,manual_reviewed_count,unresolved_manual_needed_count,avg_generated_tokens,median_generated_tokens
+tulu3_8b,models/Llama-3.1-Tulu-3-8B,20,20,5,7,0.25,0.35,0.35,0.35,20,0,819.65,820.5

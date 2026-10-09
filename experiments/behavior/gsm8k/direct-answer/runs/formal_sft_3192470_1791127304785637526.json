@@ -1,0 +1,14 @@
+{
+  "job_id": "formal_sft_3192470_1791127304785637526",
+  "phase": "formal",
+  "stage": "sft",
+  "started_utc": "2026-10-04T15:21:44.785691+00:00",
+  "requested_count": 2343,
+  "completed_count": 2343,
+  "max_num_seqs": 4,
+  "status": "complete",
+  "config_hash": "5786fc174613b44c62c74ebc16d47a1b18495fe2aa5f0b5598d997a2dffbd8f3",
+  "load_seconds": 22.296540021896362,
+  "elapsed_seconds": 318.32728101313114,
+  "ended_utc": "2026-10-04T15:27:03.143259+00:00"
+}

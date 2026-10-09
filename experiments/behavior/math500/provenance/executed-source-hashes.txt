@@ -1,0 +1,7 @@
+# Exact files executed on the server before path sanitization
+math/examples/math_eval/math_eval.py  60cad796cf4ad58878ff6f3e5f730df72df69bda95e6c847bd605e7cb31c5767
+math/examples/math_eval/utils.py      6a974ef9a86504412f29ea697d61b54260aac20b49b81431b358a7e5a9485c4d
+math500/test.jsonl                    35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132
+
+# The Git-tracked math_eval.py is semantically identical except that the
+# machine-specific SFT tokenizer path is supplied by TULU_SFT_TOKENIZER_PATH.

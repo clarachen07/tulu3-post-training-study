@@ -1,0 +1,31 @@
+{
+  "boundary_mode": "natural",
+  "metrics": {
+    "1": {
+      "mean_kl": 4.58100428968668,
+      "n": 200,
+      "step_retrieval_accuracy": 0.38,
+      "top1_agreement": 0.07
+    },
+    "2": {
+      "mean_kl": 5.549276671409607,
+      "n": 200,
+      "step_retrieval_accuracy": 0.225,
+      "top1_agreement": 0.075
+    },
+    "3": {
+      "mean_kl": 6.511664481360677,
+      "n": 193,
+      "step_retrieval_accuracy": 0.12953367875647667,
+      "top1_agreement": 0.03626943005181347
+    },
+    "5": {
+      "mean_kl": 8.35367290576299,
+      "n": 180,
+      "step_retrieval_accuracy": 0.044444444444444446,
+      "top1_agreement": 0.016666666666666666
+    }
+  },
+  "model": "base",
+  "trajectories": 200
+}

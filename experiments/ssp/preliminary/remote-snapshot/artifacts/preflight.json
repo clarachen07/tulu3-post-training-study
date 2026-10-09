@@ -1,0 +1,64 @@
+{
+  "environment": {
+    "cuda": "12.1",
+    "cwd": "/home/ai/projects/ssp-tulu-repro",
+    "disk_free_bytes": 630724251648,
+    "git_commit": "afdf19bdfb24c445cc757ea1878914d64fa8a6e9",
+    "git_dirty": false,
+    "gpu": "NVIDIA GeForce RTX 3090, 24576, 24240, 32",
+    "python": "3.10.20",
+    "torch": "2.4.0+cu121",
+    "transformers": "4.47.1"
+  },
+  "models": {
+    "base": {
+      "hidden_size": 4096,
+      "layers": 32,
+      "path": "/home/ai/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B",
+      "step_token_id": 128255,
+      "tokenizer_length": 128256,
+      "vocab_size": 128256
+    },
+    "dpo": {
+      "hidden_size": 4096,
+      "layers": 32,
+      "path": "/home/ai/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO",
+      "step_token_id": 128255,
+      "tokenizer_length": 128257,
+      "vocab_size": 128264
+    },
+    "rlvr": {
+      "hidden_size": 4096,
+      "layers": 32,
+      "path": "/home/ai/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B",
+      "step_token_id": 128255,
+      "tokenizer_length": 128257,
+      "vocab_size": 128264
+    },
+    "sft": {
+      "hidden_size": 4096,
+      "layers": 32,
+      "path": "/home/ai/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT",
+      "step_token_id": 128255,
+      "tokenizer_length": 128257,
+      "vocab_size": 128264
+    }
+  },
+  "ok": true,
+  "ordinary_token_ids_identical": true,
+  "sources": {
+    "/home/ai/limit-of-RLVR/math/examples/math_eval/data/math/test.jsonl": "0e9257f4e3481c45c1ba0ae3b09a14c7a751ed30a018f41f317c64537dac8a5a",
+    "/home/ai/limit-of-RLVR/math/examples/math_eval/data/math/train.jsonl": "5b2887ab712c936a5fb79bdcfc917d5c5da888d4a7b35cff92ee3fd2ba15caab",
+    "/home/ai/limit-of-RLVR/math/examples/math_eval/data/math500/test.jsonl": "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/dpo/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl": "4d5437021128dc93d49ac6434dc5057f0453d1d2c70cfde226493b931b1e9f69",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/dpo/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl": "1a06d86060251efadbd5d4eeefd4ba0795588978b9b9f214fcde58492a96662a",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/dpo/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl": "6055848d5fedfca9c097b3f32bd8fdaedce48b9a20684d47fa2283321251f2fe",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/dpo/seed-4/math500/test_plain-boxed_-1_seed4_t0.6_s0_e-1.jsonl": "a5cb500a034f8f3153e46b4ee6e93561bba0614557118e156cfc234c82adc38e",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/rlvr/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl": "151c363b4f251a5ef57307f2c3ad60e68d761df9263c170abd12dcde37ee796b",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/rlvr/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl": "a2ba0bf37ce2140daca103f2a9c3f9d368db7ce999441925d31272ca4e52fa55",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/rlvr/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl": "3890efe81010d7416aba578fd564c4e8d8f8f2fe21db216225a0650ceb716eae",
+    "/home/ai/limit-of-RLVR/runs/tulu3-full-shared-chat/rlvr/seed-4/math500/test_plain-boxed_-1_seed4_t0.6_s0_e-1.jsonl": "9d6df8c0a96ce3423213a18cea9dd784be3ef99b2765eef1367574cbe02b34be"
+  },
+  "step_token": "<|reserved_special_token_247|>",
+  "step_token_id": 128255
+}
