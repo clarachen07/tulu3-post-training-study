@@ -18,7 +18,7 @@ python -m tulu_behavior.verify --published
 python -m pytest -q --import-mode=importlib tests pca/tests behavior/tests
 ```
 
-The behavioral verifier checks a compact sample/stratum/label index, aggregate counts, transition partitions, exact McNemar/Holm tests, CSV exports and SVG coordinates. Questions, proofs, exact tokenized inputs, raw responses, activation batches and complete PCA spectra are local-only. The historical Release is retained in the original private archive; this repository does not publish new data attachments.
+The behavioral verifier checks a compact sample/stratum/label index, aggregate counts, transition partitions, exact McNemar/Holm tests, CSV exports and SVG coordinates. Questions, proofs, exact tokenized inputs, raw responses, activation batches and complete PCA spectra are excluded from this publication. The former Release is not a supported download location; historical asset metadata remains provenance only. This repository does not publish new data attachments.
 
 ## External-evidence analysis
 

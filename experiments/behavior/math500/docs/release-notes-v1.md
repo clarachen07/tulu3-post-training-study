@@ -1,5 +1,9 @@
 # Experiment 1 behavior-evaluation archive
 
+These are historical notes for the former `exp1-behavior-eval-v1` release.
+The original repository and its hosted attachments are retired; this document
+is not a download guide. Asset names and validation values remain as provenance.
+
 This archival release freezes the complete behavioral evaluation used before the
 representation-level experiments.
 

@@ -21,8 +21,8 @@ The original run covers eight test cells, each with 2,077 unique sentences and 2
 Use Linux, Python 3.11, and a CUDA-capable GPU for inference. The recorded inference stack uses PyTorch 2.5.1, Transformers 4.49.0, vLLM 0.7.2, and BF16 without quantization. The original run used CUDA 12.4, whereas the paper reports CUDA 12.1. This publication adds an explicit PyYAML dependency required by the Base prompt wrapper; it does not change the experiment's inference or scoring code.
 
 ```sh
-git clone --recurse-submodules https://github.com/clarachen07/tulu3-behavior-eval.git
-cd tulu3-behavior-eval/syntax
+git clone --recurse-submodules https://github.com/clarachen07/tulu3-post-training-study.git
+cd tulu3-post-training-study/experiments/behavior/syntax
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt

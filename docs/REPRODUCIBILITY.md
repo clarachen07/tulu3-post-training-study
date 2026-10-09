@@ -22,7 +22,7 @@ Syntax's full protocol comparisons require the separately obtained EWT dataset a
 
 ## Full local-evidence checks
 
-The original workspaces retain complete evidence. PrOntoQA behavior can independently rescore every saved response using:
+Existing local workspaces retain their current materials, but they are not guaranteed to contain every omitted artifact. Former GitHub Release downloads are not supported, and no additional backup is created during repository retirement. PrOntoQA behavior can independently rescore every saved response when a complete external evidence tree is supplied:
 
 ```bash
 cd experiments/prontoqa
@@ -31,7 +31,7 @@ python -m tulu_behavior.analyze --source-dir /path/to/complete/behavior --output
 
 Complete external evidence must include exact frozen inputs, response batches, metadata and the original parent 3-hop files. Its identity is verified and the original is read-only. This operation does not repeat GPU inference.
 
-MATH500's `scripts/analysis/verify_exp1.py` takes an extracted raw archive. GSM8K's `verify_results.py` remains a complete-evidence verifier; restore both full experiment trees at their declared relative paths in a separate workspace before using it. PrOntoQA geometry requires full external activations for numerical recomputation. See [artifact policy](ARTIFACT_POLICY.md).
+MATH500's `scripts/analysis/verify_exp1.py` takes a complete external raw-generation tree supplied by the caller; this publication provides no download for it. GSM8K's `verify_results.py` remains a complete-evidence verifier; restore both full experiment trees at their declared relative paths in a separate workspace before using it. PrOntoQA geometry requires full external activations for numerical recomputation. If required raw evidence is unavailable, only the public aggregate checks can be performed. See [artifact policy](ARTIFACT_POLICY.md).
 
 ## New inference
 

@@ -4,7 +4,7 @@
 
 Scientific code is in [`../tulu_behavior/`](../tulu_behavior/). This publication preserves the completed BF16, greedy evaluation of four fixed checkpoints across 1-, 3-, and 5-hop PrOntoQA pools. Each hop has 1,440 formal questions. The reasoning and direct-answer conditions share four independent 3-hop demonstrations in True, False, True, False order. Tuned models use native and plain templates. Base's two logical template views share one physical output: **60,480 physical generations, 69,120 logical views**.
 
-The [combined Chinese Markdown report](../reports/report.zh-CN.md) is the main report. The [English behavioral HTML](reports/report.html), [summary CSV](reports/summary.csv), [primary tests](reports/primary_tests.csv), [stage transitions](reports/transitions.csv), and [paired differences](reports/paired_differences.csv) preserve the numerical results. The historical geometry/PCA experiment remains a separate protocol. Its original private Release is not anonymously downloadable.
+The [combined Chinese Markdown report](../reports/report.zh-CN.md) is the main report. The [English behavioral HTML](reports/report.html), [summary CSV](reports/summary.csv), [primary tests](reports/primary_tests.csv), [stage transitions](reports/transitions.csv), and [paired differences](reports/paired_differences.csv) preserve the numerical results. The historical geometry/PCA experiment remains a separate protocol. Its former Release is not a supported download location.
 
 ## Published evidence and its limits
 

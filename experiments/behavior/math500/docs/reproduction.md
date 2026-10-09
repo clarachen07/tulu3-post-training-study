@@ -2,24 +2,27 @@
 
 Run the commands below from the `math500/` directory of the consolidated repository.
 
-## Recompute from archived generations
+## Recompute from external generations, when available
 
-1. Download the `exp1-shared-chat-raw-jsonl.tar.zst` asset from the
-   `exp1-behavior-eval-v1` GitHub Release.
-2. Extract it:
+The former GitHub Release is not a supported download location. This publication
+does not provide raw generations. Supply all 15 exact files recorded in
+`../artifacts/shared-chat-raw-files.tsv`, arranged under a caller-selected
+`shared-chat-raw/` directory. If you already have the historical archive, extract it:
 
-   ```bash
-   zstd -dc exp1-shared-chat-raw-jsonl.tar.zst | tar -xf -
-   ```
+```bash
+zstd -dc exp1-shared-chat-raw-jsonl.tar.zst | tar -xf -
+```
 
-3. Run:
+Then run:
 
-   ```bash
-   python3 scripts/analysis/verify_exp1.py shared-chat-raw
-   ```
+```bash
+python3 scripts/analysis/verify_exp1.py shared-chat-raw
+```
 
 The script validates all 15 files and writes a machine-readable summary to
-standard output. It requires only Python's standard library.
+standard output. It requires only Python's standard library. Without these
+external files, complete raw-generation verification is unavailable; run the
+consolidated root `scripts/verify_publication.py` for public aggregate checks.
 
 ## Regenerate the comparison figure
 
@@ -47,4 +50,3 @@ Then run the desired seed script. The evaluator must match
 
 Model weights are not archived here. Model config/tokenizer snapshots and
 hashes are retained in `provenance/model-configs/`.
-

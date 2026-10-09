@@ -1,8 +1,8 @@
 # Consolidation record
 
-The source commits and every copied/excluded file are recorded in [MIGRATION.json](MIGRATION.json). The new Git history starts with the consolidated snapshot; original histories remain in the three archived repositories.
+The source commits and every copied/excluded file are recorded in [MIGRATION.json](MIGRATION.json). The new Git history starts with the consolidated snapshot and does not include the original repositories' complete histories. The original remote repositories are retired in favor of this consolidation; their source identifiers remain as historical provenance, not live dependencies.
 
-The original local workspaces are unchanged. The new checkout is the public research artifact, not a replacement for the full local evidence archive. The separate private literature repository and server jobs were not changed.
+The original local workspaces are unchanged. At the owner's request, no additional backup of the retired remote repositories or their Release attachments is created. Existing local checkouts do not necessarily contain the latest original Git history or downloaded Release assets. The new checkout is the public research artifact, not a complete raw-evidence archive. The separate private literature repository and server jobs were not changed.
 
 ## Confirmed report consolidation
 

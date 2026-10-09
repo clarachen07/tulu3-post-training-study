@@ -43,11 +43,11 @@ DPO–RLVR difference.
 - Fifteen shared-chat runs: Base seeds 1–3 and SFT/DPO/RLVR seeds 1–4.
 - Original/no-chat seed-1 four-stage comparison.
 - The 100-question DPO/RLVR chat-template diagnostic.
-- Per-run metrics, validation reports, logs, audit JSON, pass@8/12/16 analyses,
-  paired tests, figures and the editable experiment brief.
-- Full raw generations as downloadable assets in the
-  [`exp1-behavior-eval-v1`](https://github.com/clarachen07/tulu3-behavior-eval/releases/tag/exp1-behavior-eval-v1)
-  GitHub Release.
+- Per-run metrics, historical validation reports, compact audit JSON, pass@8/12/16
+  analyses, paired tests, figures and the canonical Markdown experiment brief.
+- Historical raw-generation inventories and hashes. Full generations and complete
+  logs are excluded; the former `exp1-behavior-eval-v1` Release is not a supported
+  download location. Complete rescoring requires externally supplied exact files.
 
 ## Navigation
 
@@ -61,7 +61,7 @@ DPO–RLVR difference.
 - [Frozen machine-readable results](results/frozen/)
 - [Figures](figures/)
 - [Run index](runs/index.csv)
-- [Release artifact index](artifacts/README.md)
+- [Historical artifact index and availability](artifacts/README.md)
 
 ## Important limitation
 

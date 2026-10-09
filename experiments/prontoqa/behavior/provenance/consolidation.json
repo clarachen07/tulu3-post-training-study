@@ -4,16 +4,16 @@
   "summary_cells": 128,
   "transition_cells": 48,
   "primary_tests": 3,
-  "local_links_checked": 106,
+  "local_links_checked": 108,
   "svg_series_and_intervals_checked": 11,
   "rescoring_performed": false,
   "bootstrap_recomputed": false,
-  "created_utc": "2026-10-09T09:15:18.302822+00:00",
+  "created_utc": "2026-10-09T09:37:44.580691+00:00",
   "historical_ledger_sha256": "e91e5f981a17623b18a1dffe363305fb0e46a612e22c59fcfd09c016adff01ea",
   "historical_ledger_policy": "Preserved unchanged; this is a separate consolidation identity",
   "corpus_index_policy": "sample_id, hop and answer only; full questions/proofs/inputs excluded",
   "files": {
-    "behavior/README.md": "8eef175606ef92c33b28c50e23a3800f069fb8d141afe47260eb5fef832eb960",
+    "behavior/README.md": "27f74a2e09fce7a26c0569ab3805e029125d9164931aa71d68e3b446ec421638",
     "behavior/experiment.json": "515a64b5766ee9bb896daf00b0b99e99f14b797afa8a66759ec0060e3bf28e00",
     "behavior/tests/test_protocol.py": "407a9f867cdba6214c1e5874ea2687846d151edf8e61fbf6747be19c7b66863f",
     "behavior/tests/test_verify.py": "90b70e5172f6346db20609fd1be8bfe013264d7b1d7b06bf66d9ecac5d0fc0d1",
@@ -48,9 +48,9 @@
     "behavior/reports/figures/stage_comparison.png": "aab2a8ae8e66e2c751ee3b274257ad6ac4c1dbc9530eb0a8fe6440ff69edefee",
     "behavior/reports/figures/values.json": "736183dd27bd29b05f45d11ddc684be27adc44b4f36e519ea605e66226937322",
     "behavior/reports/figures/difficulty_curves.svg": "00e1b197e9bc52b4898928610121fb73d14300a7ae6c4c68623431a632c25ac6",
-    "README.md": "ba7458fc532ce787794703c54993b832ae6362625839f5455b3d745f45375f10",
+    "README.md": "4c3ea632ba5b4760c815a52a1aa7034ec1a5473a29bccc3a5d28841de5c7d9e0",
     "README.zh-CN.md": "1950eeae44584b946df483e0a31f9703222055a5f3572ff781c8f8d65d5d9970",
-    "reports/report.zh-CN.md": "323321fb05d38d87940694bbb5b3a63fb52ce747a95324e6f374305676f5c3d1"
+    "reports/report.zh-CN.md": "f27d47c134054bf41cf350898e3d94b72bcfb75aae2da25181374db1e58b4b85"
   },
   "code_files": {
     "behavior/experiment.json": "515a64b5766ee9bb896daf00b0b99e99f14b797afa8a66759ec0060e3bf28e00",
@@ -82,5 +82,5 @@
     "tulu_behavior/tokenize.py": "dc20e358b5880d9f59e6a34ba9ed014539bda7ec94e8bd2fa9d9301653a1c96c",
     "tulu_behavior/verify.py": "ccfb76ec2a53c4ac6a1be69f9c678b323828a021b8473ba933f68ab7989bfc8f"
   },
-  "identity": "f71875f27c62908860c0f39b92779ff355f945ec74fa99596fe80dab52f53373"
+  "identity": "173388fc1455c62654029663c9db9072e1b2bfb59a1635ca1b812c2724a562f9"
 }

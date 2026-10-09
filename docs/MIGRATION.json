@@ -67,7 +67,7 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/prontoqa/README.md",
-      "published_sha256": "ba7458fc532ce787794703c54993b832ae6362625839f5455b3d745f45375f10",
+      "published_sha256": "4c3ea632ba5b4760c815a52a1aa7034ec1a5473a29bccc3a5d28841de5c7d9e0",
       "byte_preserved": false
     },
     {
@@ -89,7 +89,7 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/prontoqa/behavior/README.md",
-      "published_sha256": "8eef175606ef92c33b28c50e23a3800f069fb8d141afe47260eb5fef832eb960",
+      "published_sha256": "27f74a2e09fce7a26c0569ab3805e029125d9164931aa71d68e3b446ec421638",
       "byte_preserved": false
     },
     {
@@ -2317,7 +2317,7 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/prontoqa/reports/report.zh-CN.md",
-      "published_sha256": "323321fb05d38d87940694bbb5b3a63fb52ce747a95324e6f374305676f5c3d1",
+      "published_sha256": "f27d47c134054bf41cf350898e3d94b72bcfb75aae2da25181374db1e58b4b85",
       "byte_preserved": false
     },
     {
@@ -2927,7 +2927,7 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/README.md",
-      "published_sha256": "e7894d6fefc843d051ad8b4acb01d5765c154b15d80d1b6deb5e98c3ea46eed5",
+      "published_sha256": "ad39c66ba7dd508974759f752cce7d8135e5324ef4a43b0c5989b692d1a01144",
       "byte_preserved": false
     },
     {
@@ -19164,8 +19164,8 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/math500/AGENTS.md",
-      "published_sha256": "f15269ff2c70ecaa139efe49dfe4b62d437b2470b6a97c1dce38375f354c8533",
-      "byte_preserved": true
+      "published_sha256": "5606ad7e94b45d047f1303a1b81abd92bd30a4e185b2b32a5eb334a640c13f6d",
+      "byte_preserved": false
     },
     {
       "repository": "tulu3-behavior-eval",
@@ -19175,8 +19175,8 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/math500/README.md",
-      "published_sha256": "054c468c629a9a2b3a039e0e3200df7eed130b06ca3e412a4b764a9028b8f9c4",
-      "byte_preserved": true
+      "published_sha256": "4a82b3f75069198668c856a7ac430b5daba7712814ab9aaf893c2e13c0d2715c",
+      "byte_preserved": false
     },
     {
       "repository": "tulu3-behavior-eval",
@@ -19197,8 +19197,8 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/math500/artifacts/README.md",
-      "published_sha256": "3a58a50072df37ea67c7b40daf491888baa5ba2279976c2daadd92deaebbb734",
-      "byte_preserved": true
+      "published_sha256": "cf97a48579776b3ef68ccbfae3eeb24d1334ae2c597c5286b32b91f47f51338b",
+      "byte_preserved": false
     },
     {
       "repository": "tulu3-behavior-eval",
@@ -19282,7 +19282,7 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/math500/docs/advisor-brief.md",
-      "published_sha256": "115790b2a484c628b922fef1abe6121799a719b110ce49c4799767efc7490907",
+      "published_sha256": "946580d968c333fc07c14a3a5768b7c4792c9d081b7ca33e35eb475894e7665d",
       "byte_preserved": false
     },
     {
@@ -19315,8 +19315,8 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/math500/docs/release-notes-v1.md",
-      "published_sha256": "4663a41cf07d08337db9ebb2a60ba97fa26838491c188460c9ebbedebf4a5332",
-      "byte_preserved": true
+      "published_sha256": "ede06866f51bf8780eb0770ceb407990d697acc7a75808c48129b58a657221ec",
+      "byte_preserved": false
     },
     {
       "repository": "tulu3-behavior-eval",
@@ -19326,8 +19326,8 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/math500/docs/reproduction.md",
-      "published_sha256": "1019b8cd35075fa73a97614b18e7d5164aabf2728ea94361608d9d366a27b862",
-      "byte_preserved": true
+      "published_sha256": "77d9b635cbdf5ae73af919278b88be85b529753aeaa36a82cd80805fdaadf0f1",
+      "byte_preserved": false
     },
     {
       "repository": "tulu3-behavior-eval",
@@ -21576,8 +21576,8 @@
       "action": "copied",
       "reason": "Scientific source, compact results, documentation or provenance",
       "destination": "experiments/behavior/syntax/README.md",
-      "published_sha256": "e666d78fb6e0a27d195fcf360b624fdf041670dad960b40534b9fd679624e3a7",
-      "byte_preserved": true
+      "published_sha256": "7f5d01b5e421cb3004aadd35b1439a83543556ddc5f94f93db5630a9f7b8abb7",
+      "byte_preserved": false
     },
     {
       "repository": "tulu3-behavior-eval",

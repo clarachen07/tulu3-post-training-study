@@ -112,5 +112,15 @@
       "behavior_endpoint": "incomplete",
       "bootstrap_recomputed": false
     }
+  },
+  "repository_retirement_documentation_check": {
+    "created_utc": "2026-10-09T09:37:44.802014+00:00",
+    "status": "passed",
+    "documents_checked": 80,
+    "local_links_checked": 235,
+    "stale_original_repository_instructions": 0,
+    "historical_source_and_release_metadata_rewritten": false,
+    "scientific_code_or_results_changed": false,
+    "additional_old_repository_backup_created": false
   }
 }

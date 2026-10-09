@@ -2,7 +2,7 @@
 
 Behavioral evaluation and representation geometry across the **Llama 3.1 8B Base → Tülu 3 SFT → DPO → RLVR** lineage.
 
-This repository consolidates three research archives into a clean snapshot. It contains scientific code, protocols, compact results, figures and provenance. Complete raw evidence remains local; no large data assets are uploaded to this repository or a new Release.
+This repository consolidates three research archives into a clean snapshot. It contains scientific code, protocols, compact results, figures and provenance. Raw evidence is excluded; existing local materials remain outside this repository. No large data assets are uploaded here or to a new Release.
 
 ## Experiments
 
@@ -37,4 +37,4 @@ The verification checks publication hashes, scientific aggregate consistency and
 - [Migration record](docs/MIGRATION.md) and [per-file source inventory](docs/MIGRATION.json): exact source commits, retained files and exclusions.
 - [Component licensing](THIRD_PARTY_NOTICES.md): consolidation does not relicense third-party code, datasets or models.
 
-The former repositories retain their history, existing Releases and original visibility, and are archived after this publication passes verification. The separate private literature/meeting-notes repository is outside this study.
+This repository supersedes the three former repositories and runs independently of them. Former repository and Release URLs in historical provenance are source identifiers, not supported clone or download locations. The original remote histories and hosted Release attachments are not preserved by this snapshot. Existing local workspaces remain unchanged; no additional old-repository backups are created. The separate private literature/meeting-notes repository is outside this study.

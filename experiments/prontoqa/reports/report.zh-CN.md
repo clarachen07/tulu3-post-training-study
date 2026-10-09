@@ -1,4 +1,4 @@
-> 本次公开整合保留代码、汇总统计与图表。完整题集、分词输入、原始生成、激活与 PCA 完整数值谱仅本地保留；不新增大数据 Release。本文中的历史复核描述原实验证据，旧私有仓库的附件不对匿名读者开放。本次整理验证记录与历史清单分开保存。
+> 本次公开整合保留代码、汇总统计与图表。完整题集、分词输入、原始生成、激活与 PCA 完整数值谱不公开；已有本地材料保留，不新增大数据 Release。本文中的历史复核描述原实验证据；旧仓库及 Release 不再作为下载入口，历史清单中的网址仅标识原始来源。本次整理验证记录与历史清单分开保存。
 
 # Llama 3.1 / Tulu3 8B 四阶段模型：表示几何与逻辑行为评测
 
@@ -250,6 +250,6 @@ GitHub 发布材料仅包含科学代码、固定题集、七份汇总 CSV、汇
 
 ### D. 公开复现与方法来源
 
-- [公开代码与结果（固定 v1.0.0）](https://github.com/clarachen07/tulu3-prontoqa-representation-geometry/tree/v1.0.0)；[原始表示 Release](https://github.com/clarachen07/tulu3-prontoqa-representation-geometry/releases/tag/v1.0.0)。完整 PCA 谱及其索引见固定版本仓库的 `pca/spectra/` 与 `pca/reports/spectra_index.json`。
+- [当前公开代码与结果](../README.md)；[数据范围与复核限制](../../../docs/ARTIFACT_POLICY.md)。原始 `v1.0.0` 及其表示附件的身份保留在历史清单中，不提供旧仓库下载入口。完整 PCA 谱及其索引未纳入本次公开快照；完整数值重算须自行提供相应外部证据。
 - [原论文 v2](https://arxiv.org/html/1905.12784v2)，尤其是 TwoNN、子采样和 §3.3 的 PCA 对照。
 - [固定作者代码](https://github.com/ansuini/IntrinsicDimDeep/tree/2c5140009eb3efccca1d774dc66cb043c04b26d8)；[固定 PrOntoQA 生成器](https://github.com/asaparov/prontoqa/tree/066f73fc70bfaa92ed2476fd3c41b4951ad6e63a)。
