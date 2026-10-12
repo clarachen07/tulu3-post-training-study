@@ -1,3 +1,3 @@
-[submodule "experiments/behavior/syntax/third_party/llmpp"]
-	path = experiments/behavior/syntax/third_party/llmpp
+[submodule "experiments/syntax/third_party/llmpp"]
+	path = experiments/syntax/third_party/llmpp
 	url = https://github.com/megagonlabs/llmpp.git

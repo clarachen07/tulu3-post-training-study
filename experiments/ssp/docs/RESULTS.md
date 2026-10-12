@@ -49,7 +49,7 @@ effect but does not establish boundary-invariant semantic transfer.
 ## Multi-seed training endpoints
 
 All planned B2/C/A2/A runs reached step 1107 for seeds 42, 43, and 44. The
-compact per-run JSON files are archived under `preliminary/remote-snapshot/outputs/training`.
+compact per-run JSON files are archived under `results/training`.
 
 | Condition | Seed | NTP | STP | Trainer loss | Runtime (h) |
 | --- | ---: | ---: | ---: | ---: | ---: |

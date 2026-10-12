@@ -18,12 +18,12 @@ status/
 experiments/prontoqa/data/
 experiments/prontoqa/pca/spectra/
 experiments/prontoqa/behavior/data/
-experiments/behavior/gsm8k/*/data/
-experiments/behavior/gsm8k/*/outputs/
-experiments/behavior/gsm8k/direct-answer/baseline/
-experiments/behavior/syntax/data/
-experiments/behavior/syntax/outputs/
-experiments/behavior/syntax/results/**/*.sentences.jsonl
+experiments/gsm8k/*/data/
+experiments/gsm8k/*/outputs/
+experiments/gsm8k/direct-answer/baseline/
+experiments/syntax/data/
+experiments/syntax/outputs/
+experiments/syntax/results/**/*.sentences.jsonl
 experiments/ssp/data/
 experiments/ssp/outputs/
 experiments/ssp/artifacts/
@@ -34,4 +34,8 @@ experiments/ssp/artifacts/
 *.tar.gz
 *.tar.zst
 *.log
-experiments/behavior/math500/configs/math500-test.jsonl
+experiments/math500/configs/math500-test.jsonl
+
+# New pilot runs keep input data and raw generations outside versioned results.
+experiments/math500/pilot/data/
+experiments/math500/pilot/outputs/

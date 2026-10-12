@@ -1,0 +1,16 @@
+run_id,protocol,stage,seed,status,questions,samples_per_question,sha256,relative_raw_path
+base-seed1,shared-tulu-sft-template,base,1,complete,500,4,d21c9133c34e192ec1ccc19bad97456b677b81c28dc76ef81746354332468f3b,base/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl
+base-seed2,shared-tulu-sft-template,base,2,complete,500,4,d0e2f9d1901bb6be210739eb96fec905d3549ee880aa44ff4a2fdee8ee883bd6,base/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl
+base-seed3,shared-tulu-sft-template,base,3,complete,500,4,ba03ac765cf9c9a06021983b2e1d5aca6ba39891a156004f34c741ea99de8b82,base/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl
+sft-seed1,shared-tulu-sft-template,sft,1,complete,500,4,c2a088b1f943451d2b932e342c372a2c28ddf36a3dd75594707ee3d2d8422931,sft/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl
+sft-seed2,shared-tulu-sft-template,sft,2,complete,500,4,ebd8349806a59342a957d1051aec918b224fa025b6ca32b2cb5be2d697b5c314,sft/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl
+sft-seed3,shared-tulu-sft-template,sft,3,complete,500,4,e2ca5b06c8ad886ba6168d2c9790f7929e50fae9b4425aa23f43e2be072879e5,sft/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl
+sft-seed4,shared-tulu-sft-template,sft,4,complete,500,4,f758d4ddade27709f596060207170d577a50ce161a88a44e43d6f1218b16041d,sft/seed-4/math500/test_plain-boxed_-1_seed4_t0.6_s0_e-1.jsonl
+dpo-seed1,shared-tulu-sft-template,dpo,1,complete,500,4,4d5437021128dc93d49ac6434dc5057f0453d1d2c70cfde226493b931b1e9f69,dpo/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl
+dpo-seed2,shared-tulu-sft-template,dpo,2,complete,500,4,1a06d86060251efadbd5d4eeefd4ba0795588978b9b9f214fcde58492a96662a,dpo/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl
+dpo-seed3,shared-tulu-sft-template,dpo,3,complete,500,4,6055848d5fedfca9c097b3f32bd8fdaedce48b9a20684d47fa2283321251f2fe,dpo/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl
+dpo-seed4,shared-tulu-sft-template,dpo,4,complete,500,4,a5cb500a034f8f3153e46b4ee6e93561bba0614557118e156cfc234c82adc38e,dpo/seed-4/math500/test_plain-boxed_-1_seed4_t0.6_s0_e-1.jsonl
+rlvr-seed1,shared-tulu-sft-template,rlvr,1,complete,500,4,151c363b4f251a5ef57307f2c3ad60e68d761df9263c170abd12dcde37ee796b,rlvr/seed-1/math500/test_plain-boxed_-1_seed1_t0.6_s0_e-1.jsonl
+rlvr-seed2,shared-tulu-sft-template,rlvr,2,complete,500,4,a2ba0bf37ce2140daca103f2a9c3f9d368db7ce999441925d31272ca4e52fa55,rlvr/seed-2/math500/test_plain-boxed_-1_seed2_t0.6_s0_e-1.jsonl
+rlvr-seed3,shared-tulu-sft-template,rlvr,3,complete,500,4,3890efe81010d7416aba578fd564c4e8d8f8f2fe21db216225a0650ceb716eae,rlvr/seed-3/math500/test_plain-boxed_-1_seed3_t0.6_s0_e-1.jsonl
+rlvr-seed4,shared-tulu-sft-template,rlvr,4,complete,500,4,9d6df8c0a96ce3423213a18cea9dd784be3ef99b2765eef1367574cbe02b34be,rlvr/seed-4/math500/test_plain-boxed_-1_seed4_t0.6_s0_e-1.jsonl

@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "scope": "Original execution file identities and historical portable transformations. Complete per-sentence tables are external; these hashes do not attest edited documentation.",
+  "files": [
+    {
+      "original_path": "reports/dev128/P0/base.json",
+      "original_sha256": "804be3c0c01b85b0ccf6249b936e9c3d7cf610296bc07144b31520dbb7f7b2a9",
+      "result_path": "results/dev128/P0/base.json",
+      "historical_portable_sha256": "804be3c0c01b85b0ccf6249b936e9c3d7cf610296bc07144b31520dbb7f7b2a9",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P0/base.sentences.jsonl",
+      "original_sha256": "8c9f845bd42e27810857c30c44e52c79c61ada16bcbe3090a6870a701018fa66",
+      "result_path": "results/dev128/P0/base.sentences.jsonl",
+      "historical_portable_sha256": "cccfd849eeac70625b6eda07b40c8c49db7e588d20b16cd37468149454035ef1",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P0/dpo.json",
+      "original_sha256": "8057c08da7247318ef41c655fe5012022e5324483a85851d5682dd17d8ebc618",
+      "result_path": "results/dev128/P0/dpo.json",
+      "historical_portable_sha256": "8057c08da7247318ef41c655fe5012022e5324483a85851d5682dd17d8ebc618",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P0/dpo.sentences.jsonl",
+      "original_sha256": "1740eb09c586896a11ca7f381105d858d5658ca10d51e2cc4f7ca7abfde6be89",
+      "result_path": "results/dev128/P0/dpo.sentences.jsonl",
+      "historical_portable_sha256": "aedd0795228a0cba58ae20ad6adeb602cc243986d02847534cc457a7f9848599",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P0/final.json",
+      "original_sha256": "00590dff0ff720cb354ace73370dd8d089435868076722970a9a27837c5abb36",
+      "result_path": "results/dev128/P0/final.json",
+      "historical_portable_sha256": "00590dff0ff720cb354ace73370dd8d089435868076722970a9a27837c5abb36",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P0/final.sentences.jsonl",
+      "original_sha256": "3459742b6cee0d56bef0ab200e201f618c6f8735e108918afd8fafaaa45d1912",
+      "result_path": "results/dev128/P0/final.sentences.jsonl",
+      "historical_portable_sha256": "0f831da9f114fc0685065b95598345723ec43bf033219331bca45e6179b9268d",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P0/sft.json",
+      "original_sha256": "040fe74d6d16a65f2c18db2edc99514dc1514d7399a8af10702d7e697a0270bf",
+      "result_path": "results/dev128/P0/sft.json",
+      "historical_portable_sha256": "040fe74d6d16a65f2c18db2edc99514dc1514d7399a8af10702d7e697a0270bf",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P0/sft.sentences.jsonl",
+      "original_sha256": "a75b2a7621ca65c404879f924c7981d72a1626bb172571e98db8b99b7f72a66e",
+      "result_path": "results/dev128/P0/sft.sentences.jsonl",
+      "historical_portable_sha256": "593358bdfad9c7aa7eb5bf52bd2e4edaf953bcf2323e451d54d73f10ca192551",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P1/base.json",
+      "original_sha256": "a6450a457272762404a8bfff2d094b422c9d6b30b8c73e2ea179253516848cd1",
+      "result_path": "results/dev128/P1/base.json",
+      "historical_portable_sha256": "a6450a457272762404a8bfff2d094b422c9d6b30b8c73e2ea179253516848cd1",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P1/base.sentences.jsonl",
+      "original_sha256": "ef7aece24ae3dfc15fca4478d6835aab32cb81db5a35a5a5d6060151b0a0e464",
+      "result_path": "results/dev128/P1/base.sentences.jsonl",
+      "historical_portable_sha256": "b80d81ef7465b68c4f8bfdaa43801fe81d5359f12cd9f85f8496841bf080ebfd",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P1/dpo.json",
+      "original_sha256": "50d692417cb952be0a2f4e7878dea58375f720056c2d1e921c99dbbd8e1d56a7",
+      "result_path": "results/dev128/P1/dpo.json",
+      "historical_portable_sha256": "50d692417cb952be0a2f4e7878dea58375f720056c2d1e921c99dbbd8e1d56a7",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P1/dpo.sentences.jsonl",
+      "original_sha256": "7714c15d92341207d67237814aff528c84c150a4ec632d529a2791ffd9cc9451",
+      "result_path": "results/dev128/P1/dpo.sentences.jsonl",
+      "historical_portable_sha256": "070b22b61c1c8e0a7fd9136c50b1a502acb08112ce54fc43ddb474fafd27ac30",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P1/final.json",
+      "original_sha256": "198a3e929135c42a80681950091f449c83ebf62b6d3aa65bc128f2cf22297b48",
+      "result_path": "results/dev128/P1/final.json",
+      "historical_portable_sha256": "198a3e929135c42a80681950091f449c83ebf62b6d3aa65bc128f2cf22297b48",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P1/final.sentences.jsonl",
+      "original_sha256": "2dbed193e88d8985ba7ca5519cf9334ddefe9067487b5b425bde18f6d76c3ef4",
+      "result_path": "results/dev128/P1/final.sentences.jsonl",
+      "historical_portable_sha256": "4e89e2f569d979e0f28d0821b997121521bd5f7228b6e4be773bb99a2b3ab879",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P1/sft.json",
+      "original_sha256": "507f772e73ac18699c35141e4a7e5eb8efedeb278a102b69594a1f57bf8e53cf",
+      "result_path": "results/dev128/P1/sft.json",
+      "historical_portable_sha256": "507f772e73ac18699c35141e4a7e5eb8efedeb278a102b69594a1f57bf8e53cf",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P1/sft.sentences.jsonl",
+      "original_sha256": "a0c34bbb9903adb961197820b986e1d945493232803cb4fccac93d2e8e4899ff",
+      "result_path": "results/dev128/P1/sft.sentences.jsonl",
+      "historical_portable_sha256": "98052f129c072dee6ed2381758d8921ad4fdc9536d621cd319ef196b60088d09",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P2/base.json",
+      "original_sha256": "0e1f68fbc252d52ee06277d37ace6cc581b56b1048dffffda291e790541012aa",
+      "result_path": "results/dev128/P2/base.json",
+      "historical_portable_sha256": "0e1f68fbc252d52ee06277d37ace6cc581b56b1048dffffda291e790541012aa",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P2/base.sentences.jsonl",
+      "original_sha256": "3f0570ddbdc30128e587b1f3a3715bdcbb0894a95530bb674ac9ebe528f94b98",
+      "result_path": "results/dev128/P2/base.sentences.jsonl",
+      "historical_portable_sha256": "425af6ab03d673673f35004cbf017f52131e76a7603f9a9988e5d8ac346654ca",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P2/dpo.json",
+      "original_sha256": "0a6dcf3839f071b6e464a2fdb7ae15c859a3c42183cc0467dcf3b2a9b4e9aa02",
+      "result_path": "results/dev128/P2/dpo.json",
+      "historical_portable_sha256": "0a6dcf3839f071b6e464a2fdb7ae15c859a3c42183cc0467dcf3b2a9b4e9aa02",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P2/dpo.sentences.jsonl",
+      "original_sha256": "7de8149b939fe18e1f392913f778c76dcc97a69ba4b7f5dfcc5a68b61ababbd3",
+      "result_path": "results/dev128/P2/dpo.sentences.jsonl",
+      "historical_portable_sha256": "264bab2d555aa76b75da1bdfc2ee7ca040903dd42b699fb45d35735623983d49",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P2/final.json",
+      "original_sha256": "29680f88a92d1b44fe77993ec744b11ce332182512e638d9460d51825a71beae",
+      "result_path": "results/dev128/P2/final.json",
+      "historical_portable_sha256": "29680f88a92d1b44fe77993ec744b11ce332182512e638d9460d51825a71beae",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P2/final.sentences.jsonl",
+      "original_sha256": "040634738486506abc5abdeced46371753afde2e56d64acf6dd96626ec82fc57",
+      "result_path": "results/dev128/P2/final.sentences.jsonl",
+      "historical_portable_sha256": "d40753227a80e3326ffcae38ae717bc7239f378ade2f5694ff45389833a3c6c0",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P2/sft.json",
+      "original_sha256": "1fb6b34a2d1eb41974828a6d85a83795428b4800fdf038be430ee25af571ab3f",
+      "result_path": "results/dev128/P2/sft.json",
+      "historical_portable_sha256": "1fb6b34a2d1eb41974828a6d85a83795428b4800fdf038be430ee25af571ab3f",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P2/sft.sentences.jsonl",
+      "original_sha256": "36b50c460c964ad4724075dab5729e964dfb0bc2f636a0af6b3f2e52566b421f",
+      "result_path": "results/dev128/P2/sft.sentences.jsonl",
+      "historical_portable_sha256": "4232333602f00365d1df1d76ab92fef0acd7a5e5337b33e577658be3c3656c94",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P3/base.json",
+      "original_sha256": "38cdf3812837496ce937188a47e7167c66e8cbb3000d527e98fdaff47f46e644",
+      "result_path": "results/dev128/P3/base.json",
+      "historical_portable_sha256": "38cdf3812837496ce937188a47e7167c66e8cbb3000d527e98fdaff47f46e644",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P3/base.sentences.jsonl",
+      "original_sha256": "801328c88dc653181ad22db172220aa57225f0e616869cc8266fe4a88d3d37d6",
+      "result_path": "results/dev128/P3/base.sentences.jsonl",
+      "historical_portable_sha256": "e2a7ac8356f8edaa1b05e446204b203d2e756f7b8622403ab9eb2ad03cc6f8dc",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P3/dpo.json",
+      "original_sha256": "1407aa74fcb263dc5df9cc8e171a0b9a757522f46f8fd3b7c960cdbc1c1a5839",
+      "result_path": "results/dev128/P3/dpo.json",
+      "historical_portable_sha256": "1407aa74fcb263dc5df9cc8e171a0b9a757522f46f8fd3b7c960cdbc1c1a5839",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P3/dpo.sentences.jsonl",
+      "original_sha256": "37e8a8cf89f291516a1ca15a62232264b8818eefbeea0993adcdd422d7f02088",
+      "result_path": "results/dev128/P3/dpo.sentences.jsonl",
+      "historical_portable_sha256": "5ecb5324769b06fae5d8fe7e702ed7c59bb47b42b69e7a9b19315a11f05d986d",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P3/final.json",
+      "original_sha256": "39cd3cb3c27b0dd8f35d14d750f3ad9d9aeea3c496e0cc540850a651c45eb111",
+      "result_path": "results/dev128/P3/final.json",
+      "historical_portable_sha256": "39cd3cb3c27b0dd8f35d14d750f3ad9d9aeea3c496e0cc540850a651c45eb111",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P3/final.sentences.jsonl",
+      "original_sha256": "e70f2d0ebbe4d097969aea1a71c8e38de079f859a88c0a2435846e11a8970cd3",
+      "result_path": "results/dev128/P3/final.sentences.jsonl",
+      "historical_portable_sha256": "5dec7eff4036e06ebe87c51f8df9f73ec23bea4eae720585bb35174b011d6464",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/dev128/P3/sft.json",
+      "original_sha256": "ec12f427ce29d9f67f88b63b631ded78f508d39689736e4ef25707ee773ff622",
+      "result_path": "results/dev128/P3/sft.json",
+      "historical_portable_sha256": "ec12f427ce29d9f67f88b63b631ded78f508d39689736e4ef25707ee773ff622",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/dev128/P3/sft.sentences.jsonl",
+      "original_sha256": "9cb2526a7c7be209865fc06794005ebb68c3fa60330f7bbae1cf773b9cd1b37a",
+      "result_path": "results/dev128/P3/sft.sentences.jsonl",
+      "historical_portable_sha256": "8ac2ea52c1c289cf5f7fd68e773b1073fa45479e727e5104800082e9d8d63365",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/optimized-comparison.json",
+      "original_sha256": "577250216c13a64cdb458ac798d8ef8ec7b7a4af1a2b59c0036a33c9aa8cdf2c",
+      "result_path": "results/optimized-comparison.json",
+      "historical_portable_sha256": "577250216c13a64cdb458ac798d8ef8ec7b7a4af1a2b59c0036a33c9aa8cdf2c",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P0/base.json",
+      "original_sha256": "591f7aec6e93a0713ac83a72bf049f514d345ceb72d80e903ad59542f3b36b91",
+      "result_path": "results/test/P0/base.json",
+      "historical_portable_sha256": "591f7aec6e93a0713ac83a72bf049f514d345ceb72d80e903ad59542f3b36b91",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P0/base.sentences.jsonl",
+      "original_sha256": "da6ac9bc7f0763fc9e88dc5f79a67445d11de01086ab572d46fcf36437b37257",
+      "result_path": "results/test/P0/base.sentences.jsonl",
+      "historical_portable_sha256": "e7f18643d4fdee27c1c3f22bbbaa271f984728f769f88bb910207a8ccfcadc60",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P0/dependency.md",
+      "original_sha256": "a90cceda705ed185e40bb10f253a0b78d522c05aac4ae0bc600202390a4c7868",
+      "result_path": "results/test/P0/dependency.md",
+      "historical_portable_sha256": "0b04cc0e284833c98e03187687b29f6737230f5c3f9c01b3e3275b26b19b1ef7",
+      "transformation": "Translate report text into English; preserve all experiment values."
+    },
+    {
+      "original_path": "reports/test/P0/dpo.json",
+      "original_sha256": "78fd0c3678b6bb42df35c89ef8db6f81d9b2c93e7e0b603391d446850a907e9b",
+      "result_path": "results/test/P0/dpo.json",
+      "historical_portable_sha256": "78fd0c3678b6bb42df35c89ef8db6f81d9b2c93e7e0b603391d446850a907e9b",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P0/dpo.sentences.jsonl",
+      "original_sha256": "6fb868702bcea4320715da6a7164b9635b80e6b2aa0a64fff6986fe965efc87f",
+      "result_path": "results/test/P0/dpo.sentences.jsonl",
+      "historical_portable_sha256": "d4723bf5a9180b354e6911c5cf5a9331f9ed22220784cd1abb6f74a2a93871c2",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P0/final.json",
+      "original_sha256": "5b1223577330cff055136db022b25893cd7eb27b5146bfa00934d60115ed9b6b",
+      "result_path": "results/test/P0/final.json",
+      "historical_portable_sha256": "5b1223577330cff055136db022b25893cd7eb27b5146bfa00934d60115ed9b6b",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P0/final.sentences.jsonl",
+      "original_sha256": "0b2701c64c665c6b7e4605f34e3190c3097e061d95287d7a0851164f240d708d",
+      "result_path": "results/test/P0/final.sentences.jsonl",
+      "historical_portable_sha256": "e08c5aa41a890e56b85e504a52c0f8ffac3d04b43dafc75b03e154861214989d",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P0/paired-bootstrap.json",
+      "original_sha256": "46b42904e3b4082bce96cc2102044716d1204ce80cc714af484eb7f6d064261b",
+      "result_path": "results/test/P0/paired-bootstrap.json",
+      "historical_portable_sha256": "46b42904e3b4082bce96cc2102044716d1204ce80cc714af484eb7f6d064261b",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P0/sft.json",
+      "original_sha256": "6fd882ec21ebd050dd53022222a3ff424d1fd63bb932ae11e3042ac96c8fce17",
+      "result_path": "results/test/P0/sft.json",
+      "historical_portable_sha256": "6fd882ec21ebd050dd53022222a3ff424d1fd63bb932ae11e3042ac96c8fce17",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P0/sft.sentences.jsonl",
+      "original_sha256": "d31b5d29b2c7e29a438cb02b15380d1cdb9e47aca07fe4a55e0b98c1395452aa",
+      "result_path": "results/test/P0/sft.sentences.jsonl",
+      "historical_portable_sha256": "1d124e7343a131bac42a54af64846057eb24e61a9619fd904a40b4d45f3d23c2",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P0/summary.csv",
+      "original_sha256": "a11fc412b70083a166b5a883af24a1980cb61aa86664b8321d6220f70e1ed0fa",
+      "result_path": "results/test/P0/summary.csv",
+      "historical_portable_sha256": "a11fc412b70083a166b5a883af24a1980cb61aa86664b8321d6220f70e1ed0fa",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P0/upos.md",
+      "original_sha256": "ccffb0f466b306a560fbacdb11bbd8fc8db1b084b472899745a39ceb1a6a0b7d",
+      "result_path": "results/test/P0/upos.md",
+      "historical_portable_sha256": "f2c555eaf977098b9f7705d0c56c06d2a94dc5695f6d688e01c2a1d9c9284a8e",
+      "transformation": "Translate report text into English; preserve all experiment values."
+    },
+    {
+      "original_path": "reports/test/P3/base.json",
+      "original_sha256": "b4a7b101b839252973393f310692998feefe927937f2ae1c2ca000f8e83f2ad6",
+      "result_path": "results/test/P3/base.json",
+      "historical_portable_sha256": "b4a7b101b839252973393f310692998feefe927937f2ae1c2ca000f8e83f2ad6",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P3/base.sentences.jsonl",
+      "original_sha256": "26aaeac23a11153d4fddc43465d398770727ace0171c74aa969d43371ac460ce",
+      "result_path": "results/test/P3/base.sentences.jsonl",
+      "historical_portable_sha256": "42c029505a801732b59cb82b5611acf8435a9c653e61c6ffe4b699666dd53051",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P3/dependency.md",
+      "original_sha256": "6834725431cb9458cef0fd032b63faf5be05cdcf6623d611c797703917c3f2ae",
+      "result_path": "results/test/P3/dependency.md",
+      "historical_portable_sha256": "cbdd57c38a653eaa5a68b48f148b8d7e8dab3d55bdd3ec51077ed69336e4bc6c",
+      "transformation": "Translate report text into English; preserve all experiment values."
+    },
+    {
+      "original_path": "reports/test/P3/dpo.json",
+      "original_sha256": "751acecd93ec64941ecd5ca1025888677c47b2f7980d78bc71fe2e75944536fe",
+      "result_path": "results/test/P3/dpo.json",
+      "historical_portable_sha256": "751acecd93ec64941ecd5ca1025888677c47b2f7980d78bc71fe2e75944536fe",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P3/dpo.sentences.jsonl",
+      "original_sha256": "07c3867bc315ba77224ece5d338f4ca9fa5cd545cdf85e1e430a896f0327e2a0",
+      "result_path": "results/test/P3/dpo.sentences.jsonl",
+      "historical_portable_sha256": "1bce8e360c2fabec9a4c42fa93c02a7e5a84d2ec22a36a89bb461c318f85e711",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P3/final.json",
+      "original_sha256": "d96657b039757be91ef521730d64a3b8b739c41a05c5ba69a5980899324ab1a7",
+      "result_path": "results/test/P3/final.json",
+      "historical_portable_sha256": "d96657b039757be91ef521730d64a3b8b739c41a05c5ba69a5980899324ab1a7",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P3/final.sentences.jsonl",
+      "original_sha256": "473b555620cdd0b11359e857229dbc852a56831d26a28c8617a828be3357a2d8",
+      "result_path": "results/test/P3/final.sentences.jsonl",
+      "historical_portable_sha256": "e0b425761e6824867e2c17d630d9101c1c915634351b33171797438f2e9af590",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P3/paired-bootstrap.json",
+      "original_sha256": "d901f4571a875f6834619e39ade6f8daeb852f6b2fb3d4de91f0c70fdd2e8a0a",
+      "result_path": "results/test/P3/paired-bootstrap.json",
+      "historical_portable_sha256": "d901f4571a875f6834619e39ade6f8daeb852f6b2fb3d4de91f0c70fdd2e8a0a",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P3/sft.json",
+      "original_sha256": "4ba0f7c3f437650babd7517c0b4a9fa2c903b53637202f83046cd239f402ec80",
+      "result_path": "results/test/P3/sft.json",
+      "historical_portable_sha256": "4ba0f7c3f437650babd7517c0b4a9fa2c903b53637202f83046cd239f402ec80",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P3/sft.sentences.jsonl",
+      "original_sha256": "af56500ebc225f74ac890fdbd6375b5318386d7c96e784fce29b8be7f2c76235",
+      "result_path": "results/test/P3/sft.sentences.jsonl",
+      "historical_portable_sha256": "6b22fa2dbcb479350e1be6ae8a84b46552558c86fa0419783b363a9b36a25454",
+      "transformation": "Retain sentence ID, strict counts and diagnostics; omit gold token arrays and parsed task tables."
+    },
+    {
+      "original_path": "reports/test/P3/summary.csv",
+      "original_sha256": "1a3f4e312965d7c2a4dea2ea3ff4e36a4ea15d1267986f7278365fd454e66b0a",
+      "result_path": "results/test/P3/summary.csv",
+      "historical_portable_sha256": "1a3f4e312965d7c2a4dea2ea3ff4e36a4ea15d1267986f7278365fd454e66b0a",
+      "transformation": null
+    },
+    {
+      "original_path": "reports/test/P3/upos.md",
+      "original_sha256": "aa39cd82a76d22692506d791cfd176f9c6e00111e7360ee4eabfc603f8bd8b21",
+      "result_path": "results/test/P3/upos.md",
+      "historical_portable_sha256": "ceb83260ba6722fb767f0e8e8ddb0e295fcbc2a623c5100e6a062d1d4d38b8ce",
+      "transformation": "Translate report text into English; preserve all experiment values."
+    },
+    {
+      "original_path": "manifests/data.json",
+      "original_sha256": "5f08dca45048d7eabd3334e766967fbec021713f95978c38a440d2daf525d0c3",
+      "result_path": "results/provenance/data.json",
+      "historical_portable_sha256": "5f08dca45048d7eabd3334e766967fbec021713f95978c38a440d2daf525d0c3",
+      "transformation": null
+    },
+    {
+      "original_path": "manifests/prompts.json",
+      "original_sha256": "c9ab08ed99747744b372d6159bcd4c4eda55d878c2bd52a44402dd16a8a63b16",
+      "result_path": "results/provenance/prompts.json",
+      "historical_portable_sha256": "c9ab08ed99747744b372d6159bcd4c4eda55d878c2bd52a44402dd16a8a63b16",
+      "transformation": null
+    },
+    {
+      "original_path": "manifests/selection.json",
+      "original_sha256": "4d5ece16eadea0897da46f4ee7a0eb0f72d0ee365238cf27614c0167195a2125",
+      "result_path": "results/provenance/selection.json",
+      "historical_portable_sha256": "4d5ece16eadea0897da46f4ee7a0eb0f72d0ee365238cf27614c0167195a2125",
+      "transformation": null
+    },
+    {
+      "original_path": "manifests/frozen.json",
+      "original_sha256": "89c72919b27d3b447825cef28b4fea4de1c9374135b1fd0589c50768c1035501",
+      "result_path": "results/provenance/frozen.json",
+      "historical_portable_sha256": "89c72919b27d3b447825cef28b4fea4de1c9374135b1fd0589c50768c1035501",
+      "transformation": null
+    },
+    {
+      "original_path": "manifests/weights.json",
+      "original_sha256": "463398e79e195e784c417633a5918a5a1fbc081d2444be083bef91a4af7e6f79",
+      "result_path": "results/provenance/weights.json",
+      "historical_portable_sha256": "745bad0d6e65f6d260d5649c777ae774e9ad92bb25df553ffd61190267560724",
+      "transformation": "Remove private local model paths; preserve all model revisions and file hashes."
+    },
+    {
+      "original_path": "status/final_audit.json",
+      "original_sha256": "b3bf35a0520ba6027b52dcfdcf8ab21303053a0cc59a7d1039725491d999effe",
+      "result_path": "results/provenance/final_audit.json",
+      "historical_portable_sha256": "b3bf35a0520ba6027b52dcfdcf8ab21303053a0cc59a7d1039725491d999effe",
+      "transformation": null
+    },
+    {
+      "original_path": "manifests/requirements-lock.txt",
+      "original_sha256": "d76ca3b187bf65f7cfd0ff02c02b689de3ff63d7a113b34d05a71ac1302ed09b",
+      "result_path": "results/provenance/requirements-lock.txt",
+      "historical_portable_sha256": "3ba4f526042d83e1b4b054d6f130c0a66ab0d23d8aabf57ebd54c3b5561d2933",
+      "transformation": "Omit packaging local file-URI entry; preserve other recorded package versions."
+    },
+    {
+      "original_path": "experiment.json",
+      "original_sha256": "b918f85cc968cbe0daf544cfb44a2b649e06b88e2572e2bb16480e8ac257fbec",
+      "result_path": "results/provenance/run-config.json",
+      "historical_portable_sha256": "b21abd220bb9645ca98f47b50641a671e4ec106293f527da88d319315a3eb410",
+      "transformation": "Remove private local model paths from original run configuration."
+    },
+    {
+      "original_path": "reports/final_zh.md",
+      "original_sha256": "793e4a943ea8e0d336c90c1a031d747e9b6fd6809f33a8cbf0ef7ea14971f5bf",
+      "result_path": "results/final.md",
+      "historical_portable_sha256": "c5e405ba0d4d3920921a297c371a70afb879111710c47b6c334f4fc0625ead11",
+      "transformation": "Translate report into English and rename to final.md; update publication links and artifact-scope wording; preserve experiment values."
+    }
+  ]
+}

@@ -26,7 +26,7 @@ TABLE_NAMES = {"summaries": "summary", "primary_tests": "primary_tests",
 REFERENCE_FILES = {
     "experiment.json", "README.md", "data/formal.jsonl", "data/pilot.jsonl", "data/demonstrations.jsonl",
     "provenance/data.json", "provenance/original_data.json", "provenance/history.json",
-    "provenance/reanalysis.json", "provenance/publication.json", "provenance/consolidation.json", "reports/corpus-index.jsonl", "reports/analysis.json",
+    "provenance/reanalysis.json", "provenance/validation.json", "reports/corpus-index.jsonl", "reports/analysis.json",
     "reports/provenance.json", "reports/report.html", "reports/figures/values.json",
     *[f"reports/{name}.csv" for name in TABLE_NAMES.values()],
     *[f"reports/figures/{name}.{suffix}" for name in ("stage_comparison", "difficulty_curves") for suffix in ("png", "svg")],
@@ -238,7 +238,7 @@ def reference_files(root=ROOT):
         relative = str(path.relative_to(root))
         _require(relative in REFERENCE_FILES or (relative.startswith('tests/test_') and path.suffix == '.py') or relative in ('tests/fixtures/original-items.jsonl', 'tests/fixtures/formal-items.jsonl', 'tests/fixtures/demonstrations.jsonl'),
                  f"File is outside the behavioral publication allowlist: {relative}")
-        if relative not in ('provenance/publication.json', 'provenance/consolidation.json'):
+        if relative != 'provenance/validation.json':
             result.append(path)
     return result
 
@@ -252,7 +252,7 @@ def verify_publication(root=ROOT, *, check_hashes=True):
     check_figures(summary,root)
     paths = [root/'reports/report.html',root/'README.md']
     if root == ROOT:
-        paths += [REPO/'README.md',REPO/'README.zh-CN.md',REPO/'reports/report.zh-CN.md']
+        paths += [REPO/'README.md',REPO/'reports/report.zh-CN.md']
     links = check_links(paths)
     for path in list((REPO/'tulu_behavior').glob('*.py'))+list((root/'tests').glob('*.py')):
         _require(re.search(r'[\u3400-\u4dbf\u4e00-\u9fff]',path.read_text()) is None,"Behavioral source or test contains Chinese text")
@@ -260,9 +260,7 @@ def verify_publication(root=ROOT, *, check_hashes=True):
         if path.suffix in ('.html','.csv','.json','.jsonl','.svg'):
             _require(re.search(r'[\u3400-\u4dbf\u4e00-\u9fff]',path.read_text(encoding='utf-8-sig')) is None,"Behavioral program output contains Chinese text")
     if check_hashes:
-        ledger_path = root/'provenance/consolidation.json'
-        if not ledger_path.exists():
-            ledger_path = root/'provenance/publication.json'
+        ledger_path = root/'provenance/validation.json'
         ledger = json.loads(ledger_path.read_text())
         _require(ledger['status']=='passed' and ledger['scope']=='published_aggregate_evidence_only',"Publication scope is missing")
         _require(fingerprint({k:v for k,v in ledger.items() if k!='identity'})==ledger['identity'],"Publication ledger identity differs")
@@ -327,18 +325,19 @@ def build_reference(source, reanalysis_directory):
 
 
 def save_validation():
-    if not (ROOT/'provenance/publication.json').exists():
-        atomic_json(ROOT/'provenance/publication.json',{'status':'pending','scope':'published_aggregate_evidence_only'})
+    if not (ROOT/'provenance/validation.json').exists():
+        atomic_json(ROOT/'provenance/validation.json',
+                    {'status':'pending','scope':'published_aggregate_evidence_only'})
     checks = verify_publication(check_hashes=False)
     paths = reference_files()+list((REPO/'tulu_behavior').glob('*.py'))
-    paths += [REPO/'README.md',REPO/'README.zh-CN.md',REPO/'reports/report.zh-CN.md',REPO/'.gitignore']
+    paths += [REPO/'README.md',REPO/'reports/report.zh-CN.md']
     ledger = {**checks,'schema_version':1,'verified_utc':utc_now(),
               'code_files':publication_code_hashes(),
               'files':{str(p.relative_to(REPO)):sha256_file(p) for p in sorted(set(paths))},
               'limitations':['Published counts permit McNemar/Holm checks, but not raw rescoring or paired-bootstrap recomputation.',
                              'Saved bootstrap intervals are compared against a separate full local reanalysis.']}
     ledger['identity']=fingerprint(ledger)
-    atomic_json(ROOT/'provenance/publication.json',ledger)
+    atomic_json(ROOT/'provenance/validation.json',ledger)
     return verify_publication()
 
 

@@ -1,4 +1,4 @@
-# Experiment 2: Tulu-3-8B SSP Reproduction and Four-Stage Geometry
+# Tulu-3-8B SSP and Four-Stage Geometry Protocol
 
 ## Research question
 
@@ -53,6 +53,6 @@ The completed archive includes the frozen four-stage geometry, the SSP training 
 
 ## Execution and stopping rules
 
-- Single-GPU sequential execution on an RTX 3090 24 GB using tmux session `ssp-tulu-runner`.
+- Single-GPU sequential execution on an RTX 3090 24 GB. The operation order is recorded in [reproduction](reproduction.md).
 - Scientific negative results do not stop the protocol. Technical failures preserve the scene and stop at the failing unit.
 - Qwen and ProcessBench are explicitly deferred from this archive.

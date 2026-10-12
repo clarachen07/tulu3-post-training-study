@@ -200,7 +200,7 @@ TwoNN 末层下降约 36.6%–48.4%，两种 PCA 同样出现明显变化，不�
 
 整理后的英文代码用本地完整证据重新评分全部 60,480 条回答，并重算 10,000 次配对 bootstrap、全部汇总和检验；验收统计与七类汇总逐项通过比较：整数、分类与 bootstrap 区间精确一致；浮点容差为 rtol=1e−10、atol=1e−12，p 值只用相对容差。不同 CPU 平台上 SFT→DPO 的原始／Holm p 值约有 1.36×10⁻¹⁶ 的舍入差异，记录中保留历史值与重新计算值，未改写旧摘要。记录分别保留历史生成／分析身份和当前发布代码身份，不改写原始冻结摘要。CPU 复核不重新生成模型回答，也不重复模型权重审计或用模型 tokenizer 解码输出；这些检查的原始服务器验收范围另行记录。旧本地 HTML 的页面哈希与验收页面不同，保留原文件并记录差异；发布版重新生成英文页面，未用旧页面充当统计证据。见[全量本地复核记录](../behavior/provenance/reanalysis.json)。
 
-GitHub 发布材料仅包含科学代码、固定题集、七份汇总 CSV、汇总 JSON、英文 HTML、两组 PNG／SVG 与精简 provenance。发布验证检查计数、阶段转移、McNemar／Holm、SVG 曲线及误差条坐标、文件哈希和报告链接；**仅凭发布材料可以核对汇总及 McNemar／Holm，不能重新评分或重算配对 bootstrap**。保存的 bootstrap 区间已与单独的完整本地复核比较，但发布验证本身不重算这些区间。见[发布验证范围](../behavior/provenance/publication.json)、[英文行为报告](../behavior/reports/report.html)与[复现说明](../behavior/README.md)。
+GitHub 发布材料仅包含科学代码、固定题集、七份汇总 CSV、汇总 JSON、英文 HTML、两组 PNG／SVG 与精简 provenance。发布验证检查计数、阶段转移、McNemar／Holm、SVG 曲线及误差条坐标、文件哈希和报告链接；**仅凭发布材料可以核对汇总及 McNemar／Holm，不能重新评分或重算配对 bootstrap**。保存的 bootstrap 区间已与单独的完整本地复核比较，但发布验证本身不重算这些区间。见[发布验证范围](../behavior/provenance/validation.json)、[英文行为报告](../behavior/reports/report.html)与[复现说明](../behavior/README.md)。
 
 ## 8. 讨论
 
@@ -242,7 +242,7 @@ GitHub 发布材料仅包含科学代码、固定题集、七份汇总 CSV、汇
 | PCA 原始统计 | [全量结果](../pca/reports/full.csv)、[逐次结果](../pca/reports/replicates.csv)、[逐层汇总](../pca/reports/summary.csv)、[曲线摘要](../pca/reports/curve_summary.csv) |
 | PCA 对照与尺度 | [逐次配对](../pca/reports/comparison_replicates.csv)、[配对汇总](../pca/reports/comparison_summary.csv)、[尺度结果](../pca/reports/scale_summary.csv) |
 | 本报告新增展示数据 | [末层阶段比较](report-assets/data/layer32_stage_comparison.csv)、[末层尺度比较](report-assets/data/layer32_sample_scale.csv)、[末层相对变化](report-assets/data/layer32_scale_changes.csv)、[L16 样本增长](report-assets/data/layer16_pca_scale_growth.csv) |
-| 来源与交付核验 | [来源清单](report-assets/source-map.json)、[交付检查](report-assets/verification.json)、[文件校验和](report-assets/SHA256SUMS) |
+| 图表科学来源 | [来源清单](report-assets/source-map.json)；输入和表示身份见实验 provenance，当前汇总校验见行为验证记录。 |
 
 表示几何数据目录中的原始统计与既有结果逐字节一致；该子实验新增展示表仅筛选或汇总已有结果，没有重新抽样、拟合或提取表示。图 1–3 保留原图字节，图 4–5 由本报告包中的 CSV 绘制；前置的论文图 2–3 另从原论文 v2 下载，未修改图片，来源与许可见前文及来源清单。行为子实验的图 6–7 与验收记录独立位于 `behavior/`，见第 7 节。本报告通过相对路径引用仓库中的图表与数据，转交时需保留整个仓库目录结构；Markdown 不固定分页。
 

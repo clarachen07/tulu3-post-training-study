@@ -2,9 +2,6 @@
   "schema_version": 1,
   "report_title": "Llama 3.1 / Tulu3 8B 四阶段模型的逐层表示几何实验报告",
   "created_utc": "2026-10-08T07:05:57.282587+00:00",
-  "reference_release": "v1.0.0",
-  "reference_repository": "https://github.com/clarachen07/tulu3-prontoqa-representation-geometry",
-  "reference_commit": "f65c2ef2e4d775c7d103a6263396d8ce8222e96f",
   "parent_protocol_digest": "aa159de1b8f08632c80a91d46bc33d68ab582c53f926bd36e487324ee8081ddb",
   "original_pca_identity": "53cbc49b7d8c1d97c2d5c81a5e8b411403d046741037ba4ae5d2d0341593f8a9",
   "inputs": [
@@ -174,13 +171,6 @@
       "source_relative_path": "provenance/validation.json",
       "package_path": "../provenance/validation.json",
       "sha256": "c90826b518c584a1fa17be78f804ed4e59201cefff82b24449a5d384b3db88cf",
-      "meaning": "Pinned publication evidence, without personal host paths"
-    },
-    {
-      "source_collection": "published_v1.0.0",
-      "source_relative_path": "provenance/releases.json",
-      "package_path": "../provenance/releases.json",
-      "sha256": "37a4ed6d961dd36ab2dabd09e28816054fa7e42e889c722bdcbff25b7af45033",
       "meaning": "Pinned publication evidence, without personal host paths"
     }
   ],
@@ -502,13 +492,6 @@
     "baseline_file": "private QA record; validated before and after report construction"
   },
   "path_base": "Directory containing reports/report.zh-CN.md; paths are relative to that report directory",
-  "relocation": {
-    "kind": "relative link repair for repository layout",
-    "original_delivered_report_sha256": "49cbb8852cc39ff91a7e1517638325c3f6720aaeac54653bcf1ade1b36739541",
-    "current_report_sha256": "11bfa1187f94a0ccd845032e580ba35c84b645e5df44c2b38a8dc2e778f96b0d",
-    "report_body_user_edits_preserved": true,
-    "scientific_data_and_figures_unchanged": true
-  },
   "paper_reference": {
     "added_utc": "2026-10-09T04:15:56.596656+00:00",
     "title": "Intrinsic dimension of data representations in deep neural networks",

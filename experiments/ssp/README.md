@@ -1,8 +1,6 @@
-> Consolidated lightweight export: complete training/trace JSONL, per-problem geometry and raw decode rows are local-only. Historical inventories and hashes describe the original archive. Current scientific settings use configurable paths in `configs/study.json`; original run identities remain in manifests. Retired publishing tools are excluded.
-
 # Tulu-3-8B Semantic Step Prediction and Trajectory Geometry
 
-This repository contains a reproducible study of Semantic Step Prediction (SSP)
+This experiment directory contains a study of Semantic Step Prediction (SSP)
 on Tulu-3-8B and a four-stage geometry analysis of Base, SFT, DPO, and RLVR
 models. It is intended to be readable as a research artifact: the protocol,
 implementation, provenance, completed results, and known limitations are kept
@@ -47,11 +45,11 @@ marker-local effect, not a boundary-invariant semantic prediction advantage.
 
 - Frozen Base/SFT/DPO/RLVR geometry at layers 4, 8, 12, 16, 20, 24, 28, and 32.
 - Natural, literal-marker, and semantic-clean boundary analyses.
-- DPO/RLVR source-balanced MATH-500 trace bank and reproducible manifests.
-- SSP conditions B1, B2, C, A2, A, C-match, and A2-match for seed 42.
+- DPO/RLVR source-balanced MATH-500 trace-bank construction code and input manifests.
+- SSP conditions B1, B2, C, A2, A, A1, C-match, and A2-match for seed 42.
 - Additional B2/C/A2/A training seeds 43 and 44 and their merge manifests;
   fixed-sample merge validation was completed for the seed-42 grid.
-- Grid geometry, decode diagnostics, and compressed preliminary server provenance.
+- Grid geometry, decode diagnostics, and compact scientific provenance.
 - Training, extraction, analysis, merge-validation, and MLP probe code.
 
 ## Archive status and limitation
@@ -63,11 +61,9 @@ evaluation environment lacked `latex2sympy2`. No behavior numbers are claimed
 in this archive. The failure is preserved as an explicit technical limitation;
 it does not invalidate the completed geometry or training artifacts.
 
-The old hourly `run-status` branch and publisher were intentionally retired
-after archival. The repository's `main` branch is now a static research archive.
 See [`docs/RESULTS.md`](docs/RESULTS.md) for the completed-results matrix and
-[`docs/EXPERIMENT_PLAN.md`](docs/EXPERIMENT_PLAN.md) for the protocol. The exact
-public/server boundary is listed in [`docs/ARCHIVE_INVENTORY.md`](docs/ARCHIVE_INVENTORY.md).
+[`docs/EXPERIMENT_PLAN.md`](docs/EXPERIMENT_PLAN.md) for the protocol. The retained evidence and external-data requirements are documented in
+[`docs/reproduction.md`](docs/reproduction.md).
 
 ## Reproducing the pipeline
 
@@ -83,7 +79,7 @@ python scripts/extract_geometry.py --help
 python scripts/analyze_geometry.py --help
 ```
 
-Pipeline scripts require Linux/CUDA and the local model/data paths configured in `configs/study.json`. The environment helper now uses the caller-selected project root; configure a new run before using the launch scripts. Large models, raw
+Pipeline scripts require Linux/CUDA and the local model/data paths configured in `configs/study.json`. The environment helper uses a caller-selected project root. Scientific entry points are retained; server-specific launch and monitoring tools are excluded. Large models, raw
 activation shards, adapters, and private credentials are deliberately not
 committed to GitHub.
 
@@ -91,11 +87,12 @@ committed to GitHub.
 
 ```text
 configs/                  Frozen study configuration
-docs/                     Protocol, results, and archive notes
-preliminary/              Curated completed-result snapshot and checksums
+docs/                     Protocol, results, and reproduction guide
+results/                  Completed analysis, training, merge and decode records
+provenance/               Data manifests and frozen runtime evidence
 scripts/                  Data, training, geometry, evaluation, and validation
 ssp_tulu/                 Reusable Python implementation
-tests/                    Unit and archive-integration tests
+tests/                    Scientific unit tests
 
 ```
 

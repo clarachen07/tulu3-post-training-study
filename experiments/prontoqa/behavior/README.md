@@ -1,22 +1,20 @@
-> Consolidated publication: full corpus/model inputs and raw generations are external; current checks use a compact corpus index. Historical evidence ledgers remain unchanged.
-
 # Tulu 3 × PrOntoQA behavioral evaluation
 
 Scientific code is in [`../tulu_behavior/`](../tulu_behavior/). This publication preserves the completed BF16, greedy evaluation of four fixed checkpoints across 1-, 3-, and 5-hop PrOntoQA pools. Each hop has 1,440 formal questions. The reasoning and direct-answer conditions share four independent 3-hop demonstrations in True, False, True, False order. Tuned models use native and plain templates. Base's two logical template views share one physical output: **60,480 physical generations, 69,120 logical views**.
 
-The [combined Chinese Markdown report](../reports/report.zh-CN.md) is the main report. The [English behavioral HTML](reports/report.html), [summary CSV](reports/summary.csv), [primary tests](reports/primary_tests.csv), [stage transitions](reports/transitions.csv), and [paired differences](reports/paired_differences.csv) preserve the numerical results. The historical geometry/PCA experiment remains a separate protocol. Its former Release is not a supported download location.
+The [combined Chinese Markdown report](../reports/report.zh-CN.md) is the main report. The [English behavioral HTML](reports/report.html), [summary CSV](reports/summary.csv), [primary tests](reports/primary_tests.csv), [stage transitions](reports/transitions.csv), and [paired differences](reports/paired_differences.csv) preserve the numerical results. The historical geometry/PCA experiment remains a separate protocol.
 
 ## Published evidence and its limits
 
 Included: scientific code and tests; portable configuration; a compact sample/stratum/label index and small real test fixtures; all seven aggregate CSVs; aggregate statistical JSON; two PNG/SVG figure pairs and plotted values; compact provenance and acceptance summaries.
 
-Excluded: complete tokenized model inputs, raw responses and output tokens, per-item scores, original audit case text, model weights, execution logs, monitoring state, caches, environments, and delivery archives. Complete original evidence, including the full formal/pilot/demonstration pools, is retained locally and is not uploaded by this publication.
+Excluded: complete tokenized model inputs, raw responses and output tokens, per-item scores, original audit case text, model weights, execution logs, monitoring state, caches, environments, and delivery archives. Complete original formal/pilot/demonstration pools are external; their availability is not guaranteed.
 
 - [Historical acceptance](provenance/history.json) records the original generation identity, model audit scope, and Codex review of 286 unique sampled generations (287 category entries).
 - [Full local reanalysis](provenance/reanalysis.json) records rescoring all 60,480 responses and recomputing the statistics with the publication code, separately from the historical code identity. Counts and bootstrap bounds match exactly; the recorded McNemar probability roundoff is within the stated numeric tolerance.
-- [Publication validation](provenance/publication.json) covers the released aggregates only: corpus and success counts, transition partitions, exact McNemar/Holm results, actual SVG curve/error-bar coordinates, CSV exports, file hashes, and local links.
+- [Aggregate validation](provenance/validation.json) covers the released aggregates only: corpus and success counts, transition partitions, exact McNemar/Holm results, actual SVG curve/error-bar coordinates, CSV exports, file hashes, and local links.
 
-Published transition counts suffice to recompute the three exact McNemar tests and their Holm correction. Published summaries **do not suffice to rescore answers/proofs or recompute paired-bootstrap intervals**. Those operations require the complete external evidence and exact pairing. No raw data are attached to a new Release.
+Published transition counts suffice to recompute the three exact McNemar tests and their Holm correction. Published summaries **do not suffice to rescore answers/proofs or recompute paired-bootstrap intervals**. Those operations require the complete external evidence and exact pairing. Raw data are external.
 
 ## CPU checks
 

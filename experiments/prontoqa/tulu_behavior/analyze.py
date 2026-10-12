@@ -537,7 +537,7 @@ def _report(summary, config, audit, *, published=False):
                     f"{review['reviewed_generation_count']} unique generations. "
                     '<a href="../provenance/history.json">Historical acceptance summary</a>. '
                     '<a href="../provenance/reanalysis.json">Full local rescoring and statistical comparison</a>. '
-                    '<a href="../provenance/publication.json">Aggregate-only publication validation</a>. '
+                    '<a href="../provenance/validation.json">Aggregate-only publication validation</a>. '
                     "The published counts permit McNemar/Holm verification, but do not permit rescoring or paired-bootstrap recomputation.")
         downloads = '<a href="../data/formal.jsonl">Fixed formal corpus</a>'
     else:
