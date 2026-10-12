@@ -4,18 +4,18 @@
   "summary_cells": 128,
   "transition_cells": 48,
   "primary_tests": 3,
-  "local_links_checked": 108,
+  "local_links_checked": 104,
   "svg_series_and_intervals_checked": 11,
   "rescoring_performed": false,
   "bootstrap_recomputed": false,
-  "created_utc": "2026-10-09T09:37:44.580691+00:00",
+  "created_utc": "2026-10-12T11:06:07.891231+00:00",
   "historical_ledger_sha256": "e91e5f981a17623b18a1dffe363305fb0e46a612e22c59fcfd09c016adff01ea",
   "historical_ledger_policy": "Preserved unchanged; this is a separate consolidation identity",
   "corpus_index_policy": "sample_id, hop and answer only; full questions/proofs/inputs excluded",
   "files": {
     "behavior/README.md": "27f74a2e09fce7a26c0569ab3805e029125d9164931aa71d68e3b446ec421638",
     "behavior/experiment.json": "515a64b5766ee9bb896daf00b0b99e99f14b797afa8a66759ec0060e3bf28e00",
-    "behavior/tests/test_protocol.py": "407a9f867cdba6214c1e5874ea2687846d151edf8e61fbf6747be19c7b66863f",
+    "behavior/tests/test_protocol.py": "85bb878aed5653a51820044a4b944f619db908d2459c8df589a51db252d7e1db",
     "behavior/tests/test_verify.py": "90b70e5172f6346db20609fd1be8bfe013264d7b1d7b06bf66d9ecac5d0fc0d1",
     "behavior/tests/test_run.py": "7b9050b6638e86b3a5067550220a557ff219164a40c997a4d28403600fdc0f88",
     "behavior/tests/test_reanalysis.py": "983841da873279bb9a5b1bed7c5fbf14d9688e9aa3ee83d69a6697aaf3855229",
@@ -48,16 +48,16 @@
     "behavior/reports/figures/stage_comparison.png": "aab2a8ae8e66e2c751ee3b274257ad6ac4c1dbc9530eb0a8fe6440ff69edefee",
     "behavior/reports/figures/values.json": "736183dd27bd29b05f45d11ddc684be27adc44b4f36e519ea605e66226937322",
     "behavior/reports/figures/difficulty_curves.svg": "00e1b197e9bc52b4898928610121fb73d14300a7ae6c4c68623431a632c25ac6",
-    "README.md": "4c3ea632ba5b4760c815a52a1aa7034ec1a5473a29bccc3a5d28841de5c7d9e0",
-    "README.zh-CN.md": "1950eeae44584b946df483e0a31f9703222055a5f3572ff781c8f8d65d5d9970",
-    "reports/report.zh-CN.md": "f27d47c134054bf41cf350898e3d94b72bcfb75aae2da25181374db1e58b4b85"
+    "README.md": "08c5b754f144e172cfe8d7750e33361cb78fc3c0dbec411d75bf1576d0cf88c7",
+    "README.zh-CN.md": "cd8a37a515cc6ceba0cf2cc765e0dc4da660f17697dde5a8c6e659107207b64d",
+    "reports/report.zh-CN.md": "b082659f86965f9072235c80853b9c805d7379e3ce018817c2719a8c6d506f9c"
   },
   "code_files": {
     "behavior/experiment.json": "515a64b5766ee9bb896daf00b0b99e99f14b797afa8a66759ec0060e3bf28e00",
     "behavior/tests/test_analyze.py": "61aeb3f3639ee721f50206dc664ee71cd4dfae196fc984d0ba6a845a9a8225dc",
     "behavior/tests/test_data.py": "fbd80adab086ad43313e8ecff8ca0e67c4d984632b85eba39c6705dc3ed60299",
     "behavior/tests/test_pipeline.py": "489f3beaf23c9be15b359c79e14989d108437836ce48fc1383564c48484b6ba1",
-    "behavior/tests/test_protocol.py": "407a9f867cdba6214c1e5874ea2687846d151edf8e61fbf6747be19c7b66863f",
+    "behavior/tests/test_protocol.py": "85bb878aed5653a51820044a4b944f619db908d2459c8df589a51db252d7e1db",
     "behavior/tests/test_publication.py": "923636dbd6182e349f6d3999f59a8806eefa5195c23ed67679c50defa5334de4",
     "behavior/tests/test_reanalysis.py": "983841da873279bb9a5b1bed7c5fbf14d9688e9aa3ee83d69a6697aaf3855229",
     "behavior/tests/test_run.py": "7b9050b6638e86b3a5067550220a557ff219164a40c997a4d28403600fdc0f88",
@@ -69,7 +69,7 @@
     "tulu_behavior/__init__.py": "fa10590a5e4b4b6b595436de5d95a1584a37cbb19985583a5d06066002aa96d4",
     "tulu_behavior/analyze.py": "76ff39b00d1782afd12c69403af625a1b00b3a70877a2b6d093e5680fc8cc5ea",
     "tulu_behavior/assets.py": "b2c9168da70268282d2c75caed78e6b31bb2a34641b872c93b6024fc7d5c6564",
-    "tulu_behavior/common.py": "98e0bddb8a960f662903262b7ea0ff24fd2e886838cab79cb12f17ac18e56b42",
+    "tulu_behavior/common.py": "07e95d3e8830e3d9fa0898e84a8a8b632a54b5edaab91d7c10ee33b66b6bdb93",
     "tulu_behavior/data.py": "c2375251adb5cda6c258d1f170cf1f03253b772825da1d545dc6ed2edec6b3b0",
     "tulu_behavior/freeze.py": "47612faca5540d919d39697a0e71d808e6eb9807c3f3782eb1219377d398b300",
     "tulu_behavior/pilot.py": "c904e7d5ea321b0cd820f2f72c6a4bf35da35fbbccd6cb19422baad26913394a",
@@ -82,5 +82,5 @@
     "tulu_behavior/tokenize.py": "dc20e358b5880d9f59e6a34ba9ed014539bda7ec94e8bd2fa9d9301653a1c96c",
     "tulu_behavior/verify.py": "ccfb76ec2a53c4ac6a1be69f9c678b323828a021b8473ba933f68ab7989bfc8f"
   },
-  "identity": "173388fc1455c62654029663c9db9072e1b2bfb59a1635ca1b812c2724a562f9"
+  "identity": "5dd09dd2eec3af31ba5aeb5a8a1bf1cd09975b4ee283fb3a1b8ec0288504addc"
 }

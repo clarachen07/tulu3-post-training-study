@@ -40,7 +40,7 @@ Behavior generation requires the original 3-hop corpus with the recorded SHA-256
 python -m tulu_behavior.pipeline --original-items /path/to/original/items.jsonl --model-dir /path/to/models --output-dir runs/behavior-fresh --pilot-only
 ```
 
-Review the pilot and its evidence before continuing without `--pilot-only`. No model inference is part of publication verification. See [reproducibility](../../docs/REPRODUCIBILITY.md) and [artifact policy](../../docs/ARTIFACT_POLICY.md).
+Review the pilot and its evidence before continuing without `--pilot-only`. No model inference is part of publication verification.
 
 ## Interpretation and licensing
 

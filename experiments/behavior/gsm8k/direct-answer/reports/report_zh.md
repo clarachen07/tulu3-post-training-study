@@ -24,7 +24,11 @@ RLVR相对DPO在完整测试集变化-4.70个百分点，95%区间为[-6.67, -2.
 | 完整测试集 | DPO | 195 / 1319 | 14.78% | 12.89%–16.76% | 0 (0.00%) | 0 (0.00%) | 5.0 | 88.48% |
 | 完整测试集 | RLVR | 133 / 1319 | 10.08% | 8.49%–11.75% | 0 (0.00%) | 0 (0.00%) | 4.3 | 94.54% |
 
-![四阶段正确率](accuracy.png)
+![Direct Answer 四阶段正确率、配对差值以及同题改善与退化](figures/main-results.png)
+
+**主要结果图。**A 展示训练抽样和完整测试集的正确率及 95% 区间，纵轴为 0–20%；B 展示后阶段减前阶段的配对差值，虚线为零；C/D 分别展示训练、测试中的对→错（左侧）和错→对（右侧）题数。直接答案协议下未出现持续的阶段提升；DPO→RLVR 在两个数据组均为净下降，配对区间全为负，但仍有部分题目改善。区间跨零不能据此认定模型等效。
+
+图表直接读取已保存的汇总统计，未重跑推理或重新计算 bootstrap。[绘图脚本](../../plot_main_results.py)；[SVG](figures/main-results.svg) / [PDF](figures/main-results.pdf)。从 `gsm8k/` 目录运行 `python plot_main_results.py` 可重建两份报告的四张图（需 Matplotlib 和中文字体）。
 
 ## 同题阶段变化
 
@@ -52,7 +56,9 @@ RLVR相对DPO在完整测试集变化-4.70个百分点，95%区间为[-6.67, -2.
 | 测试 | DPO | 81.96% | 14.78% | -67.17 | [-69.83, -64.52] | 24 | 910 | 171 | 214 |
 | 测试 | RLVR | 85.22% | 10.08% | -75.13 | [-77.63, -72.55] | 22 | 1013 | 111 | 173 |
 
-![新旧提示正确率差](protocol_delta.png)
+![CoT 与 Direct Answer 正确率对照及同题配对差值](figures/protocol-comparison.png)
+
+**提示对照图。**A/B 使用相同的正确率纵轴，分别比较训练、测试的两套提示；C/D 展示 Direct Answer 减 CoT 的同题配对差值与 95% 区间，标注依次为点估计和区间。全部八组区间均为负。差值反映示范答案形式与输出指令共同改变的整体效果，不能据此判断模型内部是否进行了推理。[SVG](figures/protocol-comparison.svg) / [PDF](figures/protocol-comparison.pdf)。
 
 ### 输出格式与长度（上轮 → 本轮）
 
@@ -75,6 +81,10 @@ RLVR相对DPO在完整测试集变化-4.70个百分点，95%区间为[-6.67, -2.
 | RLVR | 33.42 → 5.35 | 32.82 → 4.77 |
 
 计时为各阶段训练与测试合计；进程耗时含模型加载，受缓存及系统负载影响，不能完全归因于提示变化。
+
+![输出长度、直接答案格式符合率和正式进程耗时](figures/output-diagnostics.png)
+
+**输出诊断图。**A/B 仅展示完整测试集：平均回答长度由约 91–114 token 缩短至约 4–5 token，直接答案格式符合率为 88.48%–94.54%，但测试正确率仍低。C 展示各阶段训练与测试合计的正式进程耗时，从约 29–34 分钟降至约 5 分钟；计时受缓存及系统负载影响。格式符合率与正确率分别计量。[SVG](figures/output-diagnostics.svg) / [PDF](figures/output-diagnostics.pdf)。
 
 ### 同模型改善与退化案例
 
@@ -359,4 +369,3 @@ The robe takes 2 bolts of blue fiber. It takes half that much white fiber, so 2 
 ```text
 Answer: 54,000 / 3 = 18,000 seconds. 18,000 seconds / 60 = 300 minutes. 300 minutes / 60 = 5 hours.
 ```
-

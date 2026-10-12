@@ -248,6 +248,6 @@ GitHub 发布材料仅包含科学代码、固定题集、七份汇总 CSV、汇
 
 ### D. 公开复现与方法来源
 
-- [当前公开代码与结果](../README.md)；[数据范围与复核限制](../../../docs/ARTIFACT_POLICY.md)。原始 `v1.0.0` 及其表示附件的身份保留在历史清单中，不提供旧仓库下载入口。完整 PCA 谱及其索引未纳入本次公开快照；完整数值重算须自行提供相应外部证据。
+- [当前公开代码与结果、数据范围及复核限制](../README.md)。原始 `v1.0.0` 及其表示附件的身份保留在历史清单中，不提供旧仓库下载入口。完整 PCA 谱及其索引未纳入本次公开快照；完整数值重算须自行提供相应外部证据。
 - [原论文 v2](https://arxiv.org/html/1905.12784v2)，尤其是 TwoNN、子采样和 §3.3 的 PCA 对照。
 - [固定作者代码](https://github.com/ansuini/IntrinsicDimDeep/tree/2c5140009eb3efccca1d774dc66cb043c04b26d8)；[固定 PrOntoQA 生成器](https://github.com/asaparov/prontoqa/tree/066f73fc70bfaa92ed2476fd3c41b4951ad6e63a)。

@@ -29,12 +29,12 @@ pip install -r experiments/prontoqa/requirements-analysis.txt
 python scripts/verify_publication.py
 ```
 
-The verification checks publication hashes, scientific aggregate consistency and rendered PrOntoQA chart coordinates. It does **not** rescore omitted responses or recompute bootstrap intervals. See [reproducibility and tests](docs/REPRODUCIBILITY.md) for experiment-specific environments, optional inference tests and complete-evidence checks.
+The verification checks scientific aggregate consistency and rendered PrOntoQA chart coordinates. It does **not** rescore omitted responses or recompute bootstrap intervals. Each experiment's README describes its dependencies, tests and complete-evidence checks.
 
 ## Data, provenance and licenses
 
-- [Artifact policy](docs/ARTIFACT_POLICY.md): what is public, what remains local, and how to supply external evidence.
-- [Migration record](docs/MIGRATION.md) and [per-file source inventory](docs/MIGRATION.json): exact source commits, retained files and exclusions.
-- [Component licensing](THIRD_PARTY_NOTICES.md): consolidation does not relicense third-party code, datasets or models.
+Complete frozen inputs, raw responses, activations, full PCA spectra, training snapshots and large per-item tables are excluded. Full historical recomputation requires the corresponding external evidence; its availability is not guaranteed. Each experiment documents its data requirements and retains its own provenance records.
+
+See [component licensing](THIRD_PARTY_NOTICES.md) for applicable terms. Consolidation does not relicense third-party code, datasets or models.
 
 This repository supersedes the three former repositories and runs independently of them. Former repository and Release URLs in historical provenance are source identifiers, not supported clone or download locations. The original remote histories and hosted Release attachments are not preserved by this snapshot. Existing local workspaces remain unchanged; no additional old-repository backups are created. The separate private literature/meeting-notes repository is outside this study.

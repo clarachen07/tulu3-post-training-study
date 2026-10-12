@@ -125,7 +125,7 @@ def workspace(args):
     model_dir = args.model_dir.resolve()
     original_items = getattr(args, "original_items", REPO / "data/items.jsonl").resolve()
     if not original_items.is_file():
-        raise FileNotFoundError("Original 3-hop corpus is local-only; supply --original-items. See docs/REPRODUCIBILITY.md")
+        raise FileNotFoundError("Original 3-hop corpus is local-only; supply --original-items. See experiments/prontoqa/README.md")
     expected = json.loads((ROOT / "provenance/original_data.json").read_text())["files"]["data/items.jsonl"]
     if sha256_file(original_items) != expected:
         raise ValueError("External original corpus differs from its historical SHA-256")

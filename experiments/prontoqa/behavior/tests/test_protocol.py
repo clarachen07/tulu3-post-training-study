@@ -22,7 +22,7 @@ class ActualProtocolTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         if not (ROOT / "data/formal.jsonl").exists():
-            raise unittest.SkipTest("Full frozen corpus is local-only; see docs/REPRODUCIBILITY.md")
+            raise unittest.SkipTest("Full frozen corpus is local-only; see experiments/prontoqa/README.md")
         cls.config = load_config(ROOT)
         cls.manifest = json.loads((ROOT / "provenance/data.json").read_text())
         cls.formal = read_jsonl(ROOT / "data/formal.jsonl")

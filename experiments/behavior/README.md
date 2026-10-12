@@ -35,7 +35,7 @@ Clone the consolidated root with `--recurse-submodules`. Run each experiment fro
 
 Public code and compact results are retained. GSM8K input/output trees, duplicate baseline snapshots and per-item tables are excluded from this publication. MATH500's former Release is not a supported download location; no new raw data assets are uploaded here. Syntax retains compact aggregate scores; its complete sentence-level tables are excluded and its raw responses/dataset were never redistributed. Existing local materials remain unchanged, but are not a guarantee of complete raw-evidence availability.
 
-The root `scripts/verify_publication.py` checks retained aggregate statistics. GSM8K's `verify_results.py` and MATH500's raw-generation verifier require complete external evidence. See [reproducibility](../../docs/REPRODUCIBILITY.md).
+The root `scripts/verify_publication.py` checks retained aggregate statistics. GSM8K's `verify_results.py` and MATH500's raw-generation verifier require complete external evidence. Each experiment's README describes its dependencies and checks.
 
 ## Provenance and licensing
 

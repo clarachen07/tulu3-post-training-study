@@ -22,4 +22,4 @@ Each condition retains its configuration, evaluator/analysis code, aggregate tab
 
 Use the consolidated root publication verifier for aggregate checks. To rescore complete evidence, restore both historical experiment trees and original manifests in a separate workspace, then run `python verify_results.py` there. It verifies full inputs, responses and paired statistics; it cannot run from public summaries alone.
 
-Inference and analysis source remains available for new runs. Each condition's README and pinned environment records describe its historical protocol. See [reproducibility](../../../docs/REPRODUCIBILITY.md).
+Inference and analysis source remains available for new runs. Each condition's README and pinned environment records describe its historical protocol.

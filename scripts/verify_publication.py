@@ -6,7 +6,6 @@ the omitted external evidence and are intentionally not claimed by this check.
 from __future__ import annotations
 
 import csv
-import hashlib
 import json
 import math
 from pathlib import Path
@@ -25,21 +24,8 @@ def close(actual, expected, message):
     require(math.isclose(float(actual), float(expected), rel_tol=1e-10, abs_tol=1e-12), message)
 
 
-def sha256(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
 def read(path):
     return json.loads(path.read_text())
-
-
-def check_manifest():
-    manifest = read(ROOT / 'docs/PUBLICATION_MANIFEST.json')
-    for relative, expected in manifest['files'].items():
-        path = ROOT / relative
-        require(path.is_file(), f'Missing public artifact: {relative}')
-        require(sha256(path) == expected, f'Changed public artifact: {relative}')
-    return len(manifest['files'])
 
 
 def check_gsm8k():
@@ -163,10 +149,9 @@ def check_ssp():
 
 
 def main():
-    public_files=check_manifest()
     sys.path.insert(0,str(ROOT/'experiments/prontoqa'))
     from tulu_behavior.publication import verify_publication
-    result={'status':'passed','public_files_checked':public_files,
+    result={'status':'passed',
             'prontoqa_behavior':verify_publication(), 'gsm8k':check_gsm8k(),
             'math500':check_math500(), 'syntax':check_syntax(), 'ssp':check_ssp()}
     print(json.dumps(result,indent=2))

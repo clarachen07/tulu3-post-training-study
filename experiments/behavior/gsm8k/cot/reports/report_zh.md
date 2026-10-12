@@ -24,7 +24,11 @@ RLVR相对DPO在完整测试集增加3.26个百分点，95%区间为[+1.52, +4.9
 | 完整测试集 | DPO | 1081 / 1319 | 81.96% | 79.91%–84.00% | 0 (0.00%) | 0 (0.00%) | 103.2 |
 | 完整测试集 | RLVR | 1124 / 1319 | 85.22% | 83.24%–87.11% | 0 (0.00%) | 0 (0.00%) | 114.1 |
 
-![四阶段正确率](accuracy.png)
+![CoT 四阶段正确率、配对差值以及同题改善与退化](figures/main-results.png)
+
+**主要结果图。**A 展示训练抽样和完整测试集的正确率及 95% 区间；B 展示后阶段减前阶段的配对差值，虚线为零；C/D 分别展示训练、测试中的对→错（左侧）和错→对（右侧）题数。CoT 下四阶段正确率逐步上升，但每次阶段变化仍伴随部分题目退化。DPO→RLVR 在训练抽样中的差值区间跨零，在测试集中的差值区间全为正；区间跨零不能据此认定模型等效。
+
+图表直接读取已保存的汇总统计，未重跑推理或重新计算 bootstrap。[绘图脚本](../../plot_main_results.py)；[SVG](figures/main-results.svg) / [PDF](figures/main-results.pdf)。从 `gsm8k/` 目录运行 `python plot_main_results.py` 可重建两份报告的四张图（需 Matplotlib 和中文字体）。
 
 ## 同题阶段变化
 
@@ -572,4 +576,3 @@ First find the total calories in the bag: 250 calories / serving * 5 servings = 
 ```text
 First, calculate the total calories in the bag: 250 calories / serving * 5 servings = 1250 calories. Next, determine how many calories you can consume: 2000 - 1800 = 200 calories. Now, calculate how many servings you can eat: 200 calories / 250 calories per serving = 0.8 servings. Finally, calculate the grams you can eat: 0.8 servings * 300g / 5 servings = 48 grams. So the answer is 48.
 ```
-
