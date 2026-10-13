@@ -9,7 +9,7 @@ Compare frozen Base → SFT → DPO → RLVR checkpoints under two matched 8-sho
 | Reasoning demonstrations | 55.50% | 72.18% | 81.96% | 85.22% |
 | Direct-answer demonstrations | 12.96% | 13.65% | 14.78% | 10.08% |
 
-[Reasoning report](cot/reports/report_zh.md) · [Direct-answer and protocol-comparison report](direct-answer/reports/report_zh.md)
+[Combined Chinese report](reports/report_zh.md) · [Four-stage accuracy chart](reports/figures/four-stage-accuracy.png) · [Vector chart](reports/figures/four-stage-accuracy.svg)
 
 The protocol contrast jointly changes the demonstrations and output instruction. An absent emitted explanation does not imply absent internal reasoning. Base uses a plain wrapper while tuned checkpoints use native templates; frozen-checkpoint comparisons do not isolate training algorithms. Training-pool membership does not prove that a published checkpoint trained on a particular question.
 
@@ -19,7 +19,9 @@ Start with the [reasoning protocol](cot/README.md) or [direct-answer protocol](d
 
 ## Verification and figures
 
-From the study root, run `python scripts/verify_results.py` for aggregate consistency. From this directory, run `python plot_main_results.py` to rebuild the final figures from retained statistics; Matplotlib and a Chinese font are required.
+From the study root, run `python scripts/verify_results.py` for aggregate consistency. From this directory, run `python render_combined_report.py` to rebuild the combined Chinese report and its four-line PNG/SVG chart from retained statistics. Matplotlib and a Chinese font are required; use `--font /path/to/font.ttf` if font auto-detection fails. Share `reports/report_zh.md` together with `reports/figures/` to preserve the embedded chart.
+
+The original per-protocol figures remain available; `python plot_main_results.py` rebuilds those figures. The historical per-protocol renderers operate on complete external evidence and are separate from the combined report generator.
 
 Run each protocol's scoring tests from its directory:
 

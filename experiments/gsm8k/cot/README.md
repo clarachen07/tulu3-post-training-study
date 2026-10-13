@@ -10,7 +10,7 @@ There are 9,372 formal generations and a separate 128-generation pilot per proto
 
 ## Results and files
 
-- [Chinese result report](reports/report_zh.md) and final figures in `reports/figures/`.
+- [Combined Chinese report](../reports/report_zh.md) and [four-stage accuracy chart](../reports/figures/four-stage-accuracy.png); original per-protocol figures remain in `reports/figures/`.
 - `reports/`: frozen summary statistics, CSV exports and independent scoring checks.
 - `manifests/`: model/data identity, exact tokenization, protocol and historical verification.
 - `runs/`: compact stage-level run metadata.
@@ -20,7 +20,7 @@ There are 9,372 formal generations and a separate 128-generation pilot per proto
 
 `prepare.py`, `tokenize_panel.py`, `run_stage.py` and `pipeline.py` implement preparation and generation. The pipeline audits assets, validates the pilot, freezes input identity and executes stages sequentially. Batch commits and resume checks protect against mixing changed inputs or regenerating completed answers. Infrastructure failures stop the run; OOM reduces concurrency from 4 to 2 to 1.
 
-`analyze.py`, `independent_audit.py` and `render_report.py` operate on complete external evidence. The historical renderer writes its original report style to the supplied experiment workspace; the retained final figures are rebuilt by `../plot_main_results.py` from saved statistics.
+`analyze.py`, `independent_audit.py` and `render_report.py` operate on complete external evidence. The historical renderer writes its original report style to the supplied experiment workspace. From the parent `gsm8k/` directory, `python render_combined_report.py` rebuilds the combined report and main chart; `python plot_main_results.py` rebuilds the original per-protocol figures from saved statistics.
 
 ```bash
 python -m pytest -q tests

@@ -8,7 +8,7 @@ Each directory under `experiments/` is a self-contained research task with its o
 
 | Task | Completed scope | Protocol and results |
 |---|---|---|
-| GSM8K | Two matched 8-shot protocols, reasoning and direct-answer demonstrations; 1,024 training-pool questions + 1,319 test questions × four checkpoints per protocol | [Overview](experiments/gsm8k/README.md) · [Reasoning](experiments/gsm8k/cot/reports/report_zh.md) · [Direct answer](experiments/gsm8k/direct-answer/reports/report_zh.md) |
+| GSM8K | Two matched 8-shot protocols, reasoning and direct-answer demonstrations; 1,024 training-pool questions + 1,319 test questions × four checkpoints per protocol | [Overview](experiments/gsm8k/README.md) · [Combined Chinese report](experiments/gsm8k/reports/report_zh.md) |
 | MATH500 | Full 500-question multi-seed evaluation, native-template comparison, template diagnostic and early 20-question pilot | [Overview](experiments/math500/README.md) · [Results](experiments/math500/docs/results-summary.md) |
 | Syntax / UD EWT | P0 and development-selected P3 on 2,077 test sentences; all 16 stage/prompt cells on dev128 | [Protocol](experiments/syntax/README.md) · [Results](experiments/syntax/results/final.md) · [Chinese report](experiments/syntax/results/report.zh.md) |
 | PrOntoQA | Layerwise TwoNN and correlation/covariance PCA on 1,440 fixed 3-hop inputs; 60,480 behavioral generations across 1/3/5-hop pools | [Overview](experiments/prontoqa/README.md) · [Combined Chinese report](experiments/prontoqa/reports/report.zh-CN.md) |
