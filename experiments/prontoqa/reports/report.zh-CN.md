@@ -66,6 +66,55 @@
 
 方法依据为 Ansuini 等人的 [《Intrinsic dimension of data representations in deep neural networks》v2](https://arxiv.org/html/1905.12784v2)，其中使用 TwoNN、子采样与 PCA 分析视觉网络表示。本实验将这些方法迁移到语言模型和逻辑题表示，并增加共享配对子采样及两种 PCA 的分块尺度分析。
 
+### 1.1 PrOntoQA 的题目结构与跳数
+
+PrOntoQA 是 Saparov 和 He He 在 ICLR 2023 论文[《Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought》](https://arxiv.org/abs/2210.01240)中提出的合成逻辑问答数据集。生成器先构造形式逻辑结构，再生成简单的自然语言题干、查询及标准证明，因此可以分别检查最终答案是否正确、输出证明的每一步是否成立。本实验使用[原版 v1 的固定生成器](../vendor/prontoqa/UPSTREAM.json)，不是后续 PrOntoQA-OOD 的扩展设置。
+
+**本实验的陈述主要是类别／属性判断及其否定。** 个体事实如“Alex 是 dumpus”，通用规则如“所有 dumpus 都是 yumpus”或“所有 numpus 都不具有 opaque 属性”。规则采用 Modus Ponens：已知某对象满足 A，且 A 能推出 B，就得到该对象满足 B。虚构类别名称用于减少现实常识的干扰；这里没有“Alex 喜欢 Bob”等涉及多个对象的关系，也没有数量或时间推理。这些限制描述本实验所选配置，不代表 PrOntoQA 生成器的全部能力。
+
+**跳数（hop）是从已知事实推出目标结论所需的最少规则应用次数。** 初始事实本身不算一跳；1-hop 应用一次规则，3-hop 连续应用三次，5-hop 连续应用五次。题目要求判断某个对象是否具有目标类别／属性，并非机械连接题干的第一句和最后一句。有效证明沿一条规则链展开，但题干还含无关属性、不能用于当前对象的规则等干扰项，规则的文本顺序也不一定顺着解题方向。
+
+表示几何分析固定使用 1,440 道 3-hop 题，输入为零示例题干与查询；行为评测另加入独立的 1-hop、5-hop 题各 1,440 道，并共用四道独立的 3-hop 提示示例。三个 hop 的正式题池分别生成，不是同一道题逐步延长；背景规则长度也会变化，因此跨 hop 的表现差异不能完全归因于推理步数。
+
+### 1.2 真实的 1／3／5-hop 样本
+
+以下三题来自项目保留的[真实正式题样本](../behavior/tests/fixtures/formal-items.jsonl)。为展示证明结构，仅摘出必要的英文原句，并按推理顺序排列；省略的干扰规则仍存在于完整题干中。以下推理说明依据样本中的标准证明，不是模型生成结果。
+
+**1-hop：Sally，答案 True。**
+
+> Sally is a tumpus.
+> Tumpuses are not transparent.
+>
+> True or false: Sally is not transparent.
+
+由“Sally 是 tumpus”和“tumpus 不透明”，应用一次规则得到 **Sally 不透明**，与查询一致，答案为 True。
+
+**3-hop：Alex，答案 True。**
+
+> Alex is a dumpus.
+> Each dumpus is a yumpus.
+> Yumpuses are numpuses.
+> Numpuses are not opaque.
+>
+> True or false: Alex is not opaque.
+
+证明链为 **Alex 是 dumpus → 是 yumpus → 是 numpus → 是 not opaque**，共应用三次规则，答案为 True。这里 opaque 意为“不透明的”，not opaque 是对该属性的否定。原题还含 `Every wumpus is opaque.`，但没有依据说明 Alex 是 wumpus，因此不能将这条规则套用到 Alex。标准证明共有 7 句，因为它同时列出初始事实、所用规则和各步结论；这不等于 7-hop。
+
+**5-hop：Wren，答案 False。**
+
+> Wren is a tumpus.
+> Tumpuses are dumpuses.
+> Dumpuses are wumpuses.
+> Every wumpus is a jompus.
+> Every jompus is a yumpus.
+> Yumpuses are temperate.
+>
+> True or false: Wren is not temperate.
+
+证明链为 **Wren 是 tumpus → 是 dumpus → 是 wumpus → 是 jompus → 是 yumpus → 是 temperate**，共应用五次规则。推出的是 `Wren is temperate.`，与查询 `Wren is not temperate.` 相反，因此答案为 False。原题另有 `Vumpuses are not temperate.`；vumpus 与 wumpus 是不同类别，不能因名称相似而混用。这里 False 由查询的显式否定得到证明，而不是因为暂时无法证明查询为真。
+
+这些样本主要检验规则链追踪、干扰排除和否定处理。题目可以逐步形式核验，但这类任务的表现不足以代表多条证据汇合、复杂搜索或开放式规划等全部推理能力；输出证明有效也不能直接说明模型内部采用了相同过程。
+
 ## 2. 表示几何子实验的设置与统计口径
 
 | 项目 | 已执行设置 |
