@@ -1,0 +1,114 @@
+{
+  "verified_at_utc": "2026-10-14T02:09:09.356891+00:00",
+  "scope": "Read-only recomputation from previously generated model outputs; no inference, retraining, or changes to frozen evidence. This is report delivery verification, not a new experiment.",
+  "checks": {
+    "retained_evidence": {
+      "passed": true,
+      "files": 20,
+      "byte_copies": 18
+    },
+    "v2_frozen_identity": {
+      "passed": true,
+      "source_files": 13,
+      "input_files": 12
+    },
+    "v2_original_output_hashes": {
+      "passed": true,
+      "cells": 16
+    },
+    "v1_first_turn_source_hashes": {
+      "passed": true,
+      "files": 12
+    },
+    "v1_snapshot_matches_original": {
+      "passed": true,
+      "cells": 8
+    },
+    "v2_full_scores_recomputed": {
+      "passed": true,
+      "sentences_per_stage": 2077,
+      "stages": 4,
+      "gold_words_per_stage": 25094,
+      "scorer": "unaltered frozen v2 source; both punctuation conventions"
+    },
+    "v2_bootstrap_recomputed": {
+      "passed": true,
+      "replicates": 10000,
+      "seed": 42,
+      "numpy": "1.26.4",
+      "comparisons": 9,
+      "intervals": "95% and primary LAS 98.333% intervals match within 1e-10"
+    },
+    "v2_choice_diagnostics_recomputed": {
+      "passed": true,
+      "requests_per_stage": 3920,
+      "total_requests": 15680,
+      "target_words": 490,
+      "sentences": 128,
+      "replicates": 10000,
+      "same_target_full_tables_and_mapping_controls": true
+    },
+    "v1_first_turn_recomputed": {
+      "passed": true,
+      "stages": 4,
+      "sentences_per_stage": 2077,
+      "rule": "first literal newline + header: user; original v1 strict scorer and finish_reason retained",
+      "both_punctuation_conventions": true
+    },
+    "report_numeric_tables": {
+      "passed": true,
+      "numeric_values_checked": 170,
+      "source": "unrounded retained JSON; each displayed value checked at two decimals"
+    },
+    "local_links": {
+      "passed": true,
+      "links": 29,
+      "documents": [
+        "report.zh.md",
+        "README.md",
+        "v2/README.md"
+      ]
+    },
+    "figure_files": {
+      "passed": true,
+      "figures": 8,
+      "formats": [
+        "png",
+        "svg"
+      ],
+      "sha256": {
+        "report-author-f1.png": "1d498cd7a33de797eeabc6addfcba347838eb627c8cc511a82328d84405e4b22",
+        "report-author-f1.svg": "07fa5b29d0440c6b60632f26fc9fc1390a4373b575917e823c1d5b9f53989528",
+        "report-choice-diagnostics.png": "5f9730be2423b5772f6f565982ab8eaf89430270f37f09e59dc47be2503eee27",
+        "report-choice-diagnostics.svg": "31889ce580b05524298d55ae73dac99b561c172dd38aa574a1f3779a03efb7c6",
+        "report-dev-selection.png": "375e2b053c5b67ea6f7092829ee089c161aafecf39be42f7aff24cf5b1ce392b",
+        "report-dev-selection.svg": "d8f560bdf518e40f0398856a17e4f549a83e5b25d8820e05d2066a5a40386b3c",
+        "report-methods.png": "56f67326e53f5f7aa4333f2c3ed9303ad6daf8a009511b297966766c81feebfa",
+        "report-methods.svg": "9f6b5a7a823e204936333e9ad3295033579c635a5d9f0f7f232a73430b4bb200",
+        "report-output-diagnostics.png": "9993ba27ebc165deea216936257334bb6dc5043c2685ae97699a9533d2e22924",
+        "report-output-diagnostics.svg": "56de5a346f538d163bdfb705caecf2bbc637d7626cf915c8206a61d747435079",
+        "report-stage-las.png": "0bf83b27aab5a988c5536c6424e27333528de88a0c58e5a9626f783af172398a",
+        "report-stage-las.svg": "3faeb8f433e00d1f8d4cd35663e7dc4cb329d315827815eef6a13e177fa10e6d",
+        "report-v1-scores.png": "8ad267e921145a2e39d501a91872aa3bf81469a4a7e933f63fa5d6131c6a83f9",
+        "report-v1-scores.svg": "2509e612d45e5cc50125ef1667574eb76552f728641e0406f93c6238c09577ba",
+        "report-v2-scores.png": "9bb03857cce06d0684df93fd9d6fc4bcfdb31ecc27c78d30e0630ba579252c52",
+        "report-v2-scores.svg": "fcae0a0f961ec74e5e4520410b374546ebdefc675b8e995cec65596bf2dd533d"
+      }
+    },
+    "figure_visual_review": {
+      "passed": true,
+      "figures": 8,
+      "reviewed": "Chinese glyphs, panel scales, legends, values, confidence intervals, clipping and label overlap; each final PNG inspected."
+    }
+  },
+  "report_sha256": "7c7dbc6902129d1c93555e1b7b3e0ab173d3c3464fad08e08ec5ce5bdb37e19b",
+  "plot_script_sha256": "06d2fde4a861c6d6f477d988e08f7e9767c51e41f0bf7048c3fea6fdd51c7380",
+  "evidence_manifest_sha256": "14f1b5cb6d5c759b48bbeb10fa06be8338a7038acd25a6b56acd3d1a6e6b0c60",
+  "plot_environment": {
+    "python": "3.12.13",
+    "numpy": "1.26.4",
+    "matplotlib": "3.11.2",
+    "font": "/System/Library/Fonts/Hiragino Sans GB.ttc"
+  },
+  "verification_note": "Statistical recomputation was reused after caption/layout-only edits; numeric tables and frozen sources were unchanged."
+}

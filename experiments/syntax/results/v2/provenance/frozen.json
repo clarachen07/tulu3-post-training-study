@@ -1,0 +1,56 @@
+{
+  "protocol": "ewt-fair-v2",
+  "config_sha256": "481067738d9acd07e9ba805fab34fbc979f1497abde40aa040e4402c4f42d2fe",
+  "source_sha256": {
+    "ewt_eval/__init__.py": "b1e6af30207d6922962bfc22cb95ace82263a3f0c6372f71e5276c050d6c88fe",
+    "ewt_eval/audit.py": "90eaf367a6f636f63183047f68b21ae81e7c27089a23701c1ff580c56f1aa003",
+    "ewt_eval/common.py": "43f8dd30cceebe4b94740ffc1de3e93a960880ec294a4b33377856d78cee9cd3",
+    "ewt_eval/pipeline.py": "059895cadff1d9f0095eb76f088d0049c0b2799bbda9a55fda2dfa3406c8d48a",
+    "ewt_eval/prepare.py": "3e0052fce2fedd48a253e1d83fd581a882f3c7ea628e5419b86c746ab704c00e",
+    "ewt_eval/protocol.py": "763d12cd7331d2cee6ec014a5dd4ff1a808acc7615fd7ae9c1d89bb3dad4e0ad",
+    "ewt_eval/report.py": "bed720d96fd357ff3388ede5592feac1a2d284e1ddc1c30c8522c4962e711eff",
+    "ewt_eval/run.py": "bd0006b7e66d41f239749f7ac0b6ebccdebe03dba095425f8f9df2bc96897f2e",
+    "ewt_eval/scoring.py": "380024f8c5ed05e9e113f4130051571167833dea29b51e98190ed518e321be37",
+    "ewt_eval/validate.py": "ff2018931097323da50e328a81f25c16991b767efe108df50e49020e0089fb12",
+    "tests/test_protocol.py": "f378333886a4f4984723f89c367223ff49d54b51841539072c7d44c1d2193ce9",
+    "tests/test_report.py": "a3f3c04e84d751a73bdaac13039a5dbd611fc67ae2f45ae52e4bc599b85c5884",
+    "tests/test_scoring.py": "cdde078346318b72df0585fcb58933b5aa7fc09438cbdc8d9e056ae5df8a5d1d"
+  },
+  "input_sha256": {
+    "data/dev-diagnostic-requests.jsonl": "0fb62c3b542247a5ee5b8d072948860858e13773293d9106798fb397996ffd74",
+    "data/dev-diagnostic.jsonl": "fd00f30309657699f229263c5297d4cd7e201909978fe9de8ea213ca918c00ef",
+    "data/dev.jsonl": "29c936bf288b1b4829c2de139fc224d805866487da190f7a506db0a16cf399c5",
+    "data/dev128.jsonl": "985b14033fb627f993bb717289dd936e3c847e380602f11a2a54330df54db70d",
+    "data/diagnostic-requests.jsonl": "1391ec3e1cf727de56852aa3fe8aa7f4347635e8250c052b0da5f3fd29397bce",
+    "data/diagnostic128.jsonl": "6670d192ad43537a5eb1b910ec42a2cc781747d6d35cbc889e1702376a4b5262",
+    "data/en-turn1-step3.test.jsonl": "177ff64cd4c0adf51e60bab07ae053774e6f3507ac51e652a10978f232c23e89",
+    "data/preflight.jsonl": "abb96a5dff02d83cff9e4085931c9f5c98aedcedcb001b24035ecb0e79966dca",
+    "data/test.jsonl": "796b26cf7046eb0cf7b593c7cae4d0058fbf2287295c76259ad52911c46c4a21",
+    "data/train.jsonl": "eba60105e8fb06fc2416ad86427089b5b45ef7d754cfc9620c66093c2a67f144",
+    "data/example.json": "251848a462e0014ae117c6cace7d1a2300b729d13ec7b9cc22806e82bdabfe3c",
+    "manifests/protocol.json": "27a6b3baa3cfa983e36f4d374e707d8d01262b4a1fffc474f0492f3f11edd5f6"
+  },
+  "weights_manifest_sha256": "5c7727c4acf74c2306cdcb65bf05fb8bdd70606d76dda36224177d8a8b08b4d5",
+  "runtime_validation_sha256": "8caf2b792f1bd9ddda6769e73843a4511ff576954ca356dfebc1ee676c625f56",
+  "frozen_unix": 1791025133.8489366,
+  "estimated_test_hours_by_stage": {
+    "base": {
+      "full_hours": 0.720235110553258,
+      "choice_hours": 0.0851368456270494
+    },
+    "sft": {
+      "full_hours": 0.715564280460393,
+      "choice_hours": 0.08681268190201889
+    },
+    "dpo": {
+      "full_hours": 0.7204265681872817,
+      "choice_hours": 0.08600344470145906
+    },
+    "final": {
+      "full_hours": 0.7225947165472786,
+      "choice_hours": 0.08575041202905899
+    }
+  },
+  "estimated_test_hours": 3.2225240600077973,
+  "timing_caveat": "Small dev sample; stratified long-sentence diagnostics can differ in throughput. Scores did not determine protocol changes."
+}

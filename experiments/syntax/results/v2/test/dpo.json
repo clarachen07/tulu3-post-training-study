@@ -1,0 +1,121 @@
+{
+  "protocol": "ewt-fair-v2",
+  "stage": "dpo",
+  "split": "test",
+  "with_punct": {
+    "counts": {
+      "gold": 25094,
+      "aligned": 24683,
+      "upos": 21384,
+      "uas": 11007,
+      "las": 7871,
+      "valid_upos": 24608,
+      "valid_head": 24658,
+      "valid_deprel": 24074
+    },
+    "metrics": {
+      "upos": 0.8521558938391648,
+      "uas": 0.43863074838606836,
+      "las": 0.31366063600860766,
+      "aligned": 0.9836215828484897,
+      "valid_upos": 0.9806328205945645,
+      "valid_head": 0.9826253287638479,
+      "valid_deprel": 0.9593528333466167,
+      "upos_conditional_on_aligned": 0.8663452578697889,
+      "uas_conditional_on_aligned": 0.4459344488109225,
+      "las_conditional_on_aligned": 0.3188834420451323
+    },
+    "diagnostic_counts": {
+      "sentences": 2077,
+      "table_complete": 1984,
+      "truncated": 0,
+      "boundary_trimmed": 1054,
+      "early_boundary": 0,
+      "has_header": 0,
+      "head_table_complete": 1984,
+      "roots": 1626,
+      "head_out_of_range": 0,
+      "self_loop_tokens": 25,
+      "cycle": 1351,
+      "multiple_roots": 143,
+      "zero_roots": 557,
+      "valid_tree": 664
+    },
+    "failure_counts": {},
+    "issue_counts": {
+      "form_mismatch": 199,
+      "wrong_field_count": 200,
+      "invalid_id": 32,
+      "out_of_range_id": 35
+    },
+    "finish_reason_counts": {
+      "stop": 2077
+    },
+    "stop_reason_counts": {
+      "None": 1023,
+      "<END_PARSE>": 1054
+    },
+    "boundary_counts": {
+      "None": 1023,
+      "<END_PARSE>": 1054
+    }
+  },
+  "no_punct": {
+    "counts": {
+      "gold": 21998,
+      "aligned": 21653,
+      "upos": 18374,
+      "uas": 9900,
+      "las": 6932,
+      "valid_upos": 21578,
+      "valid_head": 21630,
+      "valid_deprel": 21072
+    },
+    "metrics": {
+      "upos": 0.8352577507046095,
+      "uas": 0.4500409128102555,
+      "las": 0.31511955632330213,
+      "aligned": 0.9843167560687335,
+      "valid_upos": 0.9809073552141103,
+      "valid_head": 0.9832712064733158,
+      "valid_deprel": 0.9579052641149195,
+      "upos_conditional_on_aligned": 0.8485660185655567,
+      "uas_conditional_on_aligned": 0.45721147185147554,
+      "las_conditional_on_aligned": 0.3201403962499423
+    },
+    "diagnostic_counts": {
+      "sentences": 2077,
+      "table_complete": 1984,
+      "truncated": 0,
+      "boundary_trimmed": 1054,
+      "early_boundary": 0,
+      "has_header": 0,
+      "head_table_complete": 1984,
+      "roots": 1626,
+      "head_out_of_range": 0,
+      "self_loop_tokens": 25,
+      "cycle": 1351,
+      "multiple_roots": 143,
+      "zero_roots": 557,
+      "valid_tree": 664
+    },
+    "failure_counts": {},
+    "issue_counts": {
+      "form_mismatch": 199,
+      "wrong_field_count": 200,
+      "invalid_id": 32,
+      "out_of_range_id": 35
+    },
+    "finish_reason_counts": {
+      "stop": 2077
+    },
+    "stop_reason_counts": {
+      "None": 1023,
+      "<END_PARSE>": 1054
+    },
+    "boundary_counts": {
+      "None": 1023,
+      "<END_PARSE>": 1054
+    }
+  }
+}

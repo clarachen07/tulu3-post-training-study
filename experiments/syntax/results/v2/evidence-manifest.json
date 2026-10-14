@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "scope": "Report evidence snapshot. v2 aggregates are byte-identical copies; first-turn and example files are explicitly derived extracts. No model inference or rescoring is performed during packaging. Historical frozen hashes describe their original files.",
+  "source_roots": {
+    "v1": "/Users/clarachen/Documents/research/dependency-parsing",
+    "v2": "/Users/clarachen/Documents/research/dependency-parsing-v2"
+  },
+  "files": {
+    "test/base.json": {
+      "source": "reports/test/full/base.json",
+      "source_sha256": "ac429e7798502b54e4557264756c7e6a20454442c6957da63e6ac205ee0dc702",
+      "snapshot_sha256": "ac429e7798502b54e4557264756c7e6a20454442c6957da63e6ac205ee0dc702",
+      "transformation": "none"
+    },
+    "test/sft.json": {
+      "source": "reports/test/full/sft.json",
+      "source_sha256": "a9ebb0ec14406a99b54948a55880db4c587d991147642ac2efa1878b905abd21",
+      "snapshot_sha256": "a9ebb0ec14406a99b54948a55880db4c587d991147642ac2efa1878b905abd21",
+      "transformation": "none"
+    },
+    "test/dpo.json": {
+      "source": "reports/test/full/dpo.json",
+      "source_sha256": "5d23087159e32aa4c1f5f4c1b83094656ed3c35c2379ce2ba0dcb0a4c9db36a1",
+      "snapshot_sha256": "5d23087159e32aa4c1f5f4c1b83094656ed3c35c2379ce2ba0dcb0a4c9db36a1",
+      "transformation": "none"
+    },
+    "test/final.json": {
+      "source": "reports/test/full/final.json",
+      "source_sha256": "02f2680d427ccd4ada9757e98cee5af0f3deb061c2067078995a5f31a09a8086",
+      "snapshot_sha256": "02f2680d427ccd4ada9757e98cee5af0f3deb061c2067078995a5f31a09a8086",
+      "transformation": "none"
+    },
+    "summary.csv": {
+      "source": "reports/summary.csv",
+      "source_sha256": "9d071596f832a60febf5470078c5a84bcce02127fd56f7889278d1579649b3e7",
+      "snapshot_sha256": "9d071596f832a60febf5470078c5a84bcce02127fd56f7889278d1579649b3e7",
+      "transformation": "none"
+    },
+    "paired-bootstrap.json": {
+      "source": "reports/paired-bootstrap.json",
+      "source_sha256": "e2aa101e3d277faba6e6f190d32316674b0d56e562f9003ade01088bc616259c",
+      "snapshot_sha256": "e2aa101e3d277faba6e6f190d32316674b0d56e562f9003ade01088bc616259c",
+      "transformation": "none"
+    },
+    "diagnostic-summary.json": {
+      "source": "reports/diagnostic-summary.json",
+      "source_sha256": "e93a0669edfb09acad36a7d6406676c5cfea33440f5ccfcf1e6ec66488a38d3f",
+      "snapshot_sha256": "e93a0669edfb09acad36a7d6406676c5cfea33440f5ccfcf1e6ec66488a38d3f",
+      "transformation": "none"
+    },
+    "dev-validation.json": {
+      "source": "reports/dev-validation.json",
+      "source_sha256": "3f4963e91d17bc799d7a91ec5ae33a676a11b9a5c5a82eed8d514d025b7679f6",
+      "snapshot_sha256": "3f4963e91d17bc799d7a91ec5ae33a676a11b9a5c5a82eed8d514d025b7679f6",
+      "transformation": "none"
+    },
+    "provenance/protocol.json": {
+      "source": "manifests/protocol.json",
+      "source_sha256": "27a6b3baa3cfa983e36f4d374e707d8d01262b4a1fffc474f0492f3f11edd5f6",
+      "snapshot_sha256": "27a6b3baa3cfa983e36f4d374e707d8d01262b4a1fffc474f0492f3f11edd5f6",
+      "transformation": "none"
+    },
+    "provenance/frozen.json": {
+      "source": "manifests/frozen.json",
+      "source_sha256": "7b0ee8a06d8ad71c0280a8df0de8828e9095e53e590534bbfa55592ead94a771",
+      "snapshot_sha256": "7b0ee8a06d8ad71c0280a8df0de8828e9095e53e590534bbfa55592ead94a771",
+      "transformation": "none"
+    },
+    "provenance/runtime-validation.json": {
+      "source": "manifests/runtime-validation.json",
+      "source_sha256": "88baf491d7c1ee33e41e6b63002f666392c007bcc8603cc5654c3fa563a15ef3",
+      "snapshot_sha256": "88baf491d7c1ee33e41e6b63002f666392c007bcc8603cc5654c3fa563a15ef3",
+      "transformation": "none"
+    },
+    "provenance/weights.json": {
+      "source": "manifests/weights.json",
+      "source_sha256": "9d5a85f0018ec321cbd5b85d3ca04349e91e48098abb3ae90033913e86067b54",
+      "snapshot_sha256": "9d5a85f0018ec321cbd5b85d3ca04349e91e48098abb3ae90033913e86067b54",
+      "transformation": "none"
+    },
+    "provenance/run-config.json": {
+      "source": "experiment.json",
+      "source_sha256": "391650ba64d0bd1dbcfea204221c965b0550c8ea3b3e641bd556c8ff6b9fdd5e",
+      "snapshot_sha256": "391650ba64d0bd1dbcfea204221c965b0550c8ea3b3e641bd556c8ff6b9fdd5e",
+      "transformation": "none"
+    },
+    "provenance/final_audit.json": {
+      "source": "status/final_audit.json",
+      "source_sha256": "6746feefa3c22070729fa8be5e00bcbf6a2a34299b9f69091b73152104b99d28",
+      "snapshot_sha256": "6746feefa3c22070729fa8be5e00bcbf6a2a34299b9f69091b73152104b99d28",
+      "transformation": "none"
+    },
+    "provenance/source/protocol.py": {
+      "source": "ewt_eval/protocol.py",
+      "source_sha256": "763d12cd7331d2cee6ec014a5dd4ff1a808acc7615fd7ae9c1d89bb3dad4e0ad",
+      "snapshot_sha256": "763d12cd7331d2cee6ec014a5dd4ff1a808acc7615fd7ae9c1d89bb3dad4e0ad",
+      "transformation": "none"
+    },
+    "provenance/source/scoring.py": {
+      "source": "ewt_eval/scoring.py",
+      "source_sha256": "380024f8c5ed05e9e113f4130051571167833dea29b51e98190ed518e321be37",
+      "snapshot_sha256": "380024f8c5ed05e9e113f4130051571167833dea29b51e98190ed518e321be37",
+      "transformation": "none"
+    },
+    "provenance/source/report.py": {
+      "source": "ewt_eval/report.py",
+      "source_sha256": "bed720d96fd357ff3388ede5592feac1a2d284e1ddc1c30c8522c4962e711eff",
+      "snapshot_sha256": "bed720d96fd357ff3388ede5592feac1a2d284e1ddc1c30c8522c4962e711eff",
+      "transformation": "none"
+    },
+    "provenance/source/common.py": {
+      "source": "ewt_eval/common.py",
+      "source_sha256": "43f8dd30cceebe4b94740ffc1de3e93a960880ec294a4b33377856d78cee9cd3",
+      "snapshot_sha256": "43f8dd30cceebe4b94740ffc1de3e93a960880ec294a4b33377856d78cee9cd3",
+      "transformation": "none"
+    },
+    "first-turn-summary.json": {
+      "source": "reports/v1-first-turn.json",
+      "source_sha256": "51b8c11bb489861c42b3e46368f4c64739cfc35a324760d6d192f7d07f2b2104",
+      "snapshot_sha256": "3008ed867bcce5b0da8594eaa3e872f19be87ab3a72b06ee1ebde0121bf4313c",
+      "transformation": "remove per_sentence arrays only; preserve all aggregate scores and original readout rule"
+    },
+    "examples.json": {
+      "source": "data/example.json; data/test.jsonl; six first-record raw outputs (source paths and record/output SHA-256 inside)",
+      "snapshot_sha256": "28b3810a2b9a6d1b45e581b493c09df03e20801607fcc2ddc8384775de762a74",
+      "transformation": "extract fixed training example, first test gold and literal output excerpts; no rewriting predictions"
+    }
+  },
+  "external_evidence": "Full raw generations and per-sentence scores remain in the source roots; models are not copied."
+}

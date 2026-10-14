@@ -1,0 +1,91 @@
+{
+  "protocol": "ewt-fair-v2",
+  "python": "3.11.16",
+  "versions": {
+    "torch": "2.5.1",
+    "transformers": "4.49.0",
+    "vllm": "0.7.2",
+    "numpy": "1.26.4"
+  },
+  "models": [
+    {
+      "stage": "base",
+      "wrapper": "plain",
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "chat_template_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "maximum_input_tokens": {
+        "dev128/full": 722,
+        "test/full": 1066,
+        "dev-diagnostic/choice": 891,
+        "diagnostic/choice": 1342
+      },
+      "validated_requests": {
+        "dev128/full": 128,
+        "test/full": 2077,
+        "dev-diagnostic/choice": 128,
+        "diagnostic/choice": 3920
+      }
+    },
+    {
+      "stage": "sft",
+      "wrapper": "native",
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+      "maximum_input_tokens": {
+        "dev128/full": 731,
+        "test/full": 1075,
+        "dev-diagnostic/choice": 900,
+        "diagnostic/choice": 1351
+      },
+      "validated_requests": {
+        "dev128/full": 128,
+        "test/full": 2077,
+        "dev-diagnostic/choice": 128,
+        "diagnostic/choice": 3920
+      }
+    },
+    {
+      "stage": "dpo",
+      "wrapper": "native",
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+      "maximum_input_tokens": {
+        "dev128/full": 731,
+        "test/full": 1075,
+        "dev-diagnostic/choice": 900,
+        "diagnostic/choice": 1351
+      },
+      "validated_requests": {
+        "dev128/full": 128,
+        "test/full": 2077,
+        "dev-diagnostic/choice": 128,
+        "diagnostic/choice": 3920
+      }
+    },
+    {
+      "stage": "final",
+      "wrapper": "native",
+      "bos_token_id": 128000,
+      "eos_token_id": 128001,
+      "chat_template_sha256": "ac7498a36a719da630e99d48e6ebc4409de85a77556c2b6159eeb735bcbd11df",
+      "maximum_input_tokens": {
+        "dev128/full": 731,
+        "test/full": 1075,
+        "dev-diagnostic/choice": 900,
+        "diagnostic/choice": 1351
+      },
+      "validated_requests": {
+        "dev128/full": 128,
+        "test/full": 2077,
+        "dev-diagnostic/choice": 128,
+        "diagnostic/choice": 3920
+      }
+    }
+  ],
+  "gold_words": 25094,
+  "test_sentences": 2077,
+  "verified": true
+}

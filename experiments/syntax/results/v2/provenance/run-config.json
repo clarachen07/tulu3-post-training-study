@@ -1,0 +1,48 @@
+{
+  "protocol": "ewt-fair-v2",
+  "author_commit": "f3757d250efc9880ba77651ec0d8587cfd673477",
+  "dataset": "UD_English-EWT",
+  "dataset_tag": "r2.15",
+  "seed": 42,
+  "dev_sample_size": 128,
+  "context_length": 8192,
+  "backend": "vllm",
+  "dtype": "bfloat16",
+  "max_num_seqs": 4,
+  "gpu_memory_utilization": 0.9,
+  "enforce_eager": true,
+  "models": [
+    {
+      "stage": "base",
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B",
+      "wrapper": "plain"
+    },
+    {
+      "stage": "sft",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT",
+      "wrapper": "native"
+    },
+    {
+      "stage": "dpo",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO",
+      "wrapper": "native"
+    },
+    {
+      "stage": "final",
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B",
+      "wrapper": "native"
+    }
+  ],
+  "max_output_tokens": 4096,
+  "mapping_seed": 43,
+  "bootstrap_replicates": 10000,
+  "mapping_alert_threshold": 0.95
+}

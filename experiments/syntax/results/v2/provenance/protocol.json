@@ -1,0 +1,1296 @@
+{
+  "protocol": "ewt-fair-v2",
+  "selection_seed": 42,
+  "mapping_seed": 43,
+  "test_diagnostic": {
+    "sentences": 128,
+    "target_tokens": 490,
+    "strata": {
+      "2-10": 32,
+      "21-40": 32,
+      "11-20": 32,
+      ">40": 32
+    },
+    "requests": 3920,
+    "requests_by_kind": {
+      "grammar": 1960,
+      "mapping": 1960
+    },
+    "selection": [
+      {
+        "sent_id": "answers-20110320195750AAkPbFG_ans-0007",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "answers-20111103205154AAOod9K_ans-0004",
+        "target_ids": [
+          8,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "sent_id": "answers-20111106103415AAqdokn_ans-0003",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "answers-20111106230959AAuYQ5Q_ans-0008",
+        "target_ids": [
+          2,
+          6,
+          10,
+          16
+        ]
+      },
+      {
+        "sent_id": "answers-20111107082312AAPNaxb_ans-0004",
+        "target_ids": [
+          8,
+          9,
+          12,
+          28
+        ]
+      },
+      {
+        "sent_id": "answers-20111107082312AAPNaxb_ans-0005",
+        "target_ids": [
+          6,
+          12,
+          20,
+          23
+        ]
+      },
+      {
+        "sent_id": "answers-20111107164802AAq8nhF_ans-0004",
+        "target_ids": [
+          3,
+          13,
+          15,
+          20
+        ]
+      },
+      {
+        "sent_id": "answers-20111107200249AAIyCy5_ans-0003",
+        "target_ids": [
+          2,
+          11,
+          12,
+          18
+        ]
+      },
+      {
+        "sent_id": "answers-20111107200249AAIyCy5_ans-0007",
+        "target_ids": [
+          17,
+          20,
+          30,
+          43
+        ]
+      },
+      {
+        "sent_id": "answers-20111107211645AA391wC_ans-0003",
+        "target_ids": [
+          2,
+          3,
+          5,
+          8
+        ]
+      },
+      {
+        "sent_id": "answers-20111107221352AAlIioO_ans-0001",
+        "target_ids": [
+          4,
+          10,
+          13,
+          15
+        ]
+      },
+      {
+        "sent_id": "answers-20111108074455AAiMwmn_ans-0001",
+        "target_ids": [
+          1,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "sent_id": "answers-20111108074555AAFT8Aj_ans-0010",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "answers-20111108075238AAOhbL0_ans-0003",
+        "target_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "sent_id": "answers-20111108081113AAiSNVY_ans-0002",
+        "target_ids": [
+          3,
+          8,
+          11,
+          13
+        ]
+      },
+      {
+        "sent_id": "answers-20111108082432AAph0C0_ans-0004",
+        "target_ids": [
+          10,
+          11,
+          20,
+          26
+        ]
+      },
+      {
+        "sent_id": "answers-20111108084036AAh8Ws9_ans-0006",
+        "target_ids": [
+          5,
+          10,
+          13,
+          23
+        ]
+      },
+      {
+        "sent_id": "answers-20111108084122AAYLqSQ_ans-0003",
+        "target_ids": [
+          15,
+          19,
+          24,
+          35
+        ]
+      },
+      {
+        "sent_id": "answers-20111108102612AASRNao_ans-0002",
+        "target_ids": [
+          14,
+          16,
+          23,
+          29
+        ]
+      },
+      {
+        "sent_id": "answers-20111108103704AAB0G7y_ans-0003",
+        "target_ids": [
+          19,
+          22,
+          31,
+          48
+        ]
+      },
+      {
+        "sent_id": "answers-20111108111112AAAjhoy_ans-0009",
+        "target_ids": [
+          18,
+          39,
+          42,
+          53
+        ]
+      },
+      {
+        "sent_id": "email-enronsent04_01-0019",
+        "target_ids": [
+          13,
+          17,
+          19,
+          23
+        ]
+      },
+      {
+        "sent_id": "email-enronsent04_02-0012",
+        "target_ids": [
+          10,
+          11,
+          13,
+          14
+        ]
+      },
+      {
+        "sent_id": "email-enronsent09_02-0002",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "email-enronsent09_02-0024",
+        "target_ids": [
+          2,
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "sent_id": "email-enronsent18_01-0002",
+        "target_ids": [
+          1,
+          2,
+          21,
+          23
+        ]
+      },
+      {
+        "sent_id": "email-enronsent18_01-0014",
+        "target_ids": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "sent_id": "email-enronsent18_01-0017",
+        "target_ids": [
+          14,
+          16,
+          17,
+          21
+        ]
+      },
+      {
+        "sent_id": "email-enronsent18_02-0011",
+        "target_ids": [
+          3,
+          10,
+          23,
+          41
+        ]
+      },
+      {
+        "sent_id": "email-enronsent18_02-0035",
+        "target_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "sent_id": "email-enronsent18_02-0037",
+        "target_ids": [
+          2,
+          12,
+          13,
+          17
+        ]
+      },
+      {
+        "sent_id": "email-enronsent21_02-0006",
+        "target_ids": [
+          1,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "sent_id": "email-enronsent21_02-0023",
+        "target_ids": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sent_id": "email-enronsent21_02-0054",
+        "target_ids": [
+          1,
+          5,
+          9,
+          12
+        ]
+      },
+      {
+        "sent_id": "email-enronsent23_03-0004",
+        "target_ids": [
+          2,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "sent_id": "email-enronsent23_04-0007",
+        "target_ids": [
+          4,
+          30,
+          35,
+          39
+        ]
+      },
+      {
+        "sent_id": "email-enronsent23_04-0016",
+        "target_ids": [
+          4,
+          5,
+          9,
+          13
+        ]
+      },
+      {
+        "sent_id": "email-enronsent23_06-0002",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "email-enronsent23_06-0007",
+        "target_ids": [
+          5,
+          9,
+          11,
+          13
+        ]
+      },
+      {
+        "sent_id": "email-enronsent23_07-0008",
+        "target_ids": [
+          1,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "sent_id": "email-enronsent23_07-0009",
+        "target_ids": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "sent_id": "email-enronsent27_02-0012",
+        "target_ids": [
+          8,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "sent_id": "email-enronsent28_01-0015",
+        "target_ids": [
+          4,
+          17,
+          18,
+          20
+        ]
+      },
+      {
+        "sent_id": "email-enronsent28_01-0038",
+        "target_ids": [
+          8,
+          10,
+          23,
+          39
+        ]
+      },
+      {
+        "sent_id": "email-enronsent28_01-0039",
+        "target_ids": [
+          1,
+          2,
+          9,
+          18
+        ]
+      },
+      {
+        "sent_id": "email-enronsent29_02-0042",
+        "target_ids": [
+          3,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "sent_id": "email-enronsent32_01-0003",
+        "target_ids": [
+          1,
+          29,
+          33,
+          34
+        ]
+      },
+      {
+        "sent_id": "email-enronsent32_01-0027",
+        "target_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "sent_id": "email-enronsent32_01-0031",
+        "target_ids": [
+          14,
+          27,
+          37,
+          43
+        ]
+      },
+      {
+        "sent_id": "email-enronsent32_01-0033",
+        "target_ids": [
+          6,
+          12,
+          18,
+          20
+        ]
+      },
+      {
+        "sent_id": "email-enronsent32_02-0005",
+        "target_ids": [
+          8,
+          13,
+          17,
+          19
+        ]
+      },
+      {
+        "sent_id": "email-enronsent32_02-0030",
+        "target_ids": [
+          4,
+          6,
+          7,
+          10
+        ]
+      },
+      {
+        "sent_id": "email-enronsent32_02-0031",
+        "target_ids": [
+          2,
+          8,
+          13,
+          15
+        ]
+      },
+      {
+        "sent_id": "email-enronsent36_01-0027",
+        "target_ids": [
+          1,
+          7,
+          11,
+          12
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_APassionforRats_207517af35c166ef_ENG_20050526_150700-0003",
+        "target_ids": [
+          2,
+          15,
+          17,
+          20
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900-0004",
+        "target_ids": [
+          18,
+          26,
+          32,
+          33
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_GayNews_0f9e221229ed0ee5_ENG_20050307_110600-0004",
+        "target_ids": [
+          11,
+          25,
+          32,
+          35
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_HistoricalLinguistics_f65a1220aacc96f3_ENG_20050517_153400-0001",
+        "target_ids": [
+          3,
+          17,
+          31,
+          36
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_IndiaNewsWindow_8945cbef01f41435_ENG_20051113_092500-0001",
+        "target_ids": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_IndiaNewsWindow_8945cbef01f41435_ENG_20051113_092500-0004",
+        "target_ids": [
+          5,
+          9,
+          15,
+          23
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_JokeEruption_df151b356f94881c_ENG_20050819_155700-0011",
+        "target_ids": [
+          3,
+          11,
+          14,
+          15
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_JokeEruption_df151b356f94881c_ENG_20050819_155700-0026",
+        "target_ids": [
+          3,
+          6,
+          7,
+          10
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_JyotishRemedies_cc96334336b9368b_ENG_20050623_013400-0001",
+        "target_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_RagnarokOnlineII_9a68fd122989608b_ENG_20051110_012200-0002",
+        "target_ids": [
+          25,
+          37,
+          39,
+          48
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0014",
+        "target_ids": [
+          12,
+          13,
+          15,
+          17
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0007",
+        "target_ids": [
+          4,
+          9,
+          11,
+          12
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500-0004",
+        "target_ids": [
+          7,
+          19,
+          25,
+          36
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_alt.animals.cat_0f877e44e3521d27_ENG_20040131_084700-0003",
+        "target_ids": [
+          3,
+          14,
+          16,
+          25
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_chantonline_3e01677617c74720_ENG_20060112_102000-0008",
+        "target_ids": [
+          14,
+          21,
+          26,
+          28
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_chantonline_3e01677617c74720_ENG_20060112_102000-0009",
+        "target_ids": [
+          2,
+          5,
+          6,
+          15
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_civilization_1201f7692b7769fb_ENG_20050908_010400-0005",
+        "target_ids": [
+          20,
+          25,
+          35,
+          40
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0002",
+        "target_ids": [
+          1,
+          5,
+          13,
+          18
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0012",
+        "target_ids": [
+          2,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0001",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_hiddennook_88969236563fa748_ENG_20050215_173600-0007",
+        "target_ids": [
+          1,
+          8,
+          10,
+          13
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_hiddennook_88969236563fa748_ENG_20050215_173600-0012",
+        "target_ids": [
+          9,
+          33,
+          36,
+          43
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_hiddennook_88969236563fa748_ENG_20050215_173600-0016",
+        "target_ids": [
+          3,
+          6,
+          8,
+          10
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0009",
+        "target_ids": [
+          2,
+          3,
+          4,
+          20
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0006",
+        "target_ids": [
+          6,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0011",
+        "target_ids": [
+          1,
+          5,
+          9,
+          11
+        ]
+      },
+      {
+        "sent_id": "reviews-002317-0003",
+        "target_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "sent_id": "reviews-035993-0001",
+        "target_ids": [
+          7,
+          17,
+          22,
+          25
+        ]
+      },
+      {
+        "sent_id": "reviews-039173-0001",
+        "target_ids": [
+          14,
+          20,
+          21,
+          23
+        ]
+      },
+      {
+        "sent_id": "reviews-042530-0002",
+        "target_ids": [
+          3,
+          5,
+          15,
+          21
+        ]
+      },
+      {
+        "sent_id": "reviews-045972-0003",
+        "target_ids": [
+          2,
+          7,
+          9,
+          10
+        ]
+      },
+      {
+        "sent_id": "reviews-048644-0001",
+        "target_ids": [
+          1,
+          4,
+          6,
+          8
+        ]
+      },
+      {
+        "sent_id": "reviews-058878-0002",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "reviews-060396-0002",
+        "target_ids": [
+          1,
+          2,
+          6,
+          14
+        ]
+      },
+      {
+        "sent_id": "reviews-088954-0001",
+        "target_ids": [
+          4,
+          6,
+          7,
+          15
+        ]
+      },
+      {
+        "sent_id": "reviews-130216-0001",
+        "target_ids": [
+          5,
+          10,
+          11,
+          13
+        ]
+      },
+      {
+        "sent_id": "reviews-165032-0003",
+        "target_ids": [
+          1,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "sent_id": "reviews-210875-0001",
+        "target_ids": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "sent_id": "reviews-211709-0001",
+        "target_ids": [
+          1,
+          5,
+          6,
+          9
+        ]
+      },
+      {
+        "sent_id": "reviews-223040-0001",
+        "target_ids": [
+          4,
+          6,
+          8,
+          17
+        ]
+      },
+      {
+        "sent_id": "reviews-235190-0001",
+        "target_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "sent_id": "reviews-251755-0002",
+        "target_ids": [
+          2,
+          7,
+          11,
+          15
+        ]
+      },
+      {
+        "sent_id": "reviews-286172-0003",
+        "target_ids": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "sent_id": "reviews-309258-0002",
+        "target_ids": [
+          1,
+          12,
+          18,
+          23
+        ]
+      },
+      {
+        "sent_id": "reviews-313126-0002",
+        "target_ids": [
+          4,
+          6,
+          9,
+          13
+        ]
+      },
+      {
+        "sent_id": "reviews-332068-0002",
+        "target_ids": [
+          10,
+          11,
+          13,
+          22
+        ]
+      },
+      {
+        "sent_id": "reviews-335490-0005",
+        "target_ids": [
+          2,
+          4,
+          5,
+          9
+        ]
+      },
+      {
+        "sent_id": "reviews-341750-0004",
+        "target_ids": [
+          2,
+          6,
+          7,
+          10
+        ]
+      },
+      {
+        "sent_id": "reviews-343813-0003",
+        "target_ids": [
+          2,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "sent_id": "reviews-353891-0003",
+        "target_ids": [
+          6,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "sent_id": "reviews-353891-0004",
+        "target_ids": [
+          2,
+          6,
+          9,
+          17
+        ]
+      },
+      {
+        "sent_id": "reviews-357217-0003",
+        "target_ids": [
+          2,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "sent_id": "reviews-357217-0004",
+        "target_ids": [
+          1,
+          4,
+          5,
+          14
+        ]
+      },
+      {
+        "sent_id": "reviews-384229-0002",
+        "target_ids": [
+          6,
+          13,
+          16,
+          17
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_aggressivevoicedaily_20060629164800_ENG_20060629_164800-0001",
+        "target_ids": [
+          15,
+          17,
+          25,
+          36
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_aggressivevoicedaily_20060629164800_ENG_20060629_164800-0003",
+        "target_ids": [
+          1,
+          2,
+          29,
+          74
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_aggressivevoicedaily_20060811122000_ENG_20060811_122000-0041",
+        "target_ids": [
+          1,
+          3,
+          8,
+          16
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_aggressivevoicedaily_20060811122000_ENG_20060811_122000-0042",
+        "target_ids": [
+          2,
+          6,
+          8,
+          28
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_floppingaces_20050313182621_ENG_20050313_182621-0007",
+        "target_ids": [
+          6,
+          7,
+          19,
+          27
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_floppingaces_20050313182621_ENG_20050313_182621-0010",
+        "target_ids": [
+          7,
+          16,
+          30,
+          31
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_grandpasgripes_20060413051000_ENG_20060413_051000-0009",
+        "target_ids": [
+          1,
+          2,
+          12,
+          13
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_marketview_20050224181500_ENG_20050224_181500-0001",
+        "target_ids": [
+          4,
+          5,
+          15,
+          42
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_marketview_20050224181500_ENG_20050224_181500-0003",
+        "target_ids": [
+          17,
+          62,
+          64,
+          67
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_tacitusproject_20040715092419_ENG_20040715_092419-0001",
+        "target_ids": [
+          41,
+          47,
+          58,
+          68
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20030914114200_ENG_20030914_114200-0006",
+        "target_ids": [
+          7,
+          16,
+          23,
+          32
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20030914114200_ENG_20030914_114200-0009",
+        "target_ids": [
+          1,
+          2
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0012",
+        "target_ids": [
+          14,
+          29,
+          32,
+          43
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0026",
+        "target_ids": [
+          3,
+          14,
+          20,
+          26
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20041018060600_ENG_20041018_060600-0001",
+        "target_ids": [
+          7,
+          20,
+          32,
+          41
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20041018060600_ENG_20041018_060600-0004",
+        "target_ids": [
+          12,
+          17,
+          21,
+          26
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20041018060600_ENG_20041018_060600-0017",
+        "target_ids": [
+          17,
+          24,
+          28,
+          30
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20041018060600_ENG_20041018_060600-0021",
+        "target_ids": [
+          1,
+          8,
+          11,
+          22
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20041109060653_ENG_20041109_060653-0006",
+        "target_ids": [
+          11,
+          24,
+          28,
+          29
+        ]
+      },
+      {
+        "sent_id": "weblog-juancole.com_juancole_20041109060653_ENG_20041109_060653-0012",
+        "target_ids": [
+          1,
+          12,
+          19,
+          38
+        ]
+      }
+    ]
+  },
+  "dev_diagnostic": {
+    "sentences": 4,
+    "target_tokens": 16,
+    "strata": {
+      "11-20": 1,
+      ">40": 1,
+      "2-10": 1,
+      "21-40": 1
+    },
+    "requests": 128,
+    "requests_by_kind": {
+      "grammar": 64,
+      "mapping": 64
+    },
+    "selection": [
+      {
+        "sent_id": "email-enronsent23_11-0006",
+        "target_ids": [
+          1,
+          3,
+          8,
+          10
+        ]
+      },
+      {
+        "sent_id": "newsgroup-groups.google.com_eHolistic_b8e32f451114ecc2_ENG_20051118_192000-0005",
+        "target_ids": [
+          10,
+          11,
+          12,
+          15
+        ]
+      },
+      {
+        "sent_id": "reviews-147825-0002",
+        "target_ids": [
+          1,
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "sent_id": "weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0010",
+        "target_ids": [
+          1,
+          9,
+          14,
+          19
+        ]
+      }
+    ]
+  },
+  "example_sent_id": "weblog-blogspot.com_alaindewitt_20040929103700_ENG_20040929_103700-0019",
+  "example_target_id": 3,
+  "UPOS": [
+    "ADJ",
+    "ADP",
+    "ADV",
+    "AUX",
+    "CCONJ",
+    "DET",
+    "INTJ",
+    "NOUN",
+    "NUM",
+    "PART",
+    "PRON",
+    "PROPN",
+    "PUNCT",
+    "SCONJ",
+    "SYM",
+    "VERB",
+    "X"
+  ],
+  "DEPREL": [
+    "acl",
+    "advcl",
+    "advmod",
+    "amod",
+    "appos",
+    "aux",
+    "case",
+    "cc",
+    "ccomp",
+    "clf",
+    "compound",
+    "conj",
+    "cop",
+    "csubj",
+    "dep",
+    "det",
+    "discourse",
+    "dislocated",
+    "expl",
+    "fixed",
+    "flat",
+    "goeswith",
+    "iobj",
+    "list",
+    "mark",
+    "nmod",
+    "nsubj",
+    "nummod",
+    "obj",
+    "obl",
+    "orphan",
+    "parataxis",
+    "punct",
+    "reparandum",
+    "root",
+    "vocative",
+    "xcomp"
+  ],
+  "stop_strings": [
+    "<END_PARSE>",
+    "\n### Input",
+    "\n### Example",
+    "\n### Instruction",
+    "\nInput:\n",
+    "\nheader: user",
+    "\nheader: system",
+    "<|user|>",
+    "<|system|>",
+    "<|start_header_id|>user<|end_header_id|>",
+    "<|start_header_id|>system<|end_header_id|>"
+  ],
+  "mapping_alert_threshold": 0.95,
+  "sampling_note": "Length-stratified diagnostic; not representative of the whole test set. No single-token sentences.",
+  "mapping_note": "Independent seed-43 semantic target, shared across both orders and all stages. No filtering or correction by mapping success.",
+  "file_sha256": {
+    "data/test.jsonl": "796b26cf7046eb0cf7b593c7cae4d0058fbf2287295c76259ad52911c46c4a21",
+    "data/dev128.jsonl": "985b14033fb627f993bb717289dd936e3c847e380602f11a2a54330df54db70d",
+    "data/example.json": "251848a462e0014ae117c6cace7d1a2300b729d13ec7b9cc22806e82bdabfe3c",
+    "data/diagnostic128.jsonl": "6670d192ad43537a5eb1b910ec42a2cc781747d6d35cbc889e1702376a4b5262",
+    "data/diagnostic-requests.jsonl": "1391ec3e1cf727de56852aa3fe8aa7f4347635e8250c052b0da5f3fd29397bce",
+    "data/dev-diagnostic.jsonl": "fd00f30309657699f229263c5297d4cd7e201909978fe9de8ea213ca918c00ef",
+    "data/dev-diagnostic-requests.jsonl": "0fb62c3b542247a5ee5b8d072948860858e13773293d9106798fb397996ffd74"
+  },
+  "source_sha256": {
+    "ewt_eval/protocol.py": "763d12cd7331d2cee6ec014a5dd4ff1a808acc7615fd7ae9c1d89bb3dad4e0ad",
+    "ewt_eval/prepare.py": "3e0052fce2fedd48a253e1d83fd581a882f3c7ea628e5419b86c746ab704c00e"
+  },
+  "diagnostic_prompt_sha256": "8d1dd73276d2a5f85304d03df3fcf1ec58dd5a89198a7e27ce71103ace150bd5",
+  "full_test_prompt_sha256": "32a6f2208f770062e58b2289198dcc2f0e073adf24591e774704fbce14ad0544"
+}

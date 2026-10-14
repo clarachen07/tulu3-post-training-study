@@ -1,0 +1,167 @@
+{
+  "verified": true,
+  "audited_unix": 1791038678.5615559,
+  "frozen_sha256": "038b821c72ab10faf337e77067e3e7499f4f96bf3544acfb384da332acfe4194",
+  "cells": [
+    {
+      "stage": "base",
+      "split": "dev128",
+      "task": "full",
+      "requests": 128,
+      "sha256": "e5d2a5e53c6abce21037dd7732f84a85b7af967694df8a360da07ac332a51c1f",
+      "finish_reasons": {
+        "stop": 128
+      }
+    },
+    {
+      "stage": "base",
+      "split": "dev-diagnostic",
+      "task": "choice",
+      "requests": 128,
+      "sha256": "6d2cbd43f6479751b3a39dda1356f4f6683b41d55c3a0e72c090f8ea6a31aafb",
+      "finish_reasons": {
+        "length": 128
+      }
+    },
+    {
+      "stage": "base",
+      "split": "test",
+      "task": "full",
+      "requests": 2077,
+      "sha256": "bcece40103fbc0ad4141e759e6d24d9c4f539ed8b5c34b942896c50b194debab",
+      "finish_reasons": {
+        "stop": 2077
+      }
+    },
+    {
+      "stage": "base",
+      "split": "diagnostic",
+      "task": "choice",
+      "requests": 3920,
+      "sha256": "eb31f91539ac29d3b82e9ff5d400e1366524e2a4082d005ee692a798550a8399",
+      "finish_reasons": {
+        "length": 3920
+      }
+    },
+    {
+      "stage": "sft",
+      "split": "dev128",
+      "task": "full",
+      "requests": 128,
+      "sha256": "722c826f15c29131d3a3e7783416ee09540f6e595927fb2fc53832437030458d",
+      "finish_reasons": {
+        "stop": 128
+      }
+    },
+    {
+      "stage": "sft",
+      "split": "dev-diagnostic",
+      "task": "choice",
+      "requests": 128,
+      "sha256": "c90a9483231923c4234a202d842a51d6b0f6e5c37413772249dfb5ea2b02dd4f",
+      "finish_reasons": {
+        "length": 128
+      }
+    },
+    {
+      "stage": "sft",
+      "split": "test",
+      "task": "full",
+      "requests": 2077,
+      "sha256": "5edec7482862e8890aae43955c1a0eb8ca849eeb7243278bc9d7cf236c9df2f0",
+      "finish_reasons": {
+        "stop": 2077
+      }
+    },
+    {
+      "stage": "sft",
+      "split": "diagnostic",
+      "task": "choice",
+      "requests": 3920,
+      "sha256": "ce9c0e62666d21a7dc6383742e0b2e835b3dfc0cc9a188211956697924aa67c7",
+      "finish_reasons": {
+        "length": 3920
+      }
+    },
+    {
+      "stage": "dpo",
+      "split": "dev128",
+      "task": "full",
+      "requests": 128,
+      "sha256": "5a398d3b5205d0c508ffca76d19a2f2819022a2721432c3a0ee952e1c99154ef",
+      "finish_reasons": {
+        "stop": 128
+      }
+    },
+    {
+      "stage": "dpo",
+      "split": "dev-diagnostic",
+      "task": "choice",
+      "requests": 128,
+      "sha256": "fbf7a8b484ae4f51ff9aabdb31934064ffe462ae8d712b3994525df71fecdd4e",
+      "finish_reasons": {
+        "length": 128
+      }
+    },
+    {
+      "stage": "dpo",
+      "split": "test",
+      "task": "full",
+      "requests": 2077,
+      "sha256": "d77f64e620abf212d05a5b718919e36c28b2e88fca4f6a30e98f1043a56c8dfb",
+      "finish_reasons": {
+        "stop": 2077
+      }
+    },
+    {
+      "stage": "dpo",
+      "split": "diagnostic",
+      "task": "choice",
+      "requests": 3920,
+      "sha256": "fe20a0da22a5c326614ef5ad161c7fa0a273ab3e4215301797d9f76ec6434677",
+      "finish_reasons": {
+        "length": 3920
+      }
+    },
+    {
+      "stage": "final",
+      "split": "dev128",
+      "task": "full",
+      "requests": 128,
+      "sha256": "a6dfe236690ab95eeba2d807eaf751657984ceb72d22838dff99db355ff7bbb7",
+      "finish_reasons": {
+        "stop": 128
+      }
+    },
+    {
+      "stage": "final",
+      "split": "dev-diagnostic",
+      "task": "choice",
+      "requests": 128,
+      "sha256": "d0c4d0e2bcfeeb8a3655555e348abe5d258beeb8d8b20d6cc8b009ac6872cbdd",
+      "finish_reasons": {
+        "length": 128
+      }
+    },
+    {
+      "stage": "final",
+      "split": "test",
+      "task": "full",
+      "requests": 2077,
+      "sha256": "60f2394ac7ce853805571b645ce696cef5b19ae05b2a44ae0a0a1b4a0b5d566e",
+      "finish_reasons": {
+        "stop": 2077
+      }
+    },
+    {
+      "stage": "final",
+      "split": "diagnostic",
+      "task": "choice",
+      "requests": 3920,
+      "sha256": "37c7f2dff5d1f328dddf9749825183c81b7fd1f9d1a29e2b1fd1238e12656986",
+      "finish_reasons": {
+        "length": 3920
+      }
+    }
+  ]
+}

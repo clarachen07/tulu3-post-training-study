@@ -1,0 +1,118 @@
+{
+  "base": {
+    "mapping": {
+      "upos/order0": {
+        "correct": 15,
+        "total": 16,
+        "accuracy": 0.9375,
+        "mapping_alert": true
+      },
+      "upos/order1": {
+        "correct": 14,
+        "total": 16,
+        "accuracy": 0.875,
+        "mapping_alert": true
+      },
+      "head/order0": {
+        "correct": 8,
+        "total": 16,
+        "accuracy": 0.5,
+        "mapping_alert": true
+      },
+      "head/order1": {
+        "correct": 12,
+        "total": 16,
+        "accuracy": 0.75,
+        "mapping_alert": true
+      }
+    },
+    "full_report": "reports/dev128/full/base.json"
+  },
+  "sft": {
+    "mapping": {
+      "upos/order0": {
+        "correct": 16,
+        "total": 16,
+        "accuracy": 1.0,
+        "mapping_alert": false
+      },
+      "upos/order1": {
+        "correct": 13,
+        "total": 16,
+        "accuracy": 0.8125,
+        "mapping_alert": true
+      },
+      "head/order0": {
+        "correct": 9,
+        "total": 16,
+        "accuracy": 0.5625,
+        "mapping_alert": true
+      },
+      "head/order1": {
+        "correct": 8,
+        "total": 16,
+        "accuracy": 0.5,
+        "mapping_alert": true
+      }
+    },
+    "full_report": "reports/dev128/full/sft.json"
+  },
+  "dpo": {
+    "mapping": {
+      "upos/order0": {
+        "correct": 16,
+        "total": 16,
+        "accuracy": 1.0,
+        "mapping_alert": false
+      },
+      "upos/order1": {
+        "correct": 13,
+        "total": 16,
+        "accuracy": 0.8125,
+        "mapping_alert": true
+      },
+      "head/order0": {
+        "correct": 10,
+        "total": 16,
+        "accuracy": 0.625,
+        "mapping_alert": true
+      },
+      "head/order1": {
+        "correct": 10,
+        "total": 16,
+        "accuracy": 0.625,
+        "mapping_alert": true
+      }
+    },
+    "full_report": "reports/dev128/full/dpo.json"
+  },
+  "final": {
+    "mapping": {
+      "upos/order0": {
+        "correct": 16,
+        "total": 16,
+        "accuracy": 1.0,
+        "mapping_alert": false
+      },
+      "upos/order1": {
+        "correct": 14,
+        "total": 16,
+        "accuracy": 0.875,
+        "mapping_alert": true
+      },
+      "head/order0": {
+        "correct": 9,
+        "total": 16,
+        "accuracy": 0.5625,
+        "mapping_alert": true
+      },
+      "head/order1": {
+        "correct": 9,
+        "total": 16,
+        "accuracy": 0.5625,
+        "mapping_alert": true
+      }
+    },
+    "full_report": "reports/dev128/full/final.json"
+  }
+}

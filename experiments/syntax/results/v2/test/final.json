@@ -1,0 +1,121 @@
+{
+  "protocol": "ewt-fair-v2",
+  "stage": "final",
+  "split": "test",
+  "with_punct": {
+    "counts": {
+      "gold": 25094,
+      "aligned": 24651,
+      "upos": 21195,
+      "uas": 10786,
+      "las": 7706,
+      "valid_upos": 24563,
+      "valid_head": 24635,
+      "valid_deprel": 24012
+    },
+    "metrics": {
+      "upos": 0.8446242129592731,
+      "uas": 0.42982386227783537,
+      "las": 0.3070853590499721,
+      "aligned": 0.9823463776201482,
+      "valid_upos": 0.9788395632422093,
+      "valid_head": 0.9817087750059775,
+      "valid_deprel": 0.9568821232167052,
+      "upos_conditional_on_aligned": 0.859802847754655,
+      "uas_conditional_on_aligned": 0.43754817248793154,
+      "las_conditional_on_aligned": 0.312603951158168
+    },
+    "diagnostic_counts": {
+      "sentences": 2077,
+      "table_complete": 1972,
+      "truncated": 0,
+      "boundary_trimmed": 1985,
+      "early_boundary": 0,
+      "has_header": 0,
+      "head_table_complete": 1972,
+      "roots": 1728,
+      "head_out_of_range": 0,
+      "self_loop_tokens": 16,
+      "cycle": 1353,
+      "multiple_roots": 169,
+      "zero_roots": 483,
+      "valid_tree": 640
+    },
+    "failure_counts": {},
+    "issue_counts": {
+      "wrong_field_count": 377,
+      "invalid_id": 34,
+      "form_mismatch": 96,
+      "out_of_range_id": 112
+    },
+    "finish_reason_counts": {
+      "stop": 2077
+    },
+    "stop_reason_counts": {
+      "None": 92,
+      "<END_PARSE>": 1985
+    },
+    "boundary_counts": {
+      "None": 92,
+      "<END_PARSE>": 1985
+    }
+  },
+  "no_punct": {
+    "counts": {
+      "gold": 21998,
+      "aligned": 21627,
+      "upos": 18193,
+      "uas": 9767,
+      "las": 6840,
+      "valid_upos": 21540,
+      "valid_head": 21612,
+      "valid_deprel": 21013
+    },
+    "metrics": {
+      "upos": 0.8270297299754523,
+      "uas": 0.4439949086280571,
+      "las": 0.3109373579416311,
+      "aligned": 0.9831348304391309,
+      "valid_upos": 0.979179925447768,
+      "valid_head": 0.9824529502682062,
+      "valid_deprel": 0.9552232021092827,
+      "upos_conditional_on_aligned": 0.8412169972719286,
+      "uas_conditional_on_aligned": 0.4516114116613492,
+      "las_conditional_on_aligned": 0.31627132750728254
+    },
+    "diagnostic_counts": {
+      "sentences": 2077,
+      "table_complete": 1972,
+      "truncated": 0,
+      "boundary_trimmed": 1985,
+      "early_boundary": 0,
+      "has_header": 0,
+      "head_table_complete": 1972,
+      "roots": 1728,
+      "head_out_of_range": 0,
+      "self_loop_tokens": 16,
+      "cycle": 1353,
+      "multiple_roots": 169,
+      "zero_roots": 483,
+      "valid_tree": 640
+    },
+    "failure_counts": {},
+    "issue_counts": {
+      "wrong_field_count": 377,
+      "invalid_id": 34,
+      "form_mismatch": 96,
+      "out_of_range_id": 112
+    },
+    "finish_reason_counts": {
+      "stop": 2077
+    },
+    "stop_reason_counts": {
+      "None": 92,
+      "<END_PARSE>": 1985
+    },
+    "boundary_counts": {
+      "None": 92,
+      "<END_PARSE>": 1985
+    }
+  }
+}

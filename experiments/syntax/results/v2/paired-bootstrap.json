@@ -1,0 +1,132 @@
+{
+  "replicates": 10000,
+  "seed": 42,
+  "unit": "sentence",
+  "primary_family": "three adjacent-stage coarse LAS differences",
+  "bonferroni_confidence": 0.9833333333333333,
+  "comparisons": [
+    {
+      "from": "base",
+      "to": "sft",
+      "metric": "upos",
+      "delta_percentage_points": 0.7053478919263569,
+      "ci95": [
+        -0.020489622594437155,
+        1.4915115132087726
+      ],
+      "primary_comparison": false,
+      "ci95_excludes_zero": false
+    },
+    {
+      "from": "base",
+      "to": "sft",
+      "metric": "uas",
+      "delta_percentage_points": 4.837809835020324,
+      "ci95": [
+        4.051091061823666,
+        5.641606212237851
+      ],
+      "primary_comparison": false,
+      "ci95_excludes_zero": true
+    },
+    {
+      "from": "base",
+      "to": "sft",
+      "metric": "las",
+      "delta_percentage_points": 4.020881485614091,
+      "ci95": [
+        3.3203405379220468,
+        4.74383353157857
+      ],
+      "ci98_333_bonferroni": [
+        3.16391310159074,
+        4.905400904356251
+      ],
+      "primary_comparison": true,
+      "ci95_excludes_zero": true,
+      "bonferroni_excludes_zero": true
+    },
+    {
+      "from": "sft",
+      "to": "dpo",
+      "metric": "upos",
+      "delta_percentage_points": -0.4662469116123376,
+      "ci95": [
+        -1.0877456258964724,
+        0.1197089986273931
+      ],
+      "primary_comparison": false,
+      "ci95_excludes_zero": false
+    },
+    {
+      "from": "sft",
+      "to": "dpo",
+      "metric": "uas",
+      "delta_percentage_points": 1.0400892643659838,
+      "ci95": [
+        0.4307508245712606,
+        1.637640898483888
+      ],
+      "primary_comparison": false,
+      "ci95_excludes_zero": true
+    },
+    {
+      "from": "sft",
+      "to": "dpo",
+      "metric": "las",
+      "delta_percentage_points": 0.8129433330676655,
+      "ci95": [
+        0.25581306242501023,
+        1.3668168003109118
+      ],
+      "ci98_333_bonferroni": [
+        0.12735820575941928,
+        1.4795455572923009
+      ],
+      "primary_comparison": true,
+      "ci95_excludes_zero": true,
+      "bonferroni_excludes_zero": true
+    },
+    {
+      "from": "dpo",
+      "to": "final",
+      "metric": "upos",
+      "delta_percentage_points": -0.7531680879891608,
+      "ci95": [
+        -1.3606316861124832,
+        -0.12475483337445568
+      ],
+      "primary_comparison": false,
+      "ci95_excludes_zero": true
+    },
+    {
+      "from": "dpo",
+      "to": "final",
+      "metric": "uas",
+      "delta_percentage_points": -0.8806886108233044,
+      "ci95": [
+        -1.3485071222130096,
+        -0.4134050522017663
+      ],
+      "primary_comparison": false,
+      "ci95_excludes_zero": true
+    },
+    {
+      "from": "dpo",
+      "to": "final",
+      "metric": "las",
+      "delta_percentage_points": -0.6575276958635531,
+      "ci95": [
+        -1.0730513888894135,
+        -0.24608218099430235
+      ],
+      "ci98_333_bonferroni": [
+        -1.1597301120759314,
+        -0.16114418705347452
+      ],
+      "primary_comparison": true,
+      "ci95_excludes_zero": true,
+      "bonferroni_excludes_zero": true
+    }
+  ]
+}
