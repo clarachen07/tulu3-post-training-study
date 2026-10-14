@@ -471,7 +471,8 @@
       "input": [
         "report-assets/data/layer32_stage_comparison.csv"
       ],
-      "operation": "Stage bars with population SD; independent linear y-axes starting at zero"
+      "operation": "Three metric lines across discrete stages at layer 32; means with population SD; shared linear y-axis starting at zero; no fitting",
+      "renderer": "../plot_layer32_stage_comparison.py"
     },
     {
       "output": "figures/05_layer32_sample_scale.{png,svg}",
@@ -506,7 +507,9 @@
     "author_code_commit": "2c5140009eb3efccca1d774dc66cb043c04b26d8",
     "method_sources": [
       "https://github.com/ansuini/IntrinsicDimDeep/blob/2c5140009eb3efccca1d774dc66cb043c04b26d8/scripts/custom/analyze.py",
-      "https://github.com/ansuini/IntrinsicDimDeep/blob/2c5140009eb3efccca1d774dc66cb043c04b26d8/IDNN/intrinsic_dimension.py"
+      "https://github.com/ansuini/IntrinsicDimDeep/blob/2c5140009eb3efccca1d774dc66cb043c04b26d8/IDNN/intrinsic_dimension.py",
+      "https://github.com/ansuini/IntrinsicDimDeep/blob/2c5140009eb3efccca1d774dc66cb043c04b26d8/scripts/pretrained/last_hidden_pca.py",
+      "https://github.com/ansuini/IntrinsicDimDeep/blob/2c5140009eb3efccca1d774dc66cb043c04b26d8/scripts/pretrained/hunchback.py"
     ],
     "license": "CC BY-NC-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
@@ -529,6 +532,15 @@
         "transformation": "none; downloaded PNG bytes retained",
         "width": 862,
         "height": 392
+      },
+      {
+        "paper_figure": 5,
+        "source_url": "https://arxiv.org/html/1905.12784v2/curvature_cb.png",
+        "package_path": "figures/paper_fig5_curvature_cb.png",
+        "sha256": "34e69e1d84f6c3c51043dd626e6bc7223ade567ccbdb73716343415caf903154",
+        "transformation": "none; downloaded PNG bytes retained",
+        "width": 1035,
+        "height": 387
       }
     ]
   }
