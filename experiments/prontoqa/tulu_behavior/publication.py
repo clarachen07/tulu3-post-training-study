@@ -175,12 +175,22 @@ def check_statistics(summary, items):
     return lookup
 
 
-def _svg_series(path, gid, values, *, intervals=False):
+def _svg_series(path, gid, values, *, intervals=False, limits=(-2, 102), markers=False):
     """Check actual SVG line coordinates against percentage-space values."""
     svg = ET.parse(path).getroot()
     ns = {"s":"http://www.w3.org/2000/svg"}
     groups = [g for g in svg.findall('.//s:g',ns) if g.get('id') == gid]
     _require(len(groups) == 1, f"Missing or duplicate plotted SVG series: {gid}")
+    if markers:
+        collection = groups[0].find('s:g', ns)
+        _require(collection is not None, f"Missing SVG marker collection: {gid}")
+        clip_id = collection.attrib['clip-path'][5:-1]
+        clip = next(c for c in svg.findall('.//s:clipPath',ns) if c.get('id') == clip_id).find('s:rect',ns)
+        actual = [float(use.attrib['y']) for use in collection.findall('s:use',ns)]
+        low, high = limits
+        expected = [float(clip.attrib['y']) + float(clip.attrib['height'])*(high-v)/(high-low) for v in values]
+        _require(len(actual) == len(expected) and all(abs(a-b)<2e-5 for a,b in zip(actual,expected)), f"Rendered SVG coordinates differ: {gid}")
+        return
     paths = groups[0].findall('s:path',ns)
     _require(len(paths) == (len(values) if intervals else 1), f"SVG series path count differs: {gid}")
     for index,p in enumerate(paths):
@@ -190,7 +200,8 @@ def _svg_series(path, gid, values, *, intervals=False):
         numbers = [float(n) for n in re.findall(r'[-+]?(?:\d*\.\d+|\d+)(?:[eE][-+]?\d+)?',p.attrib['d'])]
         actual_y = numbers[1::2]
         percentages = values[index] if intervals else values
-        expected_y = [top + height*(102-v)/104 for v in percentages]
+        low, high = limits
+        expected_y = [top + height*(high-v)/(high-low) for v in percentages]
         _require(len(actual_y) == len(expected_y) and all(abs(a-b)<2e-5 for a,b in zip(actual_y,expected_y)), f"Rendered SVG coordinates differ: {gid}")
 
 

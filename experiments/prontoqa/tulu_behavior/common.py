@@ -100,10 +100,17 @@ def publication_code_hashes():
     paths = list((REPO / "tulu_behavior").glob("*.py"))
     paths += list((ROOT / "tests").glob("test_*.py"))
     paths += [ROOT / "experiment.json", REPO / "requirements.txt", REPO / "requirements-analysis.txt"]
+    order = REPO / "behavior-order-sensitivity"
+    if order.exists():
+        paths += list((order / "tests").glob("test_*.py")) + [order / "experiment.json"]
     return {str(p.relative_to(REPO)): sha256_file(p) for p in sorted(paths)}
 
 
 def add_workspace_arguments(parser, *, analysis=False):
+    parser.add_argument("--experiment", choices=("behavior", "order-sensitivity"), default="behavior",
+                        help="Original behavior protocol or fixed sentence-order experiment")
+    parser.add_argument("--baseline-source", type=Path,
+                        help="Complete external preorder baseline for the shuffled experiment")
     parser.add_argument("--root", type=Path, help="Existing independent run workspace")
     parser.add_argument("--output-dir", type=Path, default=REPO / "runs/behavior",
                         help="Independent output directory; reference results are read-only")
@@ -119,6 +126,11 @@ def add_workspace_arguments(parser, *, analysis=False):
 def workspace(args):
     """Create a self-contained fresh run without changing published references."""
     import shutil
+    existing = getattr(args, "root", None)
+    if (getattr(args, "experiment", "behavior") == "order-sensitivity"
+            or (existing and load_config(existing)["data"]["ordering"] == "shuffled")):
+        from .shuffle import order_workspace
+        return order_workspace(args)
     root = (args.root or args.output_dir).resolve()
     if root == ROOT or root == REPO or REPO.is_relative_to(root) or (root.is_relative_to(REPO) and not root.is_relative_to(REPO / "runs")):
         raise ValueError("Output must be an independent run directory")

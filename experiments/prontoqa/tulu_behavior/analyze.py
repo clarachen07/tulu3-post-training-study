@@ -659,12 +659,20 @@ def main():
     add_workspace_arguments(parser, analysis=True)
     args = parser.parse_args()
     if args.source_dir is not None:
+        if load_config(args.source_dir)['data']['ordering'] == 'shuffled':
+            from .compare import reanalyze_order
+            baseline = args.baseline_source or (args.source_dir / load_config(args.source_dir)['data']['source_behavior_root'])
+            reanalyze_order(baseline, args.source_dir, args.output_dir)
+            return
         from .reanalysis import reanalyze
         result = reanalyze(args.source_dir, args.output_dir)
         print(json.dumps({"status": result["status"], "rescored_generations": result["rescored_generations"]}))
     else:
         root = workspace(args)
         result = analyze(root)
+        if load_config(root)['data']['ordering'] == 'shuffled':
+            from .compare import write_order_results
+            write_order_results(root)
         print(json.dumps({"status": result["status"], "physical_generations": result["physical_generations"],
                           "report": str(root / "reports/report.html")}))
 

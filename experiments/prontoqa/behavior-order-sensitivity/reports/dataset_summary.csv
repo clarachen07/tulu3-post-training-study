@@ -1,0 +1,4 @@
+﻿hop,labels,n,question_characters,rule_count,rule_count_method
+1,"{""False"": 681, ""True"": 759}",1440,"{""max"": 481, ""mean"": 294.21180555555554, ""median"": 275.5, ""p90"": 457.0}","{""max"": 17, ""mean"": 10.290277777777778, ""median"": 9.0, ""p90"": 17.0}",universal_statement_count
+3,"{""False"": 703, ""True"": 737}",1440,"{""max"": 489, ""mean"": 389.9326388888889, ""median"": 443.0, ""p90"": 463.0}","{""max"": 17, ""mean"": 14.348611111111111, ""median"": 17.0, ""p90"": 17.0}",universal_statement_count
+5,"{""False"": 741, ""True"": 699}",1440,"{""max"": 486, ""mean"": 431.85069444444446, ""median"": 449.0, ""p90"": 465.0}","{""max"": 17, ""mean"": 16.14027777777778, ""median"": 17.0, ""p90"": 17.0}",universal_statement_count

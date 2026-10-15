@@ -1,0 +1,41 @@
+{
+  "case_review": {
+    "findings_count": 302,
+    "reviewed_unique_generations": 302,
+    "reviewer": "Codex",
+    "sampled_entries": 305,
+    "status": "passed"
+  },
+  "committed_batches": 3780,
+  "dataset_sha256": "a2792bc2b2ca8df2c5f47035f6763e15b5ee3b4a9005649434c542049fe9befc",
+  "formal_items": 4320,
+  "generation": {
+    "batch_size": 4,
+    "budgets": {
+      "cot": 512,
+      "direct": 32
+    }
+  },
+  "historical_analysis_code_sha256": "2b63e5b109edc9ab7ca2231f6b81029d45d37eb844976c84390266d2863a68a7",
+  "historical_scoring_code_sha256": "3db0fc5c4ed56211fa7649439cd0fd4dd4d6834ee0594b0a8c3ee0a55899b226",
+  "logical_records": 69120,
+  "original_server_checks": {
+    "environment_checked": true,
+    "model_assets_checked": true,
+    "output_token_decoding_checked": true,
+    "rescored_generations": 60480,
+    "verified_utc": "2026-10-15T03:15:21.813102+00:00"
+  },
+  "physical_generations": 60480,
+  "protocol_digest": "dcd9d2c76db1929d23654f9cf3c0495f619d988f98b41e0a2d5e937a4a75e38d",
+  "schema_version": 1,
+  "source_config_sha256": "6d453da7f0854bb5c982f7184d0ad4c79b01636396e7bb807ce03de484730ed7",
+  "source_manifest_hashes": {
+    "manifests/analysis.json": "3850e1cc8d0ad6d486d7e640d996cd76d12a845c3f7ff739763bc7cfc9e941e7",
+    "manifests/case_review.json": "17fbaa65af298c29113cedebc2ff1d763ae634bb4852780478f40c71a27a44b2",
+    "manifests/final_verification.json": "986980c9d3d6538633a7ce968730835992cfff50d337ebaa8910ccbf9dc13b11",
+    "manifests/frozen_protocol.json": "5a5092ebdca7c4a449f82a077be4f1f589105922d071dd4bea94edcc0c0cbacd",
+    "manifests/order_comparison.json": "fcbc2eff76239c7fb76a5fbdd51111ff85e5244c86ca07592242b481c252b46f"
+  },
+  "status": "accepted_original_experiment"
+}

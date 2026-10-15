@@ -61,6 +61,8 @@ class Pipeline:
                 if status == "needs_diagnosis":
                     return None
                 budgets = summary["decision"]["next_budgets"]
+        if self.config["data"]["ordering"] == "shuffled":
+            return None
         raise RuntimeError("Pilot cannot fit even at batch size 1")
 
     def execute(self, *, pilot_only=False):
@@ -88,7 +90,12 @@ class Pipeline:
             self.run_module("run", "--phase", "formal", "--stage", stage,
                             "--batch-size", frozen["identity"]["generation"]["batch_size"])
         verify(self.root, require_reports=False)
-        analyze(self.root)
+        if self.config["data"]["ordering"] == "shuffled":
+            from .compare import write_order_results
+            analyze(self.root)
+            write_order_results(self.root)
+        else:
+            analyze(self.root)
         result = verify(self.root)
         return {"status": "complete" if result["case_review"]["status"] == "passed" else "awaiting_review",
                 "automated_verification": result["status"]}

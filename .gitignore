@@ -39,3 +39,7 @@ experiments/math500/configs/math500-test.jsonl
 # New pilot runs keep input data and raw generations outside versioned results.
 experiments/math500/pilot/data/
 experiments/math500/pilot/outputs/
+
+# PrOntoQA sentence-order publication contains aggregates only.
+experiments/prontoqa/behavior-order-sensitivity/data/
+experiments/prontoqa/behavior-order-sensitivity/outputs/

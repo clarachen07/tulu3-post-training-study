@@ -47,6 +47,8 @@ def _number(actual, expected, message):
 
 
 def _verify_source(source, item, demos, identity):
+    if "ordering" in item:
+        _same(source.get("ordering"), item["ordering"], "Frozen input permutation differs")
     for field in ("sample_id", "hop", "question", "query", "text", "answer", "chain_of_thought"):
         _same(source.get(field), item[field], f"Frozen input item field differs: {field}")
     for field in ("phase", "stage", "condition", "wrapper"):
@@ -290,7 +292,7 @@ def _verify_reports(root, config, frozen, items, physical, raw_files):
     return {**files, "manifests/analysis.json": sha256_file(manifest_path)}, len(logical)
 
 
-def verify(root=ROOT, offline=False, require_reports=True, *, write_result=True):
+def verify(root=ROOT, offline=False, require_reports=True, *, write_result=True, baseline_source=None):
     root = Path(root).resolve()
     config = load_config(root)
     frozen = validate_frozen(root, check_environment=not offline)
@@ -311,8 +313,12 @@ def verify(root=ROOT, offline=False, require_reports=True, *, write_result=True)
     original = read_jsonl(source_path)
     retained = [i for i in items if i["hop"] == 3]
     _same([i["sample_id"] for i in retained], [i["sample_id"] for i in original], "Original 3-hop sample IDs/order changed")
-    for before, after in zip(original, retained):
-        _same({k: after.get(k) for k in before}, before, "Original 3-hop item fields changed")
+    if config["data"]["ordering"] == "shuffled":
+        from .shuffle import verify_derivation
+        verify_derivation(root, baseline_source=baseline_source)
+    else:
+        for before, after in zip(original, retained):
+            _same({k: after.get(k) for k in before}, before, "Original 3-hop item fields changed")
     expected_count = len(items) * sum(len(physical_wrappers(stage)) for stage in STAGES) * len(CONDITIONS)
     _same(expected_count, config["expected"]["physical_generations_formal"], "Configured physical generation total is inconsistent")
     token_manifest = json.loads((root / "manifests/tokenization.json").read_text())
@@ -396,6 +402,9 @@ def verify(root=ROOT, offline=False, require_reports=True, *, write_result=True)
                    "reason": "Formal reports have not yet been verified."}
     if require_reports:
         report_files, logical_count = _verify_reports(root, config, frozen, items, physical, raw_files)
+        if config['data']['ordering'] == 'shuffled':
+            from .compare import verify_order_results
+            verify_order_results(root)
         files.update(report_files)
         case_review = load_case_review(root, digest, json.loads((root / "reports/error_audit_sample.json").read_text()))
         review_path = root / "manifests/case_review.json"
@@ -407,7 +416,7 @@ def verify(root=ROOT, offline=False, require_reports=True, *, write_result=True)
         "offline": bool(offline), "environment_checked": not offline, "model_assets_checked": not offline,
         "output_token_decoding_checked": not offline, "formal_items": len(items), "physical_generations": len(physical),
         "physical_cells": len(cells), "logical_records": logical_count, "committed_batches": len(expected_batches),
-        "rescored_generations": len(physical), "original_3hop_preserved": True,
+        "rescored_generations": len(physical), "original_3hop_preserved": config['data']['ordering'] != 'shuffled',
         "cell_counts": {"/".join(map(str, k)): v for k, v in sorted(cells.items())},
         "case_review": case_review, "files": files,
     }
@@ -427,8 +436,15 @@ def main():
     if args.published:
         from .publication import verify_publication
         result = verify_publication()
+        from .order_publication import verify_order_publication
+        result['order_sensitivity'] = verify_order_publication()
         print(json.dumps(result))
     elif args.source_dir is not None:
+        if load_config(args.source_dir)['data']['ordering'] == 'shuffled':
+            from .compare import reanalyze_order
+            baseline = args.baseline_source or (args.source_dir / load_config(args.source_dir)['data']['source_behavior_root'])
+            reanalyze_order(baseline, args.source_dir, args.output_dir)
+            return
         from .reanalysis import reanalyze
         result = reanalyze(args.source_dir, args.output_dir)
         print(json.dumps({k: result[k] for k in ("status", "scope", "rescored_generations")}))

@@ -1,0 +1,60 @@
+{
+  "config_sha256": "77616e8172459114c175704a7ee12f9e8804911e8161b8be1b5805e59249ad10",
+  "dataset_sha256": "a2792bc2b2ca8df2c5f47035f6763e15b5ee3b4a9005649434c542049fe9befc",
+  "generation": {
+    "batch_size": 4,
+    "budgets": {
+      "cot": 512,
+      "direct": 32
+    }
+  },
+  "models": [
+    {
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "stage": "base",
+      "wrapper": "plain"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "stage": "sft",
+      "wrapper": "native"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "stage": "dpo",
+      "wrapper": "native"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "stage": "rlvr",
+      "wrapper": "native"
+    }
+  ],
+  "order_comparison": {
+    "baseline_frozen_manifest_sha256": "d55d5af4c0bd9695cb76c8a1e09f36c6aeb5184a75e3f901bd522e401be15620",
+    "baseline_protocol_digest": "a70ca1ca84c680f5b989a7c48d10ee9b5b30ef7589e20aed0681889a51b7d192",
+    "baseline_raw_batches_fingerprint": "c7455a4c3383390a04b8debd2de7cb69fde2ade44e66a350df53ffd20b4c0c19",
+    "shuffle_seed": 20261014,
+    "shuffle_version": "sentence-permutation-v1",
+    "shuffled_frozen_manifest_sha256": "5a5092ebdca7c4a449f82a077be4f1f589105922d071dd4bea94edcc0c0cbacd",
+    "shuffled_protocol_digest": "dcd9d2c76db1929d23654f9cf3c0495f619d988f98b41e0a2d5e937a4a75e38d",
+    "shuffled_raw_batches_fingerprint": "a4bc922eaa0370dc42984d9f386529e5b5af4e690bfbef97c4b44f96d9eebfbc"
+  },
+  "protocol": "prontoqa-tulu3-behavior-shuffled-v1",
+  "protocol_digest": "dcd9d2c76db1929d23654f9cf3c0495f619d988f98b41e0a2d5e937a4a75e38d",
+  "schema_version": 1,
+  "scope": "Aggregate evidence only; complete source material is external.",
+  "statistics": {
+    "bootstrap": "stratified_paired_shared_indices_both_versions",
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95,
+    "direction": "shuffled_minus_baseline",
+    "multiplicity": "Holm_family_4",
+    "primary": "native/cot/answer_correct/equal_weight_hops",
+    "seed": 20261007
+  }
+}

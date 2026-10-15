@@ -168,6 +168,9 @@ def prepare(root: Path = ROOT) -> dict:
         return manifest
     config = load_config(root)
     data = config["data"]
+    if data.get("ordering") == "shuffled":
+        from .shuffle import prepare_shuffled
+        return prepare_shuffled(root)
     if data["hops"] != [1, 3, 5]:
         raise ValueError("This protocol requires hops [1, 3, 5].")
     required = {"source_revision": UPSTREAM_REVISION, "ontology": "fictional", "ordering": "preorder",

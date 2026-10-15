@@ -2,7 +2,7 @@
 
 Scientific code is in [`../tulu_behavior/`](../tulu_behavior/). This publication preserves the completed BF16, greedy evaluation of four fixed checkpoints across 1-, 3-, and 5-hop PrOntoQA pools. Each hop has 1,440 formal questions. The reasoning and direct-answer conditions share four independent 3-hop demonstrations in True, False, True, False order. Tuned models use native and plain templates. Base's two logical template views share one physical output: **60,480 physical generations, 69,120 logical views**.
 
-The [combined Chinese Markdown report](../reports/report.zh-CN.md) is the main report. The [English behavioral HTML](reports/report.html), [summary CSV](reports/summary.csv), [primary tests](reports/primary_tests.csv), [stage transitions](reports/transitions.csv), and [paired differences](reports/paired_differences.csv) preserve the numerical results. The historical geometry/PCA experiment remains a separate protocol.
+The [combined Chinese Markdown report](../reports/report.zh-CN.md) is the main report. The [English behavioral HTML](reports/report.html), [summary CSV](reports/summary.csv), [primary tests](reports/primary_tests.csv), [stage transitions](reports/transitions.csv), and [paired differences](reports/paired_differences.csv) preserve the numerical results. The [sentence-order sensitivity experiment](../behavior-order-sensitivity/README.md) extends the same report with a paired shuffled comparison. The historical geometry/PCA experiment remains a separate protocol.
 
 ## Published evidence and its limits
 
@@ -22,7 +22,7 @@ Use the repository's Python 3.12 environment and `requirements-analysis.txt`:
 
 ```bash
 python -m tulu_behavior.verify --published
-python -m pytest -q --import-mode=importlib tests pca/tests behavior/tests
+python -m pytest -q --import-mode=importlib tests pca/tests behavior/tests behavior-order-sensitivity/tests
 ```
 
 Full-environment tests additionally use the pinned inference dependencies in `requirements.txt`. Optional TwoNN author-oracle tests require a separately obtained matching source file, as documented in the root README.
