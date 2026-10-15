@@ -9,6 +9,7 @@
 | `dev-validation.json` | v2 开发阶段接口验证与映射告警，按原文件字节复制 |
 | `first-turn-summary.json` | v1 P3 事后首答复评；仅移除原报告中的逐句数组，保留全部汇总、读取规则和历史来源哈希 |
 | `examples.json` | 固定训练示例和测试首句的真实输出节选；内含句子 ID、节选规则、原始记录及文本 SHA-256，未改写预测 |
+| `prompt-samples/` | 同一测试首句的 SFT 实际输入：v1 P0、v1 P3、v2 单表三份完整文本；与原记录的输入 SHA-256 一致 |
 | `provenance/` | v2 原运行配置、候选协议、冻结记录、运行验证、权重身份、完成审计及部分方法源码的原字节副本 |
 | `evidence-manifest.json` | 每份快照的原始位置、来源／副本 SHA-256，以及明确的提取操作 |
 | `report-verification.json` | 本次交付的数值、原始身份、统计、图表与链接核验记录 |

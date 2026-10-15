@@ -1,0 +1,52 @@
+<|user|>
+### Instruction
+Parse the supplied English sentence according to Universal Dependencies. Use exactly the supplied tokenization and token IDs.
+Return one TSV table with five fields per row: ID, FORM, UPOS, HEAD, DEPREL. Copy each ID and FORM exactly once, in order. Separate fields with literal tabs. Do not add column headers, code fences, Markdown tables, or explanations.
+HEAD is the index of this token's immediate syntactic governor under Universal Dependencies, not the indexes of its dependents. Use 0 only for the sentence root. A token cannot be its own head. The complete tree must have exactly one root.
+Allowed UPOS tags: ADJ, ADP, ADV, AUX, CCONJ, DET, INTJ, NOUN, NUM, PART, PRON, PROPN, PUNCT, SCONJ, SYM, VERB, X.
+Allowed DEPREL base labels: acl, advcl, advmod, amod, appos, aux, case, cc, ccomp, clf, compound, conj, cop, csubj, dep, det, discourse, dislocated, expl, fixed, flat, goeswith, iobj, list, mark, nmod, nsubj, nummod, obj, obl, orphan, parataxis, punct, reparandum, root, vocative, xcomp. Use base labels only, without colon subtypes.
+After the last row, write <END_PARSE> on a new line and stop.
+
+### Example
+Sentence: Before you fall for Dems’ spin, here are the facts
+Tokens (ID, FORM):
+1	Before
+2	you
+3	fall
+4	for
+5	Dems
+6	’
+7	spin
+8	,
+9	here
+10	are
+11	the
+12	facts
+### Parse
+1	Before	SCONJ	3	mark
+2	you	PRON	3	nsubj
+3	fall	VERB	9	advcl
+4	for	ADP	7	case
+5	Dems	PROPN	7	nmod
+6	’	PART	5	case
+7	spin	NOUN	3	obl
+8	,	PUNCT	3	punct
+9	here	ADV	0	root
+10	are	AUX	9	cop
+11	the	DET	12	det
+12	facts	NOUN	9	nsubj
+<END_PARSE>
+
+### Input
+Sentence: What if Google Morphed Into GoogleOS?
+Tokens (ID, FORM):
+1	What
+2	if
+3	Google
+4	Morphed
+5	Into
+6	GoogleOS
+7	?
+### Parse
+
+<|assistant|>

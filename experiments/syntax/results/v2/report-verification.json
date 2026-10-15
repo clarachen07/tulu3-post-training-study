@@ -1,10 +1,10 @@
 {
-  "verified_at_utc": "2026-10-14T02:09:09.356891+00:00",
+  "verified_at_utc": "2026-10-15T04:32:56.066642+00:00",
   "scope": "Read-only recomputation from previously generated model outputs; no inference, retraining, or changes to frozen evidence. This is report delivery verification, not a new experiment.",
   "checks": {
     "retained_evidence": {
       "passed": true,
-      "files": 20,
+      "files": 23,
       "byte_copies": 18
     },
     "v2_frozen_identity": {
@@ -57,12 +57,12 @@
     },
     "report_numeric_tables": {
       "passed": true,
-      "numeric_values_checked": 170,
-      "source": "unrounded retained JSON; each displayed value checked at two decimals"
+      "numeric_values_checked": 186,
+      "source": "unrounded retained JSON; v1 includes six step-specific score columns, including Task 2 UPOS/UAS"
     },
     "local_links": {
       "passed": true,
-      "links": 29,
+      "links": 33,
       "documents": [
         "report.zh.md",
         "README.md",
@@ -89,8 +89,8 @@
         "report-output-diagnostics.svg": "56de5a346f538d163bdfb705caecf2bbc637d7626cf915c8206a61d747435079",
         "report-stage-las.png": "0bf83b27aab5a988c5536c6424e27333528de88a0c58e5a9626f783af172398a",
         "report-stage-las.svg": "3faeb8f433e00d1f8d4cd35663e7dc4cb329d315827815eef6a13e177fa10e6d",
-        "report-v1-scores.png": "8ad267e921145a2e39d501a91872aa3bf81469a4a7e933f63fa5d6131c6a83f9",
-        "report-v1-scores.svg": "2509e612d45e5cc50125ef1667574eb76552f728641e0406f93c6238c09577ba",
+        "report-v1-scores.png": "748cfedae3c8e4b6dbfb4775d8da85491c558f4abbc64d62b815b899ffa86452",
+        "report-v1-scores.svg": "c182b30a08c8db8f019de17c6f47b16742a400223bdbcb9cfe56f2b988d41904",
         "report-v2-scores.png": "9bb03857cce06d0684df93fd9d6fc4bcfdb31ecc27c78d30e0630ba579252c52",
         "report-v2-scores.svg": "fcae0a0f961ec74e5e4520410b374546ebdefc675b8e995cec65596bf2dd533d"
       }
@@ -98,17 +98,28 @@
     "figure_visual_review": {
       "passed": true,
       "figures": 8,
-      "reviewed": "Chinese glyphs, panel scales, legends, values, confidence intervals, clipping and label overlap; each final PNG inspected."
+      "reviewed": "Eight figures previously inspected; updated v1 six-panel figure re-inspected for labels, scales, legends and clipping."
+    },
+    "prompt_samples": {
+      "passed": true,
+      "samples": 3,
+      "source": "verbatim first-record SFT inputs for v1 P0/P3 and v2 full; input hashes and record identities matched"
+    },
+    "new_explanatory_examples": {
+      "passed": true,
+      "examples": 3,
+      "source": "fixed first test sentence, stored v2 DPO output and gold; conditional-on-alignment LAS also checked"
     }
   },
-  "report_sha256": "7c7dbc6902129d1c93555e1b7b3e0ab173d3c3464fad08e08ec5ce5bdb37e19b",
-  "plot_script_sha256": "06d2fde4a861c6d6f477d988e08f7e9767c51e41f0bf7048c3fea6fdd51c7380",
-  "evidence_manifest_sha256": "14f1b5cb6d5c759b48bbeb10fa06be8338a7038acd25a6b56acd3d1a6e6b0c60",
+  "report_sha256": "29ac4a40520178b39c925771d795b08376202247cbad9bc7b1cae5aab9c8bfad",
+  "plot_script_sha256": "77268d282b364a04c2626421554905ddce66d29bfa9602fb961f6b4690730f9b",
+  "evidence_manifest_sha256": "9c62a678d569d5350b88cd8d0750adf9f1660a5663670607434794cb3a1fe6ef",
   "plot_environment": {
     "python": "3.12.13",
     "numpy": "1.26.4",
     "matplotlib": "3.11.2",
     "font": "/System/Library/Fonts/Hiragino Sans GB.ttc"
   },
-  "verification_note": "Statistical recomputation was reused after caption/layout-only edits; numeric tables and frozen sources were unchanged."
+  "verification_note": "Original raw-score, bootstrap, and diagnostic recomputations remain valid and were reused. This update rechecked all 186 score/interval table values, Task 2 counts, literal prompt inputs, explanatory examples, links and updated figure identities without running model inference.",
+  "reused_statistical_checks_from_verification_utc": "2026-10-14T02:09:09.356891+00:00"
 }

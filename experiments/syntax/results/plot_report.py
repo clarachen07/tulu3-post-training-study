@@ -44,7 +44,7 @@ def load_evidence():
             assert summary["counts"]["gold"] == 25094
             assert summary["diagnostic_counts"]["sentences"] == 2077
             fields = ("upos", "uas", "las") if prompt == "v2" else (
-                "task1_upos", "task3_upos", "task3_uas", "task3_las")
+                "task1_upos", "task2_upos", "task2_uas", "task3_upos", "task3_uas", "task3_las")
             for field in fields:
                 assert abs(summary["metrics"][field] -
                            summary["counts"].get(field, 0) / 25094) < 1e-12
@@ -76,7 +76,11 @@ def finish(fig, directory, name, notes):
         fig.text(.075, .035 + (len(notes) - i - 1) * .035,
                  note, fontsize=9.5, color=MUTED)
     for extension in ("png", "svg"):
-        fig.savefig(directory / f"report-{name}.{extension}", dpi=220)
+        path = directory / f"report-{name}.{extension}"
+        fig.savefig(path, dpi=220)
+        if extension == "svg":
+            path.write_text("\n".join(line.rstrip(" \t") for line in
+                                      path.read_text().splitlines()) + "\n")
     plt.close(fig)
 
 
@@ -134,13 +138,14 @@ def method_figure(directory):
 
 
 def v1_scores(v1, directory):
-    fig, axes = plt.subplots(2, 2, figsize=(12.2, 8.2))
-    fig.subplots_adjust(left=.075, right=.965, top=.76, bottom=.17, hspace=.5, wspace=.22)
+    fig, axes = plt.subplots(2, 3, figsize=(15, 8.2))
+    fig.subplots_adjust(left=.065, right=.97, top=.76, bottom=.17, hspace=.5, wspace=.23)
     heading(fig, "v1｜P3 改善三个 Tülu 阶段的逐词成绩",
             "全测试集 · 2,077 句 / 25,094 词 · 严格固定分母 · 含标点 · LAS 去子类型")
     for ax, (field, label) in zip(axes.flat, (
-        ("task1_upos", "A  Task 1 · UPOS"), ("task3_upos", "B  Task 3 · UPOS"),
-        ("task3_uas", "C  Task 3 · UAS"), ("task3_las", "D  Task 3 · LAS"))):
+        ("task1_upos", "A  Task 1 · UPOS"), ("task2_upos", "B  Task 2 · UPOS"),
+        ("task3_upos", "C  Task 3 · UPOS"), ("task2_uas", "D  Task 2 · UAS"),
+        ("task3_uas", "E  Task 3 · UAS"), ("task3_las", "F  Task 3 · LAS"))):
         style(ax, label, 90)
         bars(ax, [([v1[p][s]["with_punct"]["metrics"][field] * 100 for s in STAGES],
                    COLORS[p], label) for p, label in (("P0", "P0 · 原提示"),
@@ -148,7 +153,7 @@ def v1_scores(v1, directory):
     fig.legend(*axes[0, 0].get_legend_handles_labels(), loc="upper right",
                bbox_to_anchor=(.97, .845), ncol=2, frameon=False, fontsize=10)
     finish(fig, directory, "v1-scores", [
-        "四面板纵轴一致；Task 1 与最终表词性分别呈现，不能用前者替代最终表成绩。",
+        "六面板纵轴一致；Task 指同次回复的三张表。中间表分差还受可读取词的覆盖变化影响。",
         "Base P3 的零分属于原冻结整段读取口径；同一输出的首答复评另表报告。",
     ])
 

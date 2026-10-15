@@ -124,6 +124,45 @@
       "source": "data/example.json; data/test.jsonl; six first-record raw outputs (source paths and record/output SHA-256 inside)",
       "snapshot_sha256": "28b3810a2b9a6d1b45e581b493c09df03e20801607fcc2ddc8384775de762a74",
       "transformation": "extract fixed training example, first test gold and literal output excerpts; no rewriting predictions"
+    },
+    "prompt-samples/v1-P0-sft.txt": {
+      "source_experiment": "v1",
+      "source": "outputs/test/P0/sft.jsonl",
+      "record": 1,
+      "sent_id": "weblog-blogspot.com_zentelligence_20040423000200_ENG_20040423_000200-0001",
+      "stage": "sft",
+      "candidate": "P0",
+      "input_tokens": 185,
+      "record_sha256": "e656f6dbe543448823f7381a96bbe1578729d5926edbf5a7f655ff258b0f7aa0",
+      "input_sha256": "db60e3bed11cf1feb038d3264ca9faa3c919e0593587f79df6288d42f002acff",
+      "snapshot_sha256": "db60e3bed11cf1feb038d3264ca9faa3c919e0593587f79df6288d42f002acff",
+      "transformation": "extract the saved input string verbatim, including template markers, tabs and trailing spaces; no prompt reconstruction"
+    },
+    "prompt-samples/v1-P3-sft.txt": {
+      "source_experiment": "v1",
+      "source": "outputs/test/P3/sft.jsonl",
+      "record": 1,
+      "sent_id": "weblog-blogspot.com_zentelligence_20040423000200_ENG_20040423_000200-0001",
+      "stage": "sft",
+      "candidate": "P3",
+      "input_tokens": 933,
+      "record_sha256": "d2319be74d5b5616bb4be28f9b4d91ca56186e610623ac9f4f63445a6460dd2e",
+      "input_sha256": "b20194b9df78e90185e4b82e7e034121761eaa708b8f38d8c2b633f118ec19be",
+      "snapshot_sha256": "b20194b9df78e90185e4b82e7e034121761eaa708b8f38d8c2b633f118ec19be",
+      "transformation": "extract the saved input string verbatim, including template markers, tabs and trailing spaces; no prompt reconstruction"
+    },
+    "prompt-samples/v2-sft.txt": {
+      "source_experiment": "v2",
+      "source": "outputs/test/full/sft.jsonl",
+      "record": 1,
+      "sent_id": "weblog-blogspot.com_zentelligence_20040423000200_ENG_20040423_000200-0001",
+      "stage": "sft",
+      "candidate": "full",
+      "input_tokens": 561,
+      "record_sha256": "6e5d633bf01ec88f13b200a9cf6cccab16afd23ebebbf3442dad173bb2d7bcec",
+      "input_sha256": "da8008a2fb930c8c5b45746688a8a689043e3f8c65cd65308817cfbfd3bbc7c6",
+      "snapshot_sha256": "da8008a2fb930c8c5b45746688a8a689043e3f8c65cd65308817cfbfd3bbc7c6",
+      "transformation": "extract the saved input string verbatim, including template markers, tabs and trailing spaces; no prompt reconstruction"
     }
   },
   "external_evidence": "Full raw generations and per-sentence scores remain in the source roots; models are not copied."

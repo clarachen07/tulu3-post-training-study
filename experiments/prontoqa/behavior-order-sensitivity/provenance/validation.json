@@ -65,7 +65,7 @@
     "behavior-order-sensitivity/tests/test_publication.py": "f083f479378f502776b27eb59e516fca81176c49a4aeccdb380ca943f6bb3f45",
     "behavior-order-sensitivity/tests/test_shuffle.py": "cfa4881f73b9172d3940640e4eacf94d79d7f302c49e83e512dd0678b51c894e",
     "behavior/reports/analysis.json": "68c2de467c9ec86b71a3936c6903185769ea27357d36a6c13c71f48efda0ffd4",
-    "reports/report.zh-CN.md": "57b0b1aa4c615d6caddc949aedee0852bdcd494b1b711b55e4afd1db9751f813",
+    "reports/report.zh-CN.md": "47a2c9db811820dacac64468031052cfb67f4658fce2942b3c3d5a1f5f47a385",
     "tulu_behavior/__init__.py": "fa10590a5e4b4b6b595436de5d95a1584a37cbb19985583a5d06066002aa96d4",
     "tulu_behavior/analyze.py": "a5ef138a2a2c8f951a892b54c43ad8d939ba927f18158c3db003a377c23095e7",
     "tulu_behavior/assets.py": "b2c9168da70268282d2c75caed78e6b31bb2a34641b872c93b6024fc7d5c6564",
@@ -85,11 +85,11 @@
     "tulu_behavior/tokenize.py": "dc20e358b5880d9f59e6a34ba9ed014539bda7ec94e8bd2fa9d9301653a1c96c",
     "tulu_behavior/verify.py": "c614654860e12418e93517891d2326e34fd1b9dd2de40bb21c0370500f045472"
   },
-  "identity": "243e50655f495e4f8fb81882c20838a42fa3a5cfe8c4a9661ca1df9f798f258c",
+  "identity": "986e669b98f7450afd35e4167d8f246a877627381a35dd69aa54a6690014be5d",
   "limitations": [
     "Published counts verify McNemar/Holm and point estimates; raw rescoring and paired bootstrap need external evidence."
   ],
-  "local_links_checked": 124,
+  "local_links_checked": 128,
   "order_summary_cells": 128,
   "primary_tests": 4,
   "rescoring_performed": false,
@@ -98,5 +98,5 @@
   "secondary_stage_tests": 3,
   "status": "passed",
   "svg_series_and_intervals_checked": 9,
-  "verified_utc": "2026-10-15T04:07:57.227531+00:00"
+  "verified_utc": "2026-10-15T04:30:58.168779+00:00"
 }

@@ -334,9 +334,13 @@ TwoNN 末层下降约 36.6%–48.4%，两种 PCA 同样出现明显变化，不�
 | DPO | 73.31% | 66.11% | −7.20 [−8.82, −5.60] | 490 | 801 | 1.74×10⁻¹⁷ |
 | RLVR | 69.75% | 65.32% | −4.42 [−6.02, −2.80] | 539 | 730 | 2.74×10⁻⁷ |
 
+![原序版与随机版在四个模型阶段的答案正确率对比，各点标注准确数值](figures/order_accuracy_comparison.png)
+
+**图 8a｜原序版与随机版的正确率对比。** 蓝色实线圆点为原序版，橙色虚线方点为随机版；全部 8 个点均由未舍入的原始比例计算，标注两位小数百分比。两条曲线均采用原生模板 CoT、1／3／5-hop 等权平均，每版 4,320 题，纵轴为 0%–100%。连线连接不同阶段的固定检查点，不表示连续训练轨迹；配对差值及不确定性见下图。来源：[四项主检验及原始比例](../behavior-order-sensitivity/reports/order_primary_tests.csv)、[绘图脚本](../plot_order_accuracy_comparison.py)、[矢量图 SVG](figures/order_accuracy_comparison.svg)。
+
 ![四阶段句子顺序效应与配对置信区间](../behavior-order-sensitivity/reports/figures/order_effect.png)
 
-**图 8｜随机排列相对原序的答案正确率变化。** 点为“随机减原序”的等权差值，误差条为 95% 分层配对 bootstrap 区间，虚线为零变化。四个双侧精确 McNemar 检验统一 Holm 校正，检验结果见表中 p 值；图中区间本身没有按四项检验作多重比较调整。Base 的 native 是对 plain 物理回答的逻辑引用。来源：[四项主检验](../behavior-order-sensitivity/reports/order_primary_tests.csv)、[绘图数值](../behavior-order-sensitivity/reports/figures/values.json)、[SVG](../behavior-order-sensitivity/reports/figures/order_effect.svg)。
+**图 8b｜随机排列相对原序的答案正确率变化。** 点为“随机减原序”的等权差值，误差条为 95% 分层配对 bootstrap 区间，虚线为零变化。四个双侧精确 McNemar 检验统一 Holm 校正，检验结果见表中 p 值；图中区间本身没有按四项检验作多重比较调整。Base 的 native 是对 plain 物理回答的逻辑引用。来源：[四项主检验](../behavior-order-sensitivity/reports/order_primary_tests.csv)、[绘图数值](../behavior-order-sensitivity/reports/figures/values.json)、[SVG](../behavior-order-sensitivity/reports/figures/order_effect.svg)。
 
 本次共同随机化呈现下，DPO 与 RLVR 的答案表现下降，Base 小幅上升，SFT 没有显著差异。SFT 的区间仍容许约 −1.71 至 +1.34 个百分点的变化，因此“未显著”不能解释为完全不受顺序影响。DPO 在原序版的答案正确率高于 SFT，在随机版则低于 SFT，说明固定检查点的表现排序依赖具体呈现协议。
 
