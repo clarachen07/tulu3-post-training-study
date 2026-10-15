@@ -1,0 +1,19 @@
+{
+  "name": "larger_than+smaller_than",
+  "layer": 15,
+  "fit_datasets": [
+    "larger_than",
+    "smaller_than"
+  ],
+  "signature": "af2776fd947ac1c29302ba3b360c2fcea9894ce5f635b5255e614ed37aebd9ce",
+  "filename": "l15__larger_than+smaller_than.npz",
+  "sha256": "255d292ede8d901948c372b4586681ae4b1a98b29ee7f79b6e9412e25c76c4f1",
+  "rows": {
+    "larger_than": 1980,
+    "smaller_than": 1980
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 5.960464477539062e-07,
+    "eigen_residual_relative": 6.560024417012755e-07
+  }
+}

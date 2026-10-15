@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/saprmarks/geometry-of-truth",
+  "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+  "files": {
+    "patching.py": {
+      "path": "third_party/geometry-of-truth/patching.py",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/patching.py",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "7206e342ccde1deb95e272b33c7180b1d4517e4fa709d948ebba2df9580aeec8",
+      "bytes": 5196
+    },
+    "patching.ipynb": {
+      "path": "third_party/geometry-of-truth/patching.ipynb",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/patching.ipynb",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "3e56f83f5729c1f908afdd9928aa1aaf6d97a1a73ced797cd9044e930d2b15ba",
+      "bytes": 1877
+    },
+    "datasets/cities.csv": {
+      "path": "third_party/geometry-of-truth/datasets/cities.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/cities.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+      "bytes": 95041
+    },
+    "README.md": {
+      "path": "third_party/geometry-of-truth/README.md",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/README.md",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "f4442e2635b5820ff8bad0955da027e3a1c0f970eecd04f4efe36f246c87332c",
+      "bytes": 2039
+    }
+  },
+  "absent_optional_files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/LICENSE",
+      "http_status": 404
+    }
+  ],
+  "license_note": "No license grant is inferred if the pinned repository has no LICENSE file."
+}

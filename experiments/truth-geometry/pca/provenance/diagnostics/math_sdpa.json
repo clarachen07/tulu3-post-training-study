@@ -1,0 +1,119 @@
+{
+  "cities": {
+    "passed": false,
+    "batch_size": 25,
+    "checks": [
+      {
+        "name": "batch_vs_single_0",
+        "row_id": 0,
+        "max_abs_error": 0.25,
+        "rms_error": 0.0068161156959831715,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": true
+      },
+      {
+        "name": "batch_vs_single_1",
+        "row_id": 34,
+        "max_abs_error": 0.75,
+        "rms_error": 0.011647867038846016,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "batch_vs_single_2",
+        "row_id": 272,
+        "max_abs_error": 0.5625,
+        "rms_error": 0.010279178619384766,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "last_capture_before_final_rmsnorm",
+        "raw_differs_from_final": true,
+        "max_abs_error": 0.0,
+        "passed": true
+      }
+    ]
+  },
+  "sp_en_trans": {
+    "passed": false,
+    "batch_size": 25,
+    "checks": [
+      {
+        "name": "batch_vs_single_0",
+        "row_id": 0,
+        "max_abs_error": 0.5,
+        "rms_error": 0.006902874913066626,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "batch_vs_single_1",
+        "row_id": 1,
+        "max_abs_error": 0.25,
+        "rms_error": 0.005831619258970022,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "batch_vs_single_2",
+        "row_id": 82,
+        "max_abs_error": 0.25,
+        "rms_error": 0.0052931238897144794,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "last_capture_before_final_rmsnorm",
+        "raw_differs_from_final": true,
+        "max_abs_error": 0.0,
+        "passed": true
+      }
+    ]
+  },
+  "common_claim_true_false": {
+    "passed": false,
+    "batch_size": 25,
+    "checks": [
+      {
+        "name": "batch_vs_single_0",
+        "row_id": 0,
+        "max_abs_error": 0.25,
+        "rms_error": 0.005516084376722574,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": true
+      },
+      {
+        "name": "batch_vs_single_1",
+        "row_id": 223,
+        "max_abs_error": 0.25,
+        "rms_error": 0.005587954074144363,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": true
+      },
+      {
+        "name": "batch_vs_single_2",
+        "row_id": 49,
+        "max_abs_error": 0.25,
+        "rms_error": 0.005598391406238079,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "last_capture_before_final_rmsnorm",
+        "raw_differs_from_final": true,
+        "max_abs_error": 0.0,
+        "passed": true
+      }
+    ]
+  }
+}

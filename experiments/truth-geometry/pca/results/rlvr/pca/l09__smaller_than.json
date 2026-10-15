@@ -1,0 +1,17 @@
+{
+  "name": "smaller_than",
+  "layer": 9,
+  "fit_datasets": [
+    "smaller_than"
+  ],
+  "signature": "af2776fd947ac1c29302ba3b360c2fcea9894ce5f635b5255e614ed37aebd9ce",
+  "filename": "l09__smaller_than.npz",
+  "sha256": "a01dff43484508640b9fbd54474791307d2bb89e8f9a3ac2f2c236d0c7e0a0a1",
+  "rows": {
+    "smaller_than": 1980
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 1.1920928955078125e-07,
+    "eigen_residual_relative": 4.205980133065168e-07
+  }
+}

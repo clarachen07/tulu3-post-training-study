@@ -1,0 +1,142 @@
+{
+  "signature": "6d619092dc54e55e3703159e6d28436a7bf606441677abf0ed3db9a55fb62c06",
+  "layer": 14,
+  "files": [
+    {
+      "path": "l14__cities.npz",
+      "sha256": "9ba87b267c3006d057a0da40e3286035d5302d3b3d28a478c9aa241654719093"
+    },
+    {
+      "path": "l14__cities.json",
+      "sha256": "2f989d09732936b3deb393ec1d6e8de980c45fc026f7840cdbfcbfd3957b89f3"
+    },
+    {
+      "path": "l14__neg_cities.npz",
+      "sha256": "89db4cd8ed8a9842b6db1fb7914bbb4ccb5e2699c4e9d608d8cd94d6fa05e769"
+    },
+    {
+      "path": "l14__neg_cities.json",
+      "sha256": "08fc5bdaea57e38918be6c9767e54a8f5e3376f1d8e33af49da5013948d9affa"
+    },
+    {
+      "path": "l14__sp_en_trans.npz",
+      "sha256": "b1770fd15420e4fa3d90791036657c4f302f516c65fc6577db5a2d98d9d28159"
+    },
+    {
+      "path": "l14__sp_en_trans.json",
+      "sha256": "4484734ca0c3bc38696fd15bc16643bfee3d0d06aa7f29c908e20a68b17f3c9f"
+    },
+    {
+      "path": "l14__neg_sp_en_trans.npz",
+      "sha256": "bfda99e11d6ccec6994fccf394e23ff3b55d0f3bf210f2d4ff8b9155d451f94d"
+    },
+    {
+      "path": "l14__neg_sp_en_trans.json",
+      "sha256": "f06c0ec7714dc12efc728df6593477ea292d2e8a6945f92971bb89929de57222"
+    },
+    {
+      "path": "l14__larger_than.npz",
+      "sha256": "f32c51188808a577323d29c9c5728e19485c7cebb73ca8c501fb813f450b1dc9"
+    },
+    {
+      "path": "l14__larger_than.json",
+      "sha256": "e99c61338e651e580a54224e335b30688e1a49dadcc4e1221a5a2f152321849a"
+    },
+    {
+      "path": "l14__smaller_than.npz",
+      "sha256": "3fb2cf050fd4d95ec353dcba70e2e9059fb5b818210833bbb19b3423ed7fe188"
+    },
+    {
+      "path": "l14__smaller_than.json",
+      "sha256": "66873381ef8137ba89e0de921a7c7d4e04b2b869b10c67f4889508ddbe4fbf48"
+    },
+    {
+      "path": "l14__cities_cities_conj.npz",
+      "sha256": "5817526babdb66839583c5345d456782dc41bc4de2c13e64a6a247702161a112"
+    },
+    {
+      "path": "l14__cities_cities_conj.json",
+      "sha256": "00e6b8bb500806b7fae32d328c087a2aa6c8bfe1e63a1f5c9f3b4d2538ca6913"
+    },
+    {
+      "path": "l14__cities_cities_disj.npz",
+      "sha256": "9a2f8b5745ac5f6c25de88ada54c63ce4592f1e401c92bdb5b832332302229f7"
+    },
+    {
+      "path": "l14__cities_cities_disj.json",
+      "sha256": "3367fa0be6c93aa6e81c5d426909c48ddddcdcb7ad6edd45ba51afbc26957935"
+    },
+    {
+      "path": "l14__companies_true_false.npz",
+      "sha256": "4b3e91bbbddb8a8a4b8fe9e1890da1339ed9603b44f6d5cfd1df07ecc081bd68"
+    },
+    {
+      "path": "l14__companies_true_false.json",
+      "sha256": "6b0422b12aa506b99dcc4445daecdc53168a17df0329b5c1f94fd140aac07777"
+    },
+    {
+      "path": "l14__common_claim_true_false.npz",
+      "sha256": "f13bd4b5a60da9dcf870676b2c5b5335ba4b5fc9b45bc5ca41d01a60a5efaf0d"
+    },
+    {
+      "path": "l14__common_claim_true_false.json",
+      "sha256": "b9378854add1fd626469594e7c131147d9eb245608d8e250839d1fa1a9b44774"
+    },
+    {
+      "path": "l14__counterfact_true_false.npz",
+      "sha256": "15a984ba764a2267568f722de92fcab7de3da6b0c420e119375436a1390aeab3"
+    },
+    {
+      "path": "l14__counterfact_true_false.json",
+      "sha256": "41dd6463bdd64642e19da4ab093a92e333eaff4bf4a24a3bbb5e126935b51ef6"
+    },
+    {
+      "path": "l14__cities+neg_cities.npz",
+      "sha256": "6f92eeb5d53d219a8aad41e305471b2af5bdd53b1b3d7cdee75a7ecbf71bb39b"
+    },
+    {
+      "path": "l14__cities+neg_cities.json",
+      "sha256": "67e531aa7d9c1c310359aaf8b9d1d59196ac199a14d315479d2be756cc580a0e"
+    },
+    {
+      "path": "l14__sp_en_trans+neg_sp_en_trans.npz",
+      "sha256": "204039476e71954df0a18652aa5eee04742d7594c0b4601c294612a5fb75ba3d"
+    },
+    {
+      "path": "l14__sp_en_trans+neg_sp_en_trans.json",
+      "sha256": "8ea2931d0f6e622a8273851863e2f942f8bc52e26ad164b9c15ac9990726b545"
+    },
+    {
+      "path": "l14__larger_than+smaller_than.npz",
+      "sha256": "a2c52589ce20b998e20f7b77d1fab9432715bd8818640329e93fe82e3cae0820"
+    },
+    {
+      "path": "l14__larger_than+smaller_than.json",
+      "sha256": "edc615d15d0ca502d9676c0f968902785b4c02cfac1910eed31a301c393c6f9e"
+    },
+    {
+      "path": "l14__cross__cities.npz",
+      "sha256": "b11b7736dc05b42293d2c537007bd8bf1f245d19b461029e94fe685f3acbaaae"
+    },
+    {
+      "path": "l14__cross__cities.json",
+      "sha256": "7758a93f0f57ea6e351728b09559dcfc3aa1756208d6decbea32d67e117b252f"
+    },
+    {
+      "path": "l14__cross__larger_than.npz",
+      "sha256": "b71d94de2ef55dc29a259e359b58df5f7590e5eb93f3b494361247e144f89592"
+    },
+    {
+      "path": "l14__cross__larger_than.json",
+      "sha256": "42895dd2f1b8e3ba803f72d824f7f1d89752f1d79b282438dbc8d8d4ecab493f"
+    },
+    {
+      "path": "l14__cross__sp_en_trans.npz",
+      "sha256": "4170301657846d850d464d6a54ff1a021ce1a1a849deda61b7e0f9512c96d270"
+    },
+    {
+      "path": "l14__cross__sp_en_trans.json",
+      "sha256": "c9db1efb4a986ac8125bae0112470b2480259d4b5fe5147d1e317b2508c137cc"
+    }
+  ]
+}

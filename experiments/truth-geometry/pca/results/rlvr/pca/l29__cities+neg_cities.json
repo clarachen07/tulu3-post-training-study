@@ -1,0 +1,19 @@
+{
+  "name": "cities+neg_cities",
+  "layer": 29,
+  "fit_datasets": [
+    "cities",
+    "neg_cities"
+  ],
+  "signature": "af2776fd947ac1c29302ba3b360c2fcea9894ce5f635b5255e614ed37aebd9ce",
+  "filename": "l29__cities+neg_cities.npz",
+  "sha256": "43f3577ab562cf3765c9b2be0ca8dd6c32347dda74afcff80253b36af10bc607",
+  "rows": {
+    "cities": 1496,
+    "neg_cities": 1496
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 1.2236705515533686e-07,
+    "eigen_residual_relative": 6.792365638830233e-07
+  }
+}

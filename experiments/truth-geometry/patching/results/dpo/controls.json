@@ -1,0 +1,225 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "capture_hooks_preserve_false_logits",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "observe_hooks_preserve_false_logits",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_city",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_country",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_period",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_readout",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "identical_prefix_layer_0",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_city",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_country",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_period",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_readout",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "identical_prefix_layer_15",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_city",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_country",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_period",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_readout",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "identical_prefix_layer_31",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_37",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_38",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_39",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_40",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_41",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_42",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_43",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_44",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_45",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_46",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_47",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_48",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_49",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_readout_recovers_donor",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    }
+  ],
+  "comparison": "full vocabulary logits; all positions except explicitly final-position controls",
+  "time": "2026-10-08T03:25:39.665969+00:00",
+  "signature": "1daf848b3cc7f3ea92ed4fdc15bf167d872452cda5bbf0cbca03b0455ec05738"
+}

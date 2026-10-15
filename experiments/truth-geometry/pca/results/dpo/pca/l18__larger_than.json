@@ -1,0 +1,17 @@
+{
+  "name": "larger_than",
+  "layer": 18,
+  "fit_datasets": [
+    "larger_than"
+  ],
+  "signature": "6d619092dc54e55e3703159e6d28436a7bf606441677abf0ed3db9a55fb62c06",
+  "filename": "l18__larger_than.npz",
+  "sha256": "75c43beb30c3411818621ff236bf973aa7c5120f1c38d3314119711ef0373458",
+  "rows": {
+    "larger_than": 1980
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 1.3424414646578953e-07,
+    "eigen_residual_relative": 4.365980714737816e-07
+  }
+}

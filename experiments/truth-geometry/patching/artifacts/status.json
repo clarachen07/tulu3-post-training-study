@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "stages": [
+    "base",
+    "sft",
+    "dpo",
+    "rlvr"
+  ],
+  "elapsed_seconds": 212.15696595609188,
+  "time": "2026-10-08T03:27:20.668790+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "signature": "fe28c643168ae7d717c822b113b3b7bb7dee3fd9b58b6944b64f69c6e82f3f2d",
+  "fit_dataset": "cities",
+  "layer": 12,
+  "targets": [
+    "cities",
+    "neg_cities",
+    "sp_en_trans",
+    "neg_sp_en_trans",
+    "larger_than",
+    "smaller_than",
+    "cities_cities_conj",
+    "cities_cities_disj",
+    "companies_true_false",
+    "common_claim_true_false",
+    "counterfact_true_false"
+  ],
+  "sha256": "ac0510e69570388ec3101398374661d6b94069e4d1140dd167d1737e86c09260",
+  "filename": "l12__cross__cities.npz"
+}

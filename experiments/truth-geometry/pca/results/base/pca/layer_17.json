@@ -1,0 +1,118 @@
+{
+  "signature": "2f97f206b015ae6ba5e8c3476e4a2678201b9596f7bc93408b23f543c6a6afe0",
+  "layer": 17,
+  "files": [
+    {
+      "path": "l17__cities.npz",
+      "sha256": "e876e8b67463fc167f96c41d2016bf67e6793b61c75625f9908def513f3d5674"
+    },
+    {
+      "path": "l17__cities.json",
+      "sha256": "38e2831357f4999d75fbf1dc132715cac0babe45a01390a59aa281df3462acb0"
+    },
+    {
+      "path": "l17__neg_cities.npz",
+      "sha256": "f719addc32284b2c9b584371dc546d7c37c9425c004e7fcd7d442803b22713e9"
+    },
+    {
+      "path": "l17__neg_cities.json",
+      "sha256": "0879e6055e54fc0f155854d00cdffdeca0522e5fb258ddb9c073143aca22a982"
+    },
+    {
+      "path": "l17__sp_en_trans.npz",
+      "sha256": "baff1a1acb285dd26c5db2f4088732cba7ae2e725d655e966b5ca0bf8d64fee3"
+    },
+    {
+      "path": "l17__sp_en_trans.json",
+      "sha256": "02939e4280209cbacaaee952ecc52fad4f3f7b3574aef5457d7e9aeae11790d2"
+    },
+    {
+      "path": "l17__neg_sp_en_trans.npz",
+      "sha256": "979a96a8ed379e3e606c7bfdc5448b784feb0bf052350df618598e8e5307347f"
+    },
+    {
+      "path": "l17__neg_sp_en_trans.json",
+      "sha256": "7eb0d22f0cc9d42572a05c3a2343d70d6aab0849a2edfb2ed40081cc131e8286"
+    },
+    {
+      "path": "l17__larger_than.npz",
+      "sha256": "687445297ae7195f4a2c4ed36a627949bf5b2f6dfece7cf5dcea085c88eed85f"
+    },
+    {
+      "path": "l17__larger_than.json",
+      "sha256": "7a7988102838f291f2e6677b4f152ebca38eee7fd3a7a364d4b7dfa63e496d62"
+    },
+    {
+      "path": "l17__smaller_than.npz",
+      "sha256": "b29c8791ae1d62a9041acf30cf38f48e0c954f4a26aaf24e262f48df6c7a241c"
+    },
+    {
+      "path": "l17__smaller_than.json",
+      "sha256": "0c0db8c6bb6b00b1eb1535a233895dd50e10a1bddeff49c27cdb26c073796fb4"
+    },
+    {
+      "path": "l17__cities_cities_conj.npz",
+      "sha256": "8cbac0d871a512cc8de04eab47259412576e5bc5c16ace1ac74677ae964c5d39"
+    },
+    {
+      "path": "l17__cities_cities_conj.json",
+      "sha256": "0088fe6bd5a115e58877907b514536843ff0def2d749f93611a669f620294ea6"
+    },
+    {
+      "path": "l17__cities_cities_disj.npz",
+      "sha256": "dc823f45945c399acd6a73fc6781b802e5c0d1050428cca512e4bc89b2545571"
+    },
+    {
+      "path": "l17__cities_cities_disj.json",
+      "sha256": "4ccc2593519cf9e4f64cd51f18c84c767eefcee2d3d91e71fa29446622b39a87"
+    },
+    {
+      "path": "l17__companies_true_false.npz",
+      "sha256": "2ef747884a898a1334b8ad85571b9c2d846258d7f57bab543ef14e5201c720e7"
+    },
+    {
+      "path": "l17__companies_true_false.json",
+      "sha256": "bf056b6b7033c70e63b92adc24e4441030cf351b724c659ba046c74ff6981d34"
+    },
+    {
+      "path": "l17__common_claim_true_false.npz",
+      "sha256": "aae68d0b9b5f226e0cf71fed4dd24fb0edf05adcca86e51bd43b613e81f937dc"
+    },
+    {
+      "path": "l17__common_claim_true_false.json",
+      "sha256": "57b7e98a207ee1da5c250022d5e184a6f7c344946754b37e42b743179fe96301"
+    },
+    {
+      "path": "l17__counterfact_true_false.npz",
+      "sha256": "9e461be0020e2df4a468d223a21e5ca102bee4d61868dcbcce8a777974d5672b"
+    },
+    {
+      "path": "l17__counterfact_true_false.json",
+      "sha256": "fb09c9536c4edc0e1bd7685a7aeaf78cc4f8ceb8961c3daceab587ad132fc0e7"
+    },
+    {
+      "path": "l17__cities+neg_cities.npz",
+      "sha256": "478267ff028dfe8439908cee5bd757a1c1980635700fe02609035bea10ada54d"
+    },
+    {
+      "path": "l17__cities+neg_cities.json",
+      "sha256": "79556234a05f8ecfc4214146ff7ea7f29f75cedbfb55c753dbb6154a304adab6"
+    },
+    {
+      "path": "l17__sp_en_trans+neg_sp_en_trans.npz",
+      "sha256": "49a355ba9ef0b56d441025b886937f74b923e199add4b103e5caec89624dbac0"
+    },
+    {
+      "path": "l17__sp_en_trans+neg_sp_en_trans.json",
+      "sha256": "657fbec1c561161c82d42f9c3102cc5bf5d82ab5f71344d2e565daeb1a871ae0"
+    },
+    {
+      "path": "l17__larger_than+smaller_than.npz",
+      "sha256": "280bbe81a77474f761a56e5f5ef03d016fd129e51e2a1580b59c0e84b80f2fa7"
+    },
+    {
+      "path": "l17__larger_than+smaller_than.json",
+      "sha256": "4167086d0996464f33e1040e4e20fe6719a42d8446bda39a79e48bcae9442097"
+    }
+  ]
+}

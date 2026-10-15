@@ -1,0 +1,17 @@
+{
+  "name": "neg_sp_en_trans",
+  "layer": 10,
+  "fit_datasets": [
+    "neg_sp_en_trans"
+  ],
+  "signature": "2f97f206b015ae6ba5e8c3476e4a2678201b9596f7bc93408b23f543c6a6afe0",
+  "filename": "l10__neg_sp_en_trans.npz",
+  "sha256": "90efcf53bf3cff7a6b6db2c884957f1176777fcf48d9cbe4c479c216a734bc04",
+  "rows": {
+    "neg_sp_en_trans": 354
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 6.556510925292969e-07,
+    "eigen_residual_relative": 3.431516688578995e-07
+  }
+}

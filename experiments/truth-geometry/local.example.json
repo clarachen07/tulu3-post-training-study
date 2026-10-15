@@ -1,0 +1,10 @@
+{
+  "model_paths": {
+    "base": "/absolute/path/to/Llama-3.1-8B",
+    "sft": "/absolute/path/to/Llama-3.1-Tulu-3-8B-SFT",
+    "dpo": "/absolute/path/to/Llama-3.1-Tulu-3-8B-DPO",
+    "rlvr": "/absolute/path/to/Llama-3.1-Tulu-3-8B"
+  },
+  "device": "cuda:0",
+  "gpu_lock": "/absolute/path/to/shared-gpu0.lock"
+}

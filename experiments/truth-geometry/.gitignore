@@ -1,0 +1,14 @@
+# Local configuration, downloaded upstream files, and regenerated outputs.
+/local.json
+/*.local.json
+/runs/
+/patching/third_party/geometry-of-truth/
+/pca/third_party/geometry-of-truth/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+*.log
+*.pid

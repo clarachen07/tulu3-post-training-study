@@ -1,0 +1,123 @@
+{
+  "signature": "237e731f7dde77aa44533915a3fbcfb5256bb752332addc83c7ef7b47fe30138",
+  "datasets": {
+    "cities": {
+      "passed": false,
+      "batch_size": 25,
+      "checks": [
+        {
+          "name": "batch_vs_single_0",
+          "row_id": 0,
+          "max_abs_error": 0.1875,
+          "rms_error": 0.006198015529662371,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": false
+        },
+        {
+          "name": "batch_vs_single_1",
+          "row_id": 34,
+          "max_abs_error": 0.5625,
+          "rms_error": 0.009017354808747768,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": false
+        },
+        {
+          "name": "batch_vs_single_2",
+          "row_id": 272,
+          "max_abs_error": 0.40625,
+          "rms_error": 0.009061653167009354,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": false
+        },
+        {
+          "name": "last_capture_before_final_rmsnorm",
+          "raw_differs_from_final": true,
+          "max_abs_error": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "sp_en_trans": {
+      "passed": true,
+      "batch_size": 25,
+      "checks": [
+        {
+          "name": "batch_vs_single_0",
+          "row_id": 0,
+          "max_abs_error": 0.109375,
+          "rms_error": 0.004191710613667965,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": true
+        },
+        {
+          "name": "batch_vs_single_1",
+          "row_id": 1,
+          "max_abs_error": 0.25,
+          "rms_error": 0.005263658706098795,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": true
+        },
+        {
+          "name": "batch_vs_single_2",
+          "row_id": 82,
+          "max_abs_error": 0.125,
+          "rms_error": 0.004840136971324682,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": true
+        },
+        {
+          "name": "last_capture_before_final_rmsnorm",
+          "raw_differs_from_final": true,
+          "max_abs_error": 0.0,
+          "passed": true
+        }
+      ]
+    },
+    "common_claim_true_false": {
+      "passed": true,
+      "batch_size": 25,
+      "checks": [
+        {
+          "name": "batch_vs_single_0",
+          "row_id": 0,
+          "max_abs_error": 0.25,
+          "rms_error": 0.005592425353825092,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": true
+        },
+        {
+          "name": "batch_vs_single_1",
+          "row_id": 223,
+          "max_abs_error": 0.125,
+          "rms_error": 0.004976074676960707,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": true
+        },
+        {
+          "name": "batch_vs_single_2",
+          "row_id": 49,
+          "max_abs_error": 0.125,
+          "rms_error": 0.004731340799480677,
+          "atol": 0.125,
+          "rtol": 0.03,
+          "passed": true
+        },
+        {
+          "name": "last_capture_before_final_rmsnorm",
+          "raw_differs_from_final": true,
+          "max_abs_error": 0.0,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "passed": false
+}

@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "errors": [],
+  "with_raw": false,
+  "time": "2026-10-12T17:39:29.575318+00:00",
+  "pca_fits_verified": 1792,
+  "projection_arrays_verified": 2344,
+  "max_orthogonality_error": 1.3113021850585938e-06,
+  "max_reconstruction_abs_error": 0.0,
+  "stages": {
+    "base": {
+      "raw_bytes": 12653938560,
+      "rows": 48270,
+      "boundary_merges": {
+        "cities": 0,
+        "neg_cities": 0,
+        "sp_en_trans": 0,
+        "neg_sp_en_trans": 0,
+        "larger_than": 0,
+        "smaller_than": 0,
+        "cities_cities_conj": 0,
+        "cities_cities_disj": 0,
+        "companies_true_false": 0,
+        "common_claim_true_false": 0,
+        "counterfact_true_false": 0
+      }
+    },
+    "sft": {
+      "raw_bytes": 12653938560,
+      "rows": 48270,
+      "boundary_merges": {
+        "cities": 1496,
+        "neg_cities": 1496,
+        "sp_en_trans": 354,
+        "neg_sp_en_trans": 354,
+        "larger_than": 1980,
+        "smaller_than": 1980,
+        "cities_cities_conj": 1498,
+        "cities_cities_disj": 1498,
+        "companies_true_false": 1200,
+        "common_claim_true_false": 4450,
+        "counterfact_true_false": 31964
+      }
+    },
+    "dpo": {
+      "raw_bytes": 12653938560,
+      "rows": 48270,
+      "boundary_merges": {
+        "cities": 1496,
+        "neg_cities": 1496,
+        "sp_en_trans": 354,
+        "neg_sp_en_trans": 354,
+        "larger_than": 1980,
+        "smaller_than": 1980,
+        "cities_cities_conj": 1498,
+        "cities_cities_disj": 1498,
+        "companies_true_false": 1200,
+        "common_claim_true_false": 4450,
+        "counterfact_true_false": 31964
+      }
+    },
+    "rlvr": {
+      "raw_bytes": 12653938560,
+      "rows": 48270,
+      "boundary_merges": {
+        "cities": 1496,
+        "neg_cities": 1496,
+        "sp_en_trans": 354,
+        "neg_sp_en_trans": 354,
+        "larger_than": 1980,
+        "smaller_than": 1980,
+        "cities_cities_conj": 1498,
+        "cities_cities_disj": 1498,
+        "companies_true_false": 1200,
+        "common_claim_true_false": 4450,
+        "counterfact_true_false": 31964
+      }
+    }
+  },
+  "reconstruction_atol": 0.003,
+  "reconstruction_rtol": 0.0003
+}

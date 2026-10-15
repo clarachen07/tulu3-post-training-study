@@ -1,0 +1,17 @@
+{
+  "name": "common_claim_true_false",
+  "layer": 17,
+  "fit_datasets": [
+    "common_claim_true_false"
+  ],
+  "signature": "af2776fd947ac1c29302ba3b360c2fcea9894ce5f635b5255e614ed37aebd9ce",
+  "filename": "l17__common_claim_true_false.npz",
+  "sha256": "11e17a29e89c1ee0937b9296c5557d04c8085a9ce69feb5e7b781c8ac6888d5a",
+  "rows": {
+    "common_claim_true_false": 4450
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 2.980232238769531e-07,
+    "eigen_residual_relative": 2.8204999580339063e-07
+  }
+}

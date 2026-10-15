@@ -1,0 +1,17 @@
+{
+  "name": "counterfact_true_false",
+  "layer": 19,
+  "fit_datasets": [
+    "counterfact_true_false"
+  ],
+  "signature": "fe28c643168ae7d717c822b113b3b7bb7dee3fd9b58b6944b64f69c6e82f3f2d",
+  "filename": "l19__counterfact_true_false.npz",
+  "sha256": "6e80adfd94703a2282d2e256e562231993b63ba0b6431353df0bfc44b927cce3",
+  "rows": {
+    "counterfact_true_false": 31964
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 4.76837158203125e-07,
+    "eigen_residual_relative": 3.066263616346987e-07
+  }
+}

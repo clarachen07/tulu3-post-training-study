@@ -1,0 +1,2093 @@
+{
+  "schema_version": 1,
+  "started_utc": "2026-10-12T16:31:05.584231+00:00",
+  "passed": true,
+  "config_sha256": "6ce202a60bc775ecb068a4c4dd5ccf620f6171e7e12009000a0282d9265ec294",
+  "expected_manifest_sha256": "698e87e5de6d2135423ffd4a648be2d8944e3ab3da79769317d89e3b078bb77b",
+  "models": {
+    "base": {
+      "spec": {
+        "id": "meta-llama/Llama-3.1-8B",
+        "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+        "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B",
+        "interface": "plain"
+      },
+      "files": {
+        "config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/config.json",
+          "expected_sha256": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+          "sha256": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+          "bytes": 826,
+          "expected_bytes": 826,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067534,
+            "size": 826,
+            "mtime_ns": 1779110402949540842,
+            "ctime_ns": 1779110402953540828
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067534,
+            "size": 826,
+            "mtime_ns": 1779110402949540842,
+            "ctime_ns": 1779110402953540828
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067534,
+            "size": 826,
+            "mtime_ns": 1779110402949540842,
+            "ctime_ns": 1779110402953540828
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067534,
+            "size": 826,
+            "mtime_ns": 1779110402949540842,
+            "ctime_ns": 1779110402953540828
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 9.601935744285583e-05
+        },
+        "configuration.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/configuration.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/configuration.json",
+          "expected_sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "bytes": 73,
+          "expected_bytes": 73,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067535,
+            "size": 73,
+            "mtime_ns": 1779110402953540828,
+            "ctime_ns": 1779110402953540828
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067535,
+            "size": 73,
+            "mtime_ns": 1779110402953540828,
+            "ctime_ns": 1779110402953540828
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067535,
+            "size": 73,
+            "mtime_ns": 1779110402953540828,
+            "ctime_ns": 1779110402953540828
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067535,
+            "size": 73,
+            "mtime_ns": 1779110402953540828,
+            "ctime_ns": 1779110402953540828
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 6.935000419616699e-05
+        },
+        "generation_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/generation_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/generation_config.json",
+          "expected_sha256": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
+          "sha256": "e645194d2dd27c86ed34a5a23f306c1a0fd79a42123c26551b7251c700a3379d",
+          "bytes": 185,
+          "expected_bytes": 185,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067538,
+            "size": 185,
+            "mtime_ns": 1779110402989540700,
+            "ctime_ns": 1779110402993540685
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067538,
+            "size": 185,
+            "mtime_ns": 1779110402989540700,
+            "ctime_ns": 1779110402993540685
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067538,
+            "size": 185,
+            "mtime_ns": 1779110402989540700,
+            "ctime_ns": 1779110402993540685
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067538,
+            "size": 185,
+            "mtime_ns": 1779110402989540700,
+            "ctime_ns": 1779110402993540685
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 6.51925802230835e-05
+        },
+        "model.safetensors.index.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model.safetensors.index.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model.safetensors.index.json",
+          "expected_sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "bytes": 23950,
+          "expected_bytes": 23950,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067545,
+            "size": 23950,
+            "mtime_ns": 1779110403461539022,
+            "ctime_ns": 1779110403465539007
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067545,
+            "size": 23950,
+            "mtime_ns": 1779110403461539022,
+            "ctime_ns": 1779110403465539007
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067545,
+            "size": 23950,
+            "mtime_ns": 1779110403461539022,
+            "ctime_ns": 1779110403465539007
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067545,
+            "size": 23950,
+            "mtime_ns": 1779110403461539022,
+            "ctime_ns": 1779110403465539007
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00012964755296707153
+        },
+        "original/params.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/original/params.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/original/params.json",
+          "expected_sha256": "fce5ee1187bee0f52e8b74514351b1654289c00d9090ec43068032076b16684e",
+          "sha256": "fce5ee1187bee0f52e8b74514351b1654289c00d9090ec43068032076b16684e",
+          "bytes": 199,
+          "expected_bytes": 199,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067546,
+            "size": 199,
+            "mtime_ns": 1779110403573538623,
+            "ctime_ns": 1779110403577538609
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067546,
+            "size": 199,
+            "mtime_ns": 1779110403573538623,
+            "ctime_ns": 1779110403577538609
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067546,
+            "size": 199,
+            "mtime_ns": 1779110403573538623,
+            "ctime_ns": 1779110403577538609
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067546,
+            "size": 199,
+            "mtime_ns": 1779110403573538623,
+            "ctime_ns": 1779110403577538609
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.01107330247759819
+        },
+        "original/tokenizer.model": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/original/tokenizer.model",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/original/tokenizer.model",
+          "expected_sha256": "82e9d31979e92ab929cd544440f129d9ecd797b69e327f80f17e1c50d5551b55",
+          "sha256": "82e9d31979e92ab929cd544440f129d9ecd797b69e327f80f17e1c50d5551b55",
+          "bytes": 2183982,
+          "expected_bytes": 2183982,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067543,
+            "size": 2183982,
+            "mtime_ns": 1779110404285536090,
+            "ctime_ns": 1779110404293536062
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067543,
+            "size": 2183982,
+            "mtime_ns": 1779110404285536090,
+            "ctime_ns": 1779110404293536062
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067543,
+            "size": 2183982,
+            "mtime_ns": 1779110404285536090,
+            "ctime_ns": 1779110404293536062
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067543,
+            "size": 2183982,
+            "mtime_ns": 1779110404285536090,
+            "ctime_ns": 1779110404293536062
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.037124961614608765
+        },
+        "special_tokens_map.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/special_tokens_map.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/special_tokens_map.json",
+          "expected_sha256": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+          "sha256": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+          "bytes": 73,
+          "expected_bytes": 73,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067548,
+            "size": 73,
+            "mtime_ns": 1779110403729538068,
+            "ctime_ns": 1779110403733538054
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067548,
+            "size": 73,
+            "mtime_ns": 1779110403729538068,
+            "ctime_ns": 1779110403733538054
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067548,
+            "size": 73,
+            "mtime_ns": 1779110403729538068,
+            "ctime_ns": 1779110403733538054
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067548,
+            "size": 73,
+            "mtime_ns": 1779110403729538068,
+            "ctime_ns": 1779110403733538054
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00022736936807632446
+        },
+        "tokenizer.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/tokenizer.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/tokenizer.json",
+          "expected_sha256": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+          "sha256": "76e48799b099d43365bd24ccd8ecc5aedac831718da780552f03b0a6eb4412aa",
+          "bytes": 9085658,
+          "expected_bytes": 9085658,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067547,
+            "size": 9085658,
+            "mtime_ns": 1779110404157536546,
+            "ctime_ns": 1779110404165536517
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067547,
+            "size": 9085658,
+            "mtime_ns": 1779110404157536546,
+            "ctime_ns": 1779110404165536517
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067547,
+            "size": 9085658,
+            "mtime_ns": 1779110404157536546,
+            "ctime_ns": 1779110404165536517
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067547,
+            "size": 9085658,
+            "mtime_ns": 1779110404157536546,
+            "ctime_ns": 1779110404165536517
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.02575775980949402
+        },
+        "tokenizer_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/tokenizer_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/tokenizer_config.json",
+          "expected_sha256": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+          "sha256": "8004530facf809ac432114de2a4dcc65fcb632da5ec16d666091aeb6a2ee444a",
+          "bytes": 50500,
+          "expected_bytes": 50500,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067549,
+            "size": 50500,
+            "mtime_ns": 1779110404009537072,
+            "ctime_ns": 1779110404013537058
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067549,
+            "size": 50500,
+            "mtime_ns": 1779110404009537072,
+            "ctime_ns": 1779110404013537058
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067549,
+            "size": 50500,
+            "mtime_ns": 1779110404009537072,
+            "ctime_ns": 1779110404013537058
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067549,
+            "size": 50500,
+            "mtime_ns": 1779110404009537072,
+            "ctime_ns": 1779110404013537058
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00020778551697731018
+        },
+        "model-00001-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00001-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00001-of-00004.safetensors",
+          "expected_sha256": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+          "sha256": "f8b9704ab09cdeb097aa4a0a24bca96f906eec36bad63ab495bc21475058601b",
+          "bytes": 4976698672,
+          "expected_bytes": 4976698672,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067539,
+            "size": 4976698672,
+            "mtime_ns": 1779110726088382104,
+            "ctime_ns": 1779110726096382076
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067539,
+            "size": 4976698672,
+            "mtime_ns": 1779110726088382104,
+            "ctime_ns": 1779110726096382076
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067539,
+            "size": 4976698672,
+            "mtime_ns": 1779110726088382104,
+            "ctime_ns": 1779110726096382076
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067539,
+            "size": 4976698672,
+            "mtime_ns": 1779110726088382104,
+            "ctime_ns": 1779110726096382076
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 12.499058239161968
+        },
+        "model-00002-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00002-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00002-of-00004.safetensors",
+          "expected_sha256": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+          "sha256": "c28b25e7541751056ee126627e007f8d4288319733285e9f7b17b9ff6eb313f0",
+          "bytes": 4999802720,
+          "expected_bytes": 4999802720,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067541,
+            "size": 4999802720,
+            "mtime_ns": 1779110727852375737,
+            "ctime_ns": 1779110727860375709
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067541,
+            "size": 4999802720,
+            "mtime_ns": 1779110727852375737,
+            "ctime_ns": 1779110727860375709
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067541,
+            "size": 4999802720,
+            "mtime_ns": 1779110727852375737,
+            "ctime_ns": 1779110727860375709
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067541,
+            "size": 4999802720,
+            "mtime_ns": 1779110727852375737,
+            "ctime_ns": 1779110727860375709
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 12.483295314013958
+        },
+        "model-00003-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00003-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00003-of-00004.safetensors",
+          "expected_sha256": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+          "sha256": "d8e9504dd4e4a146d484c52a97584ec14dac92237c46b064934af67a85e7d383",
+          "bytes": 4915916176,
+          "expected_bytes": 4915916176,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067540,
+            "size": 4915916176,
+            "mtime_ns": 1779110715632419841,
+            "ctime_ns": 1779110715640419812
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067540,
+            "size": 4915916176,
+            "mtime_ns": 1779110715632419841,
+            "ctime_ns": 1779110715640419812
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067540,
+            "size": 4915916176,
+            "mtime_ns": 1779110715632419841,
+            "ctime_ns": 1779110715640419812
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067540,
+            "size": 4915916176,
+            "mtime_ns": 1779110715632419841,
+            "ctime_ns": 1779110715640419812
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 12.208921294659376
+        },
+        "model-00004-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00004-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Meta-Llama-3.1-8B/model-00004-of-00004.safetensors",
+          "expected_sha256": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+          "sha256": "e4486f35c040f683f7d790354f66c169c109eb9fa0954a4a35d7c458a108405d",
+          "bytes": 1168138808,
+          "expected_bytes": 1168138808,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067544,
+            "size": 1168138808,
+            "mtime_ns": 1779110482465257381,
+            "ctime_ns": 1779110482477257338
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067544,
+            "size": 1168138808,
+            "mtime_ns": 1779110482465257381,
+            "ctime_ns": 1779110482477257338
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067544,
+            "size": 1168138808,
+            "mtime_ns": 1779110482465257381,
+            "ctime_ns": 1779110482477257338
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067544,
+            "size": 1168138808,
+            "mtime_ns": 1779110482465257381,
+            "ctime_ns": 1779110482477257338
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 2.8973157331347466
+        }
+      },
+      "passed": true,
+      "errors": [],
+      "architecture": {
+        "model_type": "llama",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "num_hidden_layers": 32,
+        "hidden_size": 4096,
+        "torch_dtype": "bfloat16",
+        "vocab_size": 128256
+      },
+      "safetensors_index_references": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "chat_template": null
+    },
+    "sft": {
+      "spec": {
+        "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+        "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+        "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT",
+        "interface": "native"
+      },
+      "files": {
+        "config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/config.json",
+          "expected_sha256": "20bb3e98dd3e4d2252bb9a914f9a131417869d29dc35781b6bde95f6e4d1cc95",
+          "sha256": "20bb3e98dd3e4d2252bb9a914f9a131417869d29dc35781b6bde95f6e4d1cc95",
+          "bytes": 875,
+          "expected_bytes": 875,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065071,
+            "size": 875,
+            "mtime_ns": 1779159225914574122,
+            "ctime_ns": 1779159225914574122
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065071,
+            "size": 875,
+            "mtime_ns": 1779159225914574122,
+            "ctime_ns": 1779159225914574122
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065071,
+            "size": 875,
+            "mtime_ns": 1779159225914574122,
+            "ctime_ns": 1779159225914574122
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065071,
+            "size": 875,
+            "mtime_ns": 1779159225914574122,
+            "ctime_ns": 1779159225914574122
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00010928511619567871
+        },
+        "configuration.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/configuration.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/configuration.json",
+          "expected_sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "bytes": 73,
+          "expected_bytes": 73,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065073,
+            "size": 73,
+            "mtime_ns": 1779159226046573483,
+            "ctime_ns": 1779159226050573463
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065073,
+            "size": 73,
+            "mtime_ns": 1779159226046573483,
+            "ctime_ns": 1779159226050573463
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065073,
+            "size": 73,
+            "mtime_ns": 1779159226046573483,
+            "ctime_ns": 1779159226050573463
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065073,
+            "size": 73,
+            "mtime_ns": 1779159226046573483,
+            "ctime_ns": 1779159226050573463
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 7.265433669090271e-05
+        },
+        "generation_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/generation_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/generation_config.json",
+          "expected_sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "bytes": 180,
+          "expected_bytes": 180,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065072,
+            "size": 180,
+            "mtime_ns": 1779159226182572823,
+            "ctime_ns": 1779159226182572823
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065072,
+            "size": 180,
+            "mtime_ns": 1779159226182572823,
+            "ctime_ns": 1779159226182572823
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065072,
+            "size": 180,
+            "mtime_ns": 1779159226182572823,
+            "ctime_ns": 1779159226182572823
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065072,
+            "size": 180,
+            "mtime_ns": 1779159226182572823,
+            "ctime_ns": 1779159226182572823
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 6.53192400932312e-05
+        },
+        "model.safetensors.index.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model.safetensors.index.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model.safetensors.index.json",
+          "expected_sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "bytes": 23950,
+          "expected_bytes": 23950,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065078,
+            "size": 23950,
+            "mtime_ns": 1779159226026573580,
+            "ctime_ns": 1779159226030573560
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065078,
+            "size": 23950,
+            "mtime_ns": 1779159226026573580,
+            "ctime_ns": 1779159226030573560
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065078,
+            "size": 23950,
+            "mtime_ns": 1779159226026573580,
+            "ctime_ns": 1779159226030573560
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065078,
+            "size": 23950,
+            "mtime_ns": 1779159226026573580,
+            "ctime_ns": 1779159226030573560
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00013270601630210876
+        },
+        "special_tokens_map.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/special_tokens_map.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/special_tokens_map.json",
+          "expected_sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "bytes": 439,
+          "expected_bytes": 439,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065081,
+            "size": 439,
+            "mtime_ns": 1779159226434571603,
+            "ctime_ns": 1779159226434571603
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065081,
+            "size": 439,
+            "mtime_ns": 1779159226434571603,
+            "ctime_ns": 1779159226434571603
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065081,
+            "size": 439,
+            "mtime_ns": 1779159226434571603,
+            "ctime_ns": 1779159226434571603
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065081,
+            "size": 439,
+            "mtime_ns": 1779159226434571603,
+            "ctime_ns": 1779159226434571603
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 6.911531090736389e-05
+        },
+        "tokenizer.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer.json",
+          "expected_sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "bytes": 9085839,
+          "expected_bytes": 9085839,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065084,
+            "size": 9085839,
+            "mtime_ns": 1779159233522537279,
+            "ctime_ns": 1779159233530537239
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065084,
+            "size": 9085839,
+            "mtime_ns": 1779159233522537279,
+            "ctime_ns": 1779159233530537239
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065084,
+            "size": 9085839,
+            "mtime_ns": 1779159233522537279,
+            "ctime_ns": 1779159233530537239
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065084,
+            "size": 9085839,
+            "mtime_ns": 1779159233522537279,
+            "ctime_ns": 1779159233530537239
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.02674200013279915
+        },
+        "tokenizer_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/tokenizer_config.json",
+          "expected_sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "bytes": 51220,
+          "expected_bytes": 51220,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065083,
+            "size": 51220,
+            "mtime_ns": 1779159226534571119,
+            "ctime_ns": 1779159226538571099
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065083,
+            "size": 51220,
+            "mtime_ns": 1779159226534571119,
+            "ctime_ns": 1779159226538571099
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065083,
+            "size": 51220,
+            "mtime_ns": 1779159226534571119,
+            "ctime_ns": 1779159226538571099
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065083,
+            "size": 51220,
+            "mtime_ns": 1779159226534571119,
+            "ctime_ns": 1779159226538571099
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00021020695567131042
+        },
+        "model-00001-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00001-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00001-of-00004.safetensors",
+          "expected_sha256": "4680646a61179959e510768f54a49001cc80e150690d7968666fd9e9846b7c91",
+          "sha256": "4680646a61179959e510768f54a49001cc80e150690d7968666fd9e9846b7c91",
+          "bytes": 4976764208,
+          "expected_bytes": 4976764208,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065074,
+            "size": 4976764208,
+            "mtime_ns": 1779159577856881439,
+            "ctime_ns": 1779159577864881399
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065074,
+            "size": 4976764208,
+            "mtime_ns": 1779159577856881439,
+            "ctime_ns": 1779159577864881399
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065074,
+            "size": 4976764208,
+            "mtime_ns": 1779159577856881439,
+            "ctime_ns": 1779159577864881399
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065074,
+            "size": 4976764208,
+            "mtime_ns": 1779159577856881439,
+            "ctime_ns": 1779159577864881399
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 14.714334785938263
+        },
+        "model-00002-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00002-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00002-of-00004.safetensors",
+          "expected_sha256": "73a1f3f2ed3fe4d59341a70a742f907b53436b4778373baea181a0987a8dc177",
+          "sha256": "73a1f3f2ed3fe4d59341a70a742f907b53436b4778373baea181a0987a8dc177",
+          "bytes": 4999802720,
+          "expected_bytes": 4999802720,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065075,
+            "size": 4999802720,
+            "mtime_ns": 1779159544325041869,
+            "ctime_ns": 1779159544337041811
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065075,
+            "size": 4999802720,
+            "mtime_ns": 1779159544325041869,
+            "ctime_ns": 1779159544337041811
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065075,
+            "size": 4999802720,
+            "mtime_ns": 1779159544325041869,
+            "ctime_ns": 1779159544337041811
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065075,
+            "size": 4999802720,
+            "mtime_ns": 1779159544325041869,
+            "ctime_ns": 1779159544337041811
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 13.059828892350197
+        },
+        "model-00003-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00003-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00003-of-00004.safetensors",
+          "expected_sha256": "b5d2b2699e77346d46969699db44eb09b1838a5f84fc4e42debe4f3157d76783",
+          "sha256": "b5d2b2699e77346d46969699db44eb09b1838a5f84fc4e42debe4f3157d76783",
+          "bytes": 4915916176,
+          "expected_bytes": 4915916176,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065077,
+            "size": 4915916176,
+            "mtime_ns": 1779159516905173166,
+            "ctime_ns": 1779159516913173127
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065077,
+            "size": 4915916176,
+            "mtime_ns": 1779159516905173166,
+            "ctime_ns": 1779159516913173127
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065077,
+            "size": 4915916176,
+            "mtime_ns": 1779159516905173166,
+            "ctime_ns": 1779159516913173127
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065077,
+            "size": 4915916176,
+            "mtime_ns": 1779159516905173166,
+            "ctime_ns": 1779159516913173127
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 12.630195613950491
+        },
+        "model-00004-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00004-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-SFT/model-00004-of-00004.safetensors",
+          "expected_sha256": "86f990281604ee9ab5897d7b2423ad50225b76bd041465c70ae4a3ef6b89abfe",
+          "sha256": "86f990281604ee9ab5897d7b2423ad50225b76bd041465c70ae4a3ef6b89abfe",
+          "bytes": 1168204344,
+          "expected_bytes": 1168204344,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065076,
+            "size": 1168204344,
+            "mtime_ns": 1779159311526160280,
+            "ctime_ns": 1779159311534160241
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065076,
+            "size": 1168204344,
+            "mtime_ns": 1779159311526160280,
+            "ctime_ns": 1779159311534160241
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065076,
+            "size": 1168204344,
+            "mtime_ns": 1779159311526160280,
+            "ctime_ns": 1779159311534160241
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065076,
+            "size": 1168204344,
+            "mtime_ns": 1779159311526160280,
+            "ctime_ns": 1779159311534160241
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 2.8914366140961647
+        }
+      },
+      "passed": true,
+      "errors": [],
+      "architecture": {
+        "model_type": "llama",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "num_hidden_layers": 32,
+        "hidden_size": 4096,
+        "torch_dtype": "bfloat16",
+        "vocab_size": 128264
+      },
+      "safetensors_index_references": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}"
+    },
+    "dpo": {
+      "spec": {
+        "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+        "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+        "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO",
+        "interface": "native"
+      },
+      "files": {
+        "config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/config.json",
+          "expected_sha256": "a8bd80e14deac086ca121be258191fad6f1acff43cf1cc9fe8eebf622aaf79d5",
+          "sha256": "a8bd80e14deac086ca121be258191fad6f1acff43cf1cc9fe8eebf622aaf79d5",
+          "bytes": 850,
+          "expected_bytes": 850,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065003,
+            "size": 850,
+            "mtime_ns": 1779028558489214654,
+            "ctime_ns": 1779028558493214634
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065003,
+            "size": 850,
+            "mtime_ns": 1779028558489214654,
+            "ctime_ns": 1779028558493214634
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065003,
+            "size": 850,
+            "mtime_ns": 1779028558489214654,
+            "ctime_ns": 1779028558493214634
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065003,
+            "size": 850,
+            "mtime_ns": 1779028558489214654,
+            "ctime_ns": 1779028558493214634
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00015155598521232605
+        },
+        "configuration.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/configuration.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/configuration.json",
+          "expected_sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "bytes": 73,
+          "expected_bytes": 73,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065004,
+            "size": 73,
+            "mtime_ns": 1779028558453214830,
+            "ctime_ns": 1779028558453214830
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065004,
+            "size": 73,
+            "mtime_ns": 1779028558453214830,
+            "ctime_ns": 1779028558453214830
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065004,
+            "size": 73,
+            "mtime_ns": 1779028558453214830,
+            "ctime_ns": 1779028558453214830
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065004,
+            "size": 73,
+            "mtime_ns": 1779028558453214830,
+            "ctime_ns": 1779028558453214830
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00013006851077079773
+        },
+        "generation_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/generation_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/generation_config.json",
+          "expected_sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "bytes": 180,
+          "expected_bytes": 180,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065005,
+            "size": 180,
+            "mtime_ns": 1779028558585214183,
+            "ctime_ns": 1779028558589214164
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065005,
+            "size": 180,
+            "mtime_ns": 1779028558585214183,
+            "ctime_ns": 1779028558589214164
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065005,
+            "size": 180,
+            "mtime_ns": 1779028558585214183,
+            "ctime_ns": 1779028558589214164
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065005,
+            "size": 180,
+            "mtime_ns": 1779028558585214183,
+            "ctime_ns": 1779028558589214164
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.000107593834400177
+        },
+        "metadata.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/metadata.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/metadata.json",
+          "expected_sha256": "9cda0b42516907536a11d4c667f329031315d49d032b48ed0f3ebd558c23f808",
+          "sha256": "9cda0b42516907536a11d4c667f329031315d49d032b48ed0f3ebd558c23f808",
+          "bytes": 742,
+          "expected_bytes": 742,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065006,
+            "size": 742,
+            "mtime_ns": 1779028558581214203,
+            "ctime_ns": 1779028558585214183
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065006,
+            "size": 742,
+            "mtime_ns": 1779028558581214203,
+            "ctime_ns": 1779028558585214183
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065006,
+            "size": 742,
+            "mtime_ns": 1779028558581214203,
+            "ctime_ns": 1779028558585214183
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065006,
+            "size": 742,
+            "mtime_ns": 1779028558581214203,
+            "ctime_ns": 1779028558585214183
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00011049211025238037
+        },
+        "model.safetensors.index.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/model.safetensors.index.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/model.safetensors.index.json",
+          "expected_sha256": "f16ab28239bb5e3ea718851ab9fd9fd9261f4356314a43b907c98957afc33583",
+          "sha256": "f16ab28239bb5e3ea718851ab9fd9fd9261f4356314a43b907c98957afc33583",
+          "bytes": 25125,
+          "expected_bytes": 25125,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065013,
+            "size": 25125,
+            "mtime_ns": 1779028558745213399,
+            "ctime_ns": 1779028558749213379
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065013,
+            "size": 25125,
+            "mtime_ns": 1779028558745213399,
+            "ctime_ns": 1779028558749213379
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065013,
+            "size": 25125,
+            "mtime_ns": 1779028558745213399,
+            "ctime_ns": 1779028558749213379
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065013,
+            "size": 25125,
+            "mtime_ns": 1779028558745213399,
+            "ctime_ns": 1779028558749213379
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.0001740679144859314
+        },
+        "pytorch_model.bin.index.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/pytorch_model.bin.index.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/pytorch_model.bin.index.json",
+          "expected_sha256": "f65696201ca3ea238a38c1ae2a9e16b3eca256baf0b109fac0d5f843ebb43501",
+          "sha256": "f65696201ca3ea238a38c1ae2a9e16b3eca256baf0b109fac0d5f843ebb43501",
+          "bytes": 23950,
+          "expected_bytes": 23950,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065017,
+            "size": 23950,
+            "mtime_ns": 1779028666336688226,
+            "ctime_ns": 1779028666352688147
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065017,
+            "size": 23950,
+            "mtime_ns": 1779028666336688226,
+            "ctime_ns": 1779028666352688147
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065017,
+            "size": 23950,
+            "mtime_ns": 1779028666336688226,
+            "ctime_ns": 1779028666352688147
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065017,
+            "size": 23950,
+            "mtime_ns": 1779028666336688226,
+            "ctime_ns": 1779028666352688147
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.0001815222203731537
+        },
+        "special_tokens_map.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/special_tokens_map.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/special_tokens_map.json",
+          "expected_sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "bytes": 439,
+          "expected_bytes": 439,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065019,
+            "size": 439,
+            "mtime_ns": 1779028667880680719,
+            "ctime_ns": 1779028667888680681
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065019,
+            "size": 439,
+            "mtime_ns": 1779028667880680719,
+            "ctime_ns": 1779028667888680681
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065019,
+            "size": 439,
+            "mtime_ns": 1779028667880680719,
+            "ctime_ns": 1779028667888680681
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065019,
+            "size": 439,
+            "mtime_ns": 1779028667880680719,
+            "ctime_ns": 1779028667888680681
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.0001145489513874054
+        },
+        "tokenizer.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/tokenizer.json",
+          "expected_sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "bytes": 9085839,
+          "expected_bytes": 9085839,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065022,
+            "size": 9085839,
+            "mtime_ns": 1779028669388673388,
+            "ctime_ns": 1779028669396673350
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065022,
+            "size": 9085839,
+            "mtime_ns": 1779028669388673388,
+            "ctime_ns": 1779028669396673350
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065022,
+            "size": 9085839,
+            "mtime_ns": 1779028669388673388,
+            "ctime_ns": 1779028669396673350
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065022,
+            "size": 9085839,
+            "mtime_ns": 1779028669388673388,
+            "ctime_ns": 1779028669396673350
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.026477038860321045
+        },
+        "tokenizer_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/tokenizer_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/tokenizer_config.json",
+          "expected_sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "bytes": 51220,
+          "expected_bytes": 51220,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065021,
+            "size": 51220,
+            "mtime_ns": 1779028669320673718,
+            "ctime_ns": 1779028669332673659
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065021,
+            "size": 51220,
+            "mtime_ns": 1779028669320673718,
+            "ctime_ns": 1779028669332673659
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065021,
+            "size": 51220,
+            "mtime_ns": 1779028669320673718,
+            "ctime_ns": 1779028669332673659
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065021,
+            "size": 51220,
+            "mtime_ns": 1779028669320673718,
+            "ctime_ns": 1779028669332673659
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.0002788156270980835
+        },
+        "model-00001-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/model-00001-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/model-00001-of-00004.safetensors",
+          "expected_sha256": "85911f744f1dd50b8128227235d057a1aec6c8a1ed28e1458132aa56b719551d",
+          "sha256": "85911f744f1dd50b8128227235d057a1aec6c8a1ed28e1458132aa56b719551d",
+          "bytes": 4976764208,
+          "expected_bytes": 4976764208,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065007,
+            "size": 4976764208,
+            "mtime_ns": 1779029143214449816,
+            "ctime_ns": 1779029143230449874
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065007,
+            "size": 4976764208,
+            "mtime_ns": 1779029143214449816,
+            "ctime_ns": 1779029143230449874
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065007,
+            "size": 4976764208,
+            "mtime_ns": 1779029143214449816,
+            "ctime_ns": 1779029143230449874
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065007,
+            "size": 4976764208,
+            "mtime_ns": 1779029143214449816,
+            "ctime_ns": 1779029143230449874
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 13.255861569195986
+        },
+        "model-00002-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/model-00002-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/model-00002-of-00004.safetensors",
+          "expected_sha256": "35008429087b8fc07d435a125c28ec7943086ede173af6f31bcb7c9637fbcd2f",
+          "sha256": "35008429087b8fc07d435a125c28ec7943086ede173af6f31bcb7c9637fbcd2f",
+          "bytes": 4999802720,
+          "expected_bytes": 4999802720,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065010,
+            "size": 4999802720,
+            "mtime_ns": 1779029191290606222,
+            "ctime_ns": 1779029191306606268
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065010,
+            "size": 4999802720,
+            "mtime_ns": 1779029191290606222,
+            "ctime_ns": 1779029191306606268
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065010,
+            "size": 4999802720,
+            "mtime_ns": 1779029191290606222,
+            "ctime_ns": 1779029191306606268
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065010,
+            "size": 4999802720,
+            "mtime_ns": 1779029191290606222,
+            "ctime_ns": 1779029191306606268
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 13.051560182124376
+        },
+        "model-00003-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/model-00003-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/model-00003-of-00004.safetensors",
+          "expected_sha256": "a7f29dca815d3dd4313f698fada334a339191d0db068f73ba15026380fd4d00d",
+          "sha256": "a7f29dca815d3dd4313f698fada334a339191d0db068f73ba15026380fd4d00d",
+          "bytes": 4915916176,
+          "expected_bytes": 4915916176,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065008,
+            "size": 4915916176,
+            "mtime_ns": 1779029268446795118,
+            "ctime_ns": 1779029268458795142
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065008,
+            "size": 4915916176,
+            "mtime_ns": 1779029268446795118,
+            "ctime_ns": 1779029268458795142
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065008,
+            "size": 4915916176,
+            "mtime_ns": 1779029268446795118,
+            "ctime_ns": 1779029268458795142
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065008,
+            "size": 4915916176,
+            "mtime_ns": 1779029268446795118,
+            "ctime_ns": 1779029268458795142
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 12.94641611725092
+        },
+        "model-00004-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B-DPO/model-00004-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/allenai/Llama-3___1-Tulu-3-8B-DPO/model-00004-of-00004.safetensors",
+          "expected_sha256": "439d2a7ebf23264fc1c7364877db7df25308f454f6188d949792a40307b9e5b6",
+          "sha256": "439d2a7ebf23264fc1c7364877db7df25308f454f6188d949792a40307b9e5b6",
+          "bytes": 1168204344,
+          "expected_bytes": 1168204344,
+          "stat": {
+            "dev": 2065,
+            "ino": 49065009,
+            "size": 1168204344,
+            "mtime_ns": 1779028668164679339,
+            "ctime_ns": 1779028668176679280
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49065009,
+            "size": 1168204344,
+            "mtime_ns": 1779028668164679339,
+            "ctime_ns": 1779028668176679280
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49065009,
+            "size": 1168204344,
+            "mtime_ns": 1779028668164679339,
+            "ctime_ns": 1779028668176679280
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49065009,
+            "size": 1168204344,
+            "mtime_ns": 1779028668164679339,
+            "ctime_ns": 1779028668176679280
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 3.1334437020123005
+        }
+      },
+      "passed": true,
+      "errors": [],
+      "architecture": {
+        "model_type": "llama",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "num_hidden_layers": 32,
+        "hidden_size": 4096,
+        "torch_dtype": "bfloat16",
+        "vocab_size": 128264
+      },
+      "safetensors_index_references": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}"
+    },
+    "rlvr": {
+      "spec": {
+        "id": "allenai/Llama-3.1-Tulu-3-8B",
+        "revision": "666943798adbde0b1aff34626007e26986a3c107",
+        "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B",
+        "interface": "native"
+      },
+      "files": {
+        "config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/config.json",
+          "expected_sha256": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+          "sha256": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+          "bytes": 851,
+          "expected_bytes": 851,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067496,
+            "size": 851,
+            "mtime_ns": 1778900064799552545,
+            "ctime_ns": 1778900064803552526
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067496,
+            "size": 851,
+            "mtime_ns": 1778900064799552545,
+            "ctime_ns": 1778900064803552526
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067496,
+            "size": 851,
+            "mtime_ns": 1778900064799552545,
+            "ctime_ns": 1778900064803552526
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067496,
+            "size": 851,
+            "mtime_ns": 1778900064799552545,
+            "ctime_ns": 1778900064803552526
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.0001072026789188385
+        },
+        "configuration.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/configuration.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/configuration.json",
+          "expected_sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+          "bytes": 73,
+          "expected_bytes": 73,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067497,
+            "size": 73,
+            "mtime_ns": 1778900064759552739,
+            "ctime_ns": 1778900064759552739
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067497,
+            "size": 73,
+            "mtime_ns": 1778900064759552739,
+            "ctime_ns": 1778900064759552739
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067497,
+            "size": 73,
+            "mtime_ns": 1778900064759552739,
+            "ctime_ns": 1778900064759552739
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067497,
+            "size": 73,
+            "mtime_ns": 1778900064759552739,
+            "ctime_ns": 1778900064759552739
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 7.184222340583801e-05
+        },
+        "generation_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/generation_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/generation_config.json",
+          "expected_sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "sha256": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+          "bytes": 180,
+          "expected_bytes": 180,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067498,
+            "size": 180,
+            "mtime_ns": 1778900064795552564,
+            "ctime_ns": 1778900064795552564
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067498,
+            "size": 180,
+            "mtime_ns": 1778900064795552564,
+            "ctime_ns": 1778900064795552564
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067498,
+            "size": 180,
+            "mtime_ns": 1778900064795552564,
+            "ctime_ns": 1778900064795552564
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067498,
+            "size": 180,
+            "mtime_ns": 1778900064795552564,
+            "ctime_ns": 1778900064795552564
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 6.695091724395752e-05
+        },
+        "model.safetensors.index.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model.safetensors.index.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model.safetensors.index.json",
+          "expected_sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "sha256": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+          "bytes": 23950,
+          "expected_bytes": 23950,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067502,
+            "size": 23950,
+            "mtime_ns": 1778900065015551499,
+            "ctime_ns": 1778900065019551480
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067502,
+            "size": 23950,
+            "mtime_ns": 1778900065015551499,
+            "ctime_ns": 1778900065019551480
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067502,
+            "size": 23950,
+            "mtime_ns": 1778900065015551499,
+            "ctime_ns": 1778900065019551480
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067502,
+            "size": 23950,
+            "mtime_ns": 1778900065015551499,
+            "ctime_ns": 1778900065019551480
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00012816861271858215
+        },
+        "special_tokens_map.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/special_tokens_map.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/special_tokens_map.json",
+          "expected_sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "sha256": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+          "bytes": 439,
+          "expected_bytes": 439,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067505,
+            "size": 439,
+            "mtime_ns": 1778900065119550995,
+            "ctime_ns": 1778900065119550995
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067505,
+            "size": 439,
+            "mtime_ns": 1778900065119550995,
+            "ctime_ns": 1778900065119550995
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067505,
+            "size": 439,
+            "mtime_ns": 1778900065119550995,
+            "ctime_ns": 1778900065119550995
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067505,
+            "size": 439,
+            "mtime_ns": 1778900065119550995,
+            "ctime_ns": 1778900065119550995
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 6.590038537979126e-05
+        },
+        "tokenizer.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/tokenizer.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/tokenizer.json",
+          "expected_sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "sha256": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+          "bytes": 9085839,
+          "expected_bytes": 9085839,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067509,
+            "size": 9085839,
+            "mtime_ns": 1778900066343545067,
+            "ctime_ns": 1778900066355545010
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067509,
+            "size": 9085839,
+            "mtime_ns": 1778900066343545067,
+            "ctime_ns": 1778900066355545010
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067509,
+            "size": 9085839,
+            "mtime_ns": 1778900066343545067,
+            "ctime_ns": 1778900066355545010
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067509,
+            "size": 9085839,
+            "mtime_ns": 1778900066343545067,
+            "ctime_ns": 1778900066355545010
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.026422541588544846
+        },
+        "tokenizer_config.json": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/tokenizer_config.json",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/tokenizer_config.json",
+          "expected_sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "sha256": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+          "bytes": 51220,
+          "expected_bytes": 51220,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067510,
+            "size": 51220,
+            "mtime_ns": 1778900065271550259,
+            "ctime_ns": 1778900065275550239
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067510,
+            "size": 51220,
+            "mtime_ns": 1778900065271550259,
+            "ctime_ns": 1778900065275550239
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067510,
+            "size": 51220,
+            "mtime_ns": 1778900065271550259,
+            "ctime_ns": 1778900065275550239
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067510,
+            "size": 51220,
+            "mtime_ns": 1778900065271550259,
+            "ctime_ns": 1778900065275550239
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 0.00023809075355529785
+        },
+        "model-00001-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00001-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00001-of-00004.safetensors",
+          "expected_sha256": "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+          "sha256": "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+          "bytes": 4976764208,
+          "expected_bytes": 4976764208,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067499,
+            "size": 4976764208,
+            "mtime_ns": 1778900405993782773,
+            "ctime_ns": 1778900405997782752
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067499,
+            "size": 4976764208,
+            "mtime_ns": 1778900405993782773,
+            "ctime_ns": 1778900405997782752
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067499,
+            "size": 4976764208,
+            "mtime_ns": 1778900405993782773,
+            "ctime_ns": 1778900405997782752
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067499,
+            "size": 4976764208,
+            "mtime_ns": 1778900405993782773,
+            "ctime_ns": 1778900405997782752
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 15.551507823169231
+        },
+        "model-00002-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00002-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00002-of-00004.safetensors",
+          "expected_sha256": "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+          "sha256": "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+          "bytes": 4999802720,
+          "expected_bytes": 4999802720,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067500,
+            "size": 4999802720,
+            "mtime_ns": 1778900409001767401,
+            "ctime_ns": 1778900409005767380
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067500,
+            "size": 4999802720,
+            "mtime_ns": 1778900409001767401,
+            "ctime_ns": 1778900409005767380
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067500,
+            "size": 4999802720,
+            "mtime_ns": 1778900409001767401,
+            "ctime_ns": 1778900409005767380
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067500,
+            "size": 4999802720,
+            "mtime_ns": 1778900409001767401,
+            "ctime_ns": 1778900409005767380
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 12.352942567318678
+        },
+        "model-00003-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00003-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00003-of-00004.safetensors",
+          "expected_sha256": "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+          "sha256": "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+          "bytes": 4915916176,
+          "expected_bytes": 4915916176,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067501,
+            "size": 4915916176,
+            "mtime_ns": 1778900396521831204,
+            "ctime_ns": 1778900396529831163
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067501,
+            "size": 4915916176,
+            "mtime_ns": 1778900396521831204,
+            "ctime_ns": 1778900396529831163
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067501,
+            "size": 4915916176,
+            "mtime_ns": 1778900396521831204,
+            "ctime_ns": 1778900396529831163
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067501,
+            "size": 4915916176,
+            "mtime_ns": 1778900396521831204,
+            "ctime_ns": 1778900396529831163
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 12.157023191452026
+        },
+        "model-00004-of-00004.safetensors": {
+          "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00004-of-00004.safetensors",
+          "resolved_path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B/model-00004-of-00004.safetensors",
+          "expected_sha256": "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e",
+          "sha256": "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e",
+          "bytes": 1168204344,
+          "expected_bytes": 1168204344,
+          "stat": {
+            "dev": 2065,
+            "ino": 49067503,
+            "size": 1168204344,
+            "mtime_ns": 1778900145807131376,
+            "ctime_ns": 1778900145815131334
+          },
+          "stat_before": {
+            "dev": 2065,
+            "ino": 49067503,
+            "size": 1168204344,
+            "mtime_ns": 1778900145807131376,
+            "ctime_ns": 1778900145815131334
+          },
+          "stat_opened": {
+            "dev": 2065,
+            "ino": 49067503,
+            "size": 1168204344,
+            "mtime_ns": 1778900145807131376,
+            "ctime_ns": 1778900145815131334
+          },
+          "stat_after_read": {
+            "dev": 2065,
+            "ino": 49067503,
+            "size": 1168204344,
+            "mtime_ns": 1778900145807131376,
+            "ctime_ns": 1778900145815131334
+          },
+          "matches_expected": true,
+          "stable_during_read": true,
+          "hash_seconds": 2.8807388804852962
+        }
+      },
+      "passed": true,
+      "errors": [],
+      "architecture": {
+        "model_type": "llama",
+        "architectures": [
+          "LlamaForCausalLM"
+        ],
+        "num_hidden_layers": 32,
+        "hidden_size": 4096,
+        "torch_dtype": "bfloat16",
+        "vocab_size": 128264
+      },
+      "safetensors_index_references": [
+        "model-00001-of-00004.safetensors",
+        "model-00002-of-00004.safetensors",
+        "model-00003-of-00004.safetensors",
+        "model-00004-of-00004.safetensors"
+      ],
+      "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}"
+    }
+  },
+  "errors": [],
+  "environment": {
+    "python": "3.10.20",
+    "executable": "/home/ai/chenchen/projects/reasoning-manifold-study/.venv/bin/python",
+    "platform": "Linux-5.4.0-196-generic-x86_64-with-glibc2.31",
+    "packages": {
+      "torch": "2.4.0+cu124",
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0",
+      "accelerate": "1.14.0",
+      "numpy": "2.2.6"
+    },
+    "cuda_version": "12.4",
+    "cuda_available": true,
+    "cuda_bf16_supported": true
+  },
+  "author_source": {
+    "manifest_sha256": "3938a0dfa98a932cc0d6ad366e938bf756f58099d8828fddbf5e70f96b36bd95",
+    "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+    "files": {
+      "README.md": {
+        "sha256": "f4442e2635b5820ff8bad0955da027e3a1c0f970eecd04f4efe36f246c87332c",
+        "matches_expected": true
+      },
+      "generate_acts.py": {
+        "sha256": "46f74295abad2a530c1afcfc99074486963d9deb8587d659e7c89f4bcaa3a01f",
+        "matches_expected": true
+      },
+      "utils.py": {
+        "sha256": "c189ce6d6a7155bde7ee6a647e0c14c1a71283796dd45d823f722d99d0dcf190",
+        "matches_expected": true
+      },
+      "visualization_utils.py": {
+        "sha256": "45cf582f9eaa948ba439807afb61e4b513aaac3b607824959ade50c1e346e626",
+        "matches_expected": true
+      },
+      "dataexplorer.ipynb": {
+        "sha256": "7b2a17efc04f727443343cfc9aa2992b713fa721e99f5a195e62f00f0d99d269",
+        "matches_expected": true
+      },
+      "config.ini": {
+        "sha256": "ba2545b3e9fee4e2bd980145845cd71289e4466b818c8bf22769bbd6326b8b07",
+        "matches_expected": true
+      },
+      "requirements.txt": {
+        "sha256": "00a464145b438a0691ece927b224c28d58fb22023e244de884dc98b41ad7ac7b",
+        "matches_expected": true
+      },
+      "datasets/cities.csv": {
+        "sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+        "matches_expected": true
+      },
+      "datasets/neg_cities.csv": {
+        "sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+        "matches_expected": true
+      },
+      "datasets/sp_en_trans.csv": {
+        "sha256": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+        "matches_expected": true
+      },
+      "datasets/neg_sp_en_trans.csv": {
+        "sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+        "matches_expected": true
+      },
+      "datasets/larger_than.csv": {
+        "sha256": "406d6872e97910f3af5a031600d4932b5a567b8666e7545c8b446057471ad723",
+        "matches_expected": true
+      },
+      "datasets/smaller_than.csv": {
+        "sha256": "ee6b7cf668d7e0fb3f49a84ca8d510cb7e484ae029ef86ed238362e26ef61a44",
+        "matches_expected": true
+      },
+      "datasets/cities_cities_conj.csv": {
+        "sha256": "80e9987e8abcdd56ac8256d22b8ad6c2d6211e06a6c925c32cfcb0bc93d9d56d",
+        "matches_expected": true
+      },
+      "datasets/cities_cities_disj.csv": {
+        "sha256": "5f4883382bb3f8664fa9b0a51cfadec507e130bf21c94f3d04776ca923646565",
+        "matches_expected": true
+      },
+      "datasets/companies_true_false.csv": {
+        "sha256": "75a31139def9838dcaa4e2f1e5f3680f44f09f3c94553f9ad3b3a5a476124c8c",
+        "matches_expected": true
+      },
+      "datasets/common_claim_true_false.csv": {
+        "sha256": "1889b4793c2ebd13c767eea8b65ebd4a5c2da700567677d512097b495a262576",
+        "matches_expected": true
+      },
+      "datasets/counterfact_true_false.csv": {
+        "sha256": "5af51456d6dbd3a53d8e2ee6e4aadaca7eb02ff9136ad825866458e7283b5273",
+        "matches_expected": true
+      }
+    }
+  },
+  "completed_utc": "2026-10-12T16:33:55.997367+00:00"
+}

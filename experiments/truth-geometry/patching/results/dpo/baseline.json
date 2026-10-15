@@ -1,0 +1,171 @@
+{
+  "signature": "1daf848b3cc7f3ea92ed4fdc15bf167d872452cda5bbf0cbca03b0455ec05738",
+  "false": {
+    "spaced": {
+      "difference": -3.5625,
+      "true_logit": 11.0625,
+      "false_logit": 14.625,
+      "true_logprob": -10.290070533752441,
+      "false_logprob": -6.727570533752441,
+      "true_prob": 3.39687176165171e-05,
+      "false_prob": 0.0011974385706707835,
+      "binary_true_prob": 0.027585281059145927
+    },
+    "bare": {
+      "difference": -4.875,
+      "true_logit": 16.0,
+      "false_logit": 20.875,
+      "true_logprob": -5.352570533752441,
+      "false_logprob": -0.47757044434547424,
+      "true_prob": 0.004735961556434631,
+      "false_prob": 0.620288610458374,
+      "binary_true_prob": 0.007577241398394108
+    },
+    "top_tokens": [
+      {
+        "id": 31451,
+        "text": "FALSE",
+        "logit": 20.875,
+        "prob": 0.620288610458374
+      },
+      {
+        "id": 791,
+        "text": "The",
+        "logit": 19.625,
+        "prob": 0.17771565914154053
+      },
+      {
+        "id": 47275,
+        "text": "Chicago",
+        "logit": 19.5,
+        "prob": 0.15683351457118988
+      },
+      {
+        "id": 2198,
+        "text": "CH",
+        "logit": 16.875,
+        "prob": 0.011360980570316315
+      },
+      {
+        "id": 2028,
+        "text": "This",
+        "logit": 16.25,
+        "prob": 0.006081094965338707
+      },
+      {
+        "id": 21260,
+        "text": "TRUE",
+        "logit": 16.0,
+        "prob": 0.004735961556434631
+      },
+      {
+        "id": 4139,
+        "text": "False",
+        "logit": 15.125,
+        "prob": 0.0019742425065487623
+      },
+      {
+        "id": 1271,
+        "text": "To",
+        "logit": 15.0625,
+        "prob": 0.0018546291394159198
+      },
+      {
+        "id": 10267,
+        "text": "Let",
+        "logit": 14.9375,
+        "prob": 0.0016367044299840927
+      },
+      {
+        "id": 7989,
+        "text": " FALSE",
+        "logit": 14.625,
+        "prob": 0.0011974385706707835
+      }
+    ]
+  },
+  "true": {
+    "spaced": {
+      "difference": 6.6875,
+      "true_logit": 14.9375,
+      "false_logit": 8.25,
+      "true_logprob": -5.283531188964844,
+      "false_logprob": -11.971031188964844,
+      "true_prob": 0.005074480082839727,
+      "false_prob": 6.324806236079894e-06,
+      "binary_true_prob": 0.9987550973892212
+    },
+    "bare": {
+      "difference": 6.5,
+      "true_logit": 19.5,
+      "false_logit": 13.0,
+      "true_logprob": -0.7210310101509094,
+      "false_logprob": -7.221031188964844,
+      "true_prob": 0.4862506687641144,
+      "false_prob": 0.0007310481742024422,
+      "binary_true_prob": 0.998498797416687
+    },
+    "top_tokens": [
+      {
+        "id": 21260,
+        "text": "TRUE",
+        "logit": 19.5,
+        "prob": 0.4862506687641144
+      },
+      {
+        "id": 791,
+        "text": "The",
+        "logit": 18.875,
+        "prob": 0.26027125120162964
+      },
+      {
+        "id": 72437,
+        "text": "Toronto",
+        "logit": 17.125,
+        "prob": 0.04522835835814476
+      },
+      {
+        "id": 21279,
+        "text": "Both",
+        "logit": 17.0,
+        "prob": 0.03991388902068138
+      },
+      {
+        "id": 2028,
+        "text": "This",
+        "logit": 17.0,
+        "prob": 0.03991388902068138
+      },
+      {
+        "id": 2575,
+        "text": "True",
+        "logit": 16.375,
+        "prob": 0.02136436477303505
+      },
+      {
+        "id": 29815,
+        "text": "Based",
+        "logit": 16.125,
+        "prob": 0.016638580709695816
+      },
+      {
+        "id": 9673,
+        "text": "These",
+        "logit": 15.9375,
+        "prob": 0.013793867081403732
+      },
+      {
+        "id": 2460,
+        "text": "All",
+        "logit": 15.75,
+        "prob": 0.01143551804125309
+      },
+      {
+        "id": 50758,
+        "text": "TOR",
+        "logit": 15.375,
+        "prob": 0.007859508506953716
+      }
+    ]
+  }
+}

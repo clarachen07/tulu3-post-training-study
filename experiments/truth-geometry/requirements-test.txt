@@ -1,0 +1,10 @@
+# CPU tests, including small randomly initialized Llama models.
+# Install the platform's torch 2.4.0 wheel; no model downloads are needed.
+torch==2.4.0
+transformers==4.57.6
+tokenizers==0.22.2
+safetensors==0.8.0
+numpy==2.2.6
+# The pinned author PCA utility imports pandas during the reference test.
+pandas>=2.2,<3
+pytest>=8,<9

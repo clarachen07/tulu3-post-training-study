@@ -1,0 +1,28 @@
+{
+  "rendered_successfully": true,
+  "visual_review_passed": true,
+  "files": [
+    {
+      "file": "figures/raw_heatmaps.pdf",
+      "sha256": "7c77b1aeac04a1e4e0fd51920d788ae0e5b2259240d3c5d4742d9ab3051a4ce9",
+      "minimum_text_x_points": 14.71125,
+      "minimum_text_y_points": 14.733812,
+      "pdfinfo": "Creator:         Matplotlib v3.11.2, https://matplotlib.org\nProducer:        Matplotlib pdf backend v3.11.2\nCreationDate:    Wed Oct  7 20:37:54 2026 PDT\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1584 x 1080 pts\nPage rot:        0\nFile size:       74658 bytes\nOptimized:       no\nPDF version:     1.4\n"
+    },
+    {
+      "file": "figures/delta_heatmaps.pdf",
+      "sha256": "0c26f4c5d59409a4ccbc085b688680ca6dcbe027c6e457b56489b194391fbc84",
+      "minimum_text_x_points": 14.71125,
+      "minimum_text_y_points": 14.733812,
+      "pdfinfo": "Creator:         Matplotlib v3.11.2, https://matplotlib.org\nProducer:        Matplotlib pdf backend v3.11.2\nCreationDate:    Wed Oct  7 20:37:55 2026 PDT\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1584 x 1080 pts\nPage rot:        0\nFile size:       73651 bytes\nOptimized:       no\nPDF version:     1.4\n"
+    },
+    {
+      "file": "figures/anchor_curves.pdf",
+      "sha256": "ec11dbf1dac27bceda527d774c0c69bfa26dbfab6854ae4b347afc447d9962a1",
+      "minimum_text_x_points": 14.71125,
+      "minimum_text_y_points": 14.802949,
+      "pdfinfo": "Creator:         Matplotlib v3.11.2, https://matplotlib.org\nProducer:        Matplotlib pdf backend v3.11.2\nCreationDate:    Wed Oct  7 20:37:56 2026 PDT\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1080 x 720 pts\nPage rot:        0\nFile size:       25713 bytes\nOptimized:       no\nPDF version:     1.4\n"
+    }
+  ],
+  "notes": "Final three PDFs visually inspected after full-canvas export with 0.22-inch layout padding. No clipping or missing labels."
+}

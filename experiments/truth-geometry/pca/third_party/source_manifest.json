@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/saprmarks/geometry-of-truth",
+  "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+  "files": {
+    "README.md": {
+      "path": "third_party/geometry-of-truth/README.md",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/README.md",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "f4442e2635b5820ff8bad0955da027e3a1c0f970eecd04f4efe36f246c87332c",
+      "bytes": 2039
+    },
+    "generate_acts.py": {
+      "path": "third_party/geometry-of-truth/generate_acts.py",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/generate_acts.py",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "46f74295abad2a530c1afcfc99074486963d9deb8587d659e7c89f4bcaa3a01f",
+      "bytes": 3580
+    },
+    "utils.py": {
+      "path": "third_party/geometry-of-truth/utils.py",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/utils.py",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "c189ce6d6a7155bde7ee6a647e0c14c1a71283796dd45d823f722d99d0dcf190",
+      "bytes": 6003
+    },
+    "visualization_utils.py": {
+      "path": "third_party/geometry-of-truth/visualization_utils.py",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/visualization_utils.py",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "45cf582f9eaa948ba439807afb61e4b513aaac3b607824959ade50c1e346e626",
+      "bytes": 4198
+    },
+    "dataexplorer.ipynb": {
+      "path": "third_party/geometry-of-truth/dataexplorer.ipynb",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/dataexplorer.ipynb",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "7b2a17efc04f727443343cfc9aa2992b713fa721e99f5a195e62f00f0d99d269",
+      "bytes": 9775
+    },
+    "config.ini": {
+      "path": "third_party/geometry-of-truth/config.ini",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/config.ini",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "ba2545b3e9fee4e2bd980145845cd71289e4466b818c8bf22769bbd6326b8b07",
+      "bytes": 807
+    },
+    "requirements.txt": {
+      "path": "third_party/geometry-of-truth/requirements.txt",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/requirements.txt",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "00a464145b438a0691ece927b224c28d58fb22023e244de884dc98b41ad7ac7b",
+      "bytes": 60
+    },
+    "datasets/cities.csv": {
+      "path": "third_party/geometry-of-truth/datasets/cities.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/cities.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+      "bytes": 95041
+    },
+    "datasets/neg_cities.csv": {
+      "path": "third_party/geometry-of-truth/datasets/neg_cities.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/neg_cities.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+      "bytes": 101025
+    },
+    "datasets/sp_en_trans.csv": {
+      "path": "third_party/geometry-of-truth/datasets/sp_en_trans.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/sp_en_trans.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+      "bytes": 15231
+    },
+    "datasets/neg_sp_en_trans.csv": {
+      "path": "third_party/geometry-of-truth/datasets/neg_sp_en_trans.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/neg_sp_en_trans.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+      "bytes": 18063
+    },
+    "datasets/larger_than.csv": {
+      "path": "third_party/geometry-of-truth/datasets/larger_than.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/larger_than.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "406d6872e97910f3af5a031600d4932b5a567b8666e7545c8b446057471ad723",
+      "bytes": 105858
+    },
+    "datasets/smaller_than.csv": {
+      "path": "third_party/geometry-of-truth/datasets/smaller_than.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/smaller_than.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "ee6b7cf668d7e0fb3f49a84ca8d510cb7e484ae029ef86ed238362e26ef61a44",
+      "bytes": 107838
+    },
+    "datasets/cities_cities_conj.csv": {
+      "path": "third_party/geometry-of-truth/datasets/cities_cities_conj.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/cities_cities_conj.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "80e9987e8abcdd56ac8256d22b8ad6c2d6211e06a6c925c32cfcb0bc93d9d56d",
+      "bytes": 359212
+    },
+    "datasets/cities_cities_disj.csv": {
+      "path": "third_party/geometry-of-truth/datasets/cities_cities_disj.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/cities_cities_disj.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "5f4883382bb3f8664fa9b0a51cfadec507e130bf21c94f3d04776ca923646565",
+      "bytes": 362021
+    },
+    "datasets/companies_true_false.csv": {
+      "path": "third_party/geometry-of-truth/datasets/companies_true_false.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/companies_true_false.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "75a31139def9838dcaa4e2f1e5f3680f44f09f3c94553f9ad3b3a5a476124c8c",
+      "bytes": 91128
+    },
+    "datasets/common_claim_true_false.csv": {
+      "path": "third_party/geometry-of-truth/datasets/common_claim_true_false.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/common_claim_true_false.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "1889b4793c2ebd13c767eea8b65ebd4a5c2da700567677d512097b495a262576",
+      "bytes": 291796
+    },
+    "datasets/counterfact_true_false.csv": {
+      "path": "third_party/geometry-of-truth/datasets/counterfact_true_false.csv",
+      "url": "https://raw.githubusercontent.com/saprmarks/geometry-of-truth/5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb/datasets/counterfact_true_false.csv",
+      "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+      "sha256": "5af51456d6dbd3a53d8e2ee6e4aadaca7eb02ff9136ad825866458e7283b5273",
+      "bytes": 3107796
+    }
+  },
+  "dataset_rows": {
+    "cities": {
+      "count": 1496,
+      "label_counts": {
+        "0": 748,
+        "1": 748
+      }
+    },
+    "neg_cities": {
+      "count": 1496,
+      "label_counts": {
+        "0": 748,
+        "1": 748
+      }
+    },
+    "sp_en_trans": {
+      "count": 354,
+      "label_counts": {
+        "0": 177,
+        "1": 177
+      }
+    },
+    "neg_sp_en_trans": {
+      "count": 354,
+      "label_counts": {
+        "0": 177,
+        "1": 177
+      }
+    },
+    "larger_than": {
+      "count": 1980,
+      "label_counts": {
+        "0": 990,
+        "1": 990
+      }
+    },
+    "smaller_than": {
+      "count": 1980,
+      "label_counts": {
+        "0": 990,
+        "1": 990
+      }
+    },
+    "cities_cities_conj": {
+      "count": 1498,
+      "label_counts": {
+        "0": 748,
+        "1": 750
+      }
+    },
+    "cities_cities_disj": {
+      "count": 1498,
+      "label_counts": {
+        "0": 750,
+        "1": 748
+      }
+    },
+    "companies_true_false": {
+      "count": 1200,
+      "label_counts": {
+        "0": 600,
+        "1": 600
+      }
+    },
+    "common_claim_true_false": {
+      "count": 4450,
+      "label_counts": {
+        "0": 2225,
+        "1": 2225
+      }
+    },
+    "counterfact_true_false": {
+      "count": 31964,
+      "label_counts": {
+        "0": 15982,
+        "1": 15982
+      }
+    }
+  }
+}

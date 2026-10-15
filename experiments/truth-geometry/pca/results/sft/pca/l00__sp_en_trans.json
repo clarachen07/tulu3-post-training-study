@@ -1,0 +1,17 @@
+{
+  "name": "sp_en_trans",
+  "layer": 0,
+  "fit_datasets": [
+    "sp_en_trans"
+  ],
+  "signature": "fe28c643168ae7d717c822b113b3b7bb7dee3fd9b58b6944b64f69c6e82f3f2d",
+  "filename": "l00__sp_en_trans.npz",
+  "sha256": "677ccb441919eba7bdd2280d1fe8f28a47a172a62cc3c12955217b8b3acdb937",
+  "rows": {
+    "sp_en_trans": 354
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 1.1920928955078125e-07,
+    "eigen_residual_relative": 4.340999169016868e-07
+  }
+}

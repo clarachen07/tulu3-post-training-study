@@ -1,0 +1,25 @@
+{
+  "scope": "Historical source hashes; current maintained code is a separate identity.",
+  "files": {
+    "truth_patching/__init__.py": "e11d81e967e6bab86b70a51a23727f7d87c12c599cf251f27685d43b058a3eb3",
+    "truth_patching/engine.py": "1c781b583ff0684f3860e5e733f45b90a00b8b8b7163aa5e781331526e1bc066",
+    "truth_patching/preflight.py": "00e54e3fcf8210e25f61534f7fcfe6c323bc2c1938db4eae1fd02f5b14a3adc1",
+    "truth_patching/prompts.py": "ecb98ac9021aa92ab066b15abbcf32dba76d171fa77fd864b492064a4cb0a23f",
+    "truth_patching/report.py": "502cbf1a459b688032a22b67535548215e6ff6dc8676a0b1bf88c3707735f900",
+    "truth_patching/run.py": "299004709142982bb1724501e97c39d88361ed42c54f7b47e54f2c9a2f34b51e",
+    "truth_patching/store.py": "efd69b3bfe45bc5f850079b1623e25e830e83a558fd6af50931595ce2ffa967b",
+    "tests/test_engine.py": "dfb45e9a7c7abcc448894a9910987f0a2b08a3391607afe10973682a93f2f0a1",
+    "tests/test_prompts.py": "ad192a0afde228fc57355df91c523d795c81f42a4f3224396d19753022454c48",
+    "tests/test_recovery.py": "82bdecc4ab73a53d8b5be4980b1d0271c68af406da2f3b4814ca0d0f5cfe07d6",
+    "tests/test_store.py": "440ac4fb1936aa274d71bb3f9bd1438003865ec462bdc851766ec9469d2a36b4",
+    "configs/experiment.json": "68e596d406c75ed21a93d7477da7c7851c36019f02d78be8aa036a22312dd97c",
+    "configs/model_assets_expected.json": "698e87e5de6d2135423ffd4a648be2d8944e3ab3da79769317d89e3b078bb77b",
+    "scripts/prepare_sources.py": "4d0d56086598740ea65cb8cd40777863ccbcc0b7f0d2e73b72a8254fe81ec393",
+    "scripts/remote_pipeline.sh": "90402997bfcf9974bfe5caa6223d446c3cf585fb49c73b00887ddc7a917da5e5",
+    "third_party/geometry-of-truth/README.md": "f4442e2635b5820ff8bad0955da027e3a1c0f970eecd04f4efe36f246c87332c",
+    "third_party/geometry-of-truth/datasets/cities.csv": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+    "third_party/geometry-of-truth/patching.ipynb": "3e56f83f5729c1f908afdd9928aa1aaf6d97a1a73ced797cd9044e930d2b15ba",
+    "third_party/geometry-of-truth/patching.py": "7206e342ccde1deb95e272b33c7180b1d4517e4fa709d948ebba2df9580aeec8",
+    "third_party/source_manifest.json": "cf8a618d0f1b9d8e561ab0fd066745e3a65cb96be71a345c617d62c83a1542d1"
+  }
+}

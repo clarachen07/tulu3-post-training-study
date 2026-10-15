@@ -1,0 +1,17 @@
+{
+  "name": "cities",
+  "layer": 1,
+  "fit_datasets": [
+    "cities"
+  ],
+  "signature": "fe28c643168ae7d717c822b113b3b7bb7dee3fd9b58b6944b64f69c6e82f3f2d",
+  "filename": "l01__cities.npz",
+  "sha256": "6f083aebc235d10208b28948c6dbb524dcea39fcdbf19b7306da400782e2b7c1",
+  "rows": {
+    "cities": 1496
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 1.495682226959616e-07,
+    "eigen_residual_relative": 2.6574238631837943e-07
+  }
+}

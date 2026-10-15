@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "completed": 448,
+  "expected": 448,
+  "state": "complete",
+  "signature": "4555a446db86f7a7bb1cf68373c4b6675da3b081f7b26f98d7066df78abb1532",
+  "elapsed_seconds": 57.35907294973731,
+  "peak_allocated_gpu_bytes": 16108423168,
+  "time": "2026-10-08T03:25:29.135226+00:00"
+}

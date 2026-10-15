@@ -13,6 +13,7 @@ Each directory under `experiments/` is a self-contained research task with its o
 | Syntax / UD EWT | P0 and development-selected P3 on 2,077 test sentences; all 16 stage/prompt cells on dev128 | [Protocol](experiments/syntax/README.md) · [Results](experiments/syntax/results/final.md) · [Chinese report](experiments/syntax/results/report.zh.md) |
 | PrOntoQA | Layerwise TwoNN and correlation/covariance PCA on 1,440 fixed 3-hop inputs; 60,480 behavioral generations across 1/3/5-hop pools | [Overview](experiments/prontoqa/README.md) · [Combined Chinese report](experiments/prontoqa/reports/report.zh-CN.md) |
 | SSP | Frozen four-stage trajectory geometry, SSP training, merging and boundary-sensitive geometry; behavior evaluation incomplete | [Overview](experiments/ssp/README.md) · [Results](experiments/ssp/docs/RESULTS.md) |
+| Geometry of Truth | City-pair activation patching: 1,632 cells; PCA: all 32 layers, 11 datasets × four checkpoints, 1,792 fits and 2,344 projections | [Overview](experiments/truth-geometry/README.md) · [Chinese report](experiments/truth-geometry/reports/INTEGRATED_REPORT.zh-CN.md) |
 
 ## Main findings
 

@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "errors": [],
+  "checked_at_utc": "2026-10-13T08:22:54.720021+00:00",
+  "report_sha256": "cb7d7779eb0de5fc75ac3418eb125462bb117a812ef392cce2623ae2cb5aefee",
+  "local_links_checked": 36,
+  "images_checked": 13,
+  "new_comparison_panels": 72,
+  "source_hashes_checked": 128,
+  "original_figures": 4,
+  "city_stages": {
+    "base": {
+      "baseline_false": -2.875,
+      "baseline_true": 5.0,
+      "peaks": {
+        "country": {
+          "block": 8,
+          "delta": 7.875,
+          "after": 5.0
+        },
+        "period": {
+          "block": 12,
+          "delta": 1.5,
+          "after": -1.375
+        }
+      },
+      "points": 288,
+      "primary_form": "spaced"
+    },
+    "sft": {
+      "baseline_false": -5.125,
+      "baseline_true": 6.1875,
+      "peaks": {
+        "country": {
+          "block": 8,
+          "delta": 10.8125,
+          "after": 5.6875
+        },
+        "period": {
+          "block": 12,
+          "delta": 3.75,
+          "after": -1.375
+        }
+      },
+      "points": 448,
+      "primary_form": "bare"
+    },
+    "dpo": {
+      "baseline_false": -4.875,
+      "baseline_true": 6.5,
+      "peaks": {
+        "country": {
+          "block": 8,
+          "delta": 10.5,
+          "after": 5.625
+        },
+        "period": {
+          "block": 12,
+          "delta": 4.0,
+          "after": -0.875
+        }
+      },
+      "points": 448,
+      "primary_form": "bare"
+    },
+    "rlvr": {
+      "baseline_false": -1.125,
+      "baseline_true": 6.0625,
+      "peaks": {
+        "country": {
+          "block": 8,
+          "delta": 6.25,
+          "after": 5.125
+        },
+        "period": {
+          "block": 12,
+          "delta": 2.125,
+          "after": 1.0
+        }
+      },
+      "points": 448,
+      "primary_form": "bare"
+    }
+  },
+  "city_total_points": 1632,
+  "city_model_controls": 119,
+  "pca_dataset_rows": {
+    "cities": 1496,
+    "neg_cities": 1496,
+    "sp_en_trans": 354,
+    "neg_sp_en_trans": 354,
+    "larger_than": 1980,
+    "smaller_than": 1980,
+    "cities_cities_conj": 1498,
+    "cities_cities_disj": 1498,
+    "companies_true_false": 1200,
+    "common_claim_true_false": 4450,
+    "counterfact_true_false": 31964
+  },
+  "pca_rows_per_stage": 48270,
+  "visual_qa": "All six comparison images inspected; title clipping and overlap checks passed during rendering.",
+  "scope": "Report numbers, source/figure identity, completeness and links; existing model and PCA verification reused; no new model forwards or PCA fits."
+}

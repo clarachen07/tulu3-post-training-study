@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "capture_hooks_preserve_false_logits",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "observe_hooks_preserve_false_logits",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_city",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_country",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_period",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_0_readout",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "identical_prefix_layer_0",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_city",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_country",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_period",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_15_readout",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "identical_prefix_layer_15",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_city",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_country",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_period",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "self_layer_31_readout",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "identical_prefix_layer_31",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_33",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_34",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_35",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_36",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_37",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_38",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_39",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_nonreadout_40",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    },
+    {
+      "name": "last_block_readout_recovers_donor",
+      "max_abs_error": 0.0,
+      "atol": 1e-05,
+      "rtol": 0.0,
+      "passed": true
+    }
+  ],
+  "comparison": "full vocabulary logits; all positions except explicitly final-position controls",
+  "time": "2026-10-08T03:24:00.633567+00:00",
+  "signature": "10989553a78a311d6852ffca5eff142eb7cf34cecf2508ed1e49d3466fe37899"
+}

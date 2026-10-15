@@ -1,0 +1,19 @@
+{
+  "python": "3.10.20",
+  "platform": "Linux-5.4.0-196-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.4.0+cu124",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "accelerate": "1.14.0",
+    "safetensors": "0.8.0",
+    "numpy": "2.2.6"
+  },
+  "forward_dtype": "bfloat16",
+  "score_dtype": "float32",
+  "attention": "sdpa",
+  "batch_size": 1,
+  "use_cache": false,
+  "tf32": false,
+  "seed": 0
+}

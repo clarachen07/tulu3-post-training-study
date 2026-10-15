@@ -1,0 +1,17 @@
+{
+  "name": "companies_true_false",
+  "layer": 16,
+  "fit_datasets": [
+    "companies_true_false"
+  ],
+  "signature": "2f97f206b015ae6ba5e8c3476e4a2678201b9596f7bc93408b23f543c6a6afe0",
+  "filename": "l16__companies_true_false.npz",
+  "sha256": "ecf82f9e221475eef929b85341a90c76ae9170d0e6a1b9897faba52fed46c0a8",
+  "rows": {
+    "companies_true_false": 1200
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 2.7607484298641793e-07,
+    "eigen_residual_relative": 3.2179505637941475e-07
+  }
+}

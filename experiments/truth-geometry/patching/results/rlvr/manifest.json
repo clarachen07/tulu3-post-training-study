@@ -1,0 +1,480 @@
+{
+  "stage": "rlvr",
+  "model": {
+    "id": "allenai/Llama-3.1-Tulu-3-8B",
+    "revision": "666943798adbde0b1aff34626007e26986a3c107",
+    "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B",
+    "interface": "native"
+  },
+  "prompt": {
+    "false_text": "<|user|>\nThe city of Tokyo is in Japan. This statement is: TRUE\nThe city of Hanoi is in Poland. This statement is: FALSE\nThe city of Chicago is in Canada. This statement is:\n<|assistant|>\n",
+    "true_text": "<|user|>\nThe city of Tokyo is in Japan. This statement is: TRUE\nThe city of Hanoi is in Poland. This statement is: FALSE\nThe city of Toronto is in Canada. This statement is:\n<|assistant|>\n",
+    "false_ids": [
+      27,
+      91,
+      882,
+      91,
+      397,
+      791,
+      3363,
+      315,
+      27286,
+      374,
+      304,
+      6457,
+      13,
+      1115,
+      5224,
+      374,
+      25,
+      8378,
+      198,
+      791,
+      3363,
+      315,
+      473,
+      73803,
+      374,
+      304,
+      28702,
+      13,
+      1115,
+      5224,
+      374,
+      25,
+      7989,
+      198,
+      791,
+      3363,
+      315,
+      10780,
+      374,
+      304,
+      7008,
+      13,
+      1115,
+      5224,
+      374,
+      512,
+      27,
+      91,
+      78191,
+      91,
+      397
+    ],
+    "true_ids": [
+      27,
+      91,
+      882,
+      91,
+      397,
+      791,
+      3363,
+      315,
+      27286,
+      374,
+      304,
+      6457,
+      13,
+      1115,
+      5224,
+      374,
+      25,
+      8378,
+      198,
+      791,
+      3363,
+      315,
+      473,
+      73803,
+      374,
+      304,
+      28702,
+      13,
+      1115,
+      5224,
+      374,
+      25,
+      7989,
+      198,
+      791,
+      3363,
+      315,
+      14974,
+      374,
+      304,
+      7008,
+      13,
+      1115,
+      5224,
+      374,
+      512,
+      27,
+      91,
+      78191,
+      91,
+      397
+    ],
+    "tokens": [
+      {
+        "position": 0,
+        "id": 27,
+        "text": "<"
+      },
+      {
+        "position": 1,
+        "id": 91,
+        "text": "|"
+      },
+      {
+        "position": 2,
+        "id": 882,
+        "text": "user"
+      },
+      {
+        "position": 3,
+        "id": 91,
+        "text": "|"
+      },
+      {
+        "position": 4,
+        "id": 397,
+        "text": ">\n"
+      },
+      {
+        "position": 5,
+        "id": 791,
+        "text": "The"
+      },
+      {
+        "position": 6,
+        "id": 3363,
+        "text": " city"
+      },
+      {
+        "position": 7,
+        "id": 315,
+        "text": " of"
+      },
+      {
+        "position": 8,
+        "id": 27286,
+        "text": " Tokyo"
+      },
+      {
+        "position": 9,
+        "id": 374,
+        "text": " is"
+      },
+      {
+        "position": 10,
+        "id": 304,
+        "text": " in"
+      },
+      {
+        "position": 11,
+        "id": 6457,
+        "text": " Japan"
+      },
+      {
+        "position": 12,
+        "id": 13,
+        "text": "."
+      },
+      {
+        "position": 13,
+        "id": 1115,
+        "text": " This"
+      },
+      {
+        "position": 14,
+        "id": 5224,
+        "text": " statement"
+      },
+      {
+        "position": 15,
+        "id": 374,
+        "text": " is"
+      },
+      {
+        "position": 16,
+        "id": 25,
+        "text": ":"
+      },
+      {
+        "position": 17,
+        "id": 8378,
+        "text": " TRUE"
+      },
+      {
+        "position": 18,
+        "id": 198,
+        "text": "\n"
+      },
+      {
+        "position": 19,
+        "id": 791,
+        "text": "The"
+      },
+      {
+        "position": 20,
+        "id": 3363,
+        "text": " city"
+      },
+      {
+        "position": 21,
+        "id": 315,
+        "text": " of"
+      },
+      {
+        "position": 22,
+        "id": 473,
+        "text": " H"
+      },
+      {
+        "position": 23,
+        "id": 73803,
+        "text": "anoi"
+      },
+      {
+        "position": 24,
+        "id": 374,
+        "text": " is"
+      },
+      {
+        "position": 25,
+        "id": 304,
+        "text": " in"
+      },
+      {
+        "position": 26,
+        "id": 28702,
+        "text": " Poland"
+      },
+      {
+        "position": 27,
+        "id": 13,
+        "text": "."
+      },
+      {
+        "position": 28,
+        "id": 1115,
+        "text": " This"
+      },
+      {
+        "position": 29,
+        "id": 5224,
+        "text": " statement"
+      },
+      {
+        "position": 30,
+        "id": 374,
+        "text": " is"
+      },
+      {
+        "position": 31,
+        "id": 25,
+        "text": ":"
+      },
+      {
+        "position": 32,
+        "id": 7989,
+        "text": " FALSE"
+      },
+      {
+        "position": 33,
+        "id": 198,
+        "text": "\n"
+      },
+      {
+        "position": 34,
+        "id": 791,
+        "text": "The"
+      },
+      {
+        "position": 35,
+        "id": 3363,
+        "text": " city"
+      },
+      {
+        "position": 36,
+        "id": 315,
+        "text": " of"
+      },
+      {
+        "position": 37,
+        "id": 10780,
+        "text": " Chicago"
+      },
+      {
+        "position": 38,
+        "id": 374,
+        "text": " is"
+      },
+      {
+        "position": 39,
+        "id": 304,
+        "text": " in"
+      },
+      {
+        "position": 40,
+        "id": 7008,
+        "text": " Canada"
+      },
+      {
+        "position": 41,
+        "id": 13,
+        "text": "."
+      },
+      {
+        "position": 42,
+        "id": 1115,
+        "text": " This"
+      },
+      {
+        "position": 43,
+        "id": 5224,
+        "text": " statement"
+      },
+      {
+        "position": 44,
+        "id": 374,
+        "text": " is"
+      },
+      {
+        "position": 45,
+        "id": 512,
+        "text": ":\n"
+      },
+      {
+        "position": 46,
+        "id": 27,
+        "text": "<"
+      },
+      {
+        "position": 47,
+        "id": 91,
+        "text": "|"
+      },
+      {
+        "position": 48,
+        "id": 78191,
+        "text": "assistant"
+      },
+      {
+        "position": 49,
+        "id": 91,
+        "text": "|"
+      },
+      {
+        "position": 50,
+        "id": 397,
+        "text": ">\n"
+      }
+    ],
+    "positions": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "anchors": {
+      "city": 37,
+      "country": 40,
+      "period": 41,
+      "readout": 50
+    },
+    "primary_form": "bare",
+    "candidate_ids": {
+      "spaced": {
+        "true": 8378,
+        "false": 7989
+      },
+      "bare": {
+        "true": 21260,
+        "false": 31451
+      }
+    },
+    "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+    "chat_wrapper_positions": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "chat_boundary_positions": [
+      45
+    ],
+    "differences": [
+      37
+    ],
+    "interface": "native"
+  },
+  "environment": {
+    "python": "3.10.20",
+    "platform": "Linux-5.4.0-196-generic-x86_64-with-glibc2.31",
+    "packages": {
+      "torch": "2.4.0+cu124",
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2",
+      "accelerate": "1.14.0",
+      "safetensors": "0.8.0",
+      "numpy": "2.2.6"
+    },
+    "forward_dtype": "bfloat16",
+    "score_dtype": "float32",
+    "attention": "sdpa",
+    "batch_size": 1,
+    "use_cache": false,
+    "tf32": false,
+    "seed": 0
+  },
+  "sources": {
+    "truth_patching/__init__.py": "e11d81e967e6bab86b70a51a23727f7d87c12c599cf251f27685d43b058a3eb3",
+    "truth_patching/engine.py": "1c781b583ff0684f3860e5e733f45b90a00b8b8b7163aa5e781331526e1bc066",
+    "truth_patching/preflight.py": "00e54e3fcf8210e25f61534f7fcfe6c323bc2c1938db4eae1fd02f5b14a3adc1",
+    "truth_patching/prompts.py": "ecb98ac9021aa92ab066b15abbcf32dba76d171fa77fd864b492064a4cb0a23f",
+    "truth_patching/report.py": "502cbf1a459b688032a22b67535548215e6ff6dc8676a0b1bf88c3707735f900",
+    "truth_patching/run.py": "299004709142982bb1724501e97c39d88361ed42c54f7b47e54f2c9a2f34b51e",
+    "truth_patching/store.py": "efd69b3bfe45bc5f850079b1623e25e830e83a558fd6af50931595ce2ffa967b",
+    "tests/test_engine.py": "dfb45e9a7c7abcc448894a9910987f0a2b08a3391607afe10973682a93f2f0a1",
+    "tests/test_prompts.py": "ad192a0afde228fc57355df91c523d795c81f42a4f3224396d19753022454c48",
+    "tests/test_recovery.py": "82bdecc4ab73a53d8b5be4980b1d0271c68af406da2f3b4814ca0d0f5cfe07d6",
+    "tests/test_store.py": "440ac4fb1936aa274d71bb3f9bd1438003865ec462bdc851766ec9469d2a36b4",
+    "configs/experiment.json": "68e596d406c75ed21a93d7477da7c7851c36019f02d78be8aa036a22312dd97c",
+    "configs/model_assets_expected.json": "698e87e5de6d2135423ffd4a648be2d8944e3ab3da79769317d89e3b078bb77b",
+    "scripts/prepare_sources.py": "4d0d56086598740ea65cb8cd40777863ccbcc0b7f0d2e73b72a8254fe81ec393",
+    "scripts/remote_pipeline.sh": "90402997bfcf9974bfe5caa6223d446c3cf585fb49c73b00887ddc7a917da5e5",
+    "third_party/geometry-of-truth/README.md": "f4442e2635b5820ff8bad0955da027e3a1c0f970eecd04f4efe36f246c87332c",
+    "third_party/geometry-of-truth/datasets/cities.csv": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+    "third_party/geometry-of-truth/patching.ipynb": "3e56f83f5729c1f908afdd9928aa1aaf6d97a1a73ced797cd9044e930d2b15ba",
+    "third_party/geometry-of-truth/patching.py": "7206e342ccde1deb95e272b33c7180b1d4517e4fa709d948ebba2df9580aeec8",
+    "third_party/source_manifest.json": "cf8a618d0f1b9d8e561ab0fd066745e3a65cb96be71a345c617d62c83a1542d1"
+  },
+  "asset_hashes": {
+    "config.json": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+    "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+    "generation_config.json": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+    "model.safetensors.index.json": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+    "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+    "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+    "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+    "model-00001-of-00004.safetensors": "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+    "model-00002-of-00004.safetensors": "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+    "model-00003-of-00004.safetensors": "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+    "model-00004-of-00004.safetensors": "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e"
+  },
+  "signature": "97f5d74769ff6c45c22f765e0fb03a09b4dda77eb208d9ec87e1328cea6fbc1f",
+  "schema_version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.10.20",
+  "platform": "Linux-5.4.0-196-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.4.0+cu124",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.8.0",
+    "accelerate": "1.14.0",
+    "numpy": "2.2.6"
+  },
+  "forward_dtype": "bfloat16",
+  "pca_dtype": "float32",
+  "attention": "sdpa",
+  "batch_size": 25,
+  "padding": "left",
+  "padding_token_id": 128001,
+  "position_ids": "attention_mask.cumsum-1; padding positions zero",
+  "tf32": false,
+  "use_cache": false,
+  "seed": 0
+}

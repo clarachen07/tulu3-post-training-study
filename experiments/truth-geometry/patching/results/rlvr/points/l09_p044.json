@@ -1,0 +1,29 @@
+{
+  "signature": "97f5d74769ff6c45c22f765e0fb03a09b4dda77eb208d9ec87e1328cea6fbc1f",
+  "stage": "rlvr",
+  "layer": 9,
+  "position": 44,
+  "scores": {
+    "spaced": {
+      "difference": -0.0625,
+      "true_logit": 13.1875,
+      "false_logit": 13.25,
+      "true_logprob": -8.492213249206543,
+      "false_logprob": -8.429713249206543,
+      "true_prob": 0.00020505891006905586,
+      "false_prob": 0.0002182840689783916,
+      "binary_true_prob": 0.4843800365924835
+    },
+    "bare": {
+      "difference": -0.75,
+      "true_logit": 17.75,
+      "false_logit": 18.5,
+      "true_logprob": -3.929713487625122,
+      "false_logprob": -3.179713487625122,
+      "true_prob": 0.01964930072426796,
+      "false_prob": 0.04159757122397423,
+      "binary_true_prob": 0.32082128524780273
+    }
+  },
+  "elapsed_seconds": 0.04970952495932579
+}

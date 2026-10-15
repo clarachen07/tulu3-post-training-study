@@ -1,0 +1,33 @@
+{
+  "data_changed": false,
+  "model_forwards": 0,
+  "reason": "Freeze axes geometry and retain full canvas to avoid PDF clipping; ordinary spaces in display-only labels.",
+  "matplotlib_version": "3.11.2",
+  "frozen_report_module_sha256": "502cbf1a459b688032a22b67535548215e6ff6dc8676a0b1bf88c3707735f900",
+  "export_script_sha256": "341c63b0724fd48451614a8c8563d39bea01b74f00ed2d1df4760730e885857d",
+  "original_server_exports": "_retrieved/figures",
+  "before": {
+    "figures/anchor_curves.pdf": "b2d74f5727612472f59d2a8163509a9c493335b0eff9f43f938cc5d2c0f0a96b",
+    "figures/anchor_curves.png": "471ac658218c08771d849dd1728c1ecf3b33f47c24fe7681f897ff26d177d25b",
+    "figures/delta_heatmaps.pdf": "d6b302a4f76f565517298b2b84f1dc9c5cfcd9e73cc491e04067e363a39db907",
+    "figures/delta_heatmaps.png": "2ff3acfd259592798893618795e640d5c2855f7d6bc4105af2bc362d11074fca",
+    "figures/raw_heatmaps.pdf": "eb475044ea38272a25d34f254003fcc9dbe9bfd7d2db0475ce9bdef56eb478f7",
+    "figures/raw_heatmaps.png": "74a1c0ad469524a52fa3ed899dd491cfd33058114aff45e0d5cdcefe99fbffbc"
+  },
+  "after": {
+    "figures/raw_heatmaps.png": "a2b714601ce652bcdaf71d43745f839c0b7bd3e3ed8d565efb03b46e5017155e",
+    "figures/raw_heatmaps.pdf": "7c77b1aeac04a1e4e0fd51920d788ae0e5b2259240d3c5d4742d9ab3051a4ce9",
+    "figures/delta_heatmaps.png": "bf61ede3b88b77be854d3bad3e4f728ce995b21418ff1d942d33ee1a788be1a2",
+    "figures/delta_heatmaps.pdf": "0c26f4c5d59409a4ccbc085b688680ca6dcbe027c6e457b56489b194391fbc84",
+    "figures/anchor_curves.png": "36a500dd381fbf32562eaf10fd962249e915095e31ebd6f7ee239b9f27024ea8",
+    "figures/anchor_curves.pdf": "ec11dbf1dac27bceda527d774c0c69bfa26dbfab6854ae4b347afc447d9962a1"
+  },
+  "original_server_hashes": {
+    "figures/anchor_curves.pdf": "38778a071f8e1fd8099ab664e9c974574877805783c2dc7eaf639da22a9bfd99",
+    "figures/anchor_curves.png": "68e1aaf2a53ee235b07c8227f88168a934623437e7b6597e08aba041cff86b0a",
+    "figures/delta_heatmaps.pdf": "b1d4db8e9390ac71819ec5969c3d97b3ad2ac83ddefb0dda8a646bebfc7b548f",
+    "figures/delta_heatmaps.png": "dee9b2c2fb026e73a0b9dfc9c7971ceed30d5fe19dd7ef5d7be2942196a55fb3",
+    "figures/raw_heatmaps.pdf": "249b81161ad3a543a3f7590fc46b45dcb9db271f5e018b7a33f8df9adb450e29",
+    "figures/raw_heatmaps.png": "13af4e1296c94f0d12710facfeb0f78b37dd02a31008fb9802e0f006b97c4792"
+  }
+}

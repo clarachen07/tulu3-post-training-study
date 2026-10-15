@@ -1,0 +1,905 @@
+{
+  "pca_refit": false,
+  "model_forwards": false,
+  "point_sampling": false,
+  "coordinate_transform": false,
+  "labels_used_for": "colors only",
+  "stage_order": [
+    "base",
+    "sft",
+    "dpo",
+    "rlvr"
+  ],
+  "main_block": 12,
+  "display_blocks": [
+    0,
+    6,
+    12,
+    14,
+    20,
+    31
+  ],
+  "dataset_rows": {
+    "cities": 1496,
+    "neg_cities": 1496,
+    "sp_en_trans": 354,
+    "neg_sp_en_trans": 354,
+    "larger_than": 1980,
+    "smaller_than": 1980,
+    "cities_cities_conj": 1498,
+    "cities_cities_disj": 1498,
+    "companies_true_false": 1200,
+    "common_claim_true_false": 4450,
+    "counterfact_true_false": 31964
+  },
+  "sources": {
+    "pca_experiment/configs/experiment.json": "6ce202a60bc775ecb068a4c4dd5ccf620f6171e7e12009000a0282d9265ec294",
+    "pca_experiment/third_party/geometry-of-truth/datasets/cities.csv": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+    "pca_experiment/third_party/geometry-of-truth/datasets/neg_cities.csv": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+    "pca_experiment/third_party/geometry-of-truth/datasets/sp_en_trans.csv": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+    "pca_experiment/third_party/geometry-of-truth/datasets/neg_sp_en_trans.csv": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+    "pca_experiment/third_party/geometry-of-truth/datasets/larger_than.csv": "406d6872e97910f3af5a031600d4932b5a567b8666e7545c8b446057471ad723",
+    "pca_experiment/third_party/geometry-of-truth/datasets/smaller_than.csv": "ee6b7cf668d7e0fb3f49a84ca8d510cb7e484ae029ef86ed238362e26ef61a44",
+    "pca_experiment/third_party/geometry-of-truth/datasets/cities_cities_conj.csv": "80e9987e8abcdd56ac8256d22b8ad6c2d6211e06a6c925c32cfcb0bc93d9d56d",
+    "pca_experiment/third_party/geometry-of-truth/datasets/cities_cities_disj.csv": "5f4883382bb3f8664fa9b0a51cfadec507e130bf21c94f3d04776ca923646565",
+    "pca_experiment/third_party/geometry-of-truth/datasets/companies_true_false.csv": "75a31139def9838dcaa4e2f1e5f3680f44f09f3c94553f9ad3b3a5a476124c8c",
+    "pca_experiment/third_party/geometry-of-truth/datasets/common_claim_true_false.csv": "1889b4793c2ebd13c767eea8b65ebd4a5c2da700567677d512097b495a262576",
+    "pca_experiment/third_party/geometry-of-truth/datasets/counterfact_true_false.csv": "5af51456d6dbd3a53d8e2ee6e4aadaca7eb02ff9136ad825866458e7283b5273",
+    "pca_experiment/results/base/pca_manifest.json": "236e1552a541901f20eee049c5b4148bc701374ce9509492cb26c6f0e349904c",
+    "pca_experiment/results/sft/pca_manifest.json": "5a5bba442ff69a10f9a75dcb9d68d199e7c75d4d4d9cfaabc2654f1fca3af837",
+    "pca_experiment/results/dpo/pca_manifest.json": "f8c1846ba895bbcc64eb71862f7c785ca32adcfe679497c1daf638305532b21c",
+    "pca_experiment/results/rlvr/pca_manifest.json": "91312b80586f3744d8dc1a7ab57a35e032b161036415ea1a5eb6732b7e0dc630",
+    "pca_experiment/results/base/pca/l12__cities.npz": "05dc1fc81230e7b0d6f9ee6f4045686a681c6d2a5e207872a30f508e990e20fe",
+    "pca_experiment/results/base/pca/l12__cities.json": "09f5d13e9271659d4870447eb8d7aed745d642e925239675b8b51d357823b473",
+    "pca_experiment/results/sft/pca/l12__cities.npz": "2450246e8d07812d60e095c9cafcb57ace8ca1c051f6f00edca0132757332636",
+    "pca_experiment/results/sft/pca/l12__cities.json": "f4ba54c2043532db28df768ab7324ffe4d2d446fb47aa4492dd47aec4442e45a",
+    "pca_experiment/results/dpo/pca/l12__cities.npz": "4f4f6a7ad062546faa098e4e2e867bb2b5dacde9a80a078b8f13e7677d6de963",
+    "pca_experiment/results/dpo/pca/l12__cities.json": "21224496d90aab7f40488e4cd3b7d75179cdd16f994bb66ae180dc98cfda3e7e",
+    "pca_experiment/results/rlvr/pca/l12__cities.npz": "b58b26e3a93b0aa99ae7e328732dade08fb3c2bfa41ba6ee689b6b3a36182027",
+    "pca_experiment/results/rlvr/pca/l12__cities.json": "cfd468dcb23bd16e8b0150762afe9f9ca5affa223f30a5db48f5b2008d758862",
+    "pca_experiment/results/base/pca/l12__sp_en_trans.npz": "db2f2ee582f1def5c6636d38bf653a4b4a2590c5bc9d2576bf94db9be487c094",
+    "pca_experiment/results/base/pca/l12__sp_en_trans.json": "56b8725c96ce60dfe49043b5eab1b4d2edb0529b9ee60802fee9bb0c44a77925",
+    "pca_experiment/results/sft/pca/l12__sp_en_trans.npz": "2d79c11189a8dd6700fc667ff40a247c56c241a2e298617505fe595d31153841",
+    "pca_experiment/results/sft/pca/l12__sp_en_trans.json": "87c16c6414168f982b333cbe3df473ec76511f2c4a70ee6780ef4dc97f956590",
+    "pca_experiment/results/dpo/pca/l12__sp_en_trans.npz": "62f58217ad994665b58d3555400e3bec9bb47c2faeffd432267471328b3df3d6",
+    "pca_experiment/results/dpo/pca/l12__sp_en_trans.json": "57ae1b9e668e35961f172ea3818520a1a47846327d1101bceeaba963cc57b5f3",
+    "pca_experiment/results/rlvr/pca/l12__sp_en_trans.npz": "5a35cf8105fd7718a10e60e865b3a55e6e2fde2f286a18770a1daf31f19539f5",
+    "pca_experiment/results/rlvr/pca/l12__sp_en_trans.json": "a27adabad0f819b3904935d20e5dcc7c8338106f15282c07e205bd32cb760cc2",
+    "pca_experiment/results/base/pca/l12__cities_cities_conj.npz": "85db2d6e79e7122af3329c661d251ca951806041a88fd46883215b8315979175",
+    "pca_experiment/results/base/pca/l12__cities_cities_conj.json": "c408d474c522a8804e3977a5a6efadd075322a26e6806609f1f3a0c46f7a6664",
+    "pca_experiment/results/sft/pca/l12__cities_cities_conj.npz": "9f61431399e9310782e6eed430e2dfd0cbbf90cddc9ea4d951a06bb0bbebd240",
+    "pca_experiment/results/sft/pca/l12__cities_cities_conj.json": "34ad29eb40c9ccd10f77ced4ad5a44464dda27417746c3a12e895a2c0df9bbe8",
+    "pca_experiment/results/dpo/pca/l12__cities_cities_conj.npz": "9f84f1f38f98916b945542b4caa76b280cc5fb93efe805eed3bba8303c81d55b",
+    "pca_experiment/results/dpo/pca/l12__cities_cities_conj.json": "d5cf39ab8af3f4678fdcfb1369f0de94280bbd2c157c8babfd21f56f6906f5b2",
+    "pca_experiment/results/rlvr/pca/l12__cities_cities_conj.npz": "222e3d010dcc10e0cae8dd0816c98e34952499e91bea43c71a35a222ef6ab6a3",
+    "pca_experiment/results/rlvr/pca/l12__cities_cities_conj.json": "0cc39b49e1b1f22398305f157f04519581c10e75bcdac4e160390534aac82324",
+    "pca_experiment/results/base/pca/l12__cities_cities_disj.npz": "1315c2436981bf246956b44837b1683dc2bd69db04a459b80360336957849f0c",
+    "pca_experiment/results/base/pca/l12__cities_cities_disj.json": "046e6ac4de9e6cbaf820a037e439b852473485aa448f898a62b96cb78e7f53e5",
+    "pca_experiment/results/sft/pca/l12__cities_cities_disj.npz": "53aba05033ae980d23382534b56b75b7865c6eb1fb43c6d93e817fedf355fd2f",
+    "pca_experiment/results/sft/pca/l12__cities_cities_disj.json": "28b8e9b09da5bc26b2c23b82f9d5cc2f857eb117696a103d7a200d8f741df2f3",
+    "pca_experiment/results/dpo/pca/l12__cities_cities_disj.npz": "1f1fe78711a4e18210139e2c4e00308d6d9d85e887a92c09df8a1f2c2abc9f3f",
+    "pca_experiment/results/dpo/pca/l12__cities_cities_disj.json": "68e5b1c600d48a99c0fe87c3abecdf32e54e2982d2e55cc51cc8e6b3d1a917ff",
+    "pca_experiment/results/rlvr/pca/l12__cities_cities_disj.npz": "1aa1170cfc7c71a8f5bdf78dc455042a804ed00704e955329cfbb6bd6957f495",
+    "pca_experiment/results/rlvr/pca/l12__cities_cities_disj.json": "5f6a00bfc4ecdf64df908a616597d2209b480c476843a84d73fa29d29370bd1e",
+    "pca_experiment/results/base/pca/l12__companies_true_false.npz": "5a645074940c8735946fc04b71b352ecfc1e485f22b981a07fd3f4b703d5cd5e",
+    "pca_experiment/results/base/pca/l12__companies_true_false.json": "2f944cec98792ac5693c566ee95a8231803b0592371f2596b7691214bdc98083",
+    "pca_experiment/results/sft/pca/l12__companies_true_false.npz": "fa40c812346f5299d07db2799e06b933484c055e32896d540afa2637385bfecf",
+    "pca_experiment/results/sft/pca/l12__companies_true_false.json": "7553b85593e2048014d37428659801ac562681156a7f3b7052469ed91ca1891f",
+    "pca_experiment/results/dpo/pca/l12__companies_true_false.npz": "8f738a26c6717689fa49916d2eec3aed040b91b7c2cfd6a20769ae9742ad41e0",
+    "pca_experiment/results/dpo/pca/l12__companies_true_false.json": "15907983b77f026d7bdbf1258885efd9dc9a88b1cd3daa9fd7561b63d945cb87",
+    "pca_experiment/results/rlvr/pca/l12__companies_true_false.npz": "9229477804dad2f0060580f5602416abc4599765f112360ed5a828a790a17e6f",
+    "pca_experiment/results/rlvr/pca/l12__companies_true_false.json": "ea1e1c33814f332276cd398826b1902d0d37d84b4fcc1ac954bc6919771d859e",
+    "pca_experiment/results/base/pca/l12__counterfact_true_false.npz": "9968ae8ed5d81a45ad9830fd4530e134a623d956a2d2361a4d0868ac229ed867",
+    "pca_experiment/results/base/pca/l12__counterfact_true_false.json": "6f92effcb07d720a45d228133259a45e663aecd5b12cec4312415e34e532b4d4",
+    "pca_experiment/results/sft/pca/l12__counterfact_true_false.npz": "b396bef1a7af66808e2f592a4f38b14d886bf85f00fff6a85dda5588d0fa6d10",
+    "pca_experiment/results/sft/pca/l12__counterfact_true_false.json": "e5983e92c70cb4699f544c3b19a7738f7f2eb494287998aa54370305f00db865",
+    "pca_experiment/results/dpo/pca/l12__counterfact_true_false.npz": "d4fdea344a484b8ad39ac4878a5bb3a6740e47f0927d54981686c4154f62bd50",
+    "pca_experiment/results/dpo/pca/l12__counterfact_true_false.json": "f8dd42a53d907fe0368780e3612110b2792914da9a623273f2fb3c794369bae8",
+    "pca_experiment/results/rlvr/pca/l12__counterfact_true_false.npz": "bd3ea457de31b43a682c6a8ca1aa9d978026df0afcb6be4af4e28c60af312b96",
+    "pca_experiment/results/rlvr/pca/l12__counterfact_true_false.json": "f69ffe7821e62b840b7af5244f525c0eb82871b52928ff93219eff78b3d4df64",
+    "pca_experiment/results/base/pca/l12__cities+neg_cities.npz": "4dedb41c72cbb2fea5439edd5eb6e58d1c2c4d658e81f12db9d33dc7e7e4b6ea",
+    "pca_experiment/results/base/pca/l12__cities+neg_cities.json": "08677f856f6965cf1c5685ce84c8a1e65903fd67ada16922d9510c1836725a9f",
+    "pca_experiment/results/sft/pca/l12__cities+neg_cities.npz": "8182d2d1d524eebc5ea2a50ad58c59ec9ee26dcb196e302d4bb7c362df4fc572",
+    "pca_experiment/results/sft/pca/l12__cities+neg_cities.json": "43b2ec2b886f8ad181ce2db65115cd0c2c50fa7d049c4d5035aa33eed608324e",
+    "pca_experiment/results/dpo/pca/l12__cities+neg_cities.npz": "9473b62575b36018a424ab2798bc12fe14585593bddd36b50f5c7d7db305c72b",
+    "pca_experiment/results/dpo/pca/l12__cities+neg_cities.json": "79a4f89aa9bc217aa67d1882272c003731500650d77bc69cd48db05079acb43b",
+    "pca_experiment/results/rlvr/pca/l12__cities+neg_cities.npz": "3727480031f43f25803cc55f24978bf04e91f18bcd42184fe5a7fd01277d4ebe",
+    "pca_experiment/results/rlvr/pca/l12__cities+neg_cities.json": "f3551d19fbf7f5bffefb70887f8a30508bfbfb98eef91b08da293f9230ae9e5e",
+    "pca_experiment/results/base/pca/l12__sp_en_trans+neg_sp_en_trans.npz": "6d0e96cbd587e699a3460461f078cefcf184c2c76098e07ef472318b654e3c5b",
+    "pca_experiment/results/base/pca/l12__sp_en_trans+neg_sp_en_trans.json": "91113967b541e54a7b09de05eb5f19ab2e03d3d0dc9bcb28e728ef7d839ce768",
+    "pca_experiment/results/sft/pca/l12__sp_en_trans+neg_sp_en_trans.npz": "4a795780344ddab45090335e9228d181c799f225885d70bb160efdbe7c589971",
+    "pca_experiment/results/sft/pca/l12__sp_en_trans+neg_sp_en_trans.json": "cedae7697b8cc28a19b30f94325c7d36fc326187f1188c4c284218495fd7a4e1",
+    "pca_experiment/results/dpo/pca/l12__sp_en_trans+neg_sp_en_trans.npz": "2c7142b10ba7aa8afa7cc1d3dccb853ac876230af962a86de70b5d3b026e50ea",
+    "pca_experiment/results/dpo/pca/l12__sp_en_trans+neg_sp_en_trans.json": "d8253261d1db850bd28a9e57d496cb06eb23bf0a8c027a74d4812a6d429fd15a",
+    "pca_experiment/results/rlvr/pca/l12__sp_en_trans+neg_sp_en_trans.npz": "de061c72f496b7201099d2a6fd844108768b4159686e22ab91570c56722f3b3d",
+    "pca_experiment/results/rlvr/pca/l12__sp_en_trans+neg_sp_en_trans.json": "196368343ce44ef7bc9f19a3f6f7b0ab90b4fefdd3e654e6559fe533bd4bed5e",
+    "pca_experiment/results/base/pca/l12__cross__cities.npz": "cb646ad78ee7fcf3e57b5bbcaef574b838a280f7ecda8e00573cf56446098db2",
+    "pca_experiment/results/base/pca/l12__cross__cities.json": "43463f604fe5eb08af6fc00b8b93fc71ba46a9cffd9a4523bf08a80e7108f10f",
+    "pca_experiment/results/sft/pca/l12__cross__cities.npz": "ac0510e69570388ec3101398374661d6b94069e4d1140dd167d1737e86c09260",
+    "pca_experiment/results/sft/pca/l12__cross__cities.json": "e343befcb6f33e3e389db4af8fbe24f7618665715ba23d41eb90d2eb384fc2fb",
+    "pca_experiment/results/dpo/pca/l12__cross__cities.npz": "b449994af178d303be16356da476ff02265a374dc2c5bb79e9d4c57ce3332e75",
+    "pca_experiment/results/dpo/pca/l12__cross__cities.json": "abad284b75d7ba9e6727fd0d35c915af9b46da07d1c13b540ee71550d1527421",
+    "pca_experiment/results/rlvr/pca/l12__cross__cities.npz": "576d4d1bc9895d9d2cc69ad5427f9c727c120622d2d1460ba6e8bd71d7b17798",
+    "pca_experiment/results/rlvr/pca/l12__cross__cities.json": "c8516d63381be6098e7d3cc09ca071ae2362e14cbec12460cdbb15cf20217f47",
+    "pca_experiment/results/base/pca/l00__cities+neg_cities.npz": "197904f8534024e74ef753c1d07ece4568b4f88acbb1ac985fcee1b3007cb45b",
+    "pca_experiment/results/base/pca/l00__cities+neg_cities.json": "c1949c02a01caa1f5177d132d8480b32a6c1a777526ee0c55eeb2117c7ec5b4e",
+    "pca_experiment/results/base/pca/l06__cities+neg_cities.npz": "d6f851142fa8d1c6319df7fead310afe5592507e5f9d03348bf39df9f13ccc0d",
+    "pca_experiment/results/base/pca/l06__cities+neg_cities.json": "79c6901d8170a828d096deb0fd26b9921113fd1884b726c3a9908b58f2ed0cfa",
+    "pca_experiment/results/base/pca/l14__cities+neg_cities.npz": "6ae525a2e2c60e5638de460d41bfd6efb3141a438d3859a29ad1d158fb77235a",
+    "pca_experiment/results/base/pca/l14__cities+neg_cities.json": "233d50348edf5a04ebed3da99b2931fa33a415f679b95cab210080347d6c136b",
+    "pca_experiment/results/base/pca/l20__cities+neg_cities.npz": "54f487e2838fe0bac78c70facf41a6a1a05bf0457266ca20c6bd08d62a989618",
+    "pca_experiment/results/base/pca/l20__cities+neg_cities.json": "8b4963abbd85f34855ab20048427fd398b1181c368c366a6c08fd45d9cc8f019",
+    "pca_experiment/results/base/pca/l31__cities+neg_cities.npz": "af35e7a5680131d12287922830576ff5377893ee565e4a752d85f96859efc85f",
+    "pca_experiment/results/base/pca/l31__cities+neg_cities.json": "22a9607c8312b3ad0a65641f0374a8ca30d54126f5a36e76ee95f5c372cc6900",
+    "pca_experiment/results/sft/pca/l00__cities+neg_cities.npz": "f7b2d0beced73d076cf6d115c134eddf5e45efabe15c231951d59f41721509de",
+    "pca_experiment/results/sft/pca/l00__cities+neg_cities.json": "1095f765c9947f237b02784ade2c014bbd8e4933fef8b02e114f010d7f0df30d",
+    "pca_experiment/results/sft/pca/l06__cities+neg_cities.npz": "15b633ddf7fa6c84e92622cbffbd9fdfa73c1780a621ab58ad8391d129e78444",
+    "pca_experiment/results/sft/pca/l06__cities+neg_cities.json": "69b33c2fb3aa1877fc7553c12fc978b6c7926d51733827f019174ae5a32d4de1",
+    "pca_experiment/results/sft/pca/l14__cities+neg_cities.npz": "5662fbc298bf058c3e8e2889b4dd2d8e0b66bfe99117fb3cb4fedf06f72b777b",
+    "pca_experiment/results/sft/pca/l14__cities+neg_cities.json": "ec8a4d3412f5c506862dfeb96b5f5f3f8cce38a16c1c0b193320e47af250ab14",
+    "pca_experiment/results/sft/pca/l20__cities+neg_cities.npz": "2f1598af8cd2a7d4aeefc1f54dde31ee13047d6578b431ec4f40e004191e90d7",
+    "pca_experiment/results/sft/pca/l20__cities+neg_cities.json": "ef280a8d7709ec029ead05e98b5cf7c154fdcec43f13e2178c553208a30517b3",
+    "pca_experiment/results/sft/pca/l31__cities+neg_cities.npz": "314321735935e17c518f22d351413dcb9e53e5aede18f84131397a0d921b3610",
+    "pca_experiment/results/sft/pca/l31__cities+neg_cities.json": "c810b6c473a73b23c2fcf9292f8b7c4e19933da361463f3d978f22c4f6cba3a8",
+    "pca_experiment/results/dpo/pca/l00__cities+neg_cities.npz": "6a58df75e12fbb2a753455b7371483e5b24fb0ffcf5e78ad31502754ec9e7f2b",
+    "pca_experiment/results/dpo/pca/l00__cities+neg_cities.json": "4b3dfd1096a1371459ec97bb3feab4f1178fc8fb309fedd2a61910deefb9e4ac",
+    "pca_experiment/results/dpo/pca/l06__cities+neg_cities.npz": "5b7b278749768ef86eeb5ae41c7bba988d1876e498a2da6b69211aee53a1aa80",
+    "pca_experiment/results/dpo/pca/l06__cities+neg_cities.json": "ffd8f63bb6f3cc952239b7440773a8d67324091d5d23aab38f44ea9ae01809e4",
+    "pca_experiment/results/dpo/pca/l14__cities+neg_cities.npz": "6f92eeb5d53d219a8aad41e305471b2af5bdd53b1b3d7cdee75a7ecbf71bb39b",
+    "pca_experiment/results/dpo/pca/l14__cities+neg_cities.json": "67e531aa7d9c1c310359aaf8b9d1d59196ac199a14d315479d2be756cc580a0e",
+    "pca_experiment/results/dpo/pca/l20__cities+neg_cities.npz": "0c6e44bfa4e74811a4c1f044a87452fe6f599db08b13c8f8d4569e3d83880afc",
+    "pca_experiment/results/dpo/pca/l20__cities+neg_cities.json": "d3f8480a816ea469c399e74bab1e32dda02cc50836745a506111693e03f4e127",
+    "pca_experiment/results/dpo/pca/l31__cities+neg_cities.npz": "0b165182b0d367c0790dee4e50127358347406bf4dbbc13e7aab409154f8bed3",
+    "pca_experiment/results/dpo/pca/l31__cities+neg_cities.json": "e53bcfb45c364985afe9c48691f3855c426e0a14f442d9a424f1ffa387d007ea",
+    "pca_experiment/results/rlvr/pca/l00__cities+neg_cities.npz": "0bf3cc694978cb6998247315a2202acb5ea66328ea7ba524acee6a88cfc3efd2",
+    "pca_experiment/results/rlvr/pca/l00__cities+neg_cities.json": "671b8b8d3019c6eb460610880b018db7f842a418c6935c44f33bf1d6e2c46650",
+    "pca_experiment/results/rlvr/pca/l06__cities+neg_cities.npz": "9d06ba91b60fbf3913d75de218266424ebaa5ae2dddabc1b3bf2dfb87a705cea",
+    "pca_experiment/results/rlvr/pca/l06__cities+neg_cities.json": "5e8ef6299807bbec7e512406a59ec74338b3e7f389e7df30c3baeb2bdea20343",
+    "pca_experiment/results/rlvr/pca/l14__cities+neg_cities.npz": "ace6cecf549fabd3f400080c89da8253d606b18abbe9ad86f0e8610c80f0abde",
+    "pca_experiment/results/rlvr/pca/l14__cities+neg_cities.json": "697827cb8618c63435e6cce3c4ce7e19b206cfad52fdbf67f361ffa57921a2cc",
+    "pca_experiment/results/rlvr/pca/l20__cities+neg_cities.npz": "8c9d148c86dc63ab9eb17a83cd4e8fe4015354446a12971f233b16c6d1fcc8cc",
+    "pca_experiment/results/rlvr/pca/l20__cities+neg_cities.json": "1c36ffd41d431dbb71498b2e289c35948efbb475ad170889091d24be7525703b",
+    "pca_experiment/results/rlvr/pca/l31__cities+neg_cities.npz": "f72a5d128733462e4ca207e397d9c9f9e1eab48577f7a709270ed33e46d33e44",
+    "pca_experiment/results/rlvr/pca/l31__cities+neg_cities.json": "ce64c356fe4e5d390ee3f68ba7a41494c20d8646720d724a74d2c6d276c9acc6"
+  },
+  "panels": [
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cities",
+      "datasets": [
+        "cities"
+      ],
+      "points": 1496
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cities",
+      "datasets": [
+        "cities"
+      ],
+      "points": 1496
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cities",
+      "datasets": [
+        "cities"
+      ],
+      "points": 1496
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cities",
+      "datasets": [
+        "cities"
+      ],
+      "points": 1496
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "sp_en_trans",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "sp_en_trans",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "sp_en_trans",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "sp_en_trans",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cities_cities_conj",
+      "datasets": [
+        "cities_cities_conj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cities_cities_conj",
+      "datasets": [
+        "cities_cities_conj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cities_cities_conj",
+      "datasets": [
+        "cities_cities_conj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cities_cities_conj",
+      "datasets": [
+        "cities_cities_conj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cities_cities_disj",
+      "datasets": [
+        "cities_cities_disj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cities_cities_disj",
+      "datasets": [
+        "cities_cities_disj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cities_cities_disj",
+      "datasets": [
+        "cities_cities_disj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cities_cities_disj",
+      "datasets": [
+        "cities_cities_disj"
+      ],
+      "points": 1498
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "companies_true_false",
+      "datasets": [
+        "companies_true_false"
+      ],
+      "points": 1200
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "companies_true_false",
+      "datasets": [
+        "companies_true_false"
+      ],
+      "points": 1200
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "companies_true_false",
+      "datasets": [
+        "companies_true_false"
+      ],
+      "points": 1200
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "companies_true_false",
+      "datasets": [
+        "companies_true_false"
+      ],
+      "points": 1200
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "counterfact_true_false",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "counterfact_true_false",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "counterfact_true_false",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "counterfact_true_false",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "sp_en_trans+neg_sp_en_trans",
+      "datasets": [
+        "sp_en_trans",
+        "neg_sp_en_trans"
+      ],
+      "points": 708
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "sp_en_trans+neg_sp_en_trans",
+      "datasets": [
+        "sp_en_trans",
+        "neg_sp_en_trans"
+      ],
+      "points": 708
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "sp_en_trans+neg_sp_en_trans",
+      "datasets": [
+        "sp_en_trans",
+        "neg_sp_en_trans"
+      ],
+      "points": 708
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "sp_en_trans+neg_sp_en_trans",
+      "datasets": [
+        "sp_en_trans",
+        "neg_sp_en_trans"
+      ],
+      "points": 708
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "neg_sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "neg_sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "neg_sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "neg_sp_en_trans"
+      ],
+      "points": 354
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "common_claim_true_false"
+      ],
+      "points": 4450
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "common_claim_true_false"
+      ],
+      "points": 4450
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "common_claim_true_false"
+      ],
+      "points": 4450
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "common_claim_true_false"
+      ],
+      "points": 4450
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cross__cities",
+      "datasets": [
+        "counterfact_true_false"
+      ],
+      "points": 31964
+    },
+    {
+      "stage": "base",
+      "block": 0,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "base",
+      "block": 6,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "base",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "base",
+      "block": 14,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "base",
+      "block": 20,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "base",
+      "block": 31,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "sft",
+      "block": 0,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "sft",
+      "block": 6,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "sft",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "sft",
+      "block": 14,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "sft",
+      "block": 20,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "sft",
+      "block": 31,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "dpo",
+      "block": 0,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "dpo",
+      "block": 6,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "dpo",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "dpo",
+      "block": 14,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "dpo",
+      "block": 20,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "dpo",
+      "block": 31,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "rlvr",
+      "block": 0,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "rlvr",
+      "block": 6,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "rlvr",
+      "block": 12,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "rlvr",
+      "block": 14,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "rlvr",
+      "block": 20,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    },
+    {
+      "stage": "rlvr",
+      "block": 31,
+      "fit_asset": "cities+neg_cities",
+      "datasets": [
+        "cities",
+        "neg_cities"
+      ],
+      "points": 2992
+    }
+  ],
+  "outputs": [
+    {
+      "path": "figures/integrated_report/individual_controlled.png",
+      "sha256": "b4492ac2fbded42c32c9a61df9aa9f7f9c1752f655a86327180c5eb2ecb58b46"
+    },
+    {
+      "path": "figures/integrated_report/individual_overlap.png",
+      "sha256": "32082825db09277955d6452cb4e38e4b892f76a09acf03cd54c0f01290acae66"
+    },
+    {
+      "path": "figures/integrated_report/joint_negations.png",
+      "sha256": "be4e95d65ba63fc8dbd1d298646d2be9cd890751b1a86b94882883a68850a05a"
+    },
+    {
+      "path": "figures/integrated_report/cities_basis_translation.png",
+      "sha256": "c10f5f03920e0b2fb808d13d0fd19569746468df40a47c7e2052b747589534b3"
+    },
+    {
+      "path": "figures/integrated_report/cities_basis_uncurated.png",
+      "sha256": "17bd763d4942e2e55aa4e388723c3be730d3b009b2465938f0952b986a705891"
+    },
+    {
+      "path": "figures/integrated_report/cities_negation_layers.png",
+      "sha256": "9a4f75a4c1955f0b70b9aa22a2fb76345ba0e015a549997a6152626b3339ab4e"
+    }
+  ],
+  "paper_images": [
+    {
+      "path": "figures/integrated_report/paper_fig1.png",
+      "url": "https://arxiv.org/html/2310.06824v3/fig1-crop.png",
+      "sha256": "7f725c73b1967855ce1660a1180dc0e99978f0d8ffc2713543b550ae92021efe",
+      "modified": false,
+      "attribution": "Samuel Marks and Max Tegmark, arXiv:2310.06824v3, CC BY 4.0"
+    },
+    {
+      "path": "figures/integrated_report/paper_fig2.png",
+      "url": "https://arxiv.org/html/2310.06824v3/patching.png",
+      "sha256": "1b3e7e53f99c7ffef6ca22ad89a638e7a47f2f45e2d622eed987636392204e6c",
+      "modified": false,
+      "attribution": "Samuel Marks and Max Tegmark, arXiv:2310.06824v3, CC BY 4.0"
+    },
+    {
+      "path": "figures/integrated_report/paper_fig3.png",
+      "url": "https://arxiv.org/html/2310.06824v3/comparative-visualizations.png",
+      "sha256": "8bd0dd39fd809366ec69cb98260c5f280dfe70746011afc77f9ba0b29d07f569",
+      "modified": false,
+      "attribution": "Samuel Marks and Max Tegmark, arXiv:2310.06824v3, CC BY 4.0"
+    },
+    {
+      "path": "figures/integrated_report/paper_fig8.png",
+      "url": "https://arxiv.org/html/2310.06824v3/emergent_orthogonality-crop.png",
+      "sha256": "41537dbe099bbd0f480522ca693d90c003c4e74b6d238180a959734672b0cd60",
+      "modified": false,
+      "attribution": "Samuel Marks and Max Tegmark, arXiv:2310.06824v3, CC BY 4.0"
+    }
+  ],
+  "matplotlib_version": "3.11.2",
+  "numpy_version": "2.2.6"
+}

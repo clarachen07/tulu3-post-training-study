@@ -1,0 +1,14 @@
+{
+  "signature": "6d619092dc54e55e3703159e6d28436a7bf606441677abf0ed3db9a55fb62c06",
+  "fit_dataset": "sp_en_trans",
+  "layer": 14,
+  "targets": [
+    "cities",
+    "larger_than",
+    "sp_en_trans",
+    "counterfact_true_false",
+    "cities_cities_disj"
+  ],
+  "sha256": "4170301657846d850d464d6a54ff1a021ce1a1a849deda61b7e0f9512c96d270",
+  "filename": "l14__cross__sp_en_trans.npz"
+}

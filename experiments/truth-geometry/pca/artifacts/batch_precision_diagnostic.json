@@ -1,0 +1,80 @@
+{
+  "False": {
+    "passed": false,
+    "batch_size": 25,
+    "checks": [
+      {
+        "name": "batch_vs_single_0",
+        "row_id": 0,
+        "max_abs_error": 0.1875,
+        "rms_error": 0.006849061232060194,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": true
+      },
+      {
+        "name": "batch_vs_single_1",
+        "row_id": 34,
+        "max_abs_error": 0.75,
+        "rms_error": 0.009625989012420177,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "batch_vs_single_2",
+        "row_id": 272,
+        "max_abs_error": 0.5,
+        "rms_error": 0.00970692653208971,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "last_capture_before_final_rmsnorm",
+        "raw_differs_from_final": true,
+        "max_abs_error": 0.0,
+        "passed": true
+      }
+    ]
+  },
+  "True": {
+    "passed": false,
+    "batch_size": 25,
+    "checks": [
+      {
+        "name": "batch_vs_single_0",
+        "row_id": 0,
+        "max_abs_error": 0.1875,
+        "rms_error": 0.006198015529662371,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "batch_vs_single_1",
+        "row_id": 34,
+        "max_abs_error": 0.5625,
+        "rms_error": 0.009017354808747768,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "batch_vs_single_2",
+        "row_id": 272,
+        "max_abs_error": 0.40625,
+        "rms_error": 0.009061653167009354,
+        "atol": 0.125,
+        "rtol": 0.03,
+        "passed": false
+      },
+      {
+        "name": "last_capture_before_final_rmsnorm",
+        "raw_differs_from_final": true,
+        "max_abs_error": 0.0,
+        "passed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "stage": "rlvr",
+  "model": {
+    "id": "allenai/Llama-3.1-Tulu-3-8B",
+    "revision": "666943798adbde0b1aff34626007e26986a3c107",
+    "path": "/home/ai/chenchen/projects/reasoning-geometry-pilot/models/Llama-3.1-Tulu-3-8B",
+    "interface": "native"
+  },
+  "protocol": {
+    "experiment": "section4_pca_visualization",
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "main_layer": 12,
+    "author_control_layer": 14,
+    "batch_size": 25,
+    "seed": 0,
+    "capture": "block_output_at_token_covering_final_statement_period_before_final_rmsnorm",
+    "native_interface_policy": "base_plain_completion__sft_dpo_rlvr_native_chat",
+    "add_generation_prompt": true,
+    "forward_dtype": "bfloat16",
+    "pca_dtype": "float32",
+    "pca": "per_dataset_center__covariance_eigh__top2__no_scaling",
+    "pc_sign": "largest_absolute_loading_positive",
+    "labels": "color_only",
+    "raw_activation_retention": "remote_only",
+    "comparability": "base_to_sft_changes_weights_and_wrapper",
+    "extraction_controls": {
+      "same_shape_same_padding": "bitwise_identity",
+      "different_batch_shapes": "max_relative_l2_per_block_le_8_bfloat16_epsilon",
+      "negative_control": "previous_token_first_block_exceeds_relative_limit",
+      "revision": "pre_extraction_diagnosed_shape_dependent_bfloat16_rounding"
+    }
+  },
+  "inputs": {
+    "cities": {
+      "sha256": "ac84bb77730ebdec00eee01ab0ed52e5b7e054d0050e47958b1e37b1627c6d15",
+      "rows": 1496,
+      "max_tokens": 29,
+      "template_suffix_merged_rows": 1496,
+      "statement_prefix_merged_rows": 0
+    },
+    "neg_cities": {
+      "sha256": "84602c3eff4411a23708167755641747578b511ce7e47692eaa7af2c1a821ee1",
+      "rows": 1496,
+      "max_tokens": 30,
+      "template_suffix_merged_rows": 1496,
+      "statement_prefix_merged_rows": 0
+    },
+    "sp_en_trans": {
+      "sha256": "b2de38693fb337e976b59150e61ab636721882ad91f0194867ea27902ffa0d06",
+      "rows": 354,
+      "max_tokens": 24,
+      "template_suffix_merged_rows": 354,
+      "statement_prefix_merged_rows": 354
+    },
+    "neg_sp_en_trans": {
+      "sha256": "f74feaa87528e1599a8dd644b9ba56e0712836d8fb7428ea3cc54411810ea173",
+      "rows": 354,
+      "max_tokens": 26,
+      "template_suffix_merged_rows": 354,
+      "statement_prefix_merged_rows": 354
+    },
+    "larger_than": {
+      "sha256": "5e8438de6ed7521c9ed98efd4206a8d152a73f52d21b26c7138b8ccd2f317e08",
+      "rows": 1980,
+      "max_tokens": 20,
+      "template_suffix_merged_rows": 1980,
+      "statement_prefix_merged_rows": 0
+    },
+    "smaller_than": {
+      "sha256": "5ab9272e4ff04ad26ae39153c2d1338f7fa0e606595d4f8080b8c3d746920316",
+      "rows": 1980,
+      "max_tokens": 20,
+      "template_suffix_merged_rows": 1980,
+      "statement_prefix_merged_rows": 0
+    },
+    "cities_cities_conj": {
+      "sha256": "0b37031ea7aa66519cd08d098a0e18023babaa54eaa7407671d53583804d2870",
+      "rows": 1498,
+      "max_tokens": 51,
+      "template_suffix_merged_rows": 1498,
+      "statement_prefix_merged_rows": 0
+    },
+    "cities_cities_disj": {
+      "sha256": "72cb00a8de12f8ef53874cd2b505d1e4752ff889ee4537be7fdedd3f4f768064",
+      "rows": 1498,
+      "max_tokens": 48,
+      "template_suffix_merged_rows": 1498,
+      "statement_prefix_merged_rows": 0
+    },
+    "companies_true_false": {
+      "sha256": "ae0b4d1d0ae57593c08546ca020cf525723dc27f1564b2580da471a08af1d6f0",
+      "rows": 1200,
+      "max_tokens": 56,
+      "template_suffix_merged_rows": 1200,
+      "statement_prefix_merged_rows": 0
+    },
+    "common_claim_true_false": {
+      "sha256": "8325205c2150ec87961601e961f91851adbcf4947b1c6975b19a729ca91e7a16",
+      "rows": 4450,
+      "max_tokens": 33,
+      "template_suffix_merged_rows": 4450,
+      "statement_prefix_merged_rows": 38
+    },
+    "counterfact_true_false": {
+      "sha256": "4d89048972e9f3843e729cf23ef678af7775eea34c9947890519de45f13d8290",
+      "rows": 31964,
+      "max_tokens": 34,
+      "template_suffix_merged_rows": 31964,
+      "statement_prefix_merged_rows": 0
+    }
+  },
+  "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}{{ '<|system|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'user' %}{{ '<|user|>\n' + message['content'] + '\n' }}{% elif message['role'] == 'assistant' %}{% if not loop.last %}{{ '<|assistant|>\n'  + message['content'] + eos_token + '\n' }}{% else %}{{ '<|assistant|>\n'  + message['content'] + eos_token }}{% endif %}{% endif %}{% if loop.last and add_generation_prompt %}{{ '<|assistant|>\n' }}{% endif %}{% endfor %}",
+  "environment": {
+    "python": "3.10.20",
+    "platform": "Linux-5.4.0-196-generic-x86_64-with-glibc2.31",
+    "packages": {
+      "torch": "2.4.0+cu124",
+      "transformers": "4.57.6",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0",
+      "accelerate": "1.14.0",
+      "numpy": "2.2.6"
+    },
+    "forward_dtype": "bfloat16",
+    "pca_dtype": "float32",
+    "attention": "sdpa",
+    "batch_size": 25,
+    "padding": "left",
+    "padding_token_id": 128256,
+    "position_ids": "attention_mask.cumsum-1; padding positions zero",
+    "tf32": false,
+    "use_cache": false,
+    "seed": 0
+  },
+  "sources": {
+    "truth_pca/__init__.py": "b010cf07d956a3ca4348c69d47e2d084dff94eb12dd5032ed73f1eca3218be3c",
+    "truth_pca/common.py": "deacfee220496afd152785e5de869698bd95ffd1409eaae7dd057d9fb71dbf0c",
+    "truth_pca/engine.py": "998ab68ad375cb3f4abd534564fbeadcefe43d01910c0928b070fe2ce561d276",
+    "truth_pca/inputs.py": "5650c4ae2b15d590163616f1e7f302f78dd318a577f08371325aa2c434bb581e",
+    "truth_pca/pca.py": "71efd9453a54898e08bb33ecb408f8457723b0bbe46e85b302bfcf5e81f31a18",
+    "truth_pca/preflight.py": "a901828a39e42881b6874cd467edff51555e001436e203e7659b5f37fe3f23ef",
+    "truth_pca/raw.py": "720a49e7975f2def62f945ccdbd9c0079dfaa58fb9ada8c67820b9394cfbf543",
+    "truth_pca/render.py": "b54c97db726fb5f59d5cfe20b87b5012960849079a6734381379d68e26aef01b",
+    "truth_pca/run.py": "4a050a03ec690ec5dc6422436301bb28a7d13536978af165b61deb7484600ed2",
+    "truth_pca/verify.py": "d2c6e5e27791ca9b4c0d3fa28128232f6742eec4c1c661dcf8c841e69f49afff",
+    "tests/test_protocol.py": "899a0d3fe582ba48fcad100a5cde0bbfa4ac4d7d5cb858ba09928b786b317426",
+    "scripts/prepare_sources.py": "a952c262619bacca557852f3b17a5d663dd816d42d2a43e733dff49648ba7bee",
+    "scripts/remote_pipeline.sh": "2571c9f7b1cd050239bfec0dc00d48bfc5cbc9945a56148d45d262f891ac93ad",
+    "configs/experiment.json": "6ce202a60bc775ecb068a4c4dd5ccf620f6171e7e12009000a0282d9265ec294",
+    "configs/model_assets_expected.json": "698e87e5de6d2135423ffd4a648be2d8944e3ab3da79769317d89e3b078bb77b",
+    "third_party/geometry-of-truth/README.md": "f4442e2635b5820ff8bad0955da027e3a1c0f970eecd04f4efe36f246c87332c",
+    "third_party/geometry-of-truth/config.ini": "ba2545b3e9fee4e2bd980145845cd71289e4466b818c8bf22769bbd6326b8b07",
+    "third_party/geometry-of-truth/dataexplorer.ipynb": "7b2a17efc04f727443343cfc9aa2992b713fa721e99f5a195e62f00f0d99d269",
+    "third_party/geometry-of-truth/datasets/cities.csv": "f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+    "third_party/geometry-of-truth/datasets/cities_cities_conj.csv": "80e9987e8abcdd56ac8256d22b8ad6c2d6211e06a6c925c32cfcb0bc93d9d56d",
+    "third_party/geometry-of-truth/datasets/cities_cities_disj.csv": "5f4883382bb3f8664fa9b0a51cfadec507e130bf21c94f3d04776ca923646565",
+    "third_party/geometry-of-truth/datasets/common_claim_true_false.csv": "1889b4793c2ebd13c767eea8b65ebd4a5c2da700567677d512097b495a262576",
+    "third_party/geometry-of-truth/datasets/companies_true_false.csv": "75a31139def9838dcaa4e2f1e5f3680f44f09f3c94553f9ad3b3a5a476124c8c",
+    "third_party/geometry-of-truth/datasets/counterfact_true_false.csv": "5af51456d6dbd3a53d8e2ee6e4aadaca7eb02ff9136ad825866458e7283b5273",
+    "third_party/geometry-of-truth/datasets/larger_than.csv": "406d6872e97910f3af5a031600d4932b5a567b8666e7545c8b446057471ad723",
+    "third_party/geometry-of-truth/datasets/neg_cities.csv": "66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+    "third_party/geometry-of-truth/datasets/neg_sp_en_trans.csv": "bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+    "third_party/geometry-of-truth/datasets/smaller_than.csv": "ee6b7cf668d7e0fb3f49a84ca8d510cb7e484ae029ef86ed238362e26ef61a44",
+    "third_party/geometry-of-truth/datasets/sp_en_trans.csv": "9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+    "third_party/geometry-of-truth/generate_acts.py": "46f74295abad2a530c1afcfc99074486963d9deb8587d659e7c89f4bcaa3a01f",
+    "third_party/geometry-of-truth/requirements.txt": "00a464145b438a0691ece927b224c28d58fb22023e244de884dc98b41ad7ac7b",
+    "third_party/geometry-of-truth/utils.py": "c189ce6d6a7155bde7ee6a647e0c14c1a71283796dd45d823f722d99d0dcf190",
+    "third_party/geometry-of-truth/visualization_utils.py": "45cf582f9eaa948ba439807afb61e4b513aaac3b607824959ade50c1e346e626",
+    "third_party/source_manifest.json": "3938a0dfa98a932cc0d6ad366e938bf756f58099d8828fddbf5e70f96b36bd95"
+  },
+  "asset_hashes": {
+    "config.json": "692eda9d4959e31191a4e8f4b166c9622cd086c6f97fb02e955cc5b986203a68",
+    "configuration.json": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+    "generation_config.json": "b5eebae1f29dc810287a9d868250aa112f6eaf62976f3ce33b14880939d6fc68",
+    "model.safetensors.index.json": "513502e35214aed7674c3ce8f541b265af75a38ed9ceec90d67d014f4d0d251b",
+    "special_tokens_map.json": "2c732a19d798dfa2591e920df4c34d0c801f2c55bc5b0ba119594e836ba97eaf",
+    "tokenizer.json": "a62e4ccfd19daf6c53aeca2c0f4474cb7d784bf1ee999f0214715615f46c802c",
+    "tokenizer_config.json": "23345dedb8c151b92b97f4f92a7bbe2116abdebfd1f7c9ff0c1459f4e044a457",
+    "model-00001-of-00004.safetensors": "35095a6a3152adf68904ecdf3d1a65c5c82d9a7dbfa88211b23bafe3803e3d77",
+    "model-00002-of-00004.safetensors": "acadaf200a0fb050fefa2b6c6326e5ec72540af7116e3471bf8ff167d6434fa8",
+    "model-00003-of-00004.safetensors": "b867464111dcec4a232d8fc2dc5a09d697fcf1a7c189c5aecb2d615dcaa9296c",
+    "model-00004-of-00004.safetensors": "a8fea16fac17367b7de7dfd39bdabb4af72148f8b861b1cce95daacba5d9fb0e"
+  },
+  "signature": "af2776fd947ac1c29302ba3b360c2fcea9894ce5f635b5255e614ed37aebd9ce"
+}

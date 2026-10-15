@@ -1,0 +1,17 @@
+{
+  "name": "cities_cities_disj",
+  "layer": 4,
+  "fit_datasets": [
+    "cities_cities_disj"
+  ],
+  "signature": "6d619092dc54e55e3703159e6d28436a7bf606441677abf0ed3db9a55fb62c06",
+  "filename": "l04__cities_cities_disj.npz",
+  "sha256": "5cc7ad9146c095cc9760c0a1187ccb1683d241a60c190bc29e549d8f97f33e14",
+  "rows": {
+    "cities_cities_disj": 1498
+  },
+  "checks": {
+    "orthogonality_max_abs_error": 5.960464477539062e-07,
+    "eigen_residual_relative": 2.703228005884739e-07
+  }
+}
