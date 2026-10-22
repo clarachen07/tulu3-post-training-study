@@ -24,6 +24,10 @@ Each directory under `experiments/` is a self-contained research task with its o
 
 The studies use different prompts, precisions, readouts and metrics. Their scores should not be pooled or interpreted as isolated causal effects of training algorithms.
 
+## GSM8K representation geometry
+
+The [BF16 ID experiment](experiments/gsm8k/id-bf16/README.md) adds all 1,319 test questions across the same four checkpoints, with TwoNN and correlation/covariance PCA before output and at four generated-output positions. It includes full-panel results and a 1,299-question common-complete sensitivity analysis. See the [Chinese report](experiments/gsm8k/id-bf16/reports/report.zh-CN.md) and the experiment's CPU verification and reproduction commands.
+
 ## Verification
 
 ```bash

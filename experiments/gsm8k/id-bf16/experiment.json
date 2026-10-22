@@ -1,0 +1,71 @@
+{
+  "protocol": "gsm8k-tulu-stages-id-bf16-v1",
+  "test_size": 1319,
+  "pilot_size": 8,
+  "gsm_revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+  "rlvr_revision": "7dbd180f5440c0b90f2944e6efea934b85437a95",
+  "models": [
+    {
+      "stage": "base",
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "path": "models/Llama-3.1-8B",
+      "wrapper": "plain"
+    },
+    {
+      "stage": "sft",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "path": "models/Llama-3.1-Tulu-3-8B-SFT",
+      "wrapper": "native"
+    },
+    {
+      "stage": "dpo",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "path": "models/Llama-3.1-Tulu-3-8B-DPO",
+      "wrapper": "native"
+    },
+    {
+      "stage": "rlvr",
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "path": "models/Llama-3.1-Tulu-3-8B",
+      "wrapper": "native"
+    }
+  ],
+  "anchors": [
+    0,
+    25,
+    50,
+    75,
+    100
+  ],
+  "inference": {
+    "dtype": "bfloat16",
+    "seed": 42,
+    "max_new_tokens": 2048,
+    "max_context": 8192,
+    "do_sample": false,
+    "stop": "\n\nQuestion:",
+    "attention_implementation": "eager",
+    "allow_tf32": false,
+    "quantization": null,
+    "device": "cuda:0"
+  },
+  "statistics": {
+    "fraction": 0.9,
+    "repeats": 20,
+    "seed": 20261007,
+    "ddof": 0,
+    "twonn_fit_fraction": 0.9,
+    "pca_threshold": 0.9,
+    "distance_dtype": "float64"
+  },
+  "readout": "raw_decoder_block_output_at_last_input_and_ceil_progress_output_tokens",
+  "truncation_policy": "all_primary_and_common_nonempty_nontruncated_sensitivity",
+  "interpretation": "descriptive_own_trajectories_and_native_wrappers",
+  "storage_dtype": "float32",
+  "analysis_dtype": "float64",
+  "precision_comparison": false
+}

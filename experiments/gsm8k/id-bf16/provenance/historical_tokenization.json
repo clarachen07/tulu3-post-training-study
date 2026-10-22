@@ -1,0 +1,85 @@
+{
+  "historical_exact_match": true,
+  "panels": [
+    {
+      "stage": "base",
+      "phase": "formal",
+      "n": 1319,
+      "min_length": 690,
+      "max_length": 853,
+      "last_token_ids": [
+        25
+      ]
+    },
+    {
+      "stage": "base",
+      "phase": "pilot",
+      "n": 8,
+      "min_length": 694,
+      "max_length": 794,
+      "last_token_ids": [
+        25
+      ]
+    },
+    {
+      "stage": "sft",
+      "phase": "formal",
+      "n": 1319,
+      "min_length": 697,
+      "max_length": 860,
+      "last_token_ids": [
+        397
+      ]
+    },
+    {
+      "stage": "sft",
+      "phase": "pilot",
+      "n": 8,
+      "min_length": 701,
+      "max_length": 801,
+      "last_token_ids": [
+        397
+      ]
+    },
+    {
+      "stage": "dpo",
+      "phase": "formal",
+      "n": 1319,
+      "min_length": 697,
+      "max_length": 860,
+      "last_token_ids": [
+        397
+      ]
+    },
+    {
+      "stage": "dpo",
+      "phase": "pilot",
+      "n": 8,
+      "min_length": 701,
+      "max_length": 801,
+      "last_token_ids": [
+        397
+      ]
+    },
+    {
+      "stage": "rlvr",
+      "phase": "formal",
+      "n": 1319,
+      "min_length": 697,
+      "max_length": 860,
+      "last_token_ids": [
+        397
+      ]
+    },
+    {
+      "stage": "rlvr",
+      "phase": "pilot",
+      "n": 8,
+      "min_length": 701,
+      "max_length": 801,
+      "last_token_ids": [
+        397
+      ]
+    }
+  ]
+}

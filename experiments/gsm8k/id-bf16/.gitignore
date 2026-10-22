@@ -1,0 +1,12 @@
+data/
+outputs/
+activations/
+cache/
+logs/
+status/
+runs/
+models/
+historical-cot/
+manifests/
+.workflow.lock
+.gpu0.lock

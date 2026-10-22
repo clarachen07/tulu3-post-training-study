@@ -17,6 +17,12 @@ The protocol contrast jointly changes the demonstrations and output instruction.
 
 Start with the [reasoning protocol](cot/README.md) or [direct-answer protocol](direct-answer/README.md). Each variant owns its code, configuration, dependencies, tests, run metadata, manifests and results. Some implementation files are intentionally identical so that the variants remain independently usable.
 
+## BF16 representation geometry
+
+The independent [BF16 ID experiment](id-bf16/README.md) compares all four checkpoints on the complete 1,319-question test set using the historical reasoning demonstrations. It measures TwoNN and both correlation/covariance PC-ID90 before output and at 25%, 50%, 75% and 100% of newly generated continuations. Results include a 1,299-question common-complete sensitivity panel. The BF16 generation budget is 2,048 tokens; these results are separate from the historical behavior protocols above.
+
+[Chinese geometry report](id-bf16/reports/report.zh-CN.md) · [Geometry results](id-bf16/reports/summary.csv) · [CPU checks and reproduction](id-bf16/README.md)
+
 ## Verification and figures
 
 From the study root, run `python scripts/verify_results.py` for aggregate consistency. From this directory, run `python render_combined_report.py` to rebuild the combined Chinese report and its four-line PNG/SVG chart from retained statistics. Matplotlib and a Chinese font are required; use `--font /path/to/font.ttf` if font auto-detection fails. Share `reports/report_zh.md` together with `reports/figures/` to preserve the embedded chart.

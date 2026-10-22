@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "checked_records": 5276,
+  "coverage": {
+    "base": {
+      "correct": 723,
+      "truncated": 14,
+      "empty_output": 0
+    },
+    "sft": {
+      "correct": 954,
+      "truncated": 7,
+      "empty_output": 0
+    },
+    "dpo": {
+      "correct": 1083,
+      "truncated": 0,
+      "empty_output": 0
+    },
+    "rlvr": {
+      "correct": 1126,
+      "truncated": 0,
+      "empty_output": 0
+    }
+  },
+  "geometry_caches": 1280,
+  "independent_numerical_cells": [
+    {
+      "stage": "base",
+      "anchor": 0,
+      "layer": 1
+    },
+    {
+      "stage": "sft",
+      "anchor": 25,
+      "layer": 16
+    },
+    {
+      "stage": "dpo",
+      "anchor": 75,
+      "layer": 32
+    },
+    {
+      "stage": "rlvr",
+      "anchor": 100,
+      "layer": 16
+    }
+  ],
+  "source_identity": "bb7a9d78a22f692a0723a3854baa5a7aef525fd82afae04607d7cb167fbb42bb",
+  "verified_utc": "2026-10-21T05:32:41.646728+00:00",
+  "independent_numerical_cells_skipped": []
+}

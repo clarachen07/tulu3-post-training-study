@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-21T05:32:50.572127+00:00",
+  "source_identity": "bb7a9d78a22f692a0723a3854baa5a7aef525fd82afae04607d7cb167fbb42bb",
+  "files": {
+    "reports/report.zh-CN.md": "04ccafe759b881c0338f4cf58d86dd5be4e326c2a7996dfd4c364ec80728f5f0",
+    "reports/figures/primary_twonn.png": "fe851ff9f200806668c6f28ea80506d4ee65d87ccb289b138e031e274959361d",
+    "reports/figures/primary_twonn.svg": "eb944bfe89bd3e96cb79763dbd923a708c090fbd409d46ab0604917cf21eacd1",
+    "reports/figures/primary_correlation.png": "b4570b4220d7a4e63050cc41d036668c735bd1d2a454d902bd788c88689f6b80",
+    "reports/figures/primary_correlation.svg": "5394f3ccbb15c43390f325cda05ff62c6ec509e3e03ab673701fcf1b681f6eb3",
+    "reports/figures/primary_covariance.png": "a43628ba30aea8f53bf5eaf1af60d9c64fe5a2f11068bef256798553ccb81091",
+    "reports/figures/primary_covariance.svg": "c40328ea1cc9b5bc4c411b76693f9197da97624feedb4cbcba6301a37d0e54dc",
+    "reports/figures/common_complete_twonn.png": "23c2746d6d1169d8ad361c48c42e46960e4a68b929facd658e19bdee7ae5b477",
+    "reports/figures/common_complete_twonn.svg": "0c804e1c8e123210f837bb6c3138d7a8657dc38eba8177ca222cdbf46064605f",
+    "reports/figures/common_complete_correlation.png": "c4e031820a7649a154ded54fcd51370753b8143560b673f252183507da47e737",
+    "reports/figures/common_complete_correlation.svg": "21258f9d51aced964883ad7c3d352d34868db170ecd57abb8c9c4092226120dd",
+    "reports/figures/common_complete_covariance.png": "6f93c53c45db70b10173655c9ebbfbcda10b698a87225d8605d3b65d3eff12f9",
+    "reports/figures/common_complete_covariance.svg": "4af88b080d7c147af24edb029a4c5be3dee485339b7bce1aca6f6861aba731a5",
+    "reports/shapes.csv": "72faa1dfb2c9ea4ff3ce4f41212763dc214bc8e25b7f199e9f7a14b88fdf8735",
+    "reports/paired_stage_deltas.csv": "1dd82d852fb1eca6a3a7d4e837fb4181cb09682ba618900ac2464e3f80360377",
+    "reports/paired_progress_deltas.csv": "ec82f8abc77b4d589c95fddc09be0eecc0bcec835df272ea033e20f09acdccd0"
+  }
+}

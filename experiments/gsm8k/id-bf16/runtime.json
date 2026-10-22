@@ -1,0 +1,6 @@
+{
+  "historical_root": "historical-cot",
+  "gpu_lock": ".gpu0.lock",
+  "minimum_free_gpu_mib": 23000,
+  "minimum_free_disk_gib": 25
+}
