@@ -1,0 +1,70 @@
+{
+  "protocol": "gsm8k-tulu-stages-answer-only-v1",
+  "rlvr_revision": "7dbd180f5440c0b90f2944e6efea934b85437a95",
+  "gsm_revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+  "train_size": 1024,
+  "test_size": 1319,
+  "pilot_size": 32,
+  "sample_seed": 42,
+  "pilot_seed": 43,
+  "bootstrap_seed": 20261003,
+  "bootstrap_replicates": 10000,
+  "inference": {
+    "dtype": "bfloat16",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "repetition_penalty": 1.0,
+    "max_tokens": 1024,
+    "max_model_len": 8192,
+    "max_num_seqs": 4,
+    "gpu_memory_utilization": 0.9,
+    "enforce_eager": true,
+    "stop": [
+      "\n\nQuestion:"
+    ],
+    "seed": 42,
+    "write_batch_size": 32
+  },
+  "models": [
+    {
+      "stage": "base",
+      "id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "path": "models/Llama-3.1-8B",
+      "wrapper": "plain"
+    },
+    {
+      "stage": "sft",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "revision": "f2a0b46b0cfda21003c6141b1ff837b7e165524d",
+      "path": "models/Llama-3.1-Tulu-3-8B-SFT",
+      "wrapper": "native"
+    },
+    {
+      "stage": "dpo",
+      "id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "revision": "a7beb67e33ffd01cc87ac3b46cadc1000985b8db",
+      "path": "models/Llama-3.1-Tulu-3-8B-DPO",
+      "wrapper": "native"
+    },
+    {
+      "stage": "rlvr",
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "revision": "666943798adbde0b1aff34626007e26986a3c107",
+      "path": "models/Llama-3.1-Tulu-3-8B",
+      "wrapper": "native"
+    }
+  ],
+  "answer_instruction": "Answer the question directly. Give only the final numerical answer, without calculations, reasoning steps, or explanations.",
+  "demo_answers": [
+    "6",
+    "5",
+    "39",
+    "8",
+    "9",
+    "29",
+    "33",
+    "8"
+  ],
+  "format_policy": "single numerical value; optional Answer:/Final answer:/The answer is prefix, boxed wrapper, math delimiters, surrounding whitespace and final period"
+}

@@ -8,7 +8,7 @@ Each directory under `experiments/` is a self-contained research task with its o
 
 | Task | Completed scope | Protocol and results |
 |---|---|---|
-| GSM8K | Two matched 8-shot protocols, reasoning and direct-answer demonstrations; 1,024 training-pool questions + 1,319 test questions × four checkpoints per protocol | [Overview](experiments/gsm8k/README.md) · [Combined Chinese report](experiments/gsm8k/reports/report_zh.md) |
+| GSM8K | Three matched 8-shot protocols: reasoning demonstrations, direct-answer demonstrations, and reasoning demonstrations with a direct-answer instruction; 1,024 training-pool questions + 1,319 test questions × four checkpoints per protocol | [Overview](experiments/gsm8k/README.md) · [Combined Chinese report](experiments/gsm8k/reports/report_zh.md) |
 | MATH500 | Full 500-question multi-seed evaluation, native-template comparison, template diagnostic and early 20-question pilot | [Overview](experiments/math500/README.md) · [Results](experiments/math500/docs/results-summary.md) |
 | Syntax / UD EWT | P0 and development-selected P3 on 2,077 test sentences; all 16 stage/prompt cells on dev128 | [Protocol](experiments/syntax/README.md) · [Results](experiments/syntax/results/final.md) · [Chinese report](experiments/syntax/results/report.zh.md) |
 | PrOntoQA | Layerwise TwoNN and correlation/covariance PCA on 1,440 fixed 3-hop inputs; 60,480 behavioral generations per order across 1/3/5-hop pools; paired sentence-order sensitivity | [Overview](experiments/prontoqa/README.md) · [Combined Chinese report](experiments/prontoqa/reports/report.zh-CN.md) |
@@ -18,6 +18,7 @@ Each directory under `experiments/` is a self-contained research task with its o
 ## Main findings
 
 - GSM8K reasoning-demonstration test accuracy rises from 55.50% (Base) to 85.22% (RLVR); direct-answer demonstrations yield 12.96% to 10.08%.
+- GSM8K with reasoning demonstrations and the direct-answer instruction yields 54.36% (Base) to 83.24% (RLVR), with only 0.00%–0.23% single-number format compliance. These scores do not establish accuracy under successfully enforced direct answering.
 - MATH500 pooled pass@16 is 79.2% for DPO and 80.6% for RLVR, with paired 95% CI for the difference [−1.4, +4.4] percentage points. Base has three seeds and is reported only through pass@12.
 - PrOntoQA geometry depends on layer, metric and preprocessing. Behavioral performance also depends on hop count, reasoning protocol and input template.
 - SSP's large marker-local advantage reverses at natural paragraph boundaries. Its behavior stage failed because `latex2sympy2` was unavailable; behavioral non-degradation is not established.
@@ -39,7 +40,7 @@ pip install -r experiments/prontoqa/requirements-analysis.txt
 python scripts/verify_results.py
 ```
 
-The root check verifies retained aggregate statistics and PrOntoQA chart coordinates. It does not rescore missing responses or recompute bootstrap intervals. Run each experiment's tests from its own directory with its documented dependencies; the syntax evaluator requires Python 3.11 or newer.
+The root check verifies retained aggregate statistics and PrOntoQA chart coordinates. It also reconstructs third-condition GSM8K bootstrap intervals from retained score tables; it does not rescore missing response text or recompute other experiments' intervals. Run each experiment's tests from its own directory with its documented dependencies; the syntax evaluator requires Python 3.11 or newer.
 
 ## Evidence and reproduction
 

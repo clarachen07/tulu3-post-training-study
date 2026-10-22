@@ -31,7 +31,10 @@ def read(path):
 def check_gsm8k():
     base = ROOT / 'experiments/gsm8k'
     summaries = {}
-    for condition in ('cot', 'direct-answer'):
+    conditions = ['cot', 'direct-answer']
+    if (base/'cot-direct-answer/reports/statistics.json').exists():
+        conditions.append('cot-direct-answer')
+    for condition in conditions:
         folder = base / condition / 'reports'
         evidence = read(folder / 'statistics.json')
         lookup = {(row['split'], row['stage']): row for row in evidence['summary']}
@@ -70,7 +73,43 @@ def check_gsm8k():
         require(row['both_correct']+row['wrong_to_correct']==new['correct'], 'GSM8K prompt contrast new partition differs')
         require(sum(row[k] for k in ('both_correct','correct_to_wrong','wrong_to_correct','both_wrong'))==row['n'], 'GSM8K contrast partition differs')
         close(row['delta'],new['accuracy']-old['accuracy'],'GSM8K prompt contrast differs')
-    return {'conditions':2, 'summary_cells':16, 'prompt_contrasts':8, 'rescoring_performed':False, 'bootstrap_recomputed':False}
+    prompt_contrasts = 8
+    if 'cot-direct-answer' in summaries:
+        import hashlib
+        folder = base/'cot-direct-answer/reports'
+        audit = read(folder/'independent_audit.json')
+        require(audit['status']=='passed' and audit['checked_records']==9372, 'New GSM8K audit incomplete')
+        for filename, key in [('statistics.json','statistics_sha256'),('comparison.json','comparison_sha256')]:
+            actual_hash = hashlib.sha256((folder/filename).read_bytes()).hexdigest()
+            if filename == 'comparison.json':
+                derivation = read(base/'cot-direct-answer/provenance/comparison_derivation.json')
+                require(derivation['historical_comparison_sha256']==audit[key] and derivation['published_comparison_sha256']==actual_hash, 'Sanitized GSM8K comparison identity differs')
+            else:
+                require(actual_hash==audit[key], 'New GSM8K audited hash mismatch')
+        new_contrasts = read(folder/'comparison.json')['pairs']
+        require(len(new_contrasts)==16, 'Incomplete third-condition GSM8K contrasts')
+        for row in new_contrasts:
+            key = row['split'],row['stage']
+            old,new = summaries[row['baseline']][key],summaries['cot-direct-answer'][key]
+            require(row['n']==old['n']==new['n'], 'New GSM8K contrast denominator differs')
+            require(row['old_correct']==old['correct'] and row['new_correct']==new['correct'], 'New GSM8K contrast marginals differ')
+            close(row['delta'],new['accuracy']-old['accuracy'],'New GSM8K contrast differs')
+            if row['paired_available']:
+                require(row['both_correct']+row['correct_to_wrong']==old['correct'], 'New GSM8K old transition marginal differs')
+                require(row['both_correct']+row['wrong_to_correct']==new['correct'], 'New GSM8K new transition marginal differs')
+                require(sum(row[k] for k in ('both_correct','wrong_to_correct','correct_to_wrong','both_wrong'))==row['n'], 'New GSM8K contrast partition differs')
+            else:
+                require(all(row[k] is None for k in ('ci_low','ci_high','both_correct','wrong_to_correct','correct_to_wrong','both_wrong')), 'Fabricated GSM8K paired evidence')
+        for row in summaries['cot-direct-answer'].values():
+            require(0<=row['correct_and_answer_only']<=min(row['correct'],row['answer_only']), 'Invalid correct-and-compliant GSM8K count')
+            close(row['correct_and_answer_only_rate'],row['correct_and_answer_only']/row['n'], 'Correct-and-compliant GSM8K rate differs')
+        prompt_contrasts += len(new_contrasts)
+        import importlib.util
+        spec = importlib.util.spec_from_file_location('gsm8k_score_publication', base/'cot-direct-answer/verify_publication.py')
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        module.verify(base/'cot-direct-answer')
+    return {'conditions':len(conditions), 'summary_cells':8*len(conditions), 'prompt_contrasts':prompt_contrasts, 'rescoring_performed':False, 'bootstrap_recomputed':'cot-direct-answer' in summaries, 'bootstrap_scope':'third-condition scores and 16 historical paired contrasts' if 'cot-direct-answer' in summaries else 'none'}
 
 
 def check_math500():

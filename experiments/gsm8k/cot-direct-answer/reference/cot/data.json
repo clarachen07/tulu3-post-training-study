@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-04T04:31:02.859391+00:00",
+  "config_hash": "8b9a5a19615c5e7fe9b5fea58434a2b157277dcae088e2b1c3c32bbf337202c6",
+  "source_files": {
+    "gsm8k-train.jsonl": {
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/train.jsonl",
+      "sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    },
+    "gsm8k-test.jsonl": {
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl",
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    "rlvr.parquet": {
+      "url": "https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints/resolve/7dbd180f5440c0b90f2944e6efea934b85437a95/data/train-00000-of-00001.parquet",
+      "sha256": "d4ff1f9c054129bfad71876be125c58c5eb18b4d57e8729c86fcfc126f2df300"
+    }
+  },
+  "source_counts": {
+    "rlvr_total": 29946,
+    "rlvr_gsm8k": 7473,
+    "gsm_train": 7473,
+    "gsm_test": 1319
+  },
+  "formal_counts": {
+    "train": 1024,
+    "test": 1319
+  },
+  "pilot_count": 32,
+  "all_rlvr_records_matched": true,
+  "matching": "whitespace-normalized question and numerical gold; one-to-one",
+  "duplicate_mapping_ambiguities": [],
+  "demonstration_overlap": {
+    "train": [],
+    "test": []
+  },
+  "train_test_question_overlap": [],
+  "prepared_files": {
+    "data/prepared/formal.jsonl": "feb0fc3b38ff26bb44377623f85f0401146ab6ef3d6478258d2e00fe168a5e58",
+    "data/prepared/rlvr_gsm8k_matches.jsonl": "1f562bd0ec0ed16504c6d97d8216efc31818fe1354c983361ebf221fbf03c706",
+    "data/prepared/pilot.jsonl": "515ed0dd991d30cb5c02ebaea08b25ef9830937caa7d926b3f0536f110b28494",
+    "data/prepared/eight_shot_prefix.txt": "bc46e5431781c23aafac35e1e27b356e598af7089b24a47851246d88ea856318"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checked_records": 9372,
+  "stage_split_cells": 8,
+  "baseline_checked_records": 9372,
+  "protocol_contrasts": 8,
+  "deterministic_comparison_cases_checked": 32,
+  "comparison_sha256": "1bce0ab457d0fc99454f463e42c0f76028b138913ced357c2a7975cc83db332d",
+  "frozen_files_verified": 28,
+  "published_weight_shards_verified": 16,
+  "formal_native_prompts_identical": true,
+  "paired_contrasts": 6,
+  "score_reconstruction": "separate regex/Decimal implementation; no production imports",
+  "statistics_sha256": "4724b260f30b9563463bbb60da59ae4c576719aa5d0ed3df665ba393b01cf535",
+  "bootstrap_replicates_per_split": 10000,
+  "maximum_interval_difference": 5.551115123125783e-17,
+  "scope": "frozen file hashes, raw output hashes, record/config fingerprints, raw answer scoring, completeness, manual prompt reconstruction, token hash, counts, paired changes and full bootstrap intervals independently rerun"
+}

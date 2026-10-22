@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-10-15T14:23:09.833396+00:00",
+  "formal_count": 9372,
+  "unchanged_output_and_job_files": 608,
+  "new_jobs": 0,
+  "regenerated_answers": 0,
+  "scope": "Real coordinator restart after completion; outputs and run records byte-identical"
+}

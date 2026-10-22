@@ -1,0 +1,11 @@
+.workflow.lock
+.gpu0.lock
+workflow.pid
+data/
+outputs/
+models/
+logs/
+status/
+runs/
+manifests/
+.report-env/

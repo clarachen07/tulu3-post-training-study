@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "Rebuilt original prepared inputs from the pinned raw data in a temporary empty workspace; no model generation",
+  "seconds": 4.978389322757721,
+  "prepared_files": {
+    "data/prepared/formal.jsonl": "feb0fc3b38ff26bb44377623f85f0401146ab6ef3d6478258d2e00fe168a5e58",
+    "data/prepared/rlvr_gsm8k_matches.jsonl": "1f562bd0ec0ed16504c6d97d8216efc31818fe1354c983361ebf221fbf03c706",
+    "data/prepared/pilot.jsonl": "515ed0dd991d30cb5c02ebaea08b25ef9830937caa7d926b3f0536f110b28494",
+    "data/prepared/eight_shot_prefix.txt": "bc46e5431781c23aafac35e1e27b356e598af7089b24a47851246d88ea856318"
+  }
+}

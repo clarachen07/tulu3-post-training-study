@@ -1,0 +1,7 @@
+{
+  "description": "Location-only sanitization of historical evidence keys; all numerical fields unchanged.",
+  "historical_comparison_sha256": "3cdf53bccf1a37ffeddf72f2682914ac4442621f7d94e4b09856dd478156583a",
+  "published_comparison_sha256": "30776936f555d28ebbf2126676187208d1483c9e35464bb2ef2e3c78be736d8e",
+  "historical_audit_sha256": "04814e47db3a0b438228a8606df7680e0206022ad67406d8d7d498ab36c87ab5",
+  "transform": "Replace configured absolute historical workspace prefixes by external-evidence/<condition>; preserve suffixes, hashes and all other values."
+}

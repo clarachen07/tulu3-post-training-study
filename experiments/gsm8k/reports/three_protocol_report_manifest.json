@@ -1,0 +1,17 @@
+{
+  "scope": "English publication rendering from verified retained score statistics; no inference or raw-answer rescoring",
+  "inputs": {
+    "cot/reports/statistics.json": "f36a65e1a8b3ccf1103bd1bc8ef92133000ed30c82bb99acd463648a9739eda6",
+    "direct-answer/reports/statistics.json": "4724b260f30b9563463bbb60da59ae4c576719aa5d0ed3df665ba393b01cf535",
+    "cot-direct-answer/reports/statistics.json": "3c0920a37f452744369f382c19bfa3bbaa687f7eed223bacedf6a9d6480b8bfb"
+  },
+  "outputs": {
+    "reports/figures/four-stage-accuracy.png": "60f956bb7e51a74f8b9459f2f906065d6796ed7efda6c14cfb137efe60c91f1d",
+    "reports/figures/four-stage-accuracy.svg": "71d88a77d920da7fc2bedd34ff3b78adb25c12effee5b66b6375c63753759943",
+    "reports/three_protocol_figure_data.csv": "b2b6dbd48d296fbb259d77c9ea7b86f5ae733ce44ec31cff434a087ece66873d",
+    "reports/report.md": "36a08b99edaf389ee0285d1ec108b3c400edae87cf1da468722d0bc0c9696c1a"
+  },
+  "renderer_sha256": "a0d3c27994369b1b08527f091fd07e66789d0d7293d10a28bf667d28d6889d1a",
+  "summary_cells": 24,
+  "historical_paired_contrasts": 16
+}

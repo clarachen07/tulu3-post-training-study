@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "rlvr_records_checked": 7473,
+  "train_sample_checked": 1024,
+  "test_checked": 1319,
+  "pilot_checked": 32,
+  "data_manifest_sha256": "9547ee22150db35a4d53658ff111c7a5947a085608b56fd2e8508126b34b76ee",
+  "implementation": "No production imports; byte-verified historical panel and raw data; exact ordered field-by-field transformation"
+}

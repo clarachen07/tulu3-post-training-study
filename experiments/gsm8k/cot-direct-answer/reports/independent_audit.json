@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_records": 9372,
+  "stage_split_cells": 8,
+  "published_weight_shards_verified": 16,
+  "frozen_files_verified": 48,
+  "paired_historical_contrasts": 16,
+  "aggregate_only_historical_contrasts": 0,
+  "statistics_sha256": "3c0920a37f452744369f382c19bfa3bbaa687f7eed223bacedf6a9d6480b8bfb",
+  "comparison_sha256": "3cdf53bccf1a37ffeddf72f2682914ac4442621f7d94e4b09856dd478156583a",
+  "bootstrap_replicates_per_split": 10000,
+  "maximum_interval_difference": 8.847089727481716e-17,
+  "scope": "Independent numerical and format parsers, ordered input transformation, hashes, prompts, completeness, counts, bootstrap intervals and verified available historical contrasts; no production imports"
+}

@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-15T12:17:25.948141+00:00",
+  "config_hash": "7a6f31bc2fb51237e21fd628107a0ac8e8a2fbfd4a6556f61494c71cfbbaba16",
+  "source_files": {
+    "gsm8k-train.jsonl": {
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/train.jsonl",
+      "sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    },
+    "gsm8k-test.jsonl": {
+      "url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl",
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    "rlvr.parquet": {
+      "url": "https://huggingface.co/datasets/allenai/RLVR-GSM-MATH-IF-Mixed-Constraints/resolve/7dbd180f5440c0b90f2944e6efea934b85437a95/data/train-00000-of-00001.parquet",
+      "sha256": "d4ff1f9c054129bfad71876be125c58c5eb18b4d57e8729c86fcfc126f2df300"
+    }
+  },
+  "source_counts": {
+    "rlvr_total": 29946,
+    "rlvr_gsm8k": 7473,
+    "gsm_train": 7473,
+    "gsm_test": 1319
+  },
+  "formal_counts": {
+    "train": 1024,
+    "test": 1319
+  },
+  "pilot_count": 32,
+  "all_rlvr_records_matched": true,
+  "matching": "whitespace-normalized question and numerical gold; one-to-one",
+  "duplicate_mapping_ambiguities": [],
+  "demonstration_overlap": {
+    "train": [],
+    "test": []
+  },
+  "train_test_question_overlap": [],
+  "prepared_files": {
+    "data/prepared/pilot.jsonl": "4ef8edc10d335837ecf410a419250023523d6198f691e1dca664699db1af983a",
+    "data/prepared/rlvr_gsm8k_matches.jsonl": "1f562bd0ec0ed16504c6d97d8216efc31818fe1354c983361ebf221fbf03c706",
+    "data/prepared/eight_shot_prefix.txt": "50c6fcbba02c10bf5e9cfeda7904f0ab5a5facd977748e7f51552d574ebad005",
+    "data/prepared/formal.jsonl": "690a551b899a7300cc1c1000999b5c1cb24d06fc4073f4ae969da8ff8b8e31f8"
+  },
+  "derivation": "Prepend unchanged direct-answer instruction and two newlines to original CoT content; all other fields unchanged",
+  "baseline_manifest_sha256": "90b36e2f8e719606272820632a41f03520304f102694dcd21d2db36c90adbbca"
+}
