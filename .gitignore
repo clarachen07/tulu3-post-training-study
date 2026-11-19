@@ -43,3 +43,4 @@ experiments/math500/pilot/outputs/
 # PrOntoQA sentence-order publication contains aggregates only.
 experiments/prontoqa/behavior-order-sensitivity/data/
 experiments/prontoqa/behavior-order-sensitivity/outputs/
+.obsidian/

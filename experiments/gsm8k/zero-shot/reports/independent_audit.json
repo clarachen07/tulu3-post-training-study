@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checked_records": 9372,
+  "stage_split_cells": 8,
+  "published_weight_shards_verified": 16,
+  "frozen_files_verified": 45,
+  "adjacent_stage_contrasts": 6,
+  "paired_historical_contrasts": 24,
+  "artifact_sha256": {
+    "reports/statistics.json": "c7ec5341bbf67c36c6c71346ace278ad59b3e0a59713ad892e7a72a1c52ba137",
+    "reports/per_question.csv": "ac971398e461bbd5a151fa452a80c82f6acc98d926fc7742e598bdbd1ec1d99b",
+    "reports/paired_changes.csv": "3532ac5c004236d61f8c4b7d9d685cae294b09db36371b59b299db7e961af207",
+    "reports/stage_summary.csv": "e1f8b8ef04da75a052b41e7454ac448ca5b25071f43a5667eaaec7362d1a4d34",
+    "reports/timing.csv": "787eccde34ca13910e9dc5a191692c9806e5efc92196f3e99502dca2f835b969",
+    "reports/comparison.json": "298a867fb324111158abe6ab317929af0aac98f68df5e416f647e5bc2d33b79d",
+    "reports/protocol_comparison.csv": "9fdfcf5910a0239efd72308f6b2662598c5cacb45ccd4f9420c515614973ca9d",
+    "reports/prompt_examples.json": "afcedd226f60802c60b370a19026484c7c03a9f256eac5596dfd5a5b98bbc96e",
+    "manifests/assets.json": "c45c4bc295e463fb9c52a0f7074722f59842cde23a06bd432b6bc998b38c6736",
+    "manifests/data.json": "54931abb8f0a7bca29186251593c35cf46cf6565e28134f2e88f7bb354b4f1ad",
+    "manifests/data_audit.json": "483769941775d9374dc24edbb170d0279d6835cb416e43c203e9dea7923bb74f",
+    "manifests/tokenization.json": "007ee1e6502a38db0814d2aed27d0459fade7454b3bf3ef9803acec9a08edfd2",
+    "manifests/frozen_protocol.json": "a628d5eeb1ed9d53f2f8932ca9b786ea7204eade3ca0e7c3c6baac8df470e7fa",
+    "manifests/resume_check.json": "570c9f5398d280e4198b7246a5ab9f7f75f351d2aa90b2bd89f61a99ee1f90b9"
+  },
+  "bootstrap_replicates_per_split": 10000,
+  "maximum_interval_difference": 1.1102230246251565e-16,
+  "scope": "Independent rescoring of all new raw answers and bootstrap reconstruction of all contrasts using verified retained historical scores"
+}
