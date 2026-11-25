@@ -1,0 +1,51 @@
+{
+  "findings": {
+    "PrOntoQA 3-hop": {
+      "middle_peaks": {
+        "twonn": [
+          "base",
+          "sft",
+          "dpo",
+          "rlvr"
+        ],
+        "correlation": [
+          "base",
+          "sft",
+          "dpo",
+          "rlvr"
+        ],
+        "covariance": [
+          "base",
+          "sft",
+          "dpo",
+          "rlvr"
+        ]
+      },
+      "strict_descending_pca_peaks": true,
+      "base_last_highest_to_lowest": true
+    },
+    "GSM8K 8-shot": {
+      "middle_peaks": {
+        "twonn": [],
+        "correlation": [],
+        "covariance": []
+      },
+      "strict_descending_pca_peaks": false,
+      "base_last_highest_to_lowest": false
+    },
+    "GSM8K zero-shot": {
+      "middle_peaks": {
+        "twonn": [],
+        "correlation": [],
+        "covariance": []
+      },
+      "strict_descending_pca_peaks": true,
+      "base_last_highest_to_lowest": false
+    }
+  },
+  "reference_sha256": {
+    "prontoqa/reports/id_summary.csv": "8fe4b978a34fff98ea9d14646b1d380d04bcf4945cf70023f4c5dfcb104bf092",
+    "prontoqa/pca/reports/summary.csv": "c2531393a8a20239cd09a4226aaae8384630de2c31baeebc1b73af70d6736ec8",
+    "gsm8k/id-bf16/reports/summary.csv": "8e17d73b7c26f506f472feee61e6e3fe44e60ef95af8d269b1b012b381c8071d"
+  }
+}

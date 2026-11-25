@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "replay_identity": "a2757f3db32b390a673133616bfa906bc6c255801c56872f3a8888bd25c16440",
+  "analysis_identity": "3e0ab3f5eb1a16e2f8e2298974ef27ba90fe7266a511d80fe8a2654a84f08a11",
+  "archive_statistics_sha256": "c7ec5341bbf67c36c6c71346ace278ad59b3e0a59713ad892e7a72a1c52ba137",
+  "checked_records": 5276,
+  "trajectory_issue": null,
+  "resume_sha256": "b79051c2407e9e914a559d0f825e1ed7b191d39240375962dea2f4fa98584281",
+  "independent_numerical_cells": [
+    {
+      "stage": "base",
+      "panel": "all_input",
+      "anchor": 0,
+      "layer": 1,
+      "estimates": {
+        "twonn": 21.054464946249475,
+        "correlation": 83,
+        "covariance": 72
+      }
+    },
+    {
+      "stage": "sft",
+      "panel": "all_input",
+      "anchor": 0,
+      "layer": 16,
+      "estimates": {
+        "twonn": 22.249956967386225,
+        "correlation": 254,
+        "covariance": 237
+      }
+    },
+    {
+      "stage": "dpo",
+      "panel": "all_trajectory",
+      "anchor": 50,
+      "layer": 16,
+      "estimates": {
+        "twonn": 12.079548360410344,
+        "correlation": 564,
+        "covariance": 510
+      }
+    },
+    {
+      "stage": "rlvr",
+      "panel": "all_trajectory",
+      "anchor": 100,
+      "layer": 32,
+      "estimates": {
+        "twonn": 16.638341495192897,
+        "correlation": 174,
+        "covariance": 141
+      }
+    }
+  ],
+  "artifacts": {
+    "analysis_manifest.json": "76f16510cecb014a296115d9ccd25294c986e1794a92a63a01484dc8d433125b",
+    "behavior.csv": "b182010e87dff43e688b5a4a0a36106274edd99d9e6c271b7dddfb33f59e3cb8",
+    "estimates.csv": "67b53286b86cae4f3da4b6f81071ea2e1f11f3bc015cf894870f7be92b0b6d8f",
+    "panels.json": "7bc4edbca48c9afe7b9985a5250958190c23592f99d6898e2844814a985f6c85",
+    "per_question.csv": "b00e4d1cfac346aecb7cab85f317db9644240e63c5529e798dba05d1b00b987f",
+    "scale_blocks.csv": "08c0d4695df074a64a1544a178c1ba7301930096707202f45f92c6aada6cd423",
+    "scale_summary.csv": "682a62699952d0cd8d5daa22a6b6c4cd234366cae90227328e9ca1bea0e55a01",
+    "schedules/all_input.npy": "a3e768767428f8bdbe9f6ff4801d8095d351dbd2c6448637a52f804bad478d4a",
+    "schedules/all_trajectory.npy": "a3e768767428f8bdbe9f6ff4801d8095d351dbd2c6448637a52f804bad478d4a",
+    "schedules/common_complete.npy": "1bec5f0906215058020ab3cb4be5f6122cc4b8df18566fa1969d191fbb98ae91",
+    "schedules/scale_permutations.npy": "7a8897aae27d64734dca57ce94638014b46b3c03be12d33dbdd09e7db0267572",
+    "summary.csv": "ef095b13394aef45c115346ce1f325593d8dbb57fac7b37a2923b7ce664733ce"
+  },
+  "checked_utc": "2026-11-19T19:58:31.345054+00:00"
+}

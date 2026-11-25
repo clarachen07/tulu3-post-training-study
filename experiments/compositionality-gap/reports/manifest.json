@@ -1,0 +1,13 @@
+{
+  "figure_values": "40927ca3888198016358e11f442fdb2b847aeccd593006fe126521c9ecbe427a",
+  "files": {
+    "decode-sensitivity.csv": "8181958d7380bf897b8896689a8e9c846d3bbcccacf44718bb8fe34c0f02ec6c",
+    "figure-1.svg": "e65a02042de69a9cb813d8888ac6c7e80038290db4c3727857ae0d30b937671a",
+    "figure-2.svg": "0fee6715b21a1f2054a5047860ffb8738001409fbca6d5a5fc2082cd512b5136",
+    "figure-values.json": "1931db48d7d55d43bd553f3621e5ce24277f82e8b3230eceb84e6cb35acd102b",
+    "metrics.csv": "c7593e46537fdaa04e73941ebb12eba6aeca0f0b6725f4e66a5467c4b1bc7878",
+    "metrics.json": "bf83c2718660e538cef18d917cfd919a852a8a218db767e13666962f72c54b79",
+    "report.zh-CN.md": "e33ad492a6096843d0628b26ed8312add3f242430e9c18e6d1b28794afb210d8"
+  },
+  "metrics": "3820f145a759d34771825bddb074d47c8f2fb9dcd55ff4bbb11d4b08366df833"
+}

@@ -1,0 +1,47 @@
+{
+  "capture": "f1fd00a4c895b2fcd1f889a2a262c0f0c61938ab03e4ca1fa0edf8d4e1efef85",
+  "capture_inventory": {
+    "activations/base/complete.json": "715d904c35f0c962a00ea767418d15e8bba9d9548106fcb83f7a1620a66c2230",
+    "activations/dpo/complete.json": "d667fe8646f451245827f899e74b7e1763ced42944deaf9fedbf601295d10d89",
+    "activations/rlvr/complete.json": "39455bd18e315cce3153efab571f27ddbe0266ac8d538e646fe7fc6e3f884d38",
+    "activations/sft/complete.json": "2105ffed3e0cbde666e64716cb418d64f7d6361244fcd230b2ac31fc80b114e4",
+    "pilot/base/complete.json": "cf5231fad8b8d34396f1afd1c6e6ce379b1c4cf752f16fcaba3a0d95d424582a",
+    "pilot/dpo/complete.json": "331426ba909fb9a2ad8460f3e59e653ba5403306ed1f4a3fbd618f6807dc9c8b",
+    "pilot/rlvr/complete.json": "127118495665b1be43a677a49c4d378ad15b16a932cfcad65594361bb25e6046",
+    "pilot/sft/complete.json": "c25fd1b9c106b5f512b40ec7b07167cfcef869aa18ee759c3b38adab3d430673"
+  },
+  "counts": {
+    "estimates": 12800,
+    "invalid_estimates": 0,
+    "layers": 32,
+    "panels": 5,
+    "stages": 4,
+    "summaries": 640
+  },
+  "files": {
+    "figures/antonym-spanish.png": "c43d95864a3c392335d538e93f450ea76e7703bcbd048104d9b9fba84d043be5",
+    "figures/antonym-spanish.svg": "2251e54de474f96a8625bc6641058136671f83fcf55ff0ba61bc9ef05f9bac96",
+    "figures/book-author-birthyear.png": "04dbb030e6333fa96d9f6acd1645e0b271c7e81695d8e9e00217cbf85c5907df",
+    "figures/book-author-birthyear.svg": "f11cdf7709c2b53f7cf9c118238e367439f367b379849cbc4719ef07808b0ccd",
+    "figures/mixed.png": "d1060a7c466abd006a3fd67e0a0b29ff180efd2ecfad5501cc00e279c53e6ee0",
+    "figures/mixed.svg": "d3b0dd3909873e5fc29d40a87c7da7a93b299edab900484a0c2a2f18760918ac",
+    "figures/park-country-capital.png": "7014db5fd331d1f803d9c56d675c82ea031d0c41616871cccf8a546004d70408",
+    "figures/park-country-capital.svg": "c69ffbc46724f6766a236a20830f814a28fd2c455c77d6e3e72d8183a4bcd20c",
+    "figures/plus-hundred-times-two.png": "47b0f61951d2dc3af4ed493a9fadbd0e1ec8eba6d98047ed7bd9958236c12f00",
+    "figures/plus-hundred-times-two.svg": "1dfa87cb59e8cd53953200192724c79ff901f6524a575bc42b4b4cb71e2d6bf8",
+    "id_replicates.csv": "5543bef35c3d251802da839a072907b23d6e3ea0c809e1e16fc8ede4b5671b84",
+    "id_summary.csv": "0b06db615a5f2c7c63c339f9622fb6be6b6504061bd571d2b12ea1d812dbfe20",
+    "report.zh-CN.md": "f46e3a072b6f1957d7dee3004af69690ae523428ce17081747d8e2c6b97a2dc8",
+    "sample_ids.csv": "2cb6991ed3553c510c8ce05cc923c9ce77db989038bbdde61eab5e74e4b671d6",
+    "subsamples.json": "59c83c3d3868094fdb6652015b91ea35ac2eee656bff47c49e48a7c494a6412b"
+  },
+  "input": "6f8682e55c41bcf7264b69dd5dab7d7b55b7202ef8ba70eb3027c64355537ad3",
+  "source": {
+    "estimator": "4bcc0d3d4a6a7534ed1c8e0b70a8527ef06c2c97d96dd73d700cace4753178cc",
+    "report": "e46aeec357739ac292303fd600455ff27a39c7f4ecd39eceac6e833c3041c41b"
+  },
+  "y_bounds": [
+    3.843798529228599,
+    48.407769261666985
+  ]
+}

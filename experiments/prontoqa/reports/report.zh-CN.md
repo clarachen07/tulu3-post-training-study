@@ -117,15 +117,15 @@ PrOntoQA 是 Saparov 和 He He 在 ICLR 2023 论文[《Language Models Are Greed
 
 ## 2. 表示几何子实验的设置与统计口径
 
-| 项目 | 已执行设置 |
-| --- | --- |
-| 数据 | 原版 PrOntoQA v1 固定版本生成；fictional ontology、preorder、公开 3-hop 定义、默认干扰项；1,440 道不同题目，True 737、False 703 |
-| 输入 | 零示例；题干与查询以一个空格连接，不含标准答案或证明。Base 为原生纯文本；SFT、DPO、RLVR 为原生 Tulu chat 模板，添加 assistant generation prompt |
-| 表示 | 每题每阶段取 32 个 raw decoder block 的最后有效输入位置，维数 4,096；不含 embedding 或最终 RMSNorm，不包含生成 token |
-| 数值精度 | FP32 前向与保存，不量化、不使用 TF32；TwoNN 距离和 PCA 数值计算均为 float64 |
-| 主曲线 | 共享 20 组无放回子样本，每组 1,296 题；所有阶段、层位和方法使用相同索引 |
-| 误差展示 | 均值 ± 总体标准差（SD，ddof=0）；子样本之间重叠，不是 20 次独立实验，SD 不是置信区间 |
-| 尺度检查 | 预先指定 L1、L16、L32；k=1…20，每个 k 使用固定随机排列分为 k 个互斥等长块，每块 floor(1,440/k) 题，余数丢弃 |
+| 项目   | 已执行设置                                                                                               |
+| ---- | --------------------------------------------------------------------------------------------------- |
+| 数据   | 原版 PrOntoQA v1 固定版本生成；fictional ontology、preorder、公开 3-hop 定义、默认干扰项；1,440 道不同题目，True 737、False 703  |
+| 输入   | 零示例；题干与查询以一个空格连接，不含标准答案或证明。Base 为原生纯文本；SFT、DPO、RLVR 为原生 Tulu chat 模板，添加 assistant generation prompt |
+| 表示   | 每题每阶段取 32 个 raw decoder block 的最后有效输入位置，维数 4,096；不含 embedding 或最终 RMSNorm，不包含生成 token               |
+| 数值精度 | FP32 前向与保存，不量化、不使用 TF32；TwoNN 距离和 PCA 数值计算均为 float64                                                |
+| 主曲线  | 共享 20 组无放回子样本，每组 1,296 题；所有阶段、层位和方法使用相同索引                                                           |
+| 误差展示 | 均值 ± 总体标准差（SD，ddof=0）；子样本之间重叠，不是 20 次独立实验，SD 不是置信区间                                                 |
+| 尺度检查 | 预先指定 L1、L16、L32；k=1…20，每个 k 使用固定随机排列分为 k 个互斥等长块，每块 floor(1,440/k) 题，余数丢弃                            |
 
 **TwoNN。** 在各样本集合内计算原始向量的欧氏距离，以第二近邻／第一近邻距离比及经验分布做过原点回归，保留排序比值最低 90%，沿用固定作者实现的末尾两点裁切规则。表示不做逐维标准化或 L2 归一化。这里的“抽取 90% 题目”和“拟合保留 90% 距离比值”是两项不同操作。
 
@@ -393,12 +393,12 @@ TwoNN 末层下降约 36.6%–48.4%，两种 PCA 同样出现明显变化，不�
 
 ### B. 固定检查点与参数
 
-| 阶段 | 固定模型标识 | 固定 revision |
-| --- | --- | --- |
-| Base | `meta-llama/Llama-3.1-8B` | `d04e592bb4f6aa9cfee91e2e20afa771667e1d4b` |
-| SFT | `allenai/Llama-3.1-Tulu-3-8B-SFT` | `f2a0b46b0cfda21003c6141b1ff837b7e165524d` |
-| DPO | `allenai/Llama-3.1-Tulu-3-8B-DPO` | `a7beb67e33ffd01cc87ac3b46cadc1000985b8db` |
-| RLVR | `allenai/Llama-3.1-Tulu-3-8B` | `666943798adbde0b1aff34626007e26986a3c107` |
+| 阶段   | 固定模型标识                            | 固定 revision                                |
+| ---- | --------------------------------- | ------------------------------------------ |
+| Base | `meta-llama/Llama-3.1-8B`         | `d04e592bb4f6aa9cfee91e2e20afa771667e1d4b` |
+| SFT  | `allenai/Llama-3.1-Tulu-3-8B-SFT` | `f2a0b46b0cfda21003c6141b1ff837b7e165524d` |
+| DPO  | `allenai/Llama-3.1-Tulu-3-8B-DPO` | `a7beb67e33ffd01cc87ac3b46cadc1000985b8db` |
+| RLVR | `allenai/Llama-3.1-Tulu-3-8B`     | `666943798adbde0b1aff34626007e26986a3c107` |
 
 题集种子为 62471893；共享子采样种子为 20261007；尺度排列种子为 20261008。PrOntoQA 生成器 revision 为 `066f73fc70bfaa92ed2476fd3c41b4951ad6e63a`，TwoNN／PCA 作者参考代码 revision 为 `2c5140009eb3efccca1d774dc66cb043c04b26d8`。参见[实验参数](../experiment.json)、[PCA 参数](../pca/config.json)、[模型资产记录](../provenance/models.json)和[实际分词记录](../provenance/tokenization.json)。
 

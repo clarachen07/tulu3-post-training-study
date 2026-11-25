@@ -1,0 +1,518 @@
+{
+  "fig1": {
+    "base": {
+      "r_squared": 0.0021473036462882553,
+      "rates": [
+        {
+          "all_hops": 0.18509615384615385,
+          "composition_given_all_hops": 0.0021645021645021645
+        },
+        {
+          "all_hops": 0.8394495412844036,
+          "composition_given_all_hops": 0.007650273224043716
+        },
+        {
+          "all_hops": 0.5052192066805845,
+          "composition_given_all_hops": 0.008264462809917356
+        },
+        {
+          "all_hops": 0.02172437202987101,
+          "composition_given_all_hops": 0.015625
+        },
+        {
+          "all_hops": 0.028622898318654923,
+          "composition_given_all_hops": 0.04195804195804196
+        },
+        {
+          "all_hops": 0.7971274685816876,
+          "composition_given_all_hops": 0.07432432432432433
+        },
+        {
+          "all_hops": 0.116,
+          "composition_given_all_hops": 0.12931034482758622
+        },
+        {
+          "all_hops": 0.706,
+          "composition_given_all_hops": 0.14589235127478753
+        },
+        {
+          "all_hops": 0.988,
+          "composition_given_all_hops": 0.2054655870445344
+        },
+        {
+          "all_hops": 0.25682773109243695,
+          "composition_given_all_hops": 0.45194274028629855
+        },
+        {
+          "all_hops": 0.566,
+          "composition_given_all_hops": 0.48056537102473496
+        },
+        {
+          "all_hops": 0.8454873646209387,
+          "composition_given_all_hops": 0.6473099914602903
+        },
+        {
+          "all_hops": 0.3295254833040422,
+          "composition_given_all_hops": 0.7053333333333334
+        },
+        {
+          "all_hops": 0.8977119784656796,
+          "composition_given_all_hops": 0.8050974512743628
+        },
+        {
+          "all_hops": 0.1396997497914929,
+          "composition_given_all_hops": 0.8656716417910447
+        },
+        {
+          "all_hops": 0.22226855713094246,
+          "composition_given_all_hops": 0.8874296435272045
+        },
+        {
+          "all_hops": 0.18765638031693077,
+          "composition_given_all_hops": 0.8911111111111111
+        },
+        {
+          "all_hops": 0.0,
+          "composition_given_all_hops": null
+        }
+      ],
+      "tasks": [
+        "person-university-year",
+        "movie-director-birthyear",
+        "song-artist-birthyear",
+        "word-substring-reverse",
+        "person-university-founder",
+        "book-author-birthyear",
+        "mod-twenty-times-two",
+        "plus-hundred-times-two",
+        "plus-ten-times-two",
+        "product-company-ceo",
+        "word-int-times-two",
+        "landmark-country-capital",
+        "product-company-hq",
+        "park-country-capital",
+        "antonym-german",
+        "antonym-spanish",
+        "antonym-french",
+        "rgb-rot120-name"
+      ]
+    },
+    "dpo": {
+      "r_squared": 0.014278870460220928,
+      "rates": [
+        {
+          "all_hops": 0.0047522063815342835,
+          "composition_given_all_hops": 0.0
+        },
+        {
+          "all_hops": 0.18709935897435898,
+          "composition_given_all_hops": 0.0010706638115631692
+        },
+        {
+          "all_hops": 0.7347396768402155,
+          "composition_given_all_hops": 0.0036652412950519244
+        },
+        {
+          "all_hops": 0.4290187891440501,
+          "composition_given_all_hops": 0.012165450121654502
+        },
+        {
+          "all_hops": 0.7431192660550459,
+          "composition_given_all_hops": 0.014814814814814815
+        },
+        {
+          "all_hops": 0.0344275420336269,
+          "composition_given_all_hops": 0.03488372093023256
+        },
+        {
+          "all_hops": 0.964,
+          "composition_given_all_hops": 0.05394190871369295
+        },
+        {
+          "all_hops": 0.101,
+          "composition_given_all_hops": 0.10891089108910891
+        },
+        {
+          "all_hops": 0.458,
+          "composition_given_all_hops": 0.14847161572052403
+        },
+        {
+          "all_hops": 0.183,
+          "composition_given_all_hops": 0.16393442622950818
+        },
+        {
+          "all_hops": 0.20010504201680673,
+          "composition_given_all_hops": 0.2152230971128609
+        },
+        {
+          "all_hops": 0.8787003610108304,
+          "composition_given_all_hops": 0.25061626951520133
+        },
+        {
+          "all_hops": 0.9327052489905787,
+          "composition_given_all_hops": 0.6507936507936508
+        },
+        {
+          "all_hops": 0.2719683655536028,
+          "composition_given_all_hops": 0.6849757673667205
+        },
+        {
+          "all_hops": 0.12760633861551293,
+          "composition_given_all_hops": 0.7777777777777778
+        },
+        {
+          "all_hops": 0.1847372810675563,
+          "composition_given_all_hops": 0.871331828442438
+        },
+        {
+          "all_hops": 0.22768974145120935,
+          "composition_given_all_hops": 0.8901098901098901
+        },
+        {
+          "all_hops": 0.0,
+          "composition_given_all_hops": null
+        }
+      ],
+      "tasks": [
+        "word-substring-reverse",
+        "person-university-year",
+        "book-author-birthyear",
+        "song-artist-birthyear",
+        "movie-director-birthyear",
+        "person-university-founder",
+        "plus-ten-times-two",
+        "mod-twenty-times-two",
+        "plus-hundred-times-two",
+        "word-int-times-two",
+        "product-company-ceo",
+        "landmark-country-capital",
+        "park-country-capital",
+        "product-company-hq",
+        "antonym-german",
+        "antonym-french",
+        "antonym-spanish",
+        "rgb-rot120-name"
+      ]
+    },
+    "rlvr": {
+      "r_squared": 0.02417535710304894,
+      "rates": [
+        {
+          "all_hops": 0.18269230769230768,
+          "composition_given_all_hops": 0.0010964912280701754
+        },
+        {
+          "all_hops": 0.7347396768402155,
+          "composition_given_all_hops": 0.002443494196701283
+        },
+        {
+          "all_hops": 0.7279816513761468,
+          "composition_given_all_hops": 0.011972274732199117
+        },
+        {
+          "all_hops": 0.42588726513569936,
+          "composition_given_all_hops": 0.012254901960784314
+        },
+        {
+          "all_hops": 0.03642914331465172,
+          "composition_given_all_hops": 0.027472527472527472
+        },
+        {
+          "all_hops": 0.966,
+          "composition_given_all_hops": 0.056935817805383024
+        },
+        {
+          "all_hops": 0.005431093007467753,
+          "composition_given_all_hops": 0.0625
+        },
+        {
+          "all_hops": 0.128,
+          "composition_given_all_hops": 0.109375
+        },
+        {
+          "all_hops": 0.48,
+          "composition_given_all_hops": 0.11666666666666667
+        },
+        {
+          "all_hops": 0.205,
+          "composition_given_all_hops": 0.14634146341463414
+        },
+        {
+          "all_hops": 0.19275210084033614,
+          "composition_given_all_hops": 0.1989100817438692
+        },
+        {
+          "all_hops": 0.8490974729241877,
+          "composition_given_all_hops": 0.2261904761904762
+        },
+        {
+          "all_hops": 0.9394347240915208,
+          "composition_given_all_hops": 0.6060171919770774
+        },
+        {
+          "all_hops": 0.2697715289982425,
+          "composition_given_all_hops": 0.6775244299674267
+        },
+        {
+          "all_hops": 0.13010842368640535,
+          "composition_given_all_hops": 0.782051282051282
+        },
+        {
+          "all_hops": 0.1805671392827356,
+          "composition_given_all_hops": 0.8521939953810623
+        },
+        {
+          "all_hops": 0.22185154295246037,
+          "composition_given_all_hops": 0.8834586466165414
+        },
+        {
+          "all_hops": 0.0,
+          "composition_given_all_hops": null
+        }
+      ],
+      "tasks": [
+        "person-university-year",
+        "book-author-birthyear",
+        "movie-director-birthyear",
+        "song-artist-birthyear",
+        "person-university-founder",
+        "plus-ten-times-two",
+        "word-substring-reverse",
+        "mod-twenty-times-two",
+        "plus-hundred-times-two",
+        "word-int-times-two",
+        "product-company-ceo",
+        "landmark-country-capital",
+        "park-country-capital",
+        "product-company-hq",
+        "antonym-german",
+        "antonym-french",
+        "antonym-spanish",
+        "rgb-rot120-name"
+      ]
+    },
+    "sft": {
+      "r_squared": 0.014148168776402697,
+      "rates": [
+        {
+          "all_hops": 0.19110576923076922,
+          "composition_given_all_hops": 0.0031446540880503146
+        },
+        {
+          "all_hops": 0.7495511669658886,
+          "composition_given_all_hops": 0.008383233532934131
+        },
+        {
+          "all_hops": 0.4498956158663883,
+          "composition_given_all_hops": 0.01160092807424594
+        },
+        {
+          "all_hops": 0.7426605504587156,
+          "composition_given_all_hops": 0.017294626312538603
+        },
+        {
+          "all_hops": 0.176,
+          "composition_given_all_hops": 0.028409090909090908
+        },
+        {
+          "all_hops": 0.032025620496397116,
+          "composition_given_all_hops": 0.03125
+        },
+        {
+          "all_hops": 0.016293279022403257,
+          "composition_given_all_hops": 0.0625
+        },
+        {
+          "all_hops": 0.959,
+          "composition_given_all_hops": 0.07507820646506778
+        },
+        {
+          "all_hops": 0.395,
+          "composition_given_all_hops": 0.12658227848101267
+        },
+        {
+          "all_hops": 0.243,
+          "composition_given_all_hops": 0.20987654320987653
+        },
+        {
+          "all_hops": 0.19957983193277312,
+          "composition_given_all_hops": 0.25
+        },
+        {
+          "all_hops": 0.8765342960288809,
+          "composition_given_all_hops": 0.30065897858319607
+        },
+        {
+          "all_hops": 0.28339191564147626,
+          "composition_given_all_hops": 0.6465116279069767
+        },
+        {
+          "all_hops": 0.9367429340511441,
+          "composition_given_all_hops": 0.6810344827586207
+        },
+        {
+          "all_hops": 0.1359466221851543,
+          "composition_given_all_hops": 0.8404907975460123
+        },
+        {
+          "all_hops": 0.18181818181818182,
+          "composition_given_all_hops": 0.8990825688073395
+        },
+        {
+          "all_hops": 0.23060884070058382,
+          "composition_given_all_hops": 0.9059674502712477
+        },
+        {
+          "all_hops": 0.0,
+          "composition_given_all_hops": null
+        }
+      ],
+      "tasks": [
+        "person-university-year",
+        "book-author-birthyear",
+        "song-artist-birthyear",
+        "movie-director-birthyear",
+        "mod-twenty-times-two",
+        "person-university-founder",
+        "word-substring-reverse",
+        "plus-ten-times-two",
+        "plus-hundred-times-two",
+        "word-int-times-two",
+        "product-company-ceo",
+        "landmark-country-capital",
+        "product-company-hq",
+        "park-country-capital",
+        "antonym-german",
+        "antonym-french",
+        "antonym-spanish",
+        "rgb-rot120-name"
+      ]
+    }
+  },
+  "fig2": {
+    "base": {
+      "all_hops": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.5775,
+          0.785
+        ],
+        "mean": 0.6325
+      },
+      "all_hops_and_composition": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.10250000000000001,
+          0.31
+        ],
+        "mean": 0.2725
+      },
+      "any_hop": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.95,
+          1.0
+        ],
+        "mean": 0.97
+      },
+      "gap": {
+        "defined_tasks": 4,
+        "iqr": null,
+        "mean": 0.49343364808074414
+      }
+    },
+    "dpo": {
+      "all_hops": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.39749999999999996,
+          0.7575
+        ],
+        "mean": 0.57
+      },
+      "all_hops_and_composition": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.045,
+          0.25
+        ],
+        "mean": 0.195
+      },
+      "any_hop": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.9525,
+          0.9924999999999999
+        ],
+        "mean": 0.97
+      },
+      "gap": {
+        "defined_tasks": 4,
+        "iqr": null,
+        "mean": 0.584375
+      }
+    },
+    "rlvr": {
+      "all_hops": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.415,
+          0.7525
+        ],
+        "mean": 0.5775
+      },
+      "all_hops_and_composition": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.037500000000000006,
+          0.2475
+        ],
+        "mean": 0.18
+      },
+      "any_hop": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.9525,
+          0.9924999999999999
+        ],
+        "mean": 0.97
+      },
+      "gap": {
+        "defined_tasks": 4,
+        "iqr": null,
+        "mean": 0.5935567010309278
+      }
+    },
+    "sft": {
+      "all_hops": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.40249999999999997,
+          0.7699999999999999
+        ],
+        "mean": 0.5825
+      },
+      "all_hops_and_composition": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.0475,
+          0.27
+        ],
+        "mean": 0.2075
+      },
+      "any_hop": {
+        "defined_tasks": 4,
+        "iqr": [
+          0.9525,
+          0.9924999999999999
+        ],
+        "mean": 0.97
+      },
+      "gap": {
+        "defined_tasks": 4,
+        "iqr": null,
+        "mean": 0.5768232292917167
+      }
+    }
+  }
+}
